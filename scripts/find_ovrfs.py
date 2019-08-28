@@ -4,6 +4,7 @@
 - what is the type of overlap (0, +1, -1, etc)
 - is the amino acid composition of overlapping regions different?
 """
+
 from csv import DictReader
 
 def get_records(file):
@@ -38,23 +39,41 @@ def find_ovrfs(accn, records, outfile):
     for i in range(n):
         rec1 = records[i]
         c1 = parse_coords(rec1['coords'])
+        xl1 = min([l for l, r in c1])  # extreme left
+        len1 = sum([r-l for l, r in c1])  # total CDS length
+        dir1 = rec1['strand']
+
         for j in range(i):
             rec2 = records[j]
             c2 = parse_coords(rec2['coords'])
+            xl2 = min([l for l, r in c2])
+            len2 = sum([r-l for l, r in c2])
+            dir2 = rec2['strand']
+
             for l1, r1 in c1:
                 for l2, r2 in c2:
                     left = max(l1, l2)
                     right = min(r1, r2)
                     overlap = right - left
+
+                    shift = abs(xl1-xl2) % 3
+                    if dir1 != dir2:
+                        shift = '-'+str(shift)
+                    else:
+                        shift = '+'+str(shift)
  
                     if overlap > 0:
-                        outfile.write('{},"{}","{}",{},{},{}\n'.format(accn, rec1['product'], rec2['product'], overlap, rec1['strand'], rec2['strand']))
+                        outfile.write('{},"{}",{},{},"{}",{},{},{},{},{},{}\n'.format(
+                            accn, rec1['product'], xl1, dir1, rec2['product'], xl2, dir2,
+                            len1, len2, overlap, shift
+                        ))
 
 
 outfile = open('../data/find_ovrfs.csv', 'w')
-outfile.write('accn,prod1,prod2,overlap,strand1,strand2\n')
+outfile.write('accn,prod1,loc1,dir1,prod2,loc2,dir2,seqlen1,seqlen2,overlap,shift\n')
 
 for accn, records in get_records('../data/orfs-fixed.csv'):
     #print(accn)
     find_ovrfs(accn, records, outfile)
+    
 
