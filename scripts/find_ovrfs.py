@@ -28,7 +28,7 @@ def parse_coords(coords):
         res.append((int(left), int(right)))
     return(res)
 
-def find_ovrfs(records):
+def find_ovrfs(accn, records, outfile):
     """
     Examine coordinates of ORFs for overlaps.
     :param records:
@@ -36,15 +36,25 @@ def find_ovrfs(records):
     """
     n = len(records)
     for i in range(n):
-        c1 = parse_coords(records[i]['coords'])
+        rec1 = records[i]
+        c1 = parse_coords(rec1['coords'])
         for j in range(i):
-            c2 = parse_coords(records[j]['coords'])
+            rec2 = records[j]
+            c2 = parse_coords(rec2['coords'])
             for l1, r1 in c1:
                 for l2, r2 in c2:
-                    if r1 > l2 and l1 < r2:
-                        print('{}--{}  {}--{}'.format(l1, r1, l2, r2))
+                    left = max(l1, l2)
+                    right = min(r1, r2)
+                    overlap = right - left
+ 
+                    if overlap > 0:
+                        outfile.write('{},"{}","{}",{},{},{}\n'.format(accn, rec1['product'], rec2['product'], overlap, rec1['strand'], rec2['strand']))
 
 
-for accn, records in get_records('orfs-fixed.csv'):
-    find_ovrfs(records)
-    break
+outfile = open('../data/find_ovrfs.csv', 'w')
+outfile.write('accn,prod1,prod2,overlap,strand1,strand2\n')
+
+for accn, records in get_records('../data/orfs-fixed.csv'):
+    #print(accn)
+    find_ovrfs(accn, records, outfile)
+
