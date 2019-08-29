@@ -18,13 +18,16 @@ def parse_table(tbl):
 
     for line in handle:
         delimiter = '\t' if '\t' in line else '     '
-        values = line.strip(' \n').split(delimiter)
+        values = line.strip('\n').split(delimiter)
 
         if len(values) == 1:
             # title row
+            if values[0].startswith(' '):
+                continue
             family = values[0]
             continue
 
+        values = line.strip(' \n').split(delimiter)
         if delimiter == '\t':
             if row is not None:
                 row['Family'] = family
@@ -42,6 +45,7 @@ def parse_table(tbl):
                 raise
             row['Accession'].append(accno)
 
+    row['Family'] = family
     yield(row)  # last entry
 
 
