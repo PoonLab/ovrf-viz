@@ -83,10 +83,15 @@ def retrieve_CDS(record):
 
 
 def main():
-    handle = open('viruses.csv', 'w')
-    outfile = DictWriter(handle, delimiter=',',
-                         fieldnames=['Family', 'Genome', 'Source information', 'Accession'],
-                         extrasaction='ignore')
+    handle = open('../data/viruses.csv', 'w')
+    outfile = DictWriter(handle,
+                        delimiter=',',
+                        extrasaction='ignore',
+                        fieldnames=[
+                            'Family', 'Genome', 'Source information',
+                            'Accession', 'Date completed', 'Date updated',
+                            'Genome length', 'Number of proteins', 'Host'
+                        ])
     outfile.writeheader()
 
     orffile = open('orfs.csv', 'w')
