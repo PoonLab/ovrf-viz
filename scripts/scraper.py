@@ -23,15 +23,25 @@ def parse_table(tbl):
         if len(values) == 1:
             # title row
             if values[0].startswith(' '):
+                # extra annotation, ignore
                 continue
+
+            if row is not None:
+                row['Family'] = family
+                yield row
+                row = None
+
             family = values[0]
             continue
 
         values = line.strip(' \n').split(delimiter)
         if delimiter == '\t':
             if row is not None:
+                # output previous entry
                 row['Family'] = family
                 yield row
+
+            # prepare next entry
             row = dict(zip(keywords, values))
             if row['Accession'] == '-':
                 row['Accession'] = []

@@ -75,5 +75,5 @@ outfile.write('accn,prod1,loc1,dir1,prod2,loc2,dir2,seqlen1,seqlen2,overlap,shif
 for accn, records in get_records('../data/orfs-fixed.csv'):
     #print(accn)
     find_ovrfs(accn, records, outfile)
-    
+
 

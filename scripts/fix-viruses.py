@@ -1,15 +1,40 @@
 from scraper import *
-from csv import DictWriter
+from csv import DictReader, DictWriter
+from time import sleep
 import sys
 
 tbl = '../data/taxid10239.tbl'
 taxid = parse_table(tbl)
 
+classif = [
+    ('viria', 'realm'),
+    ('vira', 'subrealm'),
+    ('viriae', 'kingdom'),
+    ('virites', 'subkingdom'),
+    ('viricota', 'phylum'),
+    ('viricotina', 'subphylum'),
+    ('viricetes', 'class'),
+    ('viricetidae', 'subclass'),
+    ('virales', 'order'),
+    ('virineae', 'suborder'),
+    ('viridae', 'family'),
+    ('virinae', 'subfamily')
+]
 
 #reader = DictReader(open('../data/viruses.csv'))
 
-# overwrite file!!!
-writer = DictWriter(open('../data/viruses.csv', 'w'),
+# check current file for restart position
+reader = DictReader(open('../data/viruses.csv'))
+for row in reader:
+    pass  # scan through to last row
+
+last_accn = row['Accession']
+if type(last_accn) is list:
+    last_accn = last_accn[0]
+
+
+handle = open('../data/viruses-fixed.csv', 'w')
+writer = DictWriter(handle,
                     delimiter=',',
                     extrasaction='ignore',
                     fieldnames=[
@@ -20,21 +45,43 @@ writer = DictWriter(open('../data/viruses.csv', 'w'),
 writer.writeheader()
 
 
-sys.exit()
+restart = False
 
 for row in taxid:
     family = row['Family']
+    if not family.endswith('viridae') and not family.endswith('litidae'):
+        print(row)
 
-    accn = row['Accession']
-    if type(accn) is list:
-        accn = accn[0]
-    gid = retrieve_gid(accn)
-    record = retrieve_record(gid)
+        accn = row['Accession']
+        if type(accn) is list:
+            accn = accn[0]
 
-    taxonomy = record.annotations['taxonomy']
+        if accn == last_accn:
+            restart = True
+            continue
 
-    nucleic = record.annotations['molecule_type']
-    topology = record.annotations['topology']
-    sleep(1)
+        if not restart:
+            continue
 
-    writer.writerow(row)
+        gid = retrieve_gid(accn)
+        record = retrieve_record(gid)
+        sleep(1)
+
+        taxonomy = record.annotations['taxonomy']
+        print(taxonomy)
+
+        family = None
+        for term in taxonomy:
+            if term.endswith('viridae'):
+                family = term
+
+        if family is None:
+            family = 'unclassified {}'.format(taxonomy[-1])
+
+        print('{}\n'.format(family))
+        row['Family'] = family
+        sleep(1)
+
+    if restart:
+        writer.writerow(row)
+        handle.flush()
