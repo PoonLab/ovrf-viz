@@ -81,7 +81,7 @@ for row in taxid:
 
         handle = Entrez.efetch(db='taxonomy', id=taxid)
         response = Entrez.read(handle)
-        taxonomy = response[0]['LineageEx'].split(',').strip(' ')
+        taxonomy = response[0]['Lineage'].split('; ')
 
         #record = retrieve_record('{}.1'.format(accn))
         family = None
@@ -98,4 +98,4 @@ for row in taxid:
 
     if restart:
         writer.writerow(row)
-        handle.flush()
+        #handle.flush()
