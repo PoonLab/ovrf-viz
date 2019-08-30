@@ -8,6 +8,8 @@ from scraper import *
 from csv import DictReader, DictWriter
 from time import sleep
 import sys
+from Bio import Entrez
+import xml.etree.ElementTree as ET
 
 tbl = '../data/taxid10239.tbl'
 taxid = parse_table(tbl)
@@ -70,8 +72,12 @@ for row in taxid:
         if not restart:
             continue
 
-        gid = retrieve_gid(accn)
-        record = retrieve_record(gid)
+        #gid = retrieve_gid(accn)
+
+        handle = Entrez.efetch(db='taxonomy', rettype='xml', id=row[''])
+        root = ET.parse(handle)
+
+        #record = retrieve_record('{}.1'.format(accn))
         sleep(5)
 
         taxonomy = record.annotations['taxonomy']
