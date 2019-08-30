@@ -59,8 +59,6 @@ restart = False
 for row in taxid:
     family = row['Family']
     if not family.endswith('viridae') and not family.endswith('litidae'):
-        print(row)
-
         accn = row['Accession']
         if type(accn) is list:
             accn = accn[0]
@@ -72,17 +70,20 @@ for row in taxid:
         if not restart:
             continue
 
-        #gid = retrieve_gid(accn)
+        print(row)
 
-        handle = Entrez.efetch(db='taxonomy', rettype='xml', id=row[''])
-        root = ET.parse(handle)
+        #gid = retrieve_gid(accn)
+        handle = Entrez.esearch(db='taxonomy', term=row['Genome'])
+        response = Entrez.read(handle)
+        taxid = response['IdList'][0]
+
+        sleep(1)
+
+        handle = Entrez.efetch(db='taxonomy', id=taxid)
+        response = Entrez.read(handle)
+        taxonomy = response[0]['LineageEx'].split(',').strip(' ')
 
         #record = retrieve_record('{}.1'.format(accn))
-        sleep(5)
-
-        taxonomy = record.annotations['taxonomy']
-        print(taxonomy)
-
         family = None
         for term in taxonomy:
             if term.endswith('viridae'):
@@ -93,7 +94,7 @@ for row in taxid:
 
         print('{}\n'.format(family))
         row['Family'] = family
-        sleep(5)
+        sleep(2)
 
     if restart:
         writer.writerow(row)
