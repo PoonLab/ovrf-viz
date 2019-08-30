@@ -65,7 +65,7 @@ for row in taxid:
 
         gid = retrieve_gid(accn)
         record = retrieve_record(gid)
-        sleep(1)
+        sleep(5)
 
         taxonomy = record.annotations['taxonomy']
         print(taxonomy)
@@ -80,7 +80,7 @@ for row in taxid:
 
         print('{}\n'.format(family))
         row['Family'] = family
-        sleep(1)
+        sleep(5)
 
     if restart:
         writer.writerow(row)

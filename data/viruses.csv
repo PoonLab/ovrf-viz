@@ -5023,3 +5023,12 @@ Tobaniviridae,Ball python nidovirus 1,strain:07-53,NC_024709,08/25/2014,08/13/20
 Rhabdoviridae,Balsa almendravirus,strain:CoB 76,NC_039200,08/24/2018,08/24/2018,11287 nt,-,
 Flaviviridae,Bamaga virus,isolate:CY4270,NC_033725,02/16/2017,08/13/2018,10203 nt,1,invertebrates
 Alphaflexiviridae,Bamboo mosaic virus,isolate:BaMV-O,NC_001642,01/29/1995,08/13/2018,6366 nt,6,plants
+Potyviridae,Banana bract mosaic virus,-,NC_009745,08/27/2007,08/13/2018,9711 nt,2,plants
+Betaflexiviridae,Banana mild mosaic virus,-,NC_002729,04/02/2001,08/13/2018,7352 nt,5,plants
+Betaflexiviridae,Banana virus X,isolate:Som,NC_043086,06/28/2019,06/28/2019,2917 nt,5,plants
+Reoviridae,Banna virus strain JKT-6423,strain:JKT-6423,"['NC_004198', 'NC_004221', 'NC_004220', 'NC_004219', 'NC_004218', 'NC_004217', 'NC_004200', 'NC_004201', 'NC_004211', 'NC_004202', 'NC_004203', 'NC_004204']",11/06/1998,08/13/2018,20682 nt,12,"vertebrates, invertebrates, human"
+Flaviviridae,Banzi virus,strain:SAH 336,NC_043110,06/28/2019,06/28/2019,10182 nt,1,"vertebrates, invertebrates, human"
+Potyviridae,Barbacena virus Y,isolate:KLL097,NC_030847,08/29/2016,08/13/2018,9837 nt,1,plants
+Nodaviridae,Barfin flounder nervous necrosis virus,isolate:JFIwa98,"['NC_013459', 'NC_013458']",11/04/2009,08/13/2018,4534 nt,3,vertebrates
+Potyviridae,Barley mild mosaic virus,strain:common; isolate:UK-F,"['NC_003482', 'NC_003483']",01/06/1996,08/13/2018,10786 nt,3,plants
+Virgaviridae,Barley stripe mosaic virus,-,"['NC_003469', 'NC_003481', 'NC_003478']",08/02/1993,08/13/2018,10221 nt,7,plants

@@ -2,7 +2,7 @@ from Bio import Entrez, SeqIO, SeqFeature
 from csv import DictWriter
 from time import sleep
 
-Entrez.email = 'apoon42@uwo.ca'
+Entrez.email = 'bioinfo@uwo.ca'
 #accn = 'NC_015932'
 tbl = '../data/taxid10239.tbl'
 #tbl = 'next.tbl'
