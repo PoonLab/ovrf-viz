@@ -98,4 +98,4 @@ for row in taxid:
 
     if restart:
         writer.writerow(row)
-        #handle.flush()
+        handle.flush()  # FIXME: not supported in Python 3.5?

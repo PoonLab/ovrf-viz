@@ -5032,3 +5032,863 @@ Potyviridae,Barbacena virus Y,isolate:KLL097,NC_030847,08/29/2016,08/13/2018,983
 Nodaviridae,Barfin flounder nervous necrosis virus,isolate:JFIwa98,"['NC_013459', 'NC_013458']",11/04/2009,08/13/2018,4534 nt,3,vertebrates
 Potyviridae,Barley mild mosaic virus,strain:common; isolate:UK-F,"['NC_003482', 'NC_003483']",01/06/1996,08/13/2018,10786 nt,3,plants
 Virgaviridae,Barley stripe mosaic virus,-,"['NC_003469', 'NC_003481', 'NC_003478']",08/02/1993,08/13/2018,10221 nt,7,plants
+Luteoviridae,Barley virus G,isolate:Gimje,NC_029906,04/20/2016,08/13/2018,5620 nt,6,plants
+Luteoviridae,Barley yellow dwarf virus GAV,-,NC_004666,03/29/2003,08/13/2018,5685 nt,7,plants
+Luteoviridae,Barley yellow dwarf virus GPV,serotype:GPV; isolate:05YC3,NC_039035,08/24/2018,08/24/2018,606 nt,1,plants
+Luteoviridae,Barley yellow dwarf virus MAV,serotype:MAV-PS1,NC_003680,04/29/1993,08/13/2018,5273 nt,7,plants
+Luteoviridae,Barley yellow dwarf virus PAS,serotype:PAV-129,NC_002160,01/19/2000,08/13/2018,5695 nt,7,plants
+Luteoviridae,Barley yellow dwarf virus PAV,-,NC_004750,07/16/1988,08/13/2018,5677 nt,8,plants
+Luteoviridae,Barley yellow dwarf virus SGV,isolate:SGV,NC_043124,06/28/2019,06/28/2019,1262 nt,3,plants
+Luteoviridae,Barley yellow dwarf virus kerII,isolate:K439,NC_021481,06/17/2013,08/13/2018,5736 nt,7,plants
+Luteoviridae,Barley yellow dwarf virus kerIII,isolate:K460,NC_043123,06/28/2019,06/28/2019,4625 nt,5,plants
+Potyviridae,Barley yellow mosaic virus,isolate:Yancheng,"['NC_002991', 'NC_002990']",01/28/1999,08/13/2018,11219 nt,3,plants
+Rhabdoviridae,Barley yellow striate mosaic cytorhabdovirus,strain:Hebei,NC_028244,11/03/2015,08/13/2018,12706 nt,10,plants
+Togaviridae,Barmah Forest virus,strain:BH2193,NC_001786,01/14/1997,08/13/2018,11488 nt,4,"invertebrates, vertebrates, human"
+Rhabdoviridae,Barur virus,strain:6235,NC_034535,05/15/2017,08/25/2018,10853 nt,5,vertebrates
+Rhabdoviridae,Bas-Congo tibrovirus,isolate:BASV-1,NC_043067,06/28/2019,06/28/2019,11892 nt,8,
+Endornaviridae,Basella alba alphaendornavirus 1,-,NC_043109,06/28/2019,06/28/2019,14027 nt,-,plants
+Potyviridae,Basella rugose mosaic virus,isolate:AC,NC_009741,08/27/2007,08/13/2018,9804 nt,2,plants
+unclassified Astroviridae,Bastrovirus 7,-,NC_035758,08/31/2017,08/13/2018,6339 nt,3,vertebrates
+unclassified Astroviridae,Bastrovirus-like_virus/VietNam/Bat/17819_21,isolate:17819_21,NC_032426,12/29/2016,08/13/2018,5547 nt,2,vertebrates
+unclassified Astroviridae,Bastrovirus/VietNam/Bat/16715_78,isolate:16715_78,NC_035471,08/24/2017,08/13/2018,5850 nt,2,vertebrates
+unclassified Astroviridae,Bastrovirus/VietNam/Porcine/17489_85,isolate:17489_85,NC_032423,12/29/2016,08/13/2018,6009 nt,2,vertebrates
+unclassified Astroviridae,Bastrovirus/VietNam/Rat/16715_10,isolate:16715_10,NC_032484,12/29/2016,08/13/2018,5818 nt,2,vertebrates
+Coronaviridae,Bat Hp-betacoronavirus/Zhejiang2013,isolate:Zhejiang2013,NC_025217,10/03/2014,08/13/2018,31491 nt,9,vertebrates
+unclassified unclassified ssRNA positive-strand viruses,Bat Middle East Hepe-Astrovirus,isolate:KSA403,NC_037657,06/22/2018,08/22/2018,5745 nt,3,
+Paramyxoviridae,Bat Paramyxovirus Eid_hel/GH-M74a/GHA/2009,isolate:BatPV/Eid_hel/GH-M74a/GHA/2009,NC_025256,10/15/2014,08/13/2018,18530 nt,7,vertebrates
+Paramyxoviridae,Bat Paramyxovirus Epo_spe/AR1/DRC/2009,isolate:BatPV/Epo_spe/AR1/DRC/2009,NC_038271,08/24/2018,08/24/2018,15378 nt,6,"vertebrates, human"
+Astroviridae,Bat astrovirus Hp/Guangxi/LC03/2007,strain:Hp/Guangxi/LC03/2007; isolate:LC03,NC_038368,08/24/2018,06/04/2019,2403 nt,1,vertebrates
+Astroviridae,Bat astrovirus Tm/Guangxi/LD38/2007,strain:Tm/Guangxi/LD38/2007; isolate:LD38,NC_043103,06/28/2019,06/28/2019,4241 nt,2,vertebrates
+Astroviridae,Bat astrovirus Tm/Guangxi/LD71/2007,strain:Tm/Guangxi/LD71/2007; isolate:LD71,NC_043098,06/28/2019,06/28/2019,3975 nt,2,vertebrates
+Astroviridae,Bat astrovirus Tm/Guangxi/LD77/2007,strain:Tm/Guangxi/LD77/2007; isolate:LD77,NC_043100,06/28/2019,06/28/2019,3875 nt,2,vertebrates
+Coronaviridae,Bat coronavirus,isolate:PREDICT/PDF-2180,NC_034440,05/05/2017,03/10/2019,29642 nt,10,vertebrates
+Coronaviridae,Bat coronavirus 1A,strain:AFCD62,NC_010437,03/13/2008,08/13/2018,28326 nt,7,vertebrates
+Coronaviridae,Bat coronavirus BM48-31/BGR/2008,strain:BtCoV/BM48-31/BGR/2008,NC_014470,08/27/2010,08/13/2018,29276 nt,9,vertebrates
+Coronaviridae,Bat coronavirus CDPHE15/USA/2006,strain:bat/USA/CDPHE15/2006,NC_022103,08/20/2013,08/13/2018,28035 nt,7,vertebrates
+Marnaviridae,Bat dicibavirus,-,NC_033824,02/27/2017,08/13/2018,8882 nt,2,vertebrates
+Flaviviridae,Bat hepacivirus,isolate:PDB-452,NC_031947,11/15/2016,06/25/2019,9224 nt,1,"vertebrates, human"
+Picornaviridae,Bat hepatovirus,isolate:M32Eidhel2010,NC_028366,11/12/2015,08/13/2018,7333 nt,1,vertebrates
+Picornaviridae,Bat hepatovirus BUO2BF86Colafr2010,isolate:BUO2BF86Colafr2010,NC_038316,08/24/2018,08/24/2018,7399 nt,1,vertebrates
+Picornaviridae,Bat hepatovirus SMG18520Minmav2014,isolate:SMG18520Minmav2014,NC_038313,08/24/2018,08/24/2018,7570 nt,1,vertebrates
+Iflaviridae,Bat iflavirus,-,NC_033823,02/27/2017,08/13/2018,10519 nt,1,invertebrates
+Picornaviridae,Bat picornavirus,isolate:BtMr-PicoV/JX2010,NC_043071,06/28/2019,06/28/2019,7555 nt,1,vertebrates
+unclassified Picornaviridae,Bat picornavirus 1,strain:NC16A,NC_015940,09/02/2011,08/13/2018,7753 nt,1,vertebrates
+unclassified Picornaviridae,Bat picornavirus 2,strain:MH9F,NC_015941,09/02/2011,08/13/2018,7693 nt,1,vertebrates
+unclassified Picornaviridae,Bat picornavirus 3,strain:TLC5F,NC_015934,09/02/2011,08/13/2018,7749 nt,1,vertebrates
+Picornaviridae,Bat picornavirus BatPV/V1/13 Hun,strain:BatPV/V1/13/Hun,NC_043072,06/28/2019,06/28/2019,6855 nt,1,vertebrates
+Reoviridae,Bat rotavirus,isolate:BatRVA/KEN/BATp39/Rousettus aegyptiacus/2015; isolate:BatRVA/KEN/BATp39/Rousettus_aegyptiacus/2015,"['NC_040411', 'NC_040413', 'NC_040414', 'NC_040407', 'NC_040415', 'NC_040405', 'NC_040406', 'NC_040410', 'NC_040408', 'NC_040412', 'NC_040409']",02/12/2019,02/12/2019,17637 nt,11,"vertebrates, human"
+Picornaviridae,Bat sapelovirus,-,NC_033820,02/27/2017,08/13/2018,7746 nt,1,vertebrates
+Caliciviridae,Bat sapovirus,isolate:Bat-SaV/Limbe65/CAM/2014,NC_033776,02/21/2017,08/13/2018,7475 nt,2,vertebrates
+Caliciviridae,Bat sapovirus TLC58/HK,strain:TLC58/HK,NC_017936,05/18/2012,08/13/2018,7696 nt,2,"vertebrates, human"
+unclassified unclassified Tymovirales,Bat tymo-like virus,strain:UW1,NC_030844,08/29/2016,08/13/2018,6434 nt,2,plants
+Peribunyaviridae,Batai virus,strain:MS50,"['NC_043579', 'NC_043580', 'NC_043581']",06/28/2019,06/28/2019,12270 nt,4,"vertebrates, invertebrates, human"
+Peribunyaviridae,Batama virus,isolate:AnB1292,NC_038722,08/24/2018,08/24/2018,1022 nt,1,"vertebrates, invertebrates, human"
+Hantaviridae,Bayou orthohantavirus,-,"['NC_038298', 'NC_038300', 'NC_038299']",08/24/2018,08/26/2018,12189 nt,3,vertebrates
+Potyviridae,Bean common mosaic necrosis virus,strain:NL-3 (necrotic); isolate:Michigan,NC_004047,01/19/1995,08/13/2018,9612 nt,2,plants
+Potyviridae,Bean common mosaic virus,strain:blackeye cowpea mosaic; isolate:R,NC_003397,02/06/2002,08/13/2018,9992 nt,2,plants
+Luteoviridae,Bean leafroll virus,-,NC_003369,01/21/2002,08/13/2018,5964 nt,6,plants
+Peribunyaviridae,Bean necrotic mosaic virus,isolate:TF-SP,"['NC_018070', 'NC_018072', 'NC_018071']",06/15/2012,08/13/2018,16510 nt,5,"invertebrates, plants"
+Secoviridae,Bean pod mottle virus,strain:KY G-7,"['NC_003495', 'NC_003496']",04/28/1993,08/13/2018,9657 nt,2,plants
+Secoviridae,Bean rugose mosaic virus,isolate:Parana,"['NC_028139', 'NC_028146']",11/01/2015,08/13/2018,9553 nt,2,plants
+Closteroviridae,Bean yellow disorder virus,isolate:Bn-03,"['NC_010561', 'NC_010560']",04/08/2008,08/13/2018,17495 nt,13,plants
+Potyviridae,Bean yellow mosaic virus,strain:MB4,NC_003492,03/08/1996,08/13/2018,9532 nt,2,plants
+Arenaviridae,Bear Canyon mammarenavirus,strain:AV A0070039,"['NC_010255', 'NC_010256']",01/11/2008,08/13/2018,10441 nt,4,"vertebrates, human"
+Rhabdoviridae,Beatrice Hill virus,isolate:CSIRO 25,NC_039021,08/24/2018,08/24/2018,13296 nt,8,
+unclassified unclassified dsRNA viruses,Beauveria bassiana RNA virus 1,-,NC_027428,06/19/2015,08/13/2018,3218 nt,2,fungi
+Totiviridae,Beauveria bassiana victorivirus 1,isolate:Bb06/02,NC_038929,08/30/2011,08/24/2018,5228 nt,2,fungi
+Totiviridae,Beauveria bassiana victorivirus NZL/1980,isolate:6887,NC_024151,05/28/2014,08/13/2018,5327 nt,2,fungi
+Togaviridae,Bebaru virus,-,NC_016962,03/09/2012,08/13/2018,11877 nt,3,"vertebrates, invertebrates"
+Tymoviridae,Bee Macula-Like virus 2,isolate:BeeMLV2_ahae2,NC_040556,02/12/2019,02/12/2019,6373 nt,3,plants
+unclassified Tymoviridae,Bee Macula-like virus,isolate:France 878V,NC_027631,07/28/2015,08/13/2018,6258 nt,3,plants
+Tombusviridae,Beet black scorch virus,-,NC_004452,12/18/2002,08/13/2018,3644 nt,6,plants
+Luteoviridae,Beet chlorosis virus,isolate:BChV-2a,NC_002766,05/03/2001,08/13/2018,5776 nt,6,plants
+Partitiviridae,Beet cryptic virus 1,-,"['NC_011556', 'NC_011557']",11/13/2008,08/13/2018,3791 nt,2,plants
+Partitiviridae,Beet cryptic virus 2,-,"['NC_038846', 'NC_038845', 'NC_038847']",08/24/2018,08/24/2018,4695 nt,3,plants
+Partitiviridae,Beet cryptic virus 3,-,NC_043394,06/28/2019,06/28/2019,1607 nt,1,plants
+Luteoviridae,Beet mild yellowing virus,isolate:2ITB,NC_003491,08/18/1995,08/13/2018,5722 nt,6,plants
+Potyviridae,Beet mosaic virus,isolate:BtMV-Wa,NC_005304,12/20/2003,08/13/2018,9591 nt,2,plants
+Benyviridae,Beet necrotic yellow vein virus,isolate:S,"['NC_003514', 'NC_003515', 'NC_003516', 'NC_003517', 'NC_003513']",05/08/1996,08/13/2018,15914 nt,10,plants
+Closteroviridae,Beet pseudoyellows virus,-,"['NC_005209', 'NC_005210']",11/11/2003,08/13/2018,15909 nt,10,plants
+Secoviridae,Beet ringspot virus,strain:S,"['NC_003693', 'NC_003694']",04/29/1993,08/13/2018,12024 nt,2,plants
+Benyviridae,Beet soil-borne mosaic virus,isolate:MRM06,"['NC_039227', 'NC_039226', 'NC_039225', 'NC_039224']",08/24/2018,08/25/2018,14744 nt,10,plants
+Virgaviridae,Beet soil-borne virus,strain:Ahlum,"['NC_003520', 'NC_003518', 'NC_003519']",01/16/1998,08/13/2018,12293 nt,7,plants
+Virgaviridae,Beet virus Q,-,"['NC_003510', 'NC_003511', 'NC_003512']",09/04/1998,08/13/2018,11445 nt,9,plants
+unclassified unclassified ssRNA positive-strand viruses,Beet western yellows ST9 associated virus,strain:ST9,NC_004045,06/11/1993,08/13/2018,2843 nt,4,plants
+Luteoviridae,Beet western yellows virus,strain:USA,NC_004756,04/30/2003,08/13/2018,5666 nt,6,plants
+Closteroviridae,Beet yellow stunt virus,-,NC_043106,06/28/2019,06/28/2019,10545 nt,10,plants
+Closteroviridae,Beet yellows virus,-,NC_001598,07/08/1993,08/13/2018,15480 nt,8,plants
+Medioniviridae,Beihai Nido-like virus 1,strain:BZL87871,NC_032496,12/29/2016,08/13/2018,20278 nt,2,invertebrates
+Euroniviridae,Beihai Nido-like virus 2,strain:BHXun32263,NC_032492,12/29/2016,08/13/2018,24648 nt,9,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai anemone virus 1,strain:BHHK129576,NC_032437,12/29/2016,08/13/2018,11540 nt,6,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai astro-like virus,strain:BHWZXX13371,NC_032439,12/29/2016,08/13/2018,6856 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 10,strain:BHTH18714,NC_032428,12/29/2016,08/13/2018,2953 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 11,strain:BHTH10280,"['NC_032520', 'NC_032517']",12/29/2016,08/13/2018,4490 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 12,strain:BHTH16091,"['NC_032518', 'NC_032519']",12/29/2016,08/13/2018,3277 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 13,strain:BHTH16173,"['NC_032133', 'NC_032134']",12/22/2016,08/13/2018,2960 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 15,strain:BHTH16139,NC_032413,12/29/2016,08/13/2018,7382 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 2,strain:BHTH16123,NC_032442,12/29/2016,08/13/2018,9154 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 3,strain:BHTH16145,NC_032444,12/29/2016,08/13/2018,11035 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 4,strain:BHTH16136,NC_032446,12/29/2016,08/13/2018,7612 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 7,strain:BHTH16013,NC_032432,12/29/2016,08/13/2018,11112 nt,6,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 8,strain:BHTH14652,NC_032430,12/29/2016,08/13/2018,12395 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai barnacle virus 9,strain:BHTH10927,NC_032427,12/29/2016,08/13/2018,11058 nt,3,invertebrates
+unclassified unclassified ssRNA positive-strand viruses,Beihai barnacle viurs 1,strain:BHGZ,NC_028376,11/12/2015,08/13/2018,18697 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai blue swimmer crab virus 1,strain:YYSZX13554,NC_032488,12/29/2016,08/13/2018,12469 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai blue swimmer crab virus 3,strain:YYSZX17757,NC_032465,12/29/2016,08/13/2018,4998 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai charybdis crab virus 1,strain:BHXun33339,NC_032449,12/29/2016,08/13/2018,6969 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai echinoderm virus 1,strain:BHJP42036,NC_032407,12/29/2016,08/13/2018,8175 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai hepe-like virus 10,strain:BHZY60406,NC_032451,12/29/2016,08/13/2018,10817 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai hepe-like virus 4,strain:BHZY60842,NC_032127,12/22/2016,08/13/2018,12648 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai hepe-like virus 8,strain:BHZY60925,NC_032456,12/29/2016,08/13/2018,10084 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai hepe-like virus 9,strain:HOU157038,NC_032477,12/29/2016,08/13/2018,10128 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai hermit crab virus 1,strain:BHWZXX15637,NC_032459,12/29/2016,08/13/2018,9888 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai hermit crab virus 3,strain:BHJJX21702,NC_032417,12/29/2016,08/13/2018,12996 nt,4,invertebrates
+Euroniviridae,Beihai hermit crab virus 4,strain:BHJJX25971,NC_032490,12/29/2016,08/13/2018,29385 nt,7,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai horseshoe crab virus 1,strain:HOU157708,"['NC_032521', 'NC_032522']",12/29/2016,08/13/2018,5163 nt,3,invertebrates
+unclassified Hypoviridae,Beihai hypo-like virus 1,strain:BHZC36965,NC_032476,12/29/2016,08/13/2018,9925 nt,1,fungi
+unclassified unclassified RNA viruses ShiM-2016,Beihai mantis shrimp virus 1,strain:BHXG26050,NC_032445,12/29/2016,08/13/2018,10973 nt,6,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mantis shrimp virus 2,strain:BHXG46195,NC_032447,12/29/2016,08/13/2018,11959 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mantis shrimp virus 3,strain:BHXG26678,NC_032441,12/29/2016,08/13/2018,9599 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mantis shrimp virus 4,strain:BHXG23944,NC_032464,12/29/2016,08/13/2018,10177 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mantis shrimp virus 5,strain:BHXG25299,NC_032434,12/29/2016,08/13/2018,10256 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mantis shrimp virus 6,strain:BHXG24422,"['NC_032523', 'NC_032524']",12/29/2016,08/13/2018,4653 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mollusks virus 1,strain:WZSLuoI86140,NC_032129,12/22/2016,08/13/2018,8805 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai mollusks virus 2,strain:WZSLuoI86113,NC_032481,12/29/2016,08/13/2018,9054 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 1,strain:BWBFG61141,NC_032470,12/29/2016,08/13/2018,2584 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 10,strain:BHZY60512,NC_032463,12/29/2016,08/13/2018,4282 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 11,strain:BWBFG39775,NC_032467,12/29/2016,08/13/2018,3950 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 12,strain:BHZC35702,NC_032454,12/29/2016,08/13/2018,2544 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 13,strain:BHWZXX14912,NC_032448,12/29/2016,08/13/2018,2785 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 14,strain:BHJP52694,NC_032416,12/29/2016,08/13/2018,3003 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 15,strain:BHHZL10358,NC_032411,12/29/2016,08/13/2018,2962 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 16,strain:BHJP26864,NC_032415,12/29/2016,08/13/2018,2417 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 17,strain:SCJXSX39297,NC_032497,12/29/2016,08/13/2018,4527 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 18,strain:HOU157597,NC_032485,12/29/2016,08/13/2018,3761 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 19,strain:BHNXC41285,NC_032421,12/29/2016,08/13/2018,4198 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 2,strain:BHZY58217,NC_032466,12/29/2016,08/13/2018,2624 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 20,strain:BWBFG40664,NC_032468,12/29/2016,08/13/2018,3790 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 21,strain:SCJXSX34167,NC_032406,12/29/2016,08/13/2018,3537 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 22,strain:BHBJDX18651,NC_032404,12/29/2016,08/13/2018,3244 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 23,strain:BHZY57139,NC_032457,12/29/2016,08/13/2018,3610 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 24,strain:BHXG26712,NC_032450,12/29/2016,08/13/2018,2677 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 26,strain:BHHQ66335,NC_032410,12/29/2016,08/13/2018,2317 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 3,strain:BHBJDX18174,NC_032408,12/29/2016,08/13/2018,2816 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 4,strain:BHZY53599,NC_032460,12/29/2016,08/13/2018,2687 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 6,strain:BHZC37402,NC_032452,12/29/2016,08/13/2018,2881 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 8,strain:BHZY59840,NC_032461,12/29/2016,08/13/2018,3906 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai narna-like virus 9,strain:HOU146315,NC_032486,12/29/2016,08/13/2018,4035 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai noda-like virus 11,strain:BHJJX49550,"['NC_032526', 'NC_032525']",12/29/2016,08/13/2018,4369 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai noda-like virus 18,strain:YYSZX13070,NC_032172,12/27/2016,08/13/2018,3220 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai noda-like virus 29,strain:BHWZXX15622,NC_032185,12/27/2016,08/13/2018,3168 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai noda-like virus 5,strain:HOU157766,NC_032244,12/27/2016,08/13/2018,4491 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai octopus virus 1,strain:BHZY180716,NC_032469,12/29/2016,08/13/2018,9211 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai octopus virus 2,strain:BHZY60909,NC_032482,12/29/2016,08/13/2018,9973 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai paphia shell virus 1,strain:BHZY60696,NC_032478,12/29/2016,08/13/2018,9974 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai paphia shell virus 2,strain:YYSZX17625,NC_032494,12/29/2016,08/13/2018,9528 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai paphia shell virus 3,strain:BWBFG40853,NC_032493,12/29/2016,08/13/2018,9521 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai paphia shell virus 4,strain:BWBFG40859,NC_032495,12/29/2016,08/13/2018,9840 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai partiti-like virus 2,strain:BHZY60797,"['NC_032501', 'NC_032500']",12/29/2016,08/13/2018,3266 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai permutotetra-like virus 2,strain:HOU234589,NC_032122,12/22/2016,08/13/2018,4208 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picobirna-like virus 7,strain:BHNXC57916,"['NC_032502', 'NC_032498']",12/29/2016,08/13/2018,3597 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picobirna-like virus 8,strain:BHNXC71065,"['NC_032503', 'NC_032499']",12/29/2016,08/13/2018,3458 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 1,strain:BHZC36988,NC_032587,01/03/2017,08/13/2018,9149 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 100,strain:BHNXC41148,NC_032539,01/03/2017,08/13/2018,9895 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 101,strain:BHBJDX18559,NC_032589,01/03/2017,08/13/2018,7349 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 102,strain:BHZC35144,NC_032576,01/03/2017,08/13/2018,7273 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 103,strain:BHBei77089,NC_032201,12/27/2016,08/13/2018,6313 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 104,strain:BHZC37407,NC_032601,01/03/2017,08/13/2018,6729 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 105,strain:BHHK79817,NC_032604,01/03/2017,08/13/2018,8854 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 106,strain:BHZY60875,NC_032627,01/03/2017,08/13/2018,9396 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 107,strain:BHZY60580,NC_032617,01/03/2017,08/13/2018,8626 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 108,strain:BHTH16067,NC_032583,01/03/2017,08/13/2018,13842 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 11,strain:BHZY60905,NC_032629,01/03/2017,08/13/2018,9245 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 110,strain:BHXG26677,NC_032564,01/03/2017,08/13/2018,9780 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 111,strain:BHBei77071,NC_032568,01/03/2017,08/13/2018,9484 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 112,strain:BHXG26692,NC_032571,01/03/2017,08/13/2018,10676 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 113,strain:BHXG26415,NC_032559,01/03/2017,08/13/2018,10929 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 114,strain:BHZY60932,NC_032633,01/03/2017,08/13/2018,10342 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 115,strain:BHHK131520,NC_032618,01/03/2017,08/13/2018,10456 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 116,strain:YYSZX16386,NC_032635,01/03/2017,08/13/2018,10897 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 117,strain:BHJP63029,NC_032533,01/03/2017,08/13/2018,9450 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 118,strain:BHHK118641,NC_032605,01/03/2017,08/13/2018,9029 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 119,strain:BHJP60437,NC_032532,01/03/2017,08/13/2018,10859 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 120,strain:BHSC167783,NC_032574,01/03/2017,08/13/2018,9928 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 121,strain:BHHZL10364,NC_032625,01/03/2017,08/13/2018,8621 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 122,strain:BHZY60922,NC_032631,01/03/2017,08/13/2018,7981 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 123,strain:BHCL81476,NC_032602,01/03/2017,08/13/2018,10608 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 124,strain:BHBJDX18598,NC_032592,01/03/2017,08/13/2018,8221 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 125,strain:BHZY54174,NC_032611,01/03/2017,08/13/2018,8546 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 14,strain:BHHK130444,NC_032612,01/03/2017,08/13/2018,9234 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 15,strain:BHZY59344,NC_032226,12/27/2016,08/13/2018,9110 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 16,strain:BHHK123579,NC_032607,01/03/2017,08/13/2018,8466 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 17,strain:BHZY55665,NC_032613,01/03/2017,08/13/2018,8733 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 18,strain:BHSC157282,NC_032569,01/03/2017,08/13/2018,9186 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 19,strain:BHJJX24523,NC_032630,01/03/2017,08/13/2018,8839 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 2,strain:BHNXC40556,NC_032537,01/03/2017,08/13/2018,9983 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 20,strain:BHJJX25607,NC_032632,01/03/2017,08/13/2018,10091 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 21,strain:BHZY60822,NC_032623,01/03/2017,08/13/2018,8817 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 23,strain:YYSZX17154,NC_032636,01/03/2017,08/13/2018,9176 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 24,strain:BHZY60459,NC_032615,01/03/2017,08/13/2018,9665 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 26,strain:BZL93356,NC_032527,01/03/2017,08/13/2018,9864 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 27,strain:BHNXC41439,NC_032547,01/03/2017,08/13/2018,9410 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 28,strain:BHZY60695,NC_032620,01/03/2017,08/13/2018,9559 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 30,strain:BHNXC41477,NC_032550,01/03/2017,08/13/2018,9460 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 32,strain:BHNXC41402,NC_032545,01/03/2017,08/13/2018,6040 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 33,strain:BWBFG40845,NC_032639,01/03/2017,08/13/2018,8887 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 35,strain:BHZC37213,NC_032206,12/27/2016,08/13/2018,8955 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 39,strain:BHSC164089,NC_032572,01/03/2017,08/13/2018,9206 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 4,strain:BHZY60671,NC_032619,01/03/2017,08/13/2018,9376 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 40,strain:BHNXC39087,NC_032535,01/03/2017,08/13/2018,6214 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 41,strain:BHJJX25957,NC_032643,01/03/2017,08/13/2018,9261 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 42,strain:SCJXSX39263,NC_032528,01/03/2017,08/13/2018,9166 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 43,strain:BHNXC41212,NC_032181,12/27/2016,08/13/2018,8943 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 44,strain:BHXG26143,NC_032553,01/03/2017,08/13/2018,8711 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 45,strain:BHZC37433,NC_032603,01/03/2017,08/13/2018,6098 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 46,strain:BHZC37388,NC_032599,01/03/2017,08/13/2018,9153 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 47,strain:SCJXSX39359,NC_032531,01/03/2017,08/13/2018,8920 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 48,strain:BHZC37443,NC_032606,01/03/2017,08/13/2018,9382 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 49,strain:BHZC36855,NC_032585,01/03/2017,08/13/2018,8407 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 5,strain:BHNXC41415,NC_032125,12/27/2016,08/13/2018,9888 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 50,strain:BHZC37234,NC_032591,01/03/2017,08/13/2018,7599 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 51,strain:SCJXSX38939,NC_032640,01/03/2017,08/13/2018,10149 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 52,strain:BHNXC41485,NC_032557,01/03/2017,08/13/2018,10278 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 53,strain:BHNXC41443,NC_032192,12/27/2016,08/13/2018,9949 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 54,strain:BHNXC41489,NC_032563,01/03/2017,08/13/2018,10040 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 55,strain:BHBei68636,NC_032548,01/03/2017,08/13/2018,8697 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 56,strain:BWBFG40791,NC_032637,01/03/2017,08/13/2018,10546 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 57,strain:BHHQ57630,NC_033827,02/27/2017,08/13/2018,8518 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 58,strain:BHBei77093,NC_032573,01/03/2017,08/13/2018,8411 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 59,strain:BHBei77099,NC_033822,02/27/2017,08/13/2018,9096 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 6,strain:BHNXC41284,NC_032542,01/03/2017,08/13/2018,9416 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 60,strain:BHBei55726,NC_032546,01/03/2017,08/13/2018,8818 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 61,strain:BHBei76813,NC_032556,01/03/2017,08/13/2018,9113 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 62,strain:BHBei74566,NC_032194,12/27/2016,08/13/2018,8507 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 63,strain:BHTSS17878,NC_032590,01/03/2017,08/13/2018,8334 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 64,strain:BHJP54755,NC_032530,01/03/2017,08/13/2018,8647 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 65,strain:BHZY60937,NC_032634,01/03/2017,08/13/2018,8918 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 66,strain:BHHQ76843,NC_032621,01/03/2017,08/13/2018,9233 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 67,strain:BHZY60873,NC_032626,01/03/2017,08/13/2018,10121 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 68,strain:HOU158652,NC_032577,01/03/2017,08/13/2018,7826 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 69,strain:HOU158647,NC_032578,01/03/2017,08/13/2018,8407 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 7,strain:BHNXC41478,NC_032552,01/03/2017,08/13/2018,9338 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 70,strain:BHJJX25952,NC_032249,12/27/2016,08/13/2018,9214 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 71,strain:BHXG26494,NC_032562,01/03/2017,08/13/2018,9348 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 72,strain:BHHK126587,NC_032608,01/03/2017,08/13/2018,9502 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 73,strain:BHTH16077,NC_032205,12/27/2016,08/13/2018,9107 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 74,strain:BHHK130969,NC_032614,01/03/2017,08/13/2018,8658 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 75,strain:BHJP52955,NC_032529,01/03/2017,08/13/2018,10108 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 77,strain:BHBei75652,NC_032551,01/03/2017,08/13/2018,8729 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 79,strain:BHBJDX18844,NC_032600,01/03/2017,08/13/2018,9352 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 8,strain:BHNXC41454,NC_032549,01/03/2017,08/13/2018,9273 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 80,strain:BHZC36213,NC_032582,01/03/2017,08/13/2018,7927 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 81,strain:HOU149705,NC_032584,01/03/2017,08/13/2018,7822 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 82,strain:YYSZX17728,NC_032642,01/03/2017,08/13/2018,9386 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 83,strain:BHWZXX15514,NC_032598,01/03/2017,08/13/2018,9953 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 84,strain:BHTH16053,NC_032580,01/03/2017,08/13/2018,8143 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 85,strain:BHHK129719,NC_032610,01/03/2017,08/13/2018,9188 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 87,strain:BHJJX25970,NC_032644,01/03/2017,08/13/2018,11435 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 9,strain:BHBJDX18814,NC_032597,01/03/2017,08/13/2018,8677 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 90,strain:BHWZXX14572,NC_032595,01/03/2017,08/13/2018,9632 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 91,strain:BHJJX25930,NC_032638,01/03/2017,08/13/2018,9364 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 93,strain:BHBJDX18546,NC_032588,01/03/2017,08/13/2018,10613 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 96,strain:HOU158314,NC_032581,01/03/2017,08/13/2018,9323 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai picorna-like virus 99,strain:BHJJX22326,NC_032628,01/03/2017,08/13/2018,6503 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai razor shell virus 1,strain:BHZC37272,NC_032593,01/03/2017,08/13/2018,8628 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai razor shell virus 2,strain:BHBei76898,NC_032560,01/03/2017,08/13/2018,8702 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai razor shell virus 3,strain:BHZC45609,NC_032570,01/03/2017,08/13/2018,4376 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai razor shell virus 4,strain:BHZC37363,NC_032540,01/03/2017,08/13/2018,7927 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai rhabdo-like virus 1,strain:BHTSS15727,NC_032555,01/03/2017,08/13/2018,10551 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai rhabdo-like virus 2,strain:BHTSS7258,NC_032558,01/03/2017,08/13/2018,12016 nt,4,invertebrates
+Nyamiviridae,Beihai rhabdo-like virus 3,strain:BHNXC39077,NC_043486,06/28/2019,06/28/2019,10398 nt,5,
+Nyamiviridae,Beihai rhabdo-like virus 4,strain:BHJP58499,NC_032543,01/03/2017,08/13/2018,10714 nt,3,invertebrates
+Nyamiviridae,Beihai rhabdo-like virus 5,strain:BHJP63888,NC_032544,01/03/2017,08/13/2018,9404 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai rhabdo-like virus 6,strain:BHJJX49420,NC_032541,01/03/2017,08/13/2018,9663 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sea slater virus 1,strain:BHHZL10310,NC_032624,01/03/2017,08/13/2018,9751 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sea slater virus 2,strain:BHHZL10411,NC_032622,01/03/2017,08/13/2018,12772 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sea slater virus 3,strain:BHHZL10233,NC_032536,01/03/2017,08/13/2018,6969 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sea slater virus 4,strain:BHHZL10410,NC_032567,01/03/2017,08/13/2018,12483 nt,8,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sesarmid crab virus 1,strain:SCJXSX39422,NC_032534,01/03/2017,08/13/2018,8870 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sesarmid crab virus 2,strain:SCJXSX39002,NC_032641,01/03/2017,08/13/2018,8351 nt,1,invertebrates
+Yueviridae,Beihai sesarmid crab virus 3,strain:SCJXSX39048,"['NC_032273', 'NC_032275']",12/27/2016,08/13/2018,8178 nt,2,invertebrates
+Qinviridae,Beihai sesarmid crab virus 4,strain:SCJXSX38901,"['NC_032272', 'NC_032274']",12/27/2016,08/13/2018,7380 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sesarmid crab virus 7,strain:SCJXSX14567,NC_032566,01/03/2017,08/13/2018,8045 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai shrimp virus 1,strain:BHBJDX17672,NC_032579,01/03/2017,08/13/2018,11457 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai shrimp virus 2,strain:BHWZXX12501,NC_032594,01/03/2017,08/13/2018,10355 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai shrimp virus 3,strain:BHBJDX18821,"['NC_033757', 'NC_033756', 'NC_033758']",02/16/2017,08/13/2018,18814 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai shrimp virus 4,strain:BHWZXX19227,NC_032561,01/03/2017,08/13/2018,3675 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai shrimp virus 5,strain:BHWZXX15615,"['NC_032646', 'NC_032645']",01/03/2017,08/13/2018,5431 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai shrimp virus 6,strain:BHBJDX18793,"['NC_032648', 'NC_032647']",01/03/2017,08/13/2018,4532 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sipunculid worm virus 1,strain:BHNXC40689,NC_032538,01/03/2017,08/13/2018,8879 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sipunculid worm virus 2,strain:BHNXC41483,NC_032554,01/03/2017,08/13/2018,9395 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sipunculid worm virus 3,strain:BHZC37455,NC_032609,01/03/2017,08/13/2018,9110 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sipunculid worm virus 4,strain:BHZC37368,NC_032596,01/03/2017,08/13/2018,8487 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sipunculid worm virus 5,strain:BHNXC41492,NC_032565,01/03/2017,08/13/2018,12524 nt,4,invertebrates
+unclassified Hypoviridae,Beihai sipunculid worm virus 6,strain:BHNXC41400,NC_032616,01/03/2017,08/13/2018,8923 nt,1,fungi
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 1,strain:BHZY60709,NC_032586,01/03/2017,08/13/2018,4797 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 10,strain:BHZY60634,NC_032204,12/27/2016,08/13/2018,4902 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 11,strain:BHZY59277,NC_032575,01/03/2017,08/13/2018,5074 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 12,strain:HOU156693,NC_033037,01/17/2017,08/13/2018,3799 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 13,strain:YYSZX17641,NC_033252,01/17/2017,08/13/2018,3679 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 14,strain:HOU157842,NC_032220,12/27/2016,08/13/2018,3570 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 15,strain:BHBJDX18383,NC_032805,01/17/2017,08/13/2018,3507 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 16,strain:BHCL80925,NC_032836,01/17/2017,08/13/2018,3474 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 17,strain:HOU157151,NC_032219,12/27/2016,08/13/2018,3458 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 18,strain:BWBFG40814,NC_032976,01/17/2017,08/13/2018,4963 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 19,strain:BHBJDX18617,NC_032817,01/17/2017,08/13/2018,3559 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 2,strain:BHZC35241,NC_032889,01/17/2017,08/13/2018,2930 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 20,strain:BHNXC40978,NC_032843,01/17/2017,08/13/2018,2971 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 21,strain:BHZY58647,NC_032913,01/17/2017,08/13/2018,4177 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 22,strain:BHWZXX14614,NC_032859,01/17/2017,08/13/2018,3092 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 23,strain:BHZY181484,NC_032967,01/17/2017,08/13/2018,4180 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 24,strain:BHBJDX18033,NC_032183,12/27/2016,08/13/2018,3023 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 25,strain:BHZC34084,NC_032895,01/17/2017,08/13/2018,3995 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 26,strain:BHTH8711,NC_032193,12/27/2016,08/13/2018,2729 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 27,strain:BHWZXX15541,NC_032865,01/17/2017,08/13/2018,3164 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 3,strain:BHZY60830,NC_032961,01/17/2017,08/13/2018,4536 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 4,strain:BHZY59438,NC_032926,01/17/2017,08/13/2018,4288 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 5,strain:BHZY60175,NC_032934,01/17/2017,08/13/2018,4484 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 6,strain:BWBFG40829,NC_032983,01/17/2017,08/13/2018,5222 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 7,strain:BHZY60654,NC_032945,01/17/2017,08/13/2018,4711 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 8,strain:BWBFG36635,NC_032972,01/17/2017,08/13/2018,4496 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sobemo-like virus 9,strain:BHZY60769,NC_032957,01/17/2017,08/13/2018,4560 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sphaeromadae virus 1,strain:BHTSS18012,NC_032977,01/17/2017,08/13/2018,9538 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sphaeromadae virus 2,strain:BHTSS26432,NC_032760,01/17/2017,08/13/2018,3518 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sphaeromadae virus 3,strain:BHTSS17005,"['NC_032155', 'NC_032154']",12/22/2016,08/13/2018,4478 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai sphaeromadae virus 4,strain:BHTSS17969,NC_033078,01/17/2017,08/13/2018,6096 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tiger crab virus 1,strain:HWRTX14333,NC_033125,01/17/2017,08/13/2018,9621 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 1,strain:SCJXSX39078,NC_032862,01/17/2017,08/13/2018,4145 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 10,strain:BHZY59908,NC_032932,01/17/2017,08/13/2018,4836 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 11,strain:BHHK128439,NC_033244,01/17/2017,08/13/2018,5037 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 12,strain:BHTSS17936,NC_032747,01/17/2017,08/13/2018,6097 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 13,strain:BHZC37436,NC_032880,01/17/2017,08/13/2018,4473 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 14,strain:BHZC37000,NC_032866,01/17/2017,08/13/2018,5160 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 15,strain:BHBJDX18752,NC_033202,01/17/2017,08/13/2018,3325 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 16,strain:BHWZXX15284,NC_032787,01/17/2017,08/13/2018,4822 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 17,strain:BHZC33014,NC_032885,01/17/2017,08/13/2018,5363 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 18,strain:BHZY60611,NC_032958,01/17/2017,08/13/2018,5440 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 19,strain:BHTH16144,NC_032726,01/17/2017,08/13/2018,5695 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 2,strain:BHNXC41455,NC_033268,01/17/2017,08/13/2018,3737 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 3,strain:BHZY54477,NC_032903,01/17/2017,08/13/2018,5029 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 4,strain:BHZY58951,NC_032202,12/27/2016,08/13/2018,5201 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 5,strain:HOU131178,NC_033250,01/17/2017,08/13/2018,3611 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 7,strain:BHBJDX18773,NC_033208,01/17/2017,08/13/2018,3891 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 8,strain:BHZY60516,NC_032951,01/17/2017,08/13/2018,3343 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai tombus-like virus 9,strain:BHZY58393,NC_032914,01/17/2017,08/13/2018,4382 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai toti-like virus 4,strain:HOU154008,NC_032841,01/17/2017,08/13/2018,6618 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai uca arcuata virus 1,strain:BFZCX5633,NC_032746,01/17/2017,08/13/2018,6381 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai victori-like virus 1,strain:BHZC37363,NC_032786,01/17/2017,08/13/2018,4755 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 1,strain:BWBFG40821,NC_033031,01/17/2017,08/13/2018,5040 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 11,strain:BWBFG40530,NC_033066,01/17/2017,08/13/2018,4971 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 12,strain:BWBFG40815,NC_033056,01/17/2017,08/13/2018,4632 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 13,strain:BHZY60103,NC_033020,01/17/2017,08/13/2018,4629 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 15,strain:BWBFG27289,NC_033035,01/17/2017,08/13/2018,4740 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 16,strain:BHZY60618,NC_032974,01/17/2017,08/13/2018,4423 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 17,strain:BHZC37426,NC_032955,01/17/2017,08/13/2018,4581 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 18,strain:BHZY59250,NC_033004,01/17/2017,08/13/2018,3714 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 2,strain:BHZC36779,NC_032962,01/17/2017,08/13/2018,5094 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 20,strain:BWBFG40173,NC_033074,01/17/2017,08/13/2018,4130 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 21,strain:BHZY60867,NC_033007,01/17/2017,08/13/2018,4570 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 3,strain:BHZY60776,NC_032968,01/17/2017,08/13/2018,4716 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 4,strain:BWBFG40762,NC_033047,01/17/2017,08/13/2018,4692 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 5,strain:BHZY60693,NC_032980,01/17/2017,08/13/2018,4409 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 7,strain:BHZY60887,NC_032995,01/17/2017,08/13/2018,4221 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 8,strain:BHZC36478,NC_032950,01/17/2017,08/13/2018,5197 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai weivirus-like virus 9,strain:BWBFG39428,NC_033085,01/17/2017,08/13/2018,5218 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai zhaovirus-like virus 1,strain:BHZY59866,NC_033162,01/17/2017,08/13/2018,5420 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai zhaovirus-like virus 2,strain:BHTSS12281,NC_033159,01/17/2017,08/13/2018,9086 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai zhaovirus-like virus 3,strain:BHZY60564,NC_033167,01/17/2017,08/13/2018,5448 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai zhaovirus-like virus 4,strain:BHZY60633,NC_033175,01/17/2017,08/13/2018,8223 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Beihai zhaovirus-like virus 5,strain:BHNXC41311,NC_033154,01/17/2017,08/13/2018,4925 nt,1,invertebrates
+Paramyxoviridae,Beilong virus,-,NC_007803,03/16/2006,08/13/2018,19212 nt,11,"vertebrates, human"
+Endornaviridae,Bell pepper alphaendornavirus,isolate:Penol,NC_039216,08/24/2018,08/24/2018,14714 nt,1,plants
+Virgaviridae,Bell pepper mottle virus,-,NC_009642,07/06/2007,08/13/2018,6375 nt,5,plants
+Tymoviridae,Belladonna mottle virus,strain:European,NC_038866,11/26/1990,08/24/2018,615 nt,2,"invertebrates, plants"
+Peribunyaviridae,Bellavista virus,isolate:PRD0552,"['NC_043622', 'NC_043623', 'NC_043621']",06/28/2019,06/28/2019,12675 nt,4,"vertebrates, invertebrates, human"
+Secoviridae,Bellflower vein chlorosis virus,isolate:CT1,NC_027915,10/07/2015,08/13/2018,11649 nt,1,plants
+Potyviridae,Bellflower veinal mottle virus,isolate:SW,NC_039002,08/24/2018,08/24/2018,8259 nt,1,plants
+Coronaviridae,Beluga whale coronavirus SW1,isolate:SW1,NC_010646,05/01/2008,08/13/2018,31686 nt,14,vertebrates
+Tymoviridae,Bermuda grass etched-line virus,-,NC_038327,08/24/2018,08/24/2018,1093 nt,1,"invertebrates, plants"
+Tombusviridae,Bermuda grass latent virus,isolate:BGLV,NC_032405,12/29/2016,08/13/2018,4044 nt,6,plants
+Rhabdoviridae,Berrimah virus,strain:DPP 63,NC_025358,10/27/2014,08/13/2018,15024 nt,10,vertebrates
+Coronaviridae,Betacoronavirus England 1,strain:England 1; isolate:H123990006,NC_038294,08/24/2018,08/24/2018,30111 nt,10,"vertebrates, human"
+Coronaviridae,Middle East respiratory syndrome-related coronavirus,strain:HCoV-EMC,NC_019843,12/13/2012,08/13/2018,30119 nt,11,"vertebrates, human"
+Coronaviridae,Betacoronavirus Erinaceus/VMC/DEU/2012,isolate:ErinaceusCoV/2012-174/GER/2012,NC_039207,08/24/2018,08/24/2018,30148 nt,12,vertebrates
+Coronaviridae,Betacoronavirus HKU24,strain:HKU24-R05005I,NC_026011,01/07/2015,08/13/2018,31249 nt,10,vertebrates
+Phenuiviridae,Bhanja virus,strain:ibAr2709,"['NC_027142', 'NC_027141', 'NC_027140']",06/02/2015,08/13/2018,11511 nt,4,"vertebrates, invertebrates, human"
+Potyviridae,Bidens mosaic virus,isolate:SP01,NC_023014,12/10/2013,08/13/2018,9557 nt,1,plants
+Potyviridae,Bidens mottle virus,isolate:SF-1,NC_014325,07/24/2010,08/13/2018,9741 nt,2,plants
+unclassified Dicistroviridae,Big Sioux River virus,strain:Kenya P9,NC_035184,07/14/2017,08/13/2018,9691 nt,2,invertebrates
+Peribunyaviridae,Bimiti virus,strain:TRVL 8362,"['NC_038724', 'NC_038723', 'NC_038725']",08/24/2018,08/24/2018,12102 nt,3,"vertebrates, invertebrates, human"
+Narnaviridae,Binucleate Rhizoctonia mitovirus K1,isolate:FAS2909W,NC_027921,10/07/2015,08/13/2018,2794 nt,1,fungi
+unclassified unclassified Picornavirales,Biomphalaria virus 1,isolate:Brazil,NC_032804,01/17/2017,08/13/2018,10140 nt,2,invertebrates
+unclassified unclassified Picornavirales,Biomphalaria virus 2,-,NC_033456,01/26/2017,08/13/2018,8999 nt,1,invertebrates
+unclassified unclassified Picornavirales,Biomphalaria virus 3,-,NC_032840,01/17/2017,08/13/2018,9997 nt,1,invertebrates
+unclassified unclassified Botybirnavirus,Bipolaris maydis botybirnavirus 1,strain:JZ11,"['NC_040396', 'NC_040395']",02/12/2019,02/12/2019,12422 nt,2,
+unclassified Partitiviridae,Bipolaris maydis partitivirus 1,strain:JZ04,"['NC_034514', 'NC_034524']",05/15/2017,08/23/2018,3720 nt,2,plants
+unclassified Partitiviridae,Bipolaris maydis partitivirus 2,strain:HN11,"['NC_040495', 'NC_040496', 'NC_040497']",02/12/2019,02/12/2019,6595 nt,3,plants
+Peribunyaviridae,Birao virus,isolate:DakArB 2198,"['NC_043651', 'NC_043652', 'NC_043650']",06/28/2019,06/28/2019,12279 nt,4,"vertebrates, invertebrates, human"
+unclassified Dicistroviridae,Bivalve RNA virus G1,strain:G1,NC_032112,12/16/2016,08/13/2018,9756 nt,2,invertebrates
+unclassified unclassified Picornavirales,Bivalve RNA virus G2,strain:G2,NC_032113,12/16/2016,08/13/2018,8051 nt,2,invertebrates
+unclassified unclassified Picornavirales,Bivalve RNA virus G3,strain:G3,NC_032114,12/16/2016,08/13/2018,7915 nt,1,invertebrates
+unclassified unclassified Riboviria,Bivalve RNA virus G4,strain:G4,NC_032116,12/16/2016,08/13/2018,7567 nt,1,invertebrates
+unclassified Dicistroviridae,Bivalve RNA virus G5,strain:G5,NC_032115,12/16/2016,08/13/2018,7835 nt,2,invertebrates
+unclassified unclassified Riboviria,Bivalve hepelivirus G,strain:G,NC_032117,12/16/2016,08/13/2018,7401 nt,3,invertebrates
+Hantaviridae,Black Creek Canal orthohantavirus,-,"['NC_043075', 'NC_043073', 'NC_043074']",06/28/2019,06/28/2019,6067 nt,-,"vertebrates, human"
+Nodaviridae,Black beetle virus,-,"['NC_002037', 'NC_001411']",06/13/1985,08/13/2018,4505 nt,5,invertebrates
+unclassified unclassified Idaeovirus,Black currant leaf chlorosis associated virus,isolate:Oregon,"['NC_034390', 'NC_034408']",05/01/2017,08/13/2018,7627 nt,3,plants
+Dicistroviridae,Black queen cell virus,strain:South African,NC_003784,05/29/2000,08/13/2018,8550 nt,2,invertebrates
+Secoviridae,Black raspberry necrosis virus,isolate:BRDaV-1,"['NC_008183', 'NC_008182']",06/17/2006,08/13/2018,13945 nt,2,plants
+Totiviridae,Black raspberry virus F,isolate:CRUB 9013,NC_009890,10/05/2007,08/13/2018,5077 nt,2,fungi
+Bromoviridae,Blackberry chlorotic ringspot virus,-,"['NC_011553', 'NC_011554', 'NC_011555']",11/12/2008,08/13/2018,8647 nt,5,plants
+Closteroviridae,Blackberry vein banding-associated virus,isolate:Mississippi1,NC_022072,08/14/2013,08/13/2018,18643 nt,11,plants
+Betaflexiviridae,Blackberry virus A,isolate:Arkansas,NC_040630,02/12/2019,02/12/2019,7285 nt,5,plants
+Alphaflexiviridae,Blackberry virus E,isolate:BB_Ellis-1,NC_015706,06/29/2011,08/13/2018,7718 nt,5,plants
+Tymoviridae,Blackberry virus S,isolate:GSM-8,NC_038328,08/24/2018,08/24/2018,6463 nt,1,"invertebrates, plants"
+Potyviridae,Blackberry virus Y,isolate:3,NC_008558,11/02/2006,08/13/2018,10851 nt,2,plants
+Closteroviridae,Blackberry yellow vein-associated virus,-,"['NC_006962', 'NC_006963']",04/08/2005,08/13/2018,15716 nt,11,plants
+unclassified unclassified Picornavirales,Blackbird arilivirus,-,NC_040820,02/12/2019,02/12/2019,9228 nt,2,
+Closteroviridae,Blackcurrant leafroll-associated virus 1,isolate:Oregon,"['NC_040582', 'NC_040840', 'NC_040722']",02/12/2019,02/12/2019,51298 nt,28,plants
+Secoviridae,Blackcurrant reversion virus,-,"['NC_003509', 'NC_003502']",11/30/2001,08/13/2018,14116 nt,2,plants
+Closteroviridae,Blackcurrant-associated closterovirus 1,isolate:BC,NC_040834,02/12/2019,02/12/2019,17320 nt,9,plants
+Narnaviridae,Blechmonas luni narnavirus 1,strain:OSU2,NC_040829,02/12/2019,02/12/2019,2747 nt,1,fungi
+Narnaviridae,Blechomonas maslovi narnavirus 1,strain:OSU7,NC_040571,02/12/2019,02/12/2019,2945 nt,1,fungi
+Narnaviridae,Blechomonas wendygibsoni narnavirus 1,strain:OSU9,NC_040641,02/12/2019,02/12/2019,2748 nt,1,fungi
+Birnaviridae,Blotched snakehead virus,-,"['NC_005982', 'NC_005983']",12/19/2002,08/13/2018,6179 nt,3,vertebrates
+Potyviridae,Blue squill virus A,isolate:SW3,NC_019415,11/13/2012,08/13/2018,9842 nt,1,plants
+Secoviridae,Blueberry latent spherical virus,-,"['NC_038763', 'NC_038764']",08/24/2018,08/24/2018,14304 nt,2,plants
+Amalgaviridae,Blueberry latent virus,isolate:MI-1,NC_014593,10/15/2010,08/13/2018,3431 nt,2,plants
+Secoviridae,Blueberry leaf mottle virus,-,NC_043076,06/28/2019,06/28/2019,3082 nt,1,plants
+Aspiviridae,Blueberry mosaic associated virus,isolate:Arkansas5,"['NC_024476', 'NC_036635', 'NC_036634']",07/24/2014,08/13/2018,11467 nt,4,plants
+Kitaviridae,Blueberry necrotic ring blotch virus,strain:Georgia,"['NC_016084', 'NC_016085', 'NC_016086', 'NC_016087']",10/19/2011,08/13/2018,14153 nt,7,plants
+Betaflexiviridae,Blueberry scorch virus,strain:NJ-2,NC_003499,10/28/1993,08/13/2018,8512 nt,6,plants
+Bromoviridae,Blueberry shock virus,isolate:Berkely,"['NC_022250', 'NC_022252', 'NC_022251']",09/04/2013,08/13/2018,7989 nt,4,plants
+Solemoviridae,Blueberry shoestring virus,strain:BSSV,NC_029578,03/09/2016,08/13/2018,4020 nt,-,plants
+Closteroviridae,Blueberry virus A,-,NC_018519,08/31/2012,08/13/2018,17798 nt,10,plants
+Picornaviridae,Bluegill picornavirus,isolate:04-032,NC_018506,08/28/2012,08/13/2018,8050 nt,1,vertebrates
+Reoviridae,Bluetongue virus,serotype:10,"['NC_006025', 'NC_006013', 'NC_006023', 'NC_006015', 'NC_006014', 'NC_006024', 'NC_006010', 'NC_006022', 'NC_006007', 'NC_006008']",11/29/1987,08/13/2018,19176 nt,11,"vertebrates, invertebrates"
+Rhabdoviridae,Bokeloh bat lyssavirus,isolate:21961,NC_025251,10/15/2014,08/13/2018,11900 nt,5,"vertebrates, human"
+unclassified Rhabdoviridae,Bole Tick Virus 2,strain:BL076,NC_031079,09/23/2016,08/13/2018,11843 nt,5,invertebrates
+unclassified unclassified ssRNA negative-strand viruses,Bole Tick Virus 3,strain:BL199,NC_028259,11/05/2015,08/13/2018,11183 nt,3,invertebrates
+unclassified unclassified ssRNA positive-strand viruses,Bole tick virus 4,strain:BLP-1,NC_028371,11/12/2015,08/13/2018,16248 nt,1,invertebrates
+Filoviridae,Bombali ebolavirus,isolate:Bombali ebolavirus/Mops condylurus/SLE/2016/PREDICT_SLAB000156,NC_039345,09/07/2018,10/29/2018,19043 nt,9,"vertebrates, human"
+Tymoviridae,Bombyx mori Macula-like virus,-,NC_015524,05/29/2011,08/13/2018,6519 nt,3,plants
+Iflaviridae,Bombyx mori iflavirus,strain:BMI1,NC_027713,08/18/2015,08/13/2018,10119 nt,1,invertebrates
+Tymoviridae,Bombyx mori latent virus,-,NC_038331,08/24/2018,08/24/2018,6532 nt,2,plants
+Nodaviridae,Boolarra virus,-,"['NC_004145', 'NC_004142']",11/23/1989,08/13/2018,4401 nt,3,"vertebrates, invertebrates"
+Picornaviridae,Boone cardiovirus 1,isolate:BCV-1,NC_038305,08/24/2018,08/24/2018,8530 nt,1,vertebrates
+Flaviviridae,Border disease virus,strain:X818; Clover Lane,NC_003679,05/15/1998,08/13/2018,12333 nt,1,vertebrates
+Bornaviridae,Borna disease virus 1,strain:V,NC_001607,01/06/1994,08/30/2016,8910 nt,6,vertebrates
+Bornaviridae,Borna disease virus 2,strain:No/98,NC_030692,09/19/2001,08/23/2016,8908 nt,6,vertebrates
+Chrysoviridae,Botryosphaeria dothidea chrysovirus 1,strain:G1,"['NC_034268', 'NC_034271', 'NC_034269', 'NC_034270']",04/12/2017,08/17/2018,11501 nt,4,fungi
+Totiviridae,Botryosphaeria dothidea victorivirus 1,isolate:GY25,NC_025214,10/04/2014,08/13/2018,5322 nt,2,fungi
+unclassified Partitiviridae,Botryosphaeria dothidea virus 1,strain:YZN115,"['NC_033477', 'NC_033495', 'NC_033476', 'NC_033496', 'NC_033494']",01/26/2017,08/13/2018,8739 nt,5,plants
+unclassified Partitiviridae,Botryotinia fuckeliana partitivirus 1,-,"['NC_010350', 'NC_010349', 'NC_010351']",03/21/2007,08/13/2018,4742 nt,3,plants
+Totiviridae,Botryotinia fuckeliana totivirus 1,-,NC_009224,03/21/2007,08/13/2018,5261 nt,2,fungi
+unclassified unclassified dsRNA viruses,Botrytis cinerea RNA virus 1,strain:BerBc-1,NC_026139,01/12/2015,08/13/2018,8952 nt,2,fungi
+Endornaviridae,Botrytis cinerea betaendornavirus 1,strain:HBtom-372,NC_031752,11/04/2016,08/13/2018,11557 nt,1,fungi
+Fusariviridae,Botrytis cinerea fusarivirus 1,-,NC_037660,06/22/2018,08/13/2018,8448 nt,2,
+Fusariviridae,Botrytis cinerea fusarivirus 1-S1,-,NC_037661,06/22/2018,08/14/2018,3482 nt,2,
+Fusariviridae,Botrytis cinerea fusarivirus 1-S2,-,NC_037662,06/22/2018,08/14/2018,3253 nt,2,
+unclassified Hypoviridae,Botrytis cinerea hypovirus 1,-,NC_037659,06/22/2018,08/13/2018,10252 nt,1,fungi
+Narnaviridae,Botrytis cinerea mitovirus 1,-,NC_011372,10/17/2008,08/13/2018,2804 nt,1,fungi
+Narnaviridae,Botrytis cinerea mitovirus 2,isolate:HAZ1-2,NC_028471,11/29/2015,08/13/2018,2497 nt,1,fungi
+Narnaviridae,Botrytis cinerea mitovirus 3,isolate:HAZ1-3,NC_028472,11/29/2015,08/13/2018,2922 nt,1,fungi
+Narnaviridae,Botrytis cinerea mitovirus 4,isolate:HAZ3-4,NC_028474,11/29/2015,08/13/2018,2768 nt,1,fungi
+unclassified unclassified ssRNA negative-strand viruses,Botrytis cinerea negative-stranded RNA virus 1,isolate:HAZ3-9,NC_028466,11/29/2015,08/13/2018,8543 nt,1,fungi
+Botourmiaviridae,Botrytis ourmia-like virus,isolate:HAZ2-3,NC_028476,11/29/2015,08/13/2018,2903 nt,1,
+unclassified Botybirnavirus,Botrytis porri botybirnavirus 1,strain:GarlicBc-72,"['NC_017991', 'NC_017990']",06/04/2012,08/13/2018,12094 nt,2,fungi
+Gammaflexiviridae,Botrytis virus F,-,NC_002604,10/14/2000,08/13/2018,6827 nt,2,fungi
+Alphaflexiviridae,Botrytis virus X,-,NC_005132,10/09/2003,08/13/2018,6966 nt,5,plants
+Astroviridae,Bottlenose dolphin astrovirus 1,strain:Bd1,NC_043096,06/28/2019,06/28/2019,3990 nt,2,vertebrates
+Flaviviridae,Bouboui virus,strain:DAK AR B490,NC_033693,02/16/2017,05/23/2019,10173 nt,1,"vertebrates, invertebrates, human"
+Astroviridae,Bovine astrovirus,strain:BAstV-GX7/CHN/2014,NC_024297,06/13/2014,08/13/2018,6233 nt,3,vertebrates
+Astroviridae,Bovine astrovirus B170/HK,strain:B170/HK,NC_023632,03/04/2014,08/13/2018,6317 nt,3,vertebrates
+Astroviridae,Bovine astrovirus B18/HK,strain:B18/HK,NC_023631,03/04/2014,08/13/2018,6300 nt,3,vertebrates
+Astroviridae,Bovine astrovirus B76-2/HK,strain:B76-2/HK,NC_023630,03/04/2014,08/13/2018,6301 nt,3,vertebrates
+Astroviridae,Bovine astrovirus B76/HK,strain:B76/HK,NC_023629,03/04/2014,08/13/2018,6253 nt,3,vertebrates
+unclassified Astroviridae,Bovine astrovirus CH13,isolate:CH13,NC_024498,07/24/2014,08/13/2018,6530 nt,3,vertebrates
+Caliciviridae,Bovine calicivirus strain Kirklareli,strain:Kirklareli,NC_030793,08/24/2016,08/13/2018,7484 nt,2,vertebrates
+Coronaviridae,Bovine coronavirus,isolate:BCoV-ENT,NC_003045,08/02/2001,08/13/2018,31028 nt,12,vertebrates
+Coronaviridae,Human coronavirus OC43,strain:ATCC VR-759; serotype:OC43,NC_006213,02/21/2019,02/21/2019,30741 nt,8,"vertebrates, human"
+Rhabdoviridae,Bovine ephemeral fever virus,-,NC_002526,09/06/2000,08/13/2018,14900 nt,12,"invertebrates, vertebrates"
+Flaviviridae,Bovine hepacivirus,isolate:GHC25,NC_026797,04/13/2015,07/22/2019,8850 nt,1,"vertebrates, human"
+Picornaviridae,Bovine hungarovirus 1,strain:BHUV1/2008/HUN,NC_018668,10/02/2012,08/13/2018,7583 nt,1,vertebrates
+Tobaniviridae,Bovine nidovirus TCH5,isolate:TCH5,NC_027199,06/06/2015,08/13/2018,20261 nt,7,vertebrates
+Pneumoviridae,Bovine orthopneumovirus,strain:ATue51908,NC_001989,12/17/1998,08/13/2018,15140 nt,11,vertebrates
+Pneumoviridae,Bovine respiratory syncytial virus ATCC51908,strain:ATCC 51908,NC_038272,08/24/2018,08/24/2018,15140 nt,11,vertebrates
+unclassified Picornaviridae,Bovine picornavirus,isolate:TCH6,NC_026249,01/26/2015,08/13/2018,7018 nt,1,vertebrates
+Paramyxoviridae,Bovine respirovirus 3,-,NC_002161,01/27/2000,08/13/2018,15456 nt,6,"vertebrates, human"
+Paramyxoviridae,Caprine parainfluenza virus 3,strain:JS2013,NC_028362,11/12/2015,08/13/2018,15618 nt,6,"vertebrates, human"
+Picornaviridae,Bovine rhinitis A virus,strain:Sd-1,NC_038303,08/24/2018,08/24/2018,7245 nt,1,vertebrates
+Picornaviridae,Bovine rhinitis B virus,strain:EC11; serotype:2,NC_010354,02/22/2008,08/13/2018,7556 nt,1,vertebrates
+Picornaviridae,Bovine rhinovirus 1,strain:SD-1; serotype:1; culture-collection:ATCC:VR-668,NC_034245,04/05/2017,08/13/2018,7253 nt,1,vertebrates
+Flaviviridae,Bovine viral diarrhea virus 1,strain:NADL,NC_001461,08/02/1993,08/13/2018,12573 nt,1,vertebrates
+Flaviviridae,Bovine viral diarrhea virus 2,isolate:890,NC_039237,08/24/2018,08/24/2018,12513 nt,1,vertebrates
+Flaviviridae,Bovine viral diarrhea virus 3 Th/04_KhonKaen,strain:Th/04_KhonKaen,NC_012812,06/17/2009,08/13/2018,12337 nt,1,vertebrates
+Hantaviridae,Bowe virus,strain:VN1512,"['NC_034407', 'NC_034406', 'NC_034405']",05/01/2017,08/13/2018,11879 nt,3,"vertebrates, human"
+Peribunyaviridae,Bozo virus,isolate:DakArB 7343,"['NC_043654', 'NC_043653', 'NC_043655']",06/28/2019,06/28/2019,12238 nt,4,"vertebrates, invertebrates, human"
+Chrysoviridae,Brassica campestris chrysovirus 1,isolate:Hubei,"['NC_043660', 'NC_043659', 'NC_043661']",06/28/2019,06/28/2019,10543 nt,3,fungi
+Secoviridae,Brassica napus RNA virus 1,isolate:SP2S,NC_040586,02/12/2019,02/12/2019,12313 nt,2,plants
+Luteoviridae,Brassica yellows virus,isolate:BrYV-ABJ,NC_016038,09/29/2011,01/18/2019,5666 nt,6,plants
+Arenaviridae,Brazilian mammarenavirus,strain:SPH114202,"['NC_006317', 'NC_006313']",09/24/2004,08/13/2018,10499 nt,4,"vertebrates, human"
+Peribunyaviridae,Brazoran virus,isolate:Original,"['NC_022037', 'NC_022038', 'NC_022039']",08/09/2013,08/13/2018,13242 nt,4,"vertebrates, invertebrates, human"
+Tobaniviridae,Breda virus,strain:Breda 1,NC_007447,10/05/2005,08/13/2018,28475 nt,6,
+unclassified Negevirus,Brejeira virus,strain:AR800208-B,NC_030743,08/16/2016,08/13/2018,9863 nt,3,invertebrates
+Iflaviridae,Brevicoryne brassicae virus - UK,-,NC_009530,06/07/2007,06/04/2019,10180 nt,1,invertebrates
+Bromoviridae,Broad bean mottle virus,-,"['NC_004008', 'NC_004007', 'NC_004006']",04/28/1993,08/13/2018,8250 nt,4,plants
+Virgaviridae,Broad bean necrosis virus,-,"['NC_004425', 'NC_004424', 'NC_004423']",11/20/2002,08/13/2018,10848 nt,8,plants
+Secoviridae,Broad bean stain virus,strain:07013,"['NC_043386', 'NC_043385']",06/28/2019,06/28/2019,3754 nt,2,plants
+Secoviridae,Broad bean true mosaic virus,isolate:EV-11,"['NC_022006', 'NC_022004']",08/09/2013,08/13/2018,9600 nt,2,plants
+Secoviridae,Broad bean wilt virus 1,strain:ATCC PV132,"['NC_005289', 'NC_005290']",12/06/2003,08/13/2018,9263 nt,2,plants
+Secoviridae,Broad bean wilt virus 2,isolate:ME,"['NC_003004', 'NC_003003']",03/31/2001,08/13/2018,9558 nt,2,plants
+Potyviridae,Broad-leafed dock virus A,isolate:ab032 Auckland,NC_038560,08/24/2018,08/24/2018,8174 nt,1,plants
+Bromoviridae,Brome mosaic virus,-,"['NC_002026', 'NC_002027', 'NC_002028']",01/28/1986,08/13/2018,8210 nt,4,plants
+Potyviridae,Brome streak mosaic virus,-,NC_003501,09/20/1995,08/13/2018,9672 nt,2,plants
+Reoviridae,Broome virus,-,"['NC_014243', 'NC_014237', 'NC_014240', 'NC_014245', 'NC_014236', 'NC_014244', 'NC_014239', 'NC_014242', 'NC_014241', 'NC_014238']",06/11/2010,08/13/2018,22727 nt,11,vertebrates
+Hantaviridae,Bruges virus,strain:BE/Vieux-Genappe/TE/2013/1,"['NC_034394', 'NC_034402', 'NC_034395']",05/01/2017,08/13/2018,12008 nt,3,"vertebrates, human"
+Virgaviridae,Brugmansia mild mottle virus,isolate:2373,NC_010944,09/13/2006,08/13/2018,6381 nt,4,plants
+Potyviridae,Brugmansia mosaic virus,strain:SK,NC_020105,01/11/2013,08/13/2018,9796 nt,2,plants
+Potyviridae,Brugmansia suaveolens mottle virus,strain:Bs-Campinas,NC_014536,09/22/2010,08/13/2018,9870 nt,2,plants
+Coronaviridae,BtMr-AlphaCoV/SAX2011,isolate:BtMr-SAX2011,NC_028811,01/05/2016,08/13/2018,27935 nt,6,vertebrates
+Coronaviridae,BtNv-AlphaCoV/SC2013,isolate:BtNv-SC2013,NC_028833,01/05/2016,08/13/2018,27783 nt,6,vertebrates
+Coronaviridae,BtRf-AlphaCoV/HuB2013,isolate:BtRf-HuB2013,NC_028814,01/05/2016,08/13/2018,27608 nt,7,vertebrates
+Coronaviridae,BtRf-AlphaCoV/YN2012,isolate:BtRf-YN2012,NC_028824,01/05/2016,08/13/2018,26975 nt,6,vertebrates
+Flaviviridae,Bukalasa bat virus,strain:UGBP-111,NC_043111,06/28/2019,06/28/2019,1011 nt,1,"vertebrates, invertebrates, human"
+Coronaviridae,Bulbul coronavirus HKU11-934,-,NC_011547,08/24/2018,08/24/2018,26487 nt,9,vertebrates
+Filoviridae,Bundibugyo ebolavirus,isolate:Bundibugyo virus/H.sapiens-tc/UGA/2007/Butalya-811250,NC_014373,08/09/2010,11/07/2018,18940 nt,9,"vertebrates, human"
+Peribunyaviridae,Bunyamwera virus,-,"['NC_001926', 'NC_001925', 'NC_001927']",04/28/1993,08/13/2018,12294 nt,4,"vertebrates, invertebrates, human"
+Nairoviridae,Burana virus,strain:760,"['NC_043439', 'NC_043438', 'NC_043437']",06/28/2019,06/28/2019,17427 nt,3,"vertebrates, invertebrates, human"
+Benyviridae,Burdock mottle virus,isolate:S,"['NC_021736', 'NC_021735']",07/16/2013,08/13/2018,11353 nt,7,plants
+Reoviridae,Bush viper reovirus,strain:47/02,"['NC_023820', 'NC_023818', 'NC_023817']",03/20/2014,08/13/2018,4622 nt,3,vertebrates
+Betaflexiviridae,Butterbur mosaic virus,strain:J,NC_013527,11/25/2009,08/13/2018,8662 nt,6,plants
+Potyviridae,Butterfly flower mosaic virus,isolate:Hangzhou,NC_043421,03/06/2008,06/28/2019,1603 nt,1,plants
+Peribunyaviridae,Buttonwillow virus,isolate:BFS 5002,"['NC_043597', 'NC_043598', 'NC_043599']",06/28/2019,06/28/2019,12310 nt,3,"vertebrates, invertebrates, human"
+Peribunyaviridae,Bwamba orthobunyavirus,strain:M459,"['NC_034479', 'NC_034490', 'NC_034480']",05/05/2017,08/13/2018,12587 nt,4,"vertebrates, human"
+Arenaviridae,CAS virus,isolate:ATB,"['NC_018481', 'NC_018484']",08/21/2012,08/13/2018,10180 nt,4,"vertebrates, human"
+Togaviridae,Cabassou virus,strain:CaAr 508,NC_038670,08/24/2018,08/24/2018,11385 nt,2,"vertebrates, invertebrates"
+Tymoviridae,Cacao yellow mosaic virus,-,NC_038867,10/09/1990,08/24/2018,681 nt,1,"invertebrates, plants"
+Peribunyaviridae,Cache Valley virus,strain:6V633,"['NC_043620', 'NC_043619', 'NC_043618']",06/28/2019,06/28/2019,12283 nt,4,"vertebrates, invertebrates, human"
+Peribunyaviridae,Cachoeira Porteira virus,strain:BeAr328208,"['NC_043573', 'NC_043574', 'NC_043575']",06/28/2019,06/28/2019,12560 nt,3,"vertebrates, invertebrates, human"
+Flaviviridae,Cacipacore virus,strain:BeAn 3276000,NC_026623,03/06/2015,05/24/2019,10284 nt,2,vertebrates
+Virgaviridae,Cactus mild mottle virus,isolate:CMMoV-Kr,NC_011803,01/05/2009,08/13/2018,6449 nt,4,plants
+Alphaflexiviridae,Cactus virus X,-,NC_002815,07/02/2001,08/13/2018,6614 nt,7,plants
+Potyviridae,Caladenia virus A,isolate:KP1,NC_018572,09/10/2012,08/13/2018,9847 nt,1,plants
+Potyviridae,Calanthe mild mosaic virus,-,NC_043140,06/28/2019,06/28/2019,1306 nt,1,plants
+Arenaviridae,Cali mammarenavirus,-,"['NC_006447', 'NC_006439']",11/13/2004,08/13/2018,10416 nt,4,"vertebrates, human"
+Tombusviridae,Calibrachoa mottle virus,isolate:California,NC_021926,08/06/2013,08/13/2018,3919 nt,5,plants
+unclassified Caliciviridae,Calicivirus isolate TCG,isolate:TCG 14,NC_006875,03/10/2005,08/13/2018,7453 nt,2,vertebrates
+unclassified Caliciviridae,Calicivirus pig/AB90/CAN,strain:AB90,NC_012699,05/19/2009,08/13/2018,6434 nt,2,vertebrates
+Caliciviridae,Calicivirus strain NB,strain:NB,NC_004064,07/01/2002,08/13/2018,7453 nt,2,vertebrates
+Caliciviridae,Newbury agent 1,-,NC_007916,03/24/2006,08/13/2018,7454 nt,2,vertebrates
+Astroviridae,California sea lion astrovirus 2,strain:CSL2,NC_034975,06/13/2017,08/13/2018,3510 nt,2,vertebrates
+Rhabdoviridae,Caligus rogercresseyi rhabdovirus,strain:CrRV-Ch01,NC_043525,06/28/2019,06/28/2019,11599 nt,6,
+Peribunyaviridae,Calla lily chlorotic spot virus,strain:CCSV-Cel,"['NC_036608', 'NC_036607', 'NC_036609']",01/13/2018,08/13/2018,16794 nt,5,"invertebrates, plants"
+unclassified Reoviridae,Callinectes sapidus reovirus 1,isolate:X45,"['NC_037588', 'NC_037589', 'NC_037579', 'NC_037581', 'NC_037587', 'NC_029904', 'NC_037585', 'NC_037582', 'NC_037583', 'NC_037584', 'NC_037586', 'NC_037580']",05/22/2018,08/13/2018,23909 nt,11,vertebrates
+Potyviridae,Callistephus mottle virus,isolate:DJ,NC_030794,08/24/2016,08/13/2018,9859 nt,2,plants
+Coronaviridae,Camel alphacoronavirus,isolate:camel/Riyadh/Ry141/2015,NC_028752,01/05/2016,08/13/2018,27395 nt,7,"vertebrates, human"
+Coronaviridae,Human coronavirus 229E,strain:229E,NC_002645,01/11/2001,08/13/2018,27317 nt,8,"vertebrates, human"
+unclassified Amalgaviridae,Camellia oleifera amalgavirus 1,strain:CoAV1-Xianglin4,NC_040433,02/12/2019,02/13/2019,3333 nt,2,
+unclassified Totiviridae,Camponotus nipponicus virus,strain:SS-2014a,NC_029312,03/01/2016,08/13/2018,5713 nt,2,protozoa
+unclassified Totiviridae,Camponotus yamaokai virus,strain:TH-2013a,NC_027212,06/15/2015,08/13/2018,5704 nt,2,protozoa
+Bornaviridae,Canary bornavirus 1,isolate:#7293,NC_030690,08/01/2016,08/13/2018,8930 nt,6,vertebrates
+Bornaviridae,Canary bornavirus 2,isolate:#15864,NC_027892,09/30/2015,08/23/2016,8957 nt,6,vertebrates
+Bornaviridae,Canary bornavirus 3,isolate:VS-4424,NC_024296,06/13/2014,08/13/2018,8914 nt,6,vertebrates
+Reoviridae,Cangyuan orthoreovirus,strain:Cangyuan,"['NC_025803', 'NC_025810', 'NC_025807', 'NC_025801', 'NC_025809', 'NC_025806', 'NC_025805', 'NC_025808', 'NC_025802', 'NC_025804']",12/04/2014,08/13/2018,23325 nt,10,vertebrates
+Reoviridae,Melaka orthoreovirus,-,"['NC_020441', 'NC_020439', 'NC_020447', 'NC_020440', 'NC_020446', 'NC_020442', 'NC_020443', 'NC_020445', 'NC_020448', 'NC_020444']",03/04/2013,08/13/2018,23410 nt,12,vertebrates
+Astroviridae,Canine astrovirus,strain:Gillingham/2012/UK,NC_026814,04/16/2015,08/13/2018,6617 nt,3,vertebrates
+Picornaviridae,Canine kobuvirus,isolate:SMCD-59,NC_034971,06/13/2017,08/13/2018,8216 nt,1,vertebrates
+Paramyxoviridae,Canine morbillivirus,isolate:Onderstpoort,NC_001921,07/21/1998,08/13/2018,15690 nt,7,"vertebrates, human"
+Picornaviridae,Canine picodicistrovirus,strain:209,NC_021178,05/06/2013,08/13/2018,8785 nt,2,vertebrates
+unclassified unclassified Picornavirales,Canine picornavirus,strain:325F; isolate:325,NC_016964,03/12/2012,08/13/2018,7948 nt,1,vertebrates
+Caliciviridae,Canine vesivirus,-,NC_004542,01/23/2003,08/13/2018,8513 nt,3,vertebrates
+Potyviridae,Canna yellow streak virus,-,NC_013261,09/23/2009,08/13/2018,9502 nt,2,plants
+Partitiviridae,Cannabis cryptic virus,isolate:hemp09,"['NC_031134', 'NC_031130']",09/23/2016,08/13/2018,4663 nt,2,plants
+Hantaviridae,Cano Delgadito orthohantavirus,strain:VHV-574,"['NC_034528', 'NC_034515', 'NC_034525']",05/15/2017,08/25/2018,12239 nt,3,"vertebrates, human"
+Hantaviridae,Cao Bang orthohantavirus,strain:3,"['NC_034474', 'NC_034485', 'NC_034484']",05/05/2017,08/13/2018,12003 nt,3,"vertebrates, human"
+Bromoviridae,Cape gooseberry ilarvirus 1,isolate:Marinilla,"['NC_040394', 'NC_040392', 'NC_040393']",02/12/2019,02/12/2019,8589 nt,5,plants
+Betaflexiviridae,Caper latent virus,isolate:L7,NC_043080,06/28/2019,06/28/2019,1120 nt,1,plants
+Peribunyaviridae,Capim virus,strain:BeAn 8582,"['NC_034483', 'NC_034493', 'NC_034482']",05/05/2017,08/13/2018,12061 nt,3,"vertebrates, invertebrates, human"
+Picornaviridae,Caprine kobuvirus,isolate:12Q108,NC_023422,02/04/2014,08/13/2018,8305 nt,1,vertebrates
+unclassified Amalgaviridae,Capsicum annuum amalgavirus 1,strain:CaAV1-CM334,NC_040662,02/12/2019,02/12/2019,3478 nt,2,
+Tospoviridae,Capsicum chlorosis virus,isolate:AIT,"['NC_008302', 'NC_008303', 'NC_008301']",08/25/2006,08/13/2018,17212 nt,5,
+Rhabdoviridae,Carajas virus,strain:BeAr411391,NC_038285,08/24/2018,08/24/2018,11135 nt,5,"vertebrates, invertebrates"
+Peribunyaviridae,Caraparu virus,strain:BeAn3994,"['NC_034489', 'NC_034478', 'NC_034477']",05/05/2017,08/13/2018,12259 nt,4,"vertebrates, invertebrates, human"
+Tombusviridae,Cardamine chlorotic fleck virus,isolate:CCFV-CL,NC_001600,08/04/1993,08/13/2018,4041 nt,4,plants
+Potyviridae,Cardamom mosaic virus,isolate:KS,NC_039088,08/24/2018,08/24/2018,8249 nt,1,plants
+Flaviviridae,Carey Island virus,strain:P70-1215,NC_043112,06/28/2019,06/28/2019,1011 nt,1,"vertebrates, invertebrates, human"
+Tombusviridae,Carnation Italian ringspot virus,-,NC_003500,03/28/1995,08/13/2018,4763 nt,5,plants
+unclassified Partitiviridae,Carnation cryptic virus 3,-,"['NC_034513', 'NC_034523']",05/15/2017,08/23/2018,3135 nt,2,plants
+Betaflexiviridae,Carnation latent virus,-,NC_038865,10/02/1998,08/24/2018,1313 nt,2,plants
+Tombusviridae,Carnation mottle virus,-,NC_001265,01/28/1986,08/13/2018,4003 nt,5,plants
+Closteroviridae,Carnation necrotic fleck virus,-,NC_038419,08/24/2018,08/24/2018,10557 nt,4,plants
+Tombusviridae,Carnation ringspot virus,-,"['NC_003530', 'NC_003531']",07/26/1993,08/13/2018,5243 nt,5,plants
+Potyviridae,Carnation vein mottle virus,-,NC_043141,06/28/2019,06/28/2019,2326 nt,1,plants
+unclassified Closteroviridae,Carnation yellow fleck virus,-,NC_022978,12/04/2013,08/13/2018,15602 nt,9,plants
+Picornaviridae,Carp picornavirus 1,isolate:F37/06,NC_023162,12/30/2013,10/15/2018,7697 nt,1,vertebrates
+Rhabdoviridae,Carp sprivivirus,strain:ATCC VR-1390,NC_002803,11/16/1995,08/13/2018,11019 nt,5,vertebrates
+Betaflexiviridae,Carrot Ch virus 1,isolate:CBV-1_S20,NC_025469,11/17/2014,08/13/2018,8155 nt,3,plants
+Betaflexiviridae,Carrot Ch virus 2,isolate:CBV-2_S15,NC_025468,11/17/2014,08/13/2018,8047 nt,3,plants
+Partitiviridae,Carrot cryptic virus,-,"['NC_038823', 'NC_038824']",08/24/2018,08/24/2018,3747 nt,2,plants
+Tombusviridae,Carrot mottle mimic virus,isolate:Australian,NC_001726,06/12/1996,08/13/2018,4201 nt,4,plants
+Tombusviridae,Carrot mottle virus,isolate:Weddel,NC_011515,11/03/2008,08/13/2018,4193 nt,4,plants
+Secoviridae,Carrot necrotic dieback virus,strain:Anthriscus,NC_038320,08/24/2018,08/24/2018,9905 nt,1,plants
+unclassified unclassified ssRNA positive-strand viruses,Carrot red leaf luteovirus associated RNA,strain:California,NC_003871,11/02/1997,08/13/2018,2835 nt,3,plants
+Luteoviridae,Carrot red leaf virus,strain:UK-1,NC_006265,09/10/2004,08/13/2018,5723 nt,7,plants
+Potyviridae,Carrot thin leaf virus,isolate:CTLV-Cs,NC_025254,10/15/2014,08/13/2018,9491 nt,1,plants
+Secoviridae,Carrot torradovirus 1,isolate:CTV-1_RNA1_H6,"['NC_025479', 'NC_025480']",11/17/2014,08/13/2018,11939 nt,3,plants
+Potyviridae,Carrot virus Y,-,NC_043142,06/28/2019,06/28/2019,1754 nt,1,plants
+Closteroviridae,Carrot yellow leaf virus,-,NC_013007,07/23/2009,08/13/2018,16354 nt,10,plants
+Bromoviridae,Cassava Ivorian bacilliform virus,strain:SCRI-CV1,"['NC_025482', 'NC_025483', 'NC_025484']",11/17/2014,08/13/2018,8247 nt,4,plants
+Potyviridae,Cassava brown streak virus,isolate:KOR6,NC_012698,05/18/2009,08/13/2018,8995 nt,2,plants
+Alphaflexiviridae,Cassava common mosaic virus,-,NC_001658,04/15/1995,08/13/2018,6376 nt,5,plants
+Botourmiaviridae,Cassava virus C,isolate:IC,"['NC_013112', 'NC_013113', 'NC_013111']",08/17/2009,08/13/2018,4835 nt,3,plants
+Alphaflexiviridae,Cassava virus X,isolate:Ven164,NC_034375,04/21/2017,08/13/2018,5879 nt,4,plants
+Bromoviridae,Cassia yellow blotch virus,strain:KU1,"['NC_006999', 'NC_007000', 'NC_007001']",05/17/2005,08/13/2018,7988 nt,4,plants
+unclassified Negevirus,Castlerea virus,isolate:P59341,NC_034569,05/17/2017,08/25/2018,9403 nt,3,invertebrates
+Mesoniviridae,Casuarina virus,isolate:0071,NC_023986,04/14/2014,08/13/2018,19917 nt,6,invertebrates
+Peribunyaviridae,Cat Que virus,strain:VN04-2108,"['NC_024075', 'NC_024076', 'NC_024074']",05/09/2014,08/13/2018,12390 nt,3,"vertebrates, invertebrates, human"
+Potyviridae,Catharanthus mosaic virus,isolate:Mandevilla-US,NC_027210,06/15/2015,08/13/2018,9575 nt,1,plants
+Peribunyaviridae,Catu virus,strain:BeH 151,"['NC_038727', 'NC_038726', 'NC_038728']",08/24/2018,08/24/2018,12024 nt,3,"vertebrates, invertebrates, human"
+Betaflexiviridae,Caucasus prunus virus,isolate:Aze204,NC_038325,08/24/2018,08/24/2018,8255 nt,4,plants
+unclassified Leviviridae,Caulobacter phage phiCb5,strain:phiCb5,NC_019453,11/16/2012,08/13/2018,3762 nt,4,bacteria
+Mesoniviridae,Cavally virus,isolate:C79,NC_015668,06/24/2011,08/13/2018,20128 nt,7,invertebrates
+Mesoniviridae,Nam Dinh virus,isolate:02VN178,NC_015874,07/29/2011,08/13/2018,20192 nt,6,invertebrates
+Paramyxoviridae,Cedar virus,isolate:CG1a,NC_025351,10/27/2014,08/13/2018,18162 nt,7,"vertebrates, human"
+Potyviridae,Celery mosaic virus,isolate:California,NC_015393,04/25/2011,08/13/2018,9999 nt,2,plants
+Flaviviridae,Cell fusing agent virus,strain:Galveston,NC_001564,08/03/1993,08/13/2018,10682 nt,1,"vertebrates, invertebrates, human"
+unclassified Dicistroviridae,Centovirus AC,strain:AC,NC_031687,11/01/2016,08/13/2018,9070 nt,2,invertebrates
+unclassified Dicistroviridae,Mosquito dicistrovirus,strain:FH1,NC_031688,11/01/2016,08/13/2018,9018 nt,2,invertebrates
+unclassified Endornaviridae,Ceratobasidium endornavirus A,isolate:Murdoch-1,NC_031462,10/18/2016,08/13/2018,15207 nt,1,fungi
+unclassified Endornaviridae,Ceratobasidium endornavirus B,isolate:Murdoch-2,NC_031463,10/18/2016,08/13/2018,23635 nt,2,fungi
+unclassified Endornaviridae,Ceratobasidium endornavirus C,isolate:Murdoch-3,NC_031461,10/20/2016,08/13/2018,21004 nt,2,fungi
+unclassified Endornaviridae,Ceratobasidium endornavirus D,isolate:Murdoch-4,NC_031449,10/17/2016,08/13/2018,19406 nt,1,fungi
+unclassified Endornaviridae,Ceratobasidium endornavirus G,isolate:Murdoch-7,NC_031464,10/18/2016,08/13/2018,19293 nt,2,fungi
+Potyviridae,Ceratobium mosaic virus,strain:CerMV-13,NC_043143,06/28/2019,06/28/2019,1720 nt,1,plants
+Partitiviridae,Ceratocystis polonica partitivirus,strain:CpPV-CMW7151,"['NC_010705', 'NC_010706']",05/20/2008,08/13/2018,4567 nt,2,plants
+Partitiviridae,Ceratocystis resinifera virus 1,-,"['NC_010755', 'NC_010754']",05/22/2008,08/13/2018,4512 nt,2,plants
+Luteoviridae,Cereal yellow dwarf virus RPS,-,NC_002198,04/12/2000,08/13/2018,5662 nt,7,plants
+Luteoviridae,Cereal yellow dwarf virus RPV,isolate:NY,NC_004751,04/28/2003,08/13/2018,5723 nt,7,plants
+Rhabdoviridae,Chaco virus,strain:BeAn42217,NC_034550,05/15/2017,08/25/2018,11397 nt,8,vertebrates
+Marnaviridae,Chaetoceros socialis forma radians RNA virus 1,-,NC_012212,03/12/2009,08/13/2018,9467 nt,2,algae
+Marnaviridae,Chaetoceros tenuissimus RNA virus 01,strain:CtenRNAV01,NC_038321,08/24/2018,08/24/2018,9431 nt,2,algae
+unclassified unclassified ssRNA viruses,Chaetoceros tenuissimus RNA virus type-II,isolate:SS10-16V,NC_025889,12/11/2014,08/13/2018,9562 nt,2,algae
+Totiviridae,Chalara elegans RNA Virus 1,-,NC_005883,06/14/2004,08/13/2018,5310 nt,2,fungi
+Rhabdoviridae,Chandipura virus,isolate:CIN 0451,NC_020805,03/26/2013,08/13/2018,11120 nt,5,"vertebrates, human"
+Phenuiviridae,Chandiru virus,-,"['NC_015374', 'NC_015373', 'NC_015375']",04/07/2011,08/13/2018,12495 nt,4,"vertebrates, invertebrates, human"
+unclassified unclassified RNA viruses ShiM-2016,Changjiang astro-like virus,strain:CJLX30757,NC_032893,01/17/2017,08/13/2018,5795 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 1,strain:CJLX30787,NC_032874,01/17/2017,08/13/2018,9103 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 2,strain:CJLX30764,NC_032850,01/17/2017,08/13/2018,8712 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 3,strain:CJLX30786,NC_032868,01/17/2017,08/13/2018,8375 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 4,strain:CLX8819,NC_032198,12/27/2016,08/13/2018,9512 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 5,strain:CJLX22437,NC_032740,01/17/2017,08/13/2018,9481 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 6,strain:CJLX30496,NC_032801,01/17/2017,08/13/2018,9743 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang crawfish virus 7,strain:CJLX29643,NC_033052,01/17/2017,08/13/2018,3919 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang hepe-like virus 1,strain:CJLX30636,NC_033039,01/17/2017,08/13/2018,10473 nt,5,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang narna-like virus 1,strain:CJLX30050,NC_033118,01/17/2017,08/13/2018,3229 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang narna-like virus 2,strain:CJLX29055,NC_033111,01/17/2017,08/13/2018,4823 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang narna-like virus 3,strain:CJLX30350,NC_033124,01/17/2017,08/13/2018,3685 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang narna-like virus 4,strain:CJLX30771,NC_033143,01/17/2017,08/13/2018,3964 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 1,strain:CJLX30149,NC_032179,12/27/2016,08/13/2018,8729 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 10,strain:CJLX30646,NC_032823,01/17/2017,08/13/2018,8158 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 11,strain:CJLX30672,NC_032833,01/17/2017,08/13/2018,8031 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 12,strain:CJLX29956,NC_032779,01/17/2017,08/13/2018,8774 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 13,strain:CJLX40994,NC_032879,01/17/2017,08/13/2018,8410 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 14,strain:CJLX29953,NC_032773,01/17/2017,08/13/2018,9296 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 15,strain:CJLX30633,NC_032816,01/17/2017,08/13/2018,9551 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 16,strain:CJLX20820,NC_032737,01/17/2017,08/13/2018,10610 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 2,strain:CJLX30436,NC_032788,01/17/2017,08/13/2018,7171 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 3,strain:CJLX28786,NC_032755,01/17/2017,08/13/2018,9316 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 4,strain:CJLX29654,NC_032761,01/17/2017,08/13/2018,8923 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 5,strain:CJLX30750,NC_032845,01/17/2017,08/13/2018,9182 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 6,strain:CJLX30470,NC_032794,01/17/2017,08/13/2018,8489 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 7,strain:CJLX30780,NC_032860,01/17/2017,08/13/2018,8266 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 8,strain:CJLX30776,NC_032855,01/17/2017,08/13/2018,8685 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang picorna-like virus 9,strain:CJLX26226,NC_032749,01/17/2017,08/13/2018,8652 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang polero-like virus 1,strain:CJLX30310,NC_033018,01/17/2017,08/13/2018,5278 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang sobemo-like virus 1,strain:CJLX29826,NC_033011,01/17/2017,08/13/2018,4863 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang sobemo-like virus 2,strain:CJLX29674,NC_033029,01/17/2017,08/13/2018,6056 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 1,strain:CJLX26263,NC_033028,01/17/2017,08/13/2018,3008 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 10,strain:CJLX21891,NC_033008,01/17/2017,08/13/2018,3776 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 11,strain:CJLX30677,NC_033191,01/17/2017,08/13/2018,3631 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 12,strain:CJLX27860,NC_033042,01/17/2017,08/13/2018,3675 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 14,strain:CJLX30318,NC_033096,01/17/2017,08/13/2018,3456 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 15,strain:CJLX30583,NC_032230,12/27/2016,08/13/2018,3639 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 16,strain:CJLX25258,NC_033016,01/17/2017,08/13/2018,3570 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 17,strain:CJLX30686,NC_033123,01/17/2017,08/13/2018,3791 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 18,strain:CJLX21588,NC_033002,01/17/2017,08/13/2018,4084 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 19,strain:CJLX57318,NC_032997,01/17/2017,08/13/2018,3051 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 2,strain:CJLX30692,NC_033135,01/17/2017,08/13/2018,3015 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 20,strain:CJLX30731,NC_033155,01/17/2017,08/13/2018,4964 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 21,strain:CJLX8746,NC_032991,01/17/2017,08/13/2018,3932 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 22,strain:CJLX30074,NC_033199,01/17/2017,08/13/2018,3608 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 3,strain:CJLX30495,NC_033104,01/17/2017,08/13/2018,4067 nt,4,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 4,strain:CJLX30236,NC_033076,01/17/2017,08/13/2018,3694 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 5,strain:CJLX42586,NC_033169,01/17/2017,08/13/2018,3929 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 6,strain:CJLX30707,NC_033142,01/17/2017,08/13/2018,3540 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 7,strain:CJLX49320,NC_033183,01/17/2017,08/13/2018,3875 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 8,strain:CJLX29920,NC_033063,01/17/2017,08/13/2018,4427 nt,3,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang tombus-like virus 9,strain:CJLX30737,NC_033161,01/17/2017,08/13/2018,4230 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changjiang zhaovirus-like virus 1,strain:CJLX30599,NC_033181,01/17/2017,08/13/2018,6844 nt,1,invertebrates
+unclassified unclassified ssRNA negative-strand viruses,Changping Tick Virus 2,strain:CP1-4,NC_028260,11/05/2015,08/13/2018,10877 nt,3,invertebrates
+unclassified unclassified ssRNA negative-strand viruses,Changping Tick Virus 3,strain:CP1-3,NC_028261,11/05/2015,08/13/2018,9527 nt,2,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changping earthworm virus 1,strain:CPQY105740,NC_032881,01/17/2017,08/13/2018,9339 nt,1,invertebrates
+unclassified unclassified RNA viruses ShiM-2016,Changping earthworm virus 2,strain:CPQY18140,"['NC_033319', 'NC_033322', 'NC_033320', 'NC_033323', 'NC_033324', 'NC_033321']",01/17/2017,08/13/2018,13141 nt,7,invertebrates
+Reoviridae,Changuinola virus,isolate:CGLV/BE AN 28873,"['NC_022637', 'NC_022634', 'NC_022642', 'NC_022640', 'NC_022639', 'NC_022635', 'NC_022641', 'NC_022636', 'NC_022638', 'NC_022633']",11/01/2013,08/13/2018,19771 nt,10,"vertebrates, invertebrates"
+Flaviviridae,Chaoyang virus,isolate:HLD115,NC_017086,07/10/2012,05/24/2019,10733 nt,2,"vertebrates, invertebrates, human"
+Arenaviridae,Chapare mammarenavirus,strain:810419,"['NC_010562', 'NC_010563']",04/05/2008,08/13/2018,10464 nt,4,"vertebrates, human"
+Tymoviridae,Chayote mosaic virus,-,NC_002588,11/21/1999,08/13/2018,6364 nt,3,"invertebrates, plants"
+Narnaviridae,Chenopodium quinoa mitovirus 1,isolate:Che1,NC_040543,02/12/2019,02/12/2019,2730 nt,1,fungi
+Reoviridae,Chenuda virus,isolate:EGY1954/01,"['NC_027538', 'NC_027537', 'NC_027550', 'NC_027536', 'NC_027535', 'NC_027552', 'NC_027534', 'NC_027551', 'NC_027548', 'NC_027549']",07/20/2015,08/13/2018,17910 nt,12,invertebrates
+unclassified Iflaviridae,Chequa iflavirus,isolate:A14-49.4,NC_036389,12/07/2017,08/22/2018,9932 nt,1,invertebrates
+Luteoviridae,Cherry associated luteovirus,isolate:Prunus 43,NC_031800,11/14/2016,08/13/2018,5857 nt,8,plants
+Betaflexiviridae,Cherry green ring mottle virus,-,NC_001946,09/14/1998,08/13/2018,8372 nt,3,plants
+Secoviridae,Cherry leaf roll virus,isolate:E395,"['NC_015415', 'NC_015414']",04/21/2011,08/13/2018,14278 nt,2,plants
+unclassified unclassified viroids,Cherry leaf scorch small circular viroid-like RNA 1,isolate:es.10,NC_022893,11/26/2013,08/13/2018,412 nt,-,
+Betaflexiviridae,Cherry mottle leaf virus,strain:SA1162-21,NC_002500,07/20/2000,08/13/2018,8018 nt,4,plants
+Betaflexiviridae,Cherry necrotic rusty mottle virus,-,NC_002468,06/22/2000,08/13/2018,8432 nt,7,plants
+Secoviridae,Cherry rasp leaf virus,isolate:potato,"['NC_006271', 'NC_006272']",07/19/2004,08/13/2018,10349 nt,2,plants
+Betaflexiviridae,Cherry rusty mottle associated virus,isolate:95CI192R3,NC_020996,04/15/2013,08/13/2018,8397 nt,7,plants
+unclassified Cherry small circular viroid-like RNA,Cherry small circular viroid-like RNA 1,isolate:cscRNA1.84,NC_028271,11/05/2015,08/13/2018,415 nt,-,plants
+Betaflexiviridae,Cherry twisted leaf associated virus,isolate:CTLV_8431,NC_024449,06/25/2014,08/13/2018,8431 nt,7,plants
+Betaflexiviridae,Cherry virus A,-,NC_003689,10/03/1995,08/13/2018,7383 nt,2,plants
+unclassified unclassified Picornavirales,Cherry virus Trakiya,isolate:PAI 2-29,NC_040561,02/12/2019,02/12/2019,8620 nt,2,
+Astroviridae,Chicken astrovirus,strain:G-4260; serotype:Avian nephritis virus 1,NC_003790,03/22/2000,08/13/2018,6927 nt,2,vertebrates
+Caliciviridae,Chicken calicivirus,strain:RS/BR/2015,NC_033081,01/17/2017,08/13/2018,8176 nt,2,vertebrates
+Picornaviridae,Chicken gallivirus 1,isolate:518C,NC_024770,09/02/2014,08/13/2018,8432 nt,1,vertebrates
+Picornaviridae,Chicken megrivirus,strain:chicken/B21-CHV/2012/HUN,NC_039235,08/24/2018,08/24/2018,9560 nt,1,vertebrates
+unclassified Picornaviridae,Chicken orivirus 1,strain:chicken/Pf-CHK1/2013/HUN,NC_025432,11/25/2014,08/13/2018,7037 nt,1,vertebrates
+Picobirnaviridae,Chicken picobirnavirus,strain:PBV/CHK/M3841/HUN/2011,"['NC_040439', 'NC_040438']",02/12/2019,06/04/2019,4232 nt,4,
+unclassified Picornaviridae,Chicken picornavirus 1,isolate:55C,NC_024765,09/02/2014,08/13/2018,8287 nt,1,vertebrates
+Picornaviridae,Chicken picornavirus 2,isolate:44C,NC_024766,09/02/2014,08/13/2018,7310 nt,1,vertebrates
+Picornaviridae,Chicken picornavirus 3,isolate:45C,NC_024767,09/02/2014,08/13/2018,7167 nt,1,vertebrates
+unclassified Picornaviridae,Chicken picornavirus 4,isolate:5C,NC_024768,09/02/2014,08/13/2018,9564 nt,1,vertebrates
+unclassified Picornaviridae,Chicken picornavirus 5,isolate:27C,NC_024769,09/02/2014,08/13/2018,9591 nt,1,vertebrates
+Picornaviridae,Chicken sicinivirus JSY,isolate:JSY,NC_028380,11/12/2015,08/13/2018,9809 nt,1,vertebrates
+Luteoviridae,Chickpea chlorotic stunt virus,isolate:Et-fb-am1,NC_008249,07/24/2006,08/13/2018,5900 nt,7,plants
+Luteoviridae,Chickpea stunt disease associated virus,strain:IC,NC_043419,03/10/1997,06/28/2019,584 nt,1,plants
+Togaviridae,Chikungunya virus,strain:S27-African prototype,NC_004162,09/06/2002,10/29/2018,11826 nt,2,"vertebrates, invertebrates, human"
+Potyviridae,Chilli ringspot virus,isolate:ChiRSV-HN/14,NC_016044,10/05/2011,08/13/2018,9595 nt,2,plants
+Potyviridae,Chilli veinal mottle virus,-,NC_005778,05/20/1999,08/13/2018,9711 nt,2,plants
+Tymoviridae,Chiltepin yellow mosaic virus,isolate:20.5,NC_014127,05/03/2010,08/13/2018,6517 nt,3,"invertebrates, plants"
+Nairoviridae,Chim orthonairovirus,strain:LEIV-858Uz,"['NC_043434', 'NC_043436', 'NC_043435']",06/28/2019,06/28/2019,18510 nt,3,"vertebrates, invertebrates, human"
+Potyviridae,Chinese artichoke mosaic virus,-,NC_043144,06/28/2019,06/28/2019,1675 nt,1,plants
+Virgaviridae,Chinese wheat mosaic virus,"isolate:Yantai, China","['NC_002356', 'NC_002359']",05/03/1999,08/13/2018,10716 nt,7,plants
+Potyviridae,Chinese yam necrotic mosaic virus,isolate:PES3,NC_018455,08/21/2012,08/13/2018,8224 nt,1,plants
+Tobaniviridae,Chinook salmon bafinivirus,isolate:NIDO,NC_026812,04/16/2015,08/13/2018,27004 nt,5,
+Reoviridae,Chiqui virus,strain:CoB 38d,"['NC_040503', 'NC_040505', 'NC_040498', 'NC_040504', 'NC_040499', 'NC_040500', 'NC_040502', 'NC_040506', 'NC_040501']",02/12/2019,02/12/2019,25028 nt,9,vertebrates
+Reoviridae,Chobar Gorge virus,isolate:NEP1970/01,"['NC_027558', 'NC_027561', 'NC_027553', 'NC_027562', 'NC_027556', 'NC_027555', 'NC_027554', 'NC_027560', 'NC_027557', 'NC_027559']",07/20/2015,08/13/2018,17899 nt,12,invertebrates
+Hantaviridae,Choclo virus,-,"['NC_038374', 'NC_038373']",08/24/2018,08/24/2018,5657 nt,2,"vertebrates, human"
+Secoviridae,Chocolate lily virus A,isolate:KP2,"['NC_016443', 'NC_016444']",12/13/2011,08/13/2018,10874 nt,2,plants
+Partitiviridae,Chondrostereum purpureum cryptic virus 1,-,"['NC_038916', 'NC_038915']",01/10/2009,08/24/2018,3677 nt,2,plants
+Reoviridae,Choristoneura occidentalis cypovirus 16,isolate:British Columbia 2006,"['NC_038648', 'NC_038649', 'NC_038652', 'NC_038645', 'NC_038651', 'NC_038646', 'NC_038647', 'NC_038650']",08/24/2018,08/24/2018,19016 nt,8,invertebrates
+unclassified unclassified ssRNA positive-strand viruses,Chronic bee paralysis virus,isolate:A-79P,"['NC_010711', 'NC_010712']",05/20/2008,08/13/2018,5979 nt,7,invertebrates
+unclassified Pelamoviroid,Chrysanthemum chlorotic mottle viroid,isolate:Horst,NC_003540,11/30/1997,08/13/2018,399 nt,-,
+Tospoviridae,Chrysanthemum stem necrosis virus,isolate:PD4412741,"['NC_027720', 'NC_027719', 'NC_027718']",08/18/2015,08/13/2018,16732 nt,5,
+unclassified Pospiviroid,Chrysanthemum stunt viroid,-,NC_002015,11/03/1982,08/13/2018,356 nt,-,
+Betaflexiviridae,Chrysanthemum virus B,isolate:Punjab,NC_009087,02/27/2007,08/13/2018,8855 nt,6,plants
+Betaflexiviridae,Chrysanthemum virus R,strain:BJ,NC_040703,02/12/2019,02/12/2019,8890 nt,6,plants
+Reoviridae,Chum salmon reovirus CS,-,"['NC_007582', 'NC_007590', 'NC_007591', 'NC_007583', 'NC_007584', 'NC_007585', 'NC_007586', 'NC_007592', 'NC_007587', 'NC_007588', 'NC_007589']",11/07/2005,08/13/2018,23015 nt,9,vertebrates
+unclassified Reoviridae,Cimodo virus,strain:C74-CI-2004,"['NC_024911', 'NC_024910', 'NC_024920', 'NC_024919', 'NC_024918', 'NC_024917', 'NC_024912', 'NC_024916', 'NC_024915', 'NC_024914', 'NC_023420', 'NC_024913']",11/12/2014,08/13/2018,24835 nt,12,vertebrates
+unclassified unclassified dsRNA viruses,Circulifer tenellus virus 1,-,NC_014360,08/05/2010,08/13/2018,8086 nt,2,invertebrates
+unclassified Cocadviroid,Citrus bark cracking viroid,-,NC_003539,12/10/1991,08/13/2018,284 nt,-,
+unclassified Apscaviroid,Citrus bent leaf viroid,strain:CBLVd-225,NC_001651,03/15/1995,08/13/2018,315 nt,-,
+unclassified Citrus coguvirus,Citrus concave gum-associated virus,isolate:CGW2,"['NC_035454', 'NC_035759']",08/24/2017,08/13/2018,9384 nt,3,plants
+unclassified Apscaviroid,Citrus dwarfing viroid,isolate:E21a,NC_003264,11/29/2001,08/13/2018,292 nt,-,
+unclassified Pospiviroid,Citrus exocortis viroid,-,NC_001464,08/02/1993,08/13/2018,371 nt,-,
+Betaflexiviridae,Citrus leaf blotch virus,isolate:SRA-153,NC_003877,05/25/2001,08/13/2018,8747 nt,3,plants
+Bromoviridae,Citrus leaf rugose virus,-,"['NC_003546', 'NC_003547', 'NC_003548']",04/05/1995,08/13/2018,8683 nt,5,plants
+Kitaviridae,Citrus leprosis virus C,isolate:Cordeiropolis,"['NC_008169', 'NC_008170']",06/19/2006,08/13/2018,13731 nt,6,plants
+Kitaviridae,Citrus leprosis virus C2,isolate:L147V1,"['NC_038849', 'NC_038848']",08/24/2018,08/24/2018,13706 nt,7,
+Aspiviridae,Citrus psorosis virus,strain:P-121,"['NC_006316', 'NC_006314', 'NC_006315']",09/24/2004,08/13/2018,11278 nt,4,plants
+Tymoviridae,Citrus sudden death-associated virus,-,NC_006950,04/07/2005,08/13/2018,6820 nt,3,"invertebrates, plants"
+Closteroviridae,Citrus tristeza virus,-,NC_001661,05/16/1995,08/13/2018,19296 nt,11,plants
+Bromoviridae,Citrus variegation virus,-,"['NC_009536', 'NC_009537', 'NC_009538']",06/07/2007,08/13/2018,8656 nt,5,plants
+Luteoviridae,Citrus vein enation virus,isolate:VE-1,NC_021564,06/18/2013,08/13/2018,5983 nt,5,plants
+unclassified Apscaviroid,Citrus viroid V,-,NC_010165,12/17/2007,08/13/2018,294 nt,-,
+unclassified Apscaviroid,Citrus viroid VI,-,NC_004359,04/03/2001,08/13/2018,330 nt,-,
+Alphaflexiviridae,Citrus yellow vein clearing virus,isolate:CQ,NC_026592,03/04/2015,08/13/2018,7531 nt,6,plants
+Flaviviridae,Classical swine fever virus,strain:strain Eystrup,NC_002657,01/28/2001,08/13/2018,12301 nt,1,vertebrates
+Flaviviridae,Classical swine fever virus - Alfort/187,strain:Alfort/187,NC_038912,06/19/1995,08/24/2018,12298 nt,1,vertebrates
+Tombusviridae,Clematis chlorotic mottle virus,-,NC_033777,02/21/2017,08/13/2018,3880 nt,5,plants
+unclassified Amalgaviridae,Cleome droserifolia amalgavirus 1,strain:CdAV1-WUR,NC_040777,02/12/2019,02/13/2019,3443 nt,2,
+Rhabdoviridae,Clerodendrum chlorotic spot virus,isolate:Prb1,"['NC_043649', 'NC_043648']",06/28/2019,06/28/2019,12629 nt,6,
+Narnaviridae,Clitocybe odora virus,isolate:C-Holm,NC_017003,03/14/2012,08/13/2018,3765 nt,1,fungi
+Potyviridae,Clitoria virus Y,-,NC_043145,06/28/2019,06/28/2019,1720 nt,1,plants
+Virgaviridae,Clitoria yellow mottle virus,isolate:Larrimah,NC_016519,12/30/2011,08/13/2018,6514 nt,4,plants
+Tymoviridae,Clitoria yellow vein virus,-,NC_038329,08/24/2018,08/24/2018,659 nt,1,"invertebrates, plants"
+Nairoviridae,Clo Mor virus,isolate:ScotAr7,"['NC_034554', 'NC_034561', 'NC_034562']",05/15/2017,08/13/2018,17833 nt,-,"vertebrates, invertebrates, human"
+Alphaflexiviridae,Clover yellow mosaic virus,-,NC_001753,03/25/1994,08/13/2018,7015 nt,5,plants
+Potyviridae,Clover yellow vein virus,strain:No.30,NC_003536,03/14/1998,08/13/2018,9584 nt,2,plants
+unclassified Endornaviridae,Cluster bean endornavirus 1,isolate:593049,NC_040825,02/12/2019,02/12/2019,12895 nt,1,
+Rhabdoviridae,Coastal Plains virus,strain:DPP53,NC_025397,10/31/2014,08/13/2018,13203 nt,9,vertebrates
+Rhabdoviridae,Cocal virus,isolate:Indiana 2,NC_028255,11/05/2015,08/13/2018,11003 nt,5,invertebrates
+Potyviridae,Coccinia mottle virus,isolate:Su12-25,NC_030840,08/29/2016,08/13/2018,9778 nt,1,plants
+Tombusviridae,Cocksfoot mild mosaic virus,isolate:Scotland,NC_011108,08/04/2008,08/13/2018,4198 nt,6,plants
+Solemoviridae,Cocksfoot mottle virus,-,NC_002618,06/29/1995,08/13/2018,4082 nt,5,plants
+Potyviridae,Cocksfoot streak virus,-,NC_003742,04/29/2002,08/13/2018,9663 nt,2,plants
+Secoviridae,Cocoa necrosis virus,isolate:ATCC PV-283; culture-collection:ATCC:PV-283,NC_043077,06/28/2019,06/28/2019,229 nt,1,plants
+unclassified Cocadviroid,Coconut cadang-cadang viroid,-,NC_001462,08/02/1993,08/13/2018,246 nt,-,
+unclassified Cocadviroid,Coconut tinangaja viroid,-,NC_001471,08/02/1993,08/13/2018,254 nt,-,
+Rhabdoviridae,Coffee ringspot dichorhavirus,strain:Lavras,"['NC_038756', 'NC_038755']",08/24/2018,08/24/2018,12497 nt,6,
+Betaflexiviridae,Cole latent virus,-,NC_038322,08/24/2018,08/24/2018,1040 nt,2,plants
+unclassified Coleviroid,Coleus blumei viroid,-,NC_003882,01/08/1997,08/13/2018,295 nt,-,
+unclassified Coleviroid,Coleus blumei viroid 1,-,NC_003681,07/13/1990,08/13/2018,248 nt,-,
+unclassified Coleviroid,Coleus blumei viroid 2,sub-species:Ruhm von Luxemburg,NC_003682,01/08/1997,08/13/2018,301 nt,-,
+unclassified Coleviroid,Coleus blumei viroid 3,-,NC_003683,01/08/1997,08/13/2018,364 nt,-,
+unclassified unclassified Coleviroid,Coleus blumei viroid 5,-,NC_012127,03/04/2009,08/13/2018,274 nt,-,
+unclassified unclassified Coleviroid,Coleus blumei viroid 6,-,NC_012805,06/15/2009,08/13/2018,342 nt,-,
+Betaflexiviridae,Coleus vein necrosis virus,-,NC_009764,08/30/2007,08/13/2018,8727 nt,6,plants
+Chrysoviridae,Colletotrichum fructicola chrysovirus 1,isolate:FJ-4,"['NC_040490', 'NC_040485', 'NC_040491', 'NC_040486', 'NC_040489', 'NC_040487', 'NC_040488']",02/12/2019,02/12/2019,16046 nt,7,fungi
+Chrysoviridae,Colletotrichum gloeosporioides chrysovirus 1,isolate:HZ-1,"['NC_043668', 'NC_043667', 'NC_043666']",06/28/2019,06/28/2019,8896 nt,3,fungi
+unclassified unclassified dsRNA viruses,Colletotrichum higginsianum non-segmented dsRNA virus 1,isolate:ChNRV1,NC_028242,11/03/2015,08/13/2018,2923 nt,2,fungi
+Rhabdoviridae,Colocasia bobone disease-associated virus,strain:SI,NC_034551,05/15/2017,08/25/2018,12193 nt,6,"invertebrates, plants"
+Potyviridae,Colombian datura virus,-,NC_020072,01/04/2013,08/13/2018,9621 nt,1,plants
+Virgaviridae,Colombian potato soil-borne virus,isolate:IS9,"['NC_029037', 'NC_029035', 'NC_029034']",01/05/2016,08/13/2018,12362 nt,7,plants
+Reoviridae,Colorado tick fever virus,strain:Florio,"['NC_004182', 'NC_004183', 'NC_004184', 'NC_004189', 'NC_004191', 'NC_004180', 'NC_004188', 'NC_004185', 'NC_004186', 'NC_004187', 'NC_004190', 'NC_004181']",08/16/2000,08/13/2018,29174 nt,13,"vertebrates, invertebrates, human"
+unclassified Pospiviroid,Columnea latent viroid,-,NC_003538,12/12/1989,08/13/2018,370 nt,-,
+Coronaviridae,Common moorhen coronavirus HKU21,strain:HKU21-8295,NC_016996,03/30/2012,08/13/2018,26223 nt,9,vertebrates
+Totiviridae,Coniothyrium minitans RNA virus,-,NC_007523,11/02/2005,08/13/2018,4975 nt,2,fungi
+Rhabdoviridae,Coot Bay almendravirus,strain:EVG5-53,NC_031957,09/21/2017,08/13/2018,10869 nt,-,
+Closteroviridae,Cordyline virus 1,isolate:Kahaluu-1,NC_038421,08/24/2018,08/24/2018,16883 nt,10,plants
+Closteroviridae,Cordyline virus 2,isolate:SJ1,NC_043453,06/28/2019,06/28/2019,15107 nt,10,plants
+Closteroviridae,Cordyline virus 3,isolate:SJ1,NC_043107,06/28/2019,06/28/2019,16274 nt,10,plants
+Closteroviridae,Cordyline virus 4,isolate:SJ1,NC_043108,06/28/2019,06/28/2019,14619 nt,10,plants
+Coronaviridae,Coronavirus AcCoV-JC34,isolate:AcCoV-JC34,NC_034972,06/13/2017,08/13/2018,27682 nt,9,vertebrates
+Reoviridae,Corriparta virus,strain:AUS1960/01; serotype:CORV-MRM1,"['NC_038566', 'NC_038570', 'NC_038573', 'NC_038571', 'NC_038565', 'NC_038567', 'NC_038569', 'NC_038564', 'NC_038572', 'NC_038568']",08/24/2018,08/24/2018,19093 nt,12,"vertebrates, invertebrates"
+Picornaviridae,Cosavirus A,strain:HCoSV-A1; isolate:0553,NC_012800,06/11/2009,08/13/2018,7632 nt,1,"vertebrates, human"
+Picornaviridae,Cosavirus D,strain:HCoSV-D1; isolate:5004,NC_012802,06/11/2009,08/13/2018,7215 nt,1,vertebrates
+Picornaviridae,Cosavirus E,strain:HCoSV-E1,NC_012798,06/11/2009,08/13/2018,6580 nt,1,vertebrates
+Picornaviridae,Cosavirus F,strain:PK5006; serotype:HCoSV-F,NC_034385,05/01/2017,08/13/2018,6656 nt,1,vertebrates
+Picornaviridae,Cosavirus JMY-2014,isolate:Cosa-CHN,NC_025961,12/24/2014,08/13/2018,7213 nt,1,vertebrates
+Luteoviridae,Cotton leafroll dwarf virus,isolate:ARG,NC_014545,10/04/2010,08/13/2018,5866 nt,7,plants
+Flaviviridae,Cowbone Ridge virus,strain:W-10986,NC_043113,06/28/2019,06/28/2019,1011 nt,1,"vertebrates, invertebrates, human"
+Potyviridae,Cowpea aphid-borne mosaic virus,isolate:CABMV-Z,NC_004013,03/02/2002,08/13/2018,9465 nt,2,plants
+Bromoviridae,Cowpea chlorotic mottle virus,-,"['NC_003541', 'NC_003543', 'NC_003542']",08/02/1993,08/13/2018,8118 nt,4,plants
+Betaflexiviridae,Cowpea mild mottle virus,isolate:Ghana,NC_014730,12/01/2010,08/13/2018,8127 nt,6,plants
+Secoviridae,Cowpea mosaic virus,-,"['NC_003550', 'NC_003549']",02/20/1985,08/13/2018,9370 nt,5,plants
+Tombusviridae,Cowpea mottle virus,-,NC_003535,07/01/1995,08/13/2018,4029 nt,6,plants
+Luteoviridae,Cowpea polerovirus 1,isolate:BE167,NC_034246,04/05/2017,08/13/2018,5845 nt,7,plants
+Luteoviridae,Cowpea polerovirus 2,isolate:BE179,NC_034247,04/05/2017,08/13/2018,5945 nt,7,plants
+Secoviridae,Cowpea severe mosaic virus,-,"['NC_003544', 'NC_003545']",08/02/1993,08/13/2018,9689 nt,2,plants
+Picornaviridae,Coxsackievirus A2,strain:Fleetwood; isolate:CA2,NC_038306,08/24/2018,06/04/2019,7398 nt,1,"vertebrates, human"
+Picornaviridae,Enterovirus A,-,NC_001612,03/08/1994,08/13/2018,7413 nt,1,"vertebrates, human"
+Picornaviridae,Coxsackievirus B3,-,NC_038307,08/24/2018,08/24/2018,7399 nt,1,"vertebrates, human"
+Picornaviridae,Enterovirus B,-,NC_001472,08/02/1993,08/13/2018,7389 nt,1,"vertebrates, human"
+Dicistroviridae,Cricket paralysis virus,-,NC_003924,07/02/2000,08/13/2018,9185 nt,2,invertebrates
+Nairoviridae,Crimean-Congo hemorrhagic fever orthonairovirus,strain:IbAr10200,"['NC_005300', 'NC_005302', 'NC_005301']",12/13/2003,08/13/2018,19146 nt,3,"vertebrates, invertebrates, human"
+Partitiviridae,Crimson clover cryptic virus 2,isolate:IPP_IncarnatSK,"['NC_038838', 'NC_038837']",08/24/2018,08/24/2018,4798 nt,2,plants
+Dicistroviridae,Cripavirus NB-1/2011/HUN,strain:NB-1/2011/HUN,NC_025219,10/03/2014,08/13/2018,9136 nt,-,invertebrates
+Picornaviridae,Crohivirus A,strain:ZM54,NC_025474,11/17/2014,08/13/2018,7321 nt,1,vertebrates
+Picornaviridae,Crohivirus B,-,NC_033819,02/27/2017,02/23/2019,7085 nt,1,vertebrates
+Narnaviridae,Cronartium ribicola mitovirus 1,isolate:CrMV1-BC-u3,NC_030393,06/30/2016,08/13/2018,2715 nt,1,fungi
+Narnaviridae,Cronartium ribicola mitovirus 2,isolate:CrMV2-BC-u3,NC_030395,06/30/2016,08/13/2018,2471 nt,1,fungi
+Narnaviridae,Cronartium ribicola mitovirus 3,isolate:CrMV3-BC-u3,NC_030396,06/30/2016,08/13/2018,2522 nt,1,fungi
+Narnaviridae,Cronartium ribicola mitovirus 4,isolate:CrMV4-BC-u3,NC_030397,06/30/2016,08/13/2018,2479 nt,1,fungi
+Narnaviridae,Cronartium ribicola mitovirus 5,isolate:CrMV5-BC-u3,NC_030399,06/30/2016,08/13/2018,2631 nt,1,fungi
+Hypoviridae,Cryphonectria hypovirus 1,-,NC_001492,08/02/1993,08/13/2018,12734 nt,2,fungi
+Hypoviridae,Cryphonectria hypovirus 2,strain:2; isolate:NB58,NC_003534,02/18/1994,08/13/2018,12507 nt,2,fungi
+Hypoviridae,Cryphonectria hypovirus 3,isolate:CHV3-GH2 (WY),NC_000960,11/29/1999,08/13/2018,9799 nt,1,fungi
+Hypoviridae,Cryphonectria hypovirus 4,strain:SR2,NC_006431,11/13/2004,08/13/2018,9149 nt,1,fungi
+Chrysoviridae,Cryphonectria nitschkei chrysovirus 1,-,"['NC_038779', 'NC_038778', 'NC_038781', 'NC_038780']",08/24/2018,08/26/2018,11470 nt,4,fungi
+unclassified unclassified dsRNA viruses,Cryphonectria parasitica bipartite mycovirus 1,strain:09269,"['NC_021222', 'NC_021223']",05/16/2013,08/13/2018,3788 nt,3,fungi
+Narnaviridae,Cryphonectria parasitica mitovirus 1-NB631,strain:NB631,NC_004046,04/14/1994,08/13/2018,2728 nt,1,fungi
