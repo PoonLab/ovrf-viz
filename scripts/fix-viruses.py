@@ -1,3 +1,9 @@
+"""
+The subtitles in the .tbl file are not consistently virus family names.
+Use the NCBI taxonomy database to query the virus name and retrieve the
+family annotation.
+"""
+
 from scraper import *
 from csv import DictReader, DictWriter
 from time import sleep
@@ -29,8 +35,9 @@ for row in reader:
     pass  # scan through to last row
 
 last_accn = row['Accession']
-if type(last_accn) is list:
-    last_accn = last_accn[0]
+if last_accn.startswith('['):
+    # parse as list
+    last_accn = last_accn.strip('"[]"').split(',')[0].strip("'")
 
 
 handle = open('../data/viruses-fixed.csv', 'w')
