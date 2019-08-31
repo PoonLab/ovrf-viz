@@ -9,7 +9,6 @@ from csv import DictReader, DictWriter
 from time import sleep
 import sys
 from Bio import Entrez
-import xml.etree.ElementTree as ET
 
 tbl = '../data/taxid10239.tbl'
 taxid = parse_table(tbl)
@@ -73,7 +72,7 @@ for row in taxid:
         print(row)
 
         #gid = retrieve_gid(accn)
-        handle = Entrez.esearch(db='taxonomy', term=row['Genome'])
+        handle = Entrez.esearch(db='taxonomy', term='"{}"'.format(row['Genome']))
         response = Entrez.read(handle)
         taxid = response['IdList'][0]
 
