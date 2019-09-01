@@ -59,8 +59,10 @@ for row in taxid:
     family = row['Family']
     if not family.endswith('viridae') and not family.endswith('litidae'):
         accn = row['Accession']
-        if type(accn) is list:
-            accn = accn[0]
+        if accn.startswith('['):
+            # handle multi-accession record
+            items = map(lambda x: x.strip("'"), accn.strip('[]').split(', '))
+            accn = next(items)
 
         if accn == last_accn:
             restart = True

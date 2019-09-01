@@ -24,8 +24,14 @@ levels(overlaps$accn) <- unique(orfs$accno)
 temp <- sapply(split(overlaps$overlap, overlaps$accn), length)
 noverlaps <- data.frame(accn=names(temp), count=temp)
 
-foo <- sapply(noverlaps$accn[1:10], function(accn) {
+index <- sapply(noverlaps$accn, function(accn) {
   which(grepl(as.character(accn), virus$Accession))
 })
 
-noverlaps$genome <- 
+noverlaps$genome <- virus$Genome[index]
+
+temp <- sapply(split(noverlaps$count, noverlaps$genome), sum)
+index <- match(virus$Genome, names(temp))
+virus$n.overlaps <- temp[index]
+
+plot(virus$Genome.length, virus$n.overlaps, log='x')
