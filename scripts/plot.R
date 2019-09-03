@@ -14,10 +14,6 @@ par(mfrow=c(1,1), mar=c(5,5,1,1))
 plot(virus$Genome.length, virus$Number.of.proteins, log='x')
 
 
-table(virus$Family)
-boxplot(split(log10(virus$Genome.length), virus$Family))
-boxplot(split(log10(virus$Number.of.proteins), virus$Family))
-
 
 # listing of reading frames in all genomes
 orfs <- read.csv('orfs-fixed.csv')
@@ -31,6 +27,7 @@ overlaps <- read.csv('ovrfs-reduced.csv')
 # 1. how many overlaps per genome?
 # levels(overlaps$accn) <- unique(orfs$accno)  # FIXME: this doesn't work
 
+# add levels without overlaps
 overlaps$accn <- factor(
   overlaps$accn, levels=c(
     levels(overlaps$accn), 
@@ -42,19 +39,38 @@ noverlaps <- data.frame(accn=names(temp), count=temp)
 
 noverlaps$mean.olen <- sapply(split(overlaps$overlap, overlaps$accn), mean)
 
+
 # sum total number of overlaps per genome
-index <- sapply(noverlaps$accn, function(accn) {
-  which(grepl(as.character(accn), virus$Accession))
+virus$first.acc <- sapply(virus$Accession, function(x) {
+  xx <- as.character(x)
+  if (grepl("^\\[", xx)) {
+    gsub("^\\['([A-Z0-9_]+)'.+", "\\1", xx)
+  } else {
+    xx
+  }
 })
 
-noverlaps$genome <- virus$Genome[index]
+index <- match(virus$first.acc, virunoverlaps$accn)
+virus$n.overlaps <- noverlaps$count[index]
 
-temp <- sapply(split(noverlaps$count, noverlaps$genome), sum)
-index <- match(virus$Genome, names(temp))
-virus$n.overlaps <- temp[index]
+# carry over Genome to <noverlaps>
+all.acc <- sapply(1:nrow(virus), function(i) {
+  xx <- as.character(virus$Accession[i])
+  if (grepl("^\\[", xx)) {
+    x2 <- gsub("[\\]'\\[]", "", xx, perl=T)
+    strsplit(x2, ", ")[[1]]
+  } else {
+    xx
+  }
+})
+all.acc <- data.frame(acc=unlist(all.acc), genome=rep(virus$Genome, times=sapply(all.acc, length)))
+
+index2 <- match(noverlaps$accn, all.acc$acc)
+noverlaps$genome <- all.acc$genome[index2]
 
 temp <- sapply(split(noverlaps$mean.olen/noverlaps$count, noverlaps$genome), mean)
-virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index] * virus$n.overlaps)
+index3 <- match(virus$Genome, names(temp))
+virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index3] * virus$n.overlaps)
 
 
 set.seed(6)
@@ -66,14 +82,18 @@ y <- virus$n.overlaps
 y[y==0] <- 0.5
 y <- jitter(y)
 
+
+pdf(file='viruses.pdf', width=6, height=6)
 par(mfrow=c(1,1), mar=c(5,5,1,1))
 plot(x, y, log='xy', cex=ifelse(is.na(virus$len.overlaps), 0.1, sqrt(virus$len.overlaps)/10),
      col=ifelse(is.element(virus$Family, 
                            c('Siphoviridae', 'Myoviridae', 'Podaviridae', 'Herelleviridae')), 
                 'salmon', 'black'),
      xlab='Number of ORFs', ylab='Number of overlaps')
-points(x[3725], y[3725], pch=16, col='red', cex=2)
+z <- which(virus$Genome=='Hepatitis B virus')
+points(x[z], y[z], pch=16, col='red', cex=2)
 abline(a=0, b=1, col=rgb(0,0,0,0.5), lty=2)
+dev.off()
 
 # =========
 
