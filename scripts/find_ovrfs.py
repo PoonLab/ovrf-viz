@@ -8,6 +8,11 @@
 from csv import DictReader
 
 def get_records(file):
+    """
+    Stream through CSV file, grouping rows by accession
+    :param file:
+    :return:
+    """
     reader = DictReader(open(file))
     this_accn = None
     part = []
