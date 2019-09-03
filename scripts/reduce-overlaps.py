@@ -15,6 +15,7 @@ outfile = open('../data/ovrfs-reduced.csv', 'w')
 writer = DictWriter(outfile, fieldnames=[
     'accn', 'prod1', 'loc1', 'dir1', 'prod2', 'loc2', 'dir2', 'seqlen1', 'seqlen2', 'overlap', 'shift'
 ])
+writer.writeheader()
 
 # read first row
 prev_row = next(reader)
