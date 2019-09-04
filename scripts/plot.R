@@ -1,16 +1,23 @@
 setwd('~/git/ovrf-review/data')
 virus <- read.csv('viruses.csv')
 
+# TODO: exclude the following accession numbers:
+# NC_042059
+
+
 virus$Genome.length <- as.integer(gsub(' nt$', '', virus$Genome.length))
 #summary(virus)
 
 virus$Number.of.proteins[virus$Number.of.proteins=='-'] <- NA
-virus$Number.of.proteins <- as.integer(as.character(virus$Number.of.proteins))
+virus$Number.of.proteins <- as.integer(as.character(
+  virus$Number.of.proteins))
 summary(virus)
 
 
 # the number of ORFs increases linearly with genome size
 par(mfrow=c(1,1), mar=c(5,5,1,1))
+plot(virus$Genome.length, virus$Number.of.proteins, 
+     xlim=c(0, 5e5), ylim=c(0, 1000))
 plot(virus$Genome.length, virus$Number.of.proteins, log='x')
 
 
@@ -50,7 +57,7 @@ virus$first.acc <- sapply(virus$Accession, function(x) {
   }
 })
 
-index <- match(virus$first.acc, virunoverlaps$accn)
+index <- match(virus$first.acc, noverlaps$accn)
 virus$n.overlaps <- noverlaps$count[index]
 
 # carry over Genome to <noverlaps>
@@ -79,13 +86,15 @@ pal <- sample(pal, size=20, replace=F)
 
 x <- virus$Number.of.proteins
 y <- virus$n.overlaps
+plot(x,y)
 y[y==0] <- 0.5
 y <- jitter(y)
 
 
 pdf(file='viruses.pdf', width=6, height=6)
 par(mfrow=c(1,1), mar=c(5,5,1,1))
-plot(x, y, log='xy', cex=ifelse(is.na(virus$len.overlaps), 0.1, sqrt(virus$len.overlaps)/10),
+plot(x, y, log='xy', 
+     cex=ifelse(is.na(virus$len.overlaps), 0.1, sqrt(virus$len.overlaps)/10),
      col=ifelse(is.element(virus$Family, 
                            c('Siphoviridae', 'Myoviridae', 'Podaviridae', 'Herelleviridae')), 
                 'salmon', 'black'),
