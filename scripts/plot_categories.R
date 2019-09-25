@@ -64,11 +64,12 @@ index3 <- match(virus$Genome, names(temp))
 virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index3] * virus$n.overlaps)
 
 #START PLOT
-pdf(file='viruses_colored.pdf', width=8, height=10)
+pdf(file='viruses_colored2.pdf', width=8, height=11)
 par(mfrow=c(3,2), mar=c(5,5,1,1))
 ############################
 x <- virus$Genome.length
-y <- virus$Number.of.overlaps
+y <- virus$n.overlaps
+y[y==0] <- 0.5
 molecules= c("DNA", "RNA")
 plot(x,y, log = 'xy', type='n', xlab="Genome length", ylab = "Number of overlaps")
 '%ni%' <- Negate('%in%')
@@ -76,7 +77,6 @@ points( x[virus$Molecule.type%ni%molecules], y[virus$Molecule.type%ni%molecules]
 points( x[virus$Molecule.type%in%'DNA'], y[virus$Molecule.type%in%'DNA'], col='yellowgreen', pch=16)
 points( x[virus$Molecule.type%in%'RNA'], y[virus$Molecule.type%in%'RNA'], col='plum4', pch=17)
 legend("topleft", legend=c('Other',"DNA", "RNA"), fill =c('yellow2', 'yellowgreen','plum4'))
-plot(x,y, log='xy',col=as.numeric(virus$Molecule.type))
 
 
 ###############################
@@ -97,7 +97,6 @@ points( a[virus$Molecule.type%ni%molecules], b[virus$Molecule.type%ni%molecules]
 points( a[virus$Molecule.type%in%'DNA'], b[virus$Molecule.type%in%'DNA'], col='yellowgreen', pch=16)
 points( a[virus$Molecule.type%in%'RNA'], b[virus$Molecule.type%in%'RNA'], col='plum4', pch=17)
 legend("topleft", legend=c('Other',"DNA", "RNA"), fill =c('yellow2', 'yellowgreen','plum4'))
-plot(a,b,log='xy', col=as.numeric(virus$Molecule.type))
 
 ###########################
 #Plot according to Host
@@ -121,9 +120,37 @@ plot(a,b, log='xy', type='n', col=as.numeric(virus$Molecule.type), cex=1, pch=as
 points( a[virus$Topology%in%'linear'], b[virus$Topology%in%'linear'], col='yellowgreen', pch=16)
 points( a[virus$Topology%in%'circular'], b[virus$Topology%in%'circular'], col='plum4', pch=17)
 legend("topleft", legend=c('Linear',"Circular"), fill=c('yellowgreen','plum4'))
-dev.off()
+
 
 ############################
+# BY MOLECULE
+x<- virus$Genome.length
+y <-virus$len.overlaps
+plot(x,y, log = 'xy', type='n', xlab = 'Genome length', ylab='Overalps lenght')
+
+points( x[virus$Molecule.type%in%'DNA'], y[virus$Molecule.type%in%'DNA'], col='yellowgreen', pch=16)
+points( x[virus$Molecule.type%in%'RNA'], y[virus$Molecule.type%in%'RNA'], col='plum4', pch=17)
+points( x[virus$Molecule.type%ni%molecules], y[virus$Molecule.type%ni%molecules], col='yellow2', pch=5)
+legend("topleft", legend=c('Other',"DNA", "RNA"), fill =c('yellow2', 'yellowgreen','plum4'))
+abline(a=0, b=1, col="red", lty=2, lwd=3)
+
+#BY HOST
+plot(x,y, log = 'xy', type='n', xlab = 'Genome length', ylab='Overalps lenght')
+points( x[virus$Host%in%'bacteria'], y[virus$Host%in%'bacteria'], col='yellowgreen', pch=4)
+points( x[virus$Host%in%'vertebrates'], y[virus$Host%in%'vertebrates'], col='plum4', pch=5)
+points( x[virus$Host%in%'plants'], y[virus$Host%in%'plants'], col='yellow2', pch=8)
+points( x[virus$Host%in%'invertebrates'], y[virus$Host%in%'invertebrates'], col='darkorange', pch=16)
+points( x[virus$Host%in%'fungi'], y[virus$Host%in%'fungi'], col='firebrick', pch=18)
+points( x[virus$Host%in%'archaea'], y[virus$Host%in%'archaea'], col='palevioletred', pch=19)
+points( x[virus$Host%in%'protozoa'], y[virus$Host%in%'protozoa'], col='dodgerblue3', pch=17)
+abline(a=0, b=1, col="red", lty=2, lwd=3)
+legend('topleft', legend= c('Bacteria', 'Vertebrates', 'Plants', 'Invertebrates', 'Fungi', 'Archea', 'Protozoa'), 
+       fill = c('yellowgreen', 'plum4', 'yellow2', 'darkorange', 'firebrick', 'palevioletred', 'dodgerblue3'))
+
+dev.off()
+############################
+
+
 # Checking extreme entries
 too_long <- virus %>% filter(virus$Number.of.proteins > 500)
 too_short<- virus %>% filter(virus$Number.of.proteins <= 1)
@@ -146,6 +173,14 @@ out <-sapply(one_p_taxonomy, no_special_ch)
 x<-as.character(one_p_taxonomy[5])
 x<-gsub("\'|\\[|\\]", "", xx)
 
+sapply(1:nrow(virus), function(i) {
+  row <- virus[i,]
+  (row$n.overlaps>row$Genome.length)
+})
 
+subset(virus, n.overlaps>Genome.length)
+
+sub <- subset(virus, n.overlaps < 1)
+sub <- subset(virus, n.overlaps > Number.of.proteins)
 
 
