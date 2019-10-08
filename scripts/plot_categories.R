@@ -152,10 +152,7 @@ dev.off()
 
 
 # Checking extreme entries
-too_long <- virus %>% filter(virus$Number.of.proteins > 500)
-too_short<- virus %>% filter(virus$Number.of.proteins <= 1)
 
-long_overlap <- virus%>% filter(virus$len.overlaps >1000)
 
 # Checking outliers
 one_protein <- virus[which(virus$Number.of.proteins == 1),]
@@ -183,4 +180,17 @@ subset(virus, n.overlaps>Genome.length)
 sub <- subset(virus, n.overlaps < 1)
 sub <- subset(virus, n.overlaps > Number.of.proteins)
 
+# Entries with no overlap 
+no_ov <- subset(virus, n.overlaps==0)
+# No overlap with only one protein
+more_than_one <- subset(no_ov, Number.of.proteins >1)
+one_prot <- subset(virus, Number.of.proteins==1)
+# No overlaps, more than one protein
+more_than_100 <- subset(no_ov, Number.of.proteins > 100)
+less_than_10 <- subset(more_than_one, Number.of.proteins<10)
+dim(less_than_10)
 
+
+#####
+# Longest overlaps
+long_ov<-subset(virus, len.overlaps > 3000)

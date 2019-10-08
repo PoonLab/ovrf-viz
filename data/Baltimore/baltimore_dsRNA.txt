@@ -1,0 +1,62 @@
+Baltimore: ds_RNA
+    Order: Unassigned
+
+        Amalgaviridae
+                Amalgavirus
+        Birnaviridae
+                Aquabirnavirus
+                Avibirnavirus
+                Blosnavirus
+                Entomobirnavirus
+        Chrysoviridae
+                Chrysovirus
+
+        Cystoviridae
+                Cystovirus
+
+        Endornaviridae
+                Alphaendornavirus
+                Betaendornavirus
+        Hypoviridae
+                Hypovirus
+        Megabirnaviridae
+                Megabirnavirus
+        Partitiviridae
+                Alphapartitivirus
+                Betapartitivirus
+                Cryspovirus
+                Gammapartitivirus
+                Deltapartitivirus
+        Picobirnaviridae
+                Picobirnavirus
+        Quadriviridae
+                Quadrivirus
+        Reoviridae
+            Spinareovirinae
+                Aquareovirus
+                Coltivirus
+                Cypovirus
+                Dinovernavirus
+                Fijivirus
+                Idnoreovirus
+                Mycoreovirus
+                Orthoreovirus
+                Oryzavirus
+            Sedoreovirinae
+                Cardoreovirus
+                Mimoreovirus
+                Orbivirus
+                Phytoreovirus
+                Rotavirus
+                Seadornavirus
+
+        Totiviridae
+                Giardiavirus
+                Leishmaniavirus
+                Totivirus
+                Trichomonasvirus
+                Victorivirus
+
+
+        Family:unassigned
+                Botybirnavirus

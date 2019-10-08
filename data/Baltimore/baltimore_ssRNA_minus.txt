@@ -1,0 +1,102 @@
+Baltimore: ss_RNA_-
+    Order: Monomegavirales
+
+        Bornaviridae
+                Orthobornavirus
+                Carbovirus
+        Filoviridae
+                Cuevavirus
+                Ebolavirus
+                Marburgvirus
+
+        Mymonaviridae
+                Sclerotimonavirus
+
+        Nyamiviridae
+                Nyavirus
+                Peropuvirus
+                Socyvirus
+        Paramyxoviridae
+                Aquaparamyxovirus
+                Avulavirus
+                Ferlavirus
+                Henipavirus
+                Morbillivirus
+                Respirovirus
+                Rubulavirus
+        Pneumoviridae
+                Metapneumovirus
+                Orthopneumovirus
+        Rhabdoviridae
+                Almendravirus
+                Cytorhabdovirus
+                Curiovirus
+                Dichorhavirus
+                Ephemerovirus
+                Hapavirus
+                Ledantevirus
+                Lyssavirus
+                Novirhabdovirus
+                Nucleorhabdovirus
+                Perhabdovirus
+                Sigmavirus
+                Sprivivirus
+                Sripuvirus
+                Tibrovirus
+                Tupavirus
+                Varicosavirus
+                Vesiculovirus
+        Sunviridae
+                Sunshinevirus
+        Family: unassigned
+                Anphevirus
+                Arlivirus
+                Crustavirus
+    Order: Bunyavirales
+
+        Fimoviridae
+                Emaravirus
+        Hantaviridae
+                Orthohantavirus
+        Nairoviridae
+                Orthonairovirus
+        Phasmaviridae
+                Jonvirus 2018
+                Feravirus 2018
+                Orthophasmavirus
+
+        Phenuiviridae
+                Goukovirus
+                Phasivirus
+                Phlebovirus
+
+                Tenuivirus
+
+        Peribunyaviridae
+                Herbevirus
+                Orthobunyavirus
+                Tospovirus
+
+    Order: Unassigned
+
+        Arenaviridae
+                Hartmanivirus
+                Mammarenavirus
+                Reptarenavirus
+
+        Aspiviridae
+                Ophiovirus
+
+        Orthomyxoviridae
+                Alphainfluenzavirus
+                    H1N1
+                    H5N1
+                Betainfluenzavirus
+                Gammainfluenzavirus
+                Deltainfluenzavirus
+                Isavirus
+                Quaranjavirus
+                Thogotovirus
+
+        Family: unassigned
+                Tilapinevirus

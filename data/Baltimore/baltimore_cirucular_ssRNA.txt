@@ -1,0 +1,20 @@
+Baltimore: circular_ss_RNA
+    Family: Unassigned
+
+            Deltavirus
+
+
+    Viroids
+
+        Avsunviroidae
+            Avsunviroid
+            Elaviroid
+            Pelamoviroid
+
+        Pospiviroidae
+            Apscaviroid
+            Cocadviroid
+            Coleviroid
+            Hostuviroid
+            Pospiviroid
+

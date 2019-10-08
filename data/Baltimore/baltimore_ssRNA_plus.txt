@@ -1,0 +1,274 @@
+Baltimore: ss_RNA_+
+    Order: Nidovirales
+
+        Arteriviridae
+            Crocarterivirinae
+                Muarterivirus
+            Equarterivirinae
+                Alphaarterivirus
+            Heroarterivirinae
+                Lambdaarterivirus
+            Simarterivirinae
+                Simartevirus
+                “Deltaarterivirus”
+                “Etaarterivirus”
+                “Epsilonarterivirus”
+                “Iotaarterivirus”
+                “Thetaarterivirus”
+                “Zetaarterivirus”
+            Variarterivirinae
+                Betaarterivirus
+                Gammaartevirus
+            Zealarterivirinae
+                Kappaarterivirus
+        Coronaviridae
+            Coronavirinae
+                Alphacoronavirus
+                Betacoronavirus
+                Gammacoronavirus
+                Deltacoronavirus
+            Torovirinae
+                Bafinivirus
+                Torovirus
+        Mesoniviridae
+                Alphamesonivirus
+        Roniviridae
+                Okavirus
+    Order: Picornavirales
+        Dicistroviridae
+
+            Aparavirus
+            Cripavirus
+            Triatovirus
+
+        Iflaviridae
+
+                Iflavirus
+
+        Marnaviridae
+
+                Marnavirus
+
+        Picornaviridae
+            Ampivirus
+            Aphthovirus
+            Aquamavirus
+            Avihepatovirus
+            Avisivirus
+            Cardiovirus
+            Crohivirus
+            Cosavirus
+            Dicipivirus
+            Enterovirus
+            Erbovirus
+            Gallivirus
+            Harkavirus
+            Hepatovirus
+            Hunnivirus
+            Kobuvirus
+            Kunsagivirus
+            Limnipivirus
+            Megrivirus
+            Mischivirus
+            Mosavirus
+            Oscivirus
+            Parechovirus
+            Pasivirus
+            Passerivirus
+            Potamipivirus
+            Rabovirus
+            Rosavirus
+            Sakobuvirus
+            Salivirus
+            Sapelovirus
+            Senecavirus
+            Sicinivirus
+            Teschovirus
+            Torchivirus
+            Tremovirus
+
+        Polycipiviridae
+
+                Chipolycivirus
+                Hupolycivirus
+                Sopolycivirus
+
+        Secoviridae
+
+                Cheravirus
+                Sadwavirus
+                Sequivirus
+                Torradovirus
+                Waikavirus
+            Comovirinae
+                Comovirus
+                Fabavirus
+                Nepovirus
+
+        Family: Unassigned
+
+                Bacillarnavirus
+                Labyrnavirus
+
+    Order: Tymovirales
+
+        Alphaflexiviridae
+                Allexivirus
+                Botrexvirus
+                Lolavirus
+                Mandarivirus
+                Platypuvirus
+                Potexvirus
+                Sclerodarnavirus
+
+
+
+        Betaflexiviridae
+            Quinvirinae
+                Carlavirus
+                Foveavirus
+                Robigovirus
+            Trivirinae
+                Capillovirus
+                Chordovirus
+                Citrivirus
+                Divavirus
+                Prunevirus
+                Tepovirus
+                Trichovirus
+                Vitivirus
+
+
+
+        Gammaflexiviridae
+                Mycoflexivirus
+        Deltaflexiviridae
+                Deltaflexivirus
+        Tymoviridae
+                Maculavirus
+                Marafivirus
+                Tymovirus
+    Order: Unassigned
+
+        Alphatetraviridae
+                Betatetravirus
+                Omegatetravirus
+        Alvernaviridae
+                Dinornavirus
+        Astroviridae
+                Avastrovirus
+                Mamastrovirus
+        Barnaviridae
+                Barnavirus
+        Benyviridae
+                Benyvirus
+        Bromoviridae
+                Alfamovirus
+                Anulavirus
+                Bromovirus
+                Cucumovirus
+                Ilarvirus
+                Oleavirus
+        Caliciviridae
+                Lagovirus
+                Nebovirus
+                Norovirus
+                Sapovirus
+                Vesivirus
+        Carmotetraviridae
+                Alphacarmotetravirus
+        Closteroviridae
+                Ampelovirus
+                Closterovirus
+                Crinivirus
+                Velarivirus
+
+        Flaviviridae
+                Flavivirus
+                Hepacivirus
+                Pegivirus
+                Pestivirus
+
+        Hepeviridae
+                Orthohepevirus
+                Piscihepevirus
+        Leviviridae
+                Allolevivirus
+                Levivirus
+        Luteoviridae
+                Enamovirus
+                Luteovirus
+                Polerovirus
+        Narnaviridae
+                Mitovirus
+                Narnavirus
+
+        Nodaviridae
+                Alphanodavirus
+                Betanodavirus
+        Permutotetraviridae
+                Alphapermutotetravirus
+        Potyviridae
+                Bevemovirus
+                Brambyvirus
+                Bymovirus
+                Ipomovirus
+                Macluravirus
+                Poacevirus
+                Potyvirus
+                Roymovirus
+                Rymovirus
+                Tritimovirus
+        Sarthroviridae
+                Macronovirus
+        Solemoviridae
+                Polemovirus
+                Sobemovirus
+        Solinviviridae
+                Invictavirus
+                Nyfulvavirus
+
+        Togaviridae
+                Alphavirus
+                Rubivirus
+
+        Tombusviridae
+            Alphacarmovirus
+            Alphanecrovirus
+            Aureusvirus
+            Avenavirus
+            Betanecrovirus
+            Betacarmovirus
+            Dianthovirus
+            Gallantivirus
+            Gammacarmovirus
+            Macanavirus
+            Machlomovirus
+            Panicovirus
+            Pelarspovirus
+            Tombusvirus
+            Umbravirus
+            Zeavirus
+
+        Virgaviridae
+
+                Furovirus
+                Goravirus
+                Hordeivirus
+                Pecluvirus
+                Pomovirus
+                Tobamovirus
+                Tobravirus
+
+    Family: Unassigned
+
+            Albetovirus
+            Aumaivirus
+            Blunervirus
+            Cilevirus
+            Higrevirus
+            Idaeovirus
+            Ourmiavirus
+            Papanivirus
+            Sinaivirus
+            Virtovirus

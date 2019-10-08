@@ -1,0 +1,125 @@
+Baltimore: ss_DNA
+    Order: Unassigned
+        Bacilladnaviridae
+                Diatodnavirus
+                Kieseladnavirus
+                Protobacilladnavirus
+
+        Circoviridae
+                Circovirus
+                Cyclovirus
+
+        Geminiviridae
+                Becurtovirus
+                Begomovirus
+                Capulavirus
+                Curtovirus
+                Grablovirus
+                Eragrovirus
+                Mastrevirus
+                Topocuvirus
+                Turncurtovirus
+
+        Nanoviridae
+                Babuvirus
+                Nanovirus
+
+
+
+        Genomoviridae
+                Gemycircularvirus
+                Gemyduguivirus
+                Gemygorvirus
+                Gemykibivirus
+                Gemykolovirus
+                Gemykrogvirus
+                Gemykroznavirus
+                Gemytondvirus
+                Gemyvongvirus
+
+        Parvoviridae
+            Parvovirinae
+                Amdoparvovirus
+                Aveparvovirus
+                Bocaparvovirus
+                Copiparvovirus
+                Dependoparvovirus
+                Erythroparvovirus
+                Protoparvovirus
+                Tetraparvovirus
+            Densovirinae
+                Ambidensovirus
+                Brevidensovirus
+                Hepandensovirus
+                Iteradensovirus
+                Penstyldensovirus
+    
+        Inoviridae
+                Fibrovirus
+                Habenivirus
+                Inovirus
+                Lineavirus
+                Plectrovirus
+                Saetivirus
+                Vespertilliovirus
+
+        Microviridae
+            Bullavirinae
+                Alpha3microvirus
+                G4microvirus
+                Phix174microvirus
+            Gokushovirinae
+                Bdellomicrovirus
+                Chlamydiamicrovirus
+                Spiromicrovirus
+
+        Smacoviridae
+                Bovismacovirus
+                Cosmacovirus
+                Dragsmacovirus
+                Drosmacovirus
+                Huchismacovirus
+                Porprismacovirus
+
+        Alphasatellitidae
+            Geminialphasatellitinae
+                Ageyesisatellite
+                Clecrusatellite
+                Colecusatellite
+                Gosmusatellite
+            Nanoalphasatellitinae
+                Babusatellite
+                Clostunsatellite
+                Fabenesatellite
+                Milvetsatellite
+                Mivedwarsatellite
+                Subclovsatellite
+                Sophoyesatellite
+        Tolecusatellitidae
+                Betasatellite
+                Deltasatellite
+
+
+
+        Anelloviridae
+                Alphatorquevirus
+                Betatorquevirus
+                Deltatorquevirus
+                Epsilontorquevirus
+                Etatorquevirus
+                Gammatorquevirus
+                Gyrovirus
+                Iotatorquevirus
+                Kappatorquevirus
+                Lambdatorquevirus
+                Thetatorquevirus
+                Zetatorquevirus
+        Bidnaviridae
+                Bidensovirus
+
+        Pleolipoviridae
+                Alphapleolipovirus
+                Betapleolipovirus
+                Gammapleolipovirus
+        Spiraviridae
+                Alphaspiravirus

@@ -1,0 +1,50 @@
+Baltimore: RT_viruses
+    Order: Retrovirales
+        Caulimoviridae
+
+            Badnavirus
+            Caulimovirus
+            Cavemovirus
+            Petuvirus
+            Rosadnavirus
+            Solendovirus
+            Soymovirus
+            Tungrovirus
+
+        Belpaoviridae
+            Semotivirus
+        Metaviridae
+            Metavirus
+            Errantivirus
+        Pseudoviridae
+            Hemivirus
+            Pseudovirus
+            Sirevirus
+
+
+        Retroviridae
+            Orthoretrovirinae
+                Alpharetrovirus
+                Betaretrovirus
+                Gammaretrovirus
+                Deltaretrovirus
+                    PTLV-1
+                    PTLV-2
+                    PTLV-3
+                    PTLV-4
+                    BLV
+                Epsilonretrovirus
+                Lentivirus
+                    HIV-1
+                    HIV-2
+            Spumaretrovirinae
+                Simiispumavirus
+                Bovispumavirus
+                Equispumavirus
+                Felispumavirus
+                Prosimiispumavirus
+
+        Order: Unassigned
+            Hepadnaviridae
+                    Orthohepadnavirus
+                    Avihepadnavirus
