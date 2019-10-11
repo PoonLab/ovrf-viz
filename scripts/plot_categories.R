@@ -78,9 +78,7 @@ points( x[virus$Molecule.type%in%'DNA'], y[virus$Molecule.type%in%'DNA'], col='y
 points( x[virus$Molecule.type%in%'RNA'], y[virus$Molecule.type%in%'RNA'], col='plum4', pch=17)
 legend("topleft", legend=c('Other',"DNA", "RNA"), fill =c('yellow2', 'yellowgreen','plum4'))
 
-
 ###############################
-
 a <- virus$Number.of.proteins
 b <- virus$n.overlaps
 b[b==0] <- 0.5
@@ -194,3 +192,34 @@ dim(less_than_10)
 #####
 # Longest overlaps
 long_ov<-subset(virus, len.overlaps > 3000)
+
+########################
+
+# File with Baltimore info
+setwd('~/Projects/ovrf-review/data/Baltimore')
+virus <- read.csv('species_file_baltimore.csv')
+plot(table(virus_edited$baltimore.class))
+
+
+a <- virus$Number.of.proteins
+b <- virus$n.overlaps
+b[b==0] <- 0.5
+b <- jitter(b)
+a <- jitter(a)
+
+###########################
+# Plot according to Molecule
+plot(a,b, log='xy', type='n', col=as.numeric(virus$Molecule.type), cex=1, pch=as.numeric(virus$Topology), 
+     xlab = 'Number of ORFs', ylab = 'Number of overlaps')
+
+points( a[virus$baltimore.class%in%'Unknown'], b[virus$baltimore.class%in%'Unknown'], col='dodgerblue3', pch=17)
+points( a[virus$baltimore.class%in%'ds_DNA'], b[virus$baltimore.class%in%'ds_DNA'], col='plum4', pch=5)
+points( a[virus$baltimore.class%in%'ds_RNA'], b[virus$baltimore.class%in%'ds_RNA'], col='yellow2', pch=8)
+points( a[virus$baltimore.class%in%'ss_DNA'], b[virus$baltimore.class%in%'ss_DNA'], col='firebrick', pch=18)
+points( a[virus$baltimore.class%in%'ss_RNA_-'], b[virus$baltimore.class%in%'ss_RNA_-'], col='palevioletred', pch=19)
+points( a[virus$baltimore.class%in%'ss_RNA_+'], b[virus$baltimore.class%in%'ss_RNA_+'], col='green', pch=17)
+points( a[virus$baltimore.class%in%'RT_viruses'], b[virus$baltimore.class%in%'RT_viruses'], col='darkorange', pch=16)
+points( a[virus$baltimore.class%in%'circular_ss_RNA'], b[virus$baltimore.class%in%'circular_ss_RNA'], col='yellowgreen', pch=4)
+
+legend('topleft', legend= c('Bacteria', 'Vertebrates', 'Plants', 'Invertebrates', 'Fungi', 'Archea', 'Protozoa'), 
+       fill = c('yellowgreen', 'plum4', 'yellow2', 'darkorange', 'firebrick', 'palevioletred', 'dodgerblue3'))
