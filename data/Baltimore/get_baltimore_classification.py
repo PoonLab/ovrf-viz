@@ -21,6 +21,7 @@ for filename in filename_list:
                 elif 'dae' in line:
                     my_line = line.strip()
                     families.append(my_line)
+
                 line = fp.readline()
                 cnt += 1
                 # elif 'unassigned' in line:
@@ -37,25 +38,33 @@ species_file = pd.read_csv(species_file_name,converters={"Taxonomy": lambda x: x
 print(len(species_file))
 subset = species_file[0:100]
 baltimore_class = []
+viral_family = []
 
-
-#print(subset)
 
 for row in species_file['Taxonomy']:
     #values = species_file['Taxonomy'][row]
     #print(values[0])
     classification = ''
+    vf = ''  # Viral Family
     for virus_classification in row:
         for baltimore, family_list in virus_dict.items():
             for family in family_list:
                 if virus_classification == family:
                     classification = baltimore
-                    #print("I founded this family: {} for this virus: {}, on this baltimore: {}".format(family, species_file['Genome'][i], baltimore))
+                    vf = family
+                elif 'dae' in virus_classification:    #print("I founded this family: {} for this virus: {}, on this baltimore: {}".format(family, species_file['Genome'][i], baltimore))
+                    vf = virus_classification
     if classification:
         baltimore_class.append(classification)
+        viral_family.append(vf)
+    elif vf:  # Taxonomy has family classification but is not on ViralZone
+        baltimore_class.append("Unknown")
+        viral_family.append(vf)
     else:
         baltimore_class.append('Unknown')
+        viral_family.append('Unknown')
 
 species_file["baltimore.class"] = baltimore_class
+species_file["family"] = viral_family
 
-species_file.to_csv(r'species_file_baltimore.csv')
+species_file.to_csv(r'species_file_baltimore2.csv')
