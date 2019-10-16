@@ -51,7 +51,7 @@ pie(my_table, border = "black", labels = lbls, col = c('plum4', 'yellowgreen', '
 
 unknown <- virus[which(virus$baltimore.class=='Unknown'),]
 unk_table <- table(unknown$Molecule.type)
-lbls <- paste(names(my_table), "\n", my_table, sep="")
+lbls <- paste(names(unk_table), "\n", unk_table, sep="")
 dotchart(unk_table, col=c('yellow2', 'plum4', 'yellowgreen', 'darkorange', 'dodgerblue3', "#49DA9A", 'palevioletred'),
          main = "Molecules of unknown Baltimore viruses", labels = lbls)
 
@@ -88,7 +88,7 @@ dotchart(matrix_overlap[1,], main = "Number of overlaps", cex = 0.8, col=pal)
 # Entries with no overlap 
 no_ov <- subset(virus, n.overlaps==0)
 # No overlap with only one protein
-one_prot <- subset(virus, Number.of.proteins==1)
+one_prot <- subset(virus, 1<=Number.of.proteins & Number.of.proteins <= 2)
 # No overlaps, more than one protein
 more_than_12 <- subset(no_ov, Number.of.proteins > 12)
 
@@ -102,7 +102,7 @@ pal<- c("#293462", "#00818a", "#ec9b3b", "#f7be16")
 par(mfrow=c(2,2))
 pie(table(no_ov$family), main = "Families of viruses with no overlaps", cex = 0.8, col=pal)
 dotchart(table(no_ov$Number.of.proteins), main = "Number of proteins", cex = 0.8, col=pal)
-pie(table(one_prot$family), main = "Families with one protein", cex = 0.8, col=pal)
+pie(table(one_prot$family), main = "Families with one or two proteins", cex = 0.8, col=pal)
 pie(table(more_than_12$family), main =  "Families with more than 12 proteins", cex = 0.8, col=pal)
 #mtext("Viruses with no overlaps", side=3, outer=TRUE, line=-2, cex = 1.2)
 
@@ -110,7 +110,7 @@ pie(table(more_than_12$family), main =  "Families with more than 12 proteins", c
 ###################################################
 # Viruses with at least one overlap PAGE 3
 ###################################################
-layout(matrix(c(1,2,3,3), 2, 2, byrow = TRUE))
+layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
 
 # Displaying information for viruses with more then zero overlap 
 more_than_one <- subset(virus, n.overlaps > 0)
@@ -168,6 +168,27 @@ matrix_proteins <- matrix(c(dim(subset2)[1], dim(subset3)[1], dim(subset4)[1], d
 colnames(matrix_proteins) <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11 to 50", "50 to 100", "100 to 500", "500to 1k", " > 1k ")
 dotchart(matrix_proteins[1,], main = "Overlap lenght", cex = 0.8, col=pal)
 
+
+x <- more_than_one$Genome.length
+y <- more_than_one$len.overlaps
+y <- jitter(y)
+x <- jitter(x)
+
+# Plot according to Molecule
+plot(x,y, type='n', log = 'xy', col=as.numeric(more_than_one$Molecule.type), cex=2, pch=as.numeric(more_than_one$Topology), 
+     xlab = 'Genome Length', ylab = 'Overlap Lenght', main = "Overlap lenght")
+points( x[more_than_one$baltimore.class%in%'ss_RNA_+'], y[more_than_one$baltimore.class%in%'ss_RNA_+'], col='palevioletred', pch=15, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ds_DNA'], y[more_than_one$baltimore.class%in%'ds_DNA'], col='yellowgreen', pch=5, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'Unknown'], y[more_than_one$baltimore.class%in%'Unknown'], col='plum4', pch=1, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ds_RNA'], y[more_than_one$baltimore.class%in%'ds_RNA'], col='yellow2', pch=8, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ss_DNA'], y[more_than_one$baltimore.class%in%'ss_DNA'], col='darkorange', pch=18, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ss_RNA_-'], y[more_than_one$baltimore.class%in%'ss_RNA_-'], col='firebrick', pch=20, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'RT_viruses'], y[more_than_one$baltimore.class%in%'RT_viruses'], col='dodgerblue3', pch=2, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'circular_ss_RNA'], y[more_than_one$baltimore.class%in%'circular_ss_RNA'], col="#49DA9A", pch=4, cex = 0.8)
+
+legend('topright', legend= c('(+) ssRNA', 'dsDNA', 'Unknown', 'dsRNA', 'ssDNA', '(-) ssRNA', 'RTviruses', '(circular) ssRNA'), 
+       fill = c('palevioletred', 'yellowgreen', 'plum4', 'yellow2', 'darkorange', 'firebrick', 'dodgerblue3', "#49DA9A"))
+
 #mtext("Viruses with at least one overlap", side=3, outer=TRUE, line=-2, cex = 1.2)
 
 ###################################################
@@ -177,7 +198,7 @@ dotchart(matrix_proteins[1,], main = "Overlap lenght", cex = 0.8, col=pal)
 #pdf(file='long_overlaps.pdf', width=8, height=11)
 
 pal<- c("#293462", "#00818a", "#ec9b3b", "#f7be16")
-
+par(lwd = 2)
 layout(matrix(c(1,2,3,3), 2, 2, byrow = TRUE),
        widths=c(5,5), heights=c(5,5))
 long_ov<-subset(virus, len.overlaps > 1000)
@@ -191,9 +212,9 @@ y <- jitter(y)
 x <- jitter(x)
 
 # Plot according to Molecule
-par(lwd = 2)
+
 plot(x,y, type='n', col=as.numeric(long_ov$Molecule.type), cex=1.5, pch=as.numeric(long_ov$Topology), 
-     xlab = 'Genome Length', ylab = 'Medium overlap Lenght', main = "Long overlaps")
+     xlab = 'Genome Length', ylab = 'Overlap Lenght', main = "Long overlaps")
 points( x[long_ov$baltimore.class%in%'ss_RNA_+'], y[long_ov$baltimore.class%in%'ss_RNA_+'], col='palevioletred', pch=17, cex = 1.5)
 points( x[long_ov$baltimore.class%in%'ds_DNA'], y[long_ov$baltimore.class%in%'ds_DNA'], col='yellowgreen', pch=5, cex = 1.5)
 points( x[long_ov$baltimore.class%in%'Unknown'], y[long_ov$baltimore.class%in%'Unknown'], col='plum4', pch=19, cex = 1.5)
@@ -208,4 +229,27 @@ legend('topleft', legend= c('(+) ssRNA', 'dsDNA', 'Unknown', 'dsRNA', 'ssDNA', '
 
 dev.off()
 
-#########
+######################################################
+# Lenght of overlap by baltimore classification PAGE 5
+######################################################
+x <- more_than_one$Genome.length
+y <- more_than_one$len.overlaps
+y <- jitter(y)
+x <- jitter(x)
+
+# Plot according to Molecule
+plot(x,y, type='n', log = 'xy', col=as.numeric(more_than_one$Molecule.type), cex=2, pch=as.numeric(more_than_one$Topology), 
+     xlab = 'Genome Length', ylab = 'Overlap Lenght', main = "Overlao lenght")
+points( x[more_than_one$baltimore.class%in%'ss_RNA_+'], y[more_than_one$baltimore.class%in%'ss_RNA_+'], col='palevioletred', pch=15, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ds_DNA'], y[more_than_one$baltimore.class%in%'ds_DNA'], col='yellowgreen', pch=5, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'Unknown'], y[more_than_one$baltimore.class%in%'Unknown'], col='plum4', pch=1, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ds_RNA'], y[more_than_one$baltimore.class%in%'ds_RNA'], col='yellow2', pch=8, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ss_DNA'], y[more_than_one$baltimore.class%in%'ss_DNA'], col='darkorange', pch=18, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'ss_RNA_-'], y[more_than_one$baltimore.class%in%'ss_RNA_-'], col='firebrick', pch=20, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'RT_viruses'], y[more_than_one$baltimore.class%in%'RT_viruses'], col='dodgerblue3', pch=2, cex = 0.8)
+points( x[more_than_one$baltimore.class%in%'circular_ss_RNA'], y[more_than_one$baltimore.class%in%'circular_ss_RNA'], col="#49DA9A", pch=4, cex = 0.8)
+
+legend('topleft', legend= c('(+) ssRNA', 'dsDNA', 'Unknown', 'dsRNA', 'ssDNA', '(-) ssRNA', 'RTviruses', '(circular) ssRNA'), 
+       fill = c('palevioletred', 'yellowgreen', 'plum4', 'yellow2', 'darkorange', 'firebrick', 'dodgerblue3', "#49DA9A"))
+
+DNAset <- subset(more_than_one, baltimore.class == "dsDNA")
