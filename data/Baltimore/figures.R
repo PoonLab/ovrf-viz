@@ -58,7 +58,6 @@ dotchart(unk_table, col=c('yellow2', 'plum4', 'yellowgreen', 'darkorange', 'dodg
 
 pal <- c("#f6f078", "#01d28e", "#434982", "#730068")
 #pal <- c("#f1d4d4", "#ddb6c6", "#ac8daf", "#484c7f")
-more_than_one <- subset(virus, n.overlaps > 0)
 
 subset1 <- subset(virus, n.overlaps == 0)
 subset2 <- subset(virus, n.overlaps == 1)
@@ -229,27 +228,3 @@ legend('topleft', legend= c('(+) ssRNA', 'dsDNA', 'Unknown', 'dsRNA', 'ssDNA', '
 
 dev.off()
 
-######################################################
-# Lenght of overlap by baltimore classification PAGE 5
-######################################################
-x <- more_than_one$Genome.length
-y <- more_than_one$len.overlaps
-y <- jitter(y)
-x <- jitter(x)
-
-# Plot according to Molecule
-plot(x,y, type='n', log = 'xy', col=as.numeric(more_than_one$Molecule.type), cex=2, pch=as.numeric(more_than_one$Topology), 
-     xlab = 'Genome Length', ylab = 'Overlap Lenght', main = "Overlao lenght")
-points( x[more_than_one$baltimore.class%in%'ss_RNA_+'], y[more_than_one$baltimore.class%in%'ss_RNA_+'], col='palevioletred', pch=15, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'ds_DNA'], y[more_than_one$baltimore.class%in%'ds_DNA'], col='yellowgreen', pch=5, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'Unknown'], y[more_than_one$baltimore.class%in%'Unknown'], col='plum4', pch=1, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'ds_RNA'], y[more_than_one$baltimore.class%in%'ds_RNA'], col='yellow2', pch=8, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'ss_DNA'], y[more_than_one$baltimore.class%in%'ss_DNA'], col='darkorange', pch=18, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'ss_RNA_-'], y[more_than_one$baltimore.class%in%'ss_RNA_-'], col='firebrick', pch=20, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'RT_viruses'], y[more_than_one$baltimore.class%in%'RT_viruses'], col='dodgerblue3', pch=2, cex = 0.8)
-points( x[more_than_one$baltimore.class%in%'circular_ss_RNA'], y[more_than_one$baltimore.class%in%'circular_ss_RNA'], col="#49DA9A", pch=4, cex = 0.8)
-
-legend('topleft', legend= c('(+) ssRNA', 'dsDNA', 'Unknown', 'dsRNA', 'ssDNA', '(-) ssRNA', 'RTviruses', '(circular) ssRNA'), 
-       fill = c('palevioletred', 'yellowgreen', 'plum4', 'yellow2', 'darkorange', 'firebrick', 'dodgerblue3', "#49DA9A"))
-
-DNAset <- subset(more_than_one, baltimore.class == "dsDNA")
