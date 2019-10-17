@@ -7,7 +7,7 @@ virus <- read.csv('species_file_baltimore2.csv')
 more_than_zero <- subset(virus, n.overlaps > 0)
 pal <- c("#f1d4d4", "#ddb6c6", "#ac8daf", "#484c7f")
 counts <- table(more_than_zero$family, more_than_zero$baltimore.class)
-barplot(counts, col = pal)
+barplot(counts, col = pal, space =0.8)
 
 #Stores the Column names in l, so we can iterate column by column
 l <- dimnames(counts)[[2]]
