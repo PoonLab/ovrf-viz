@@ -4,10 +4,11 @@ virus <- read.csv('species_file_baltimore2.csv')
 
 
 #stacked bar plot
-more_than_zero <- subset(virus, n.overlaps > 0)
+more_than_zero <- subset(virus, len.overlaps > 0)
 pal <- c("#f1d4d4", "#ddb6c6", "#ac8daf", "#484c7f")
 counts <- table(more_than_zero$family, more_than_zero$baltimore.class)
-barplot(counts, col = pal, space =0.8)
+matrix <- as.matrix(counts)
+barplot(matrix, col = pal, legend = rownames(matrix))
 
 #Stores the Column names in l, so we can iterate column by column
 l <- dimnames(counts)[[2]]
@@ -30,109 +31,117 @@ counts[specific_fam,]
 # TODO: How do I relate the names of the most abundant families with the actual barplot?
 
 
-# Ridgeplot
-require(devtools)
+
+
+########################################
+# Ridgeplot for number of overlaps
+########################################
+#require(devtools)
 devtools::install_github("ArtPoon/ggfree")
 
+library(ggplot2)
+library(ggridges)
 
-subset1 <- subset(virus, n.overlaps < 1)
-subset2 <- subset(virus, 1 <= n.overlaps & n.overlaps < 10)
-subset3 <- subset(virus, 10 <= n.overlaps & n.overlaps < 20)
-subset4 <- subset(virus, 20 <= n.overlaps & n.overlaps < 30)
-subset5 <- subset(virus, 30 <= n.overlaps & n.overlaps < 40)
-subset6 <- subset(virus, 40 <= n.overlaps & n.overlaps < 50)
-subset7 <- subset(virus, 50<n.overlaps & n.overlaps<=100)
-subset8 <- subset(virus, 100<n.overlaps & n.overlaps<=500)
-subset9 <- subset(virus, 500<n.overlaps)
+test <- virus
+test$subset <- NA
 
-hist(subset2$n.overlaps)
+test$subset[test$n.overlaps < 1] <- "Zero overlaps"
+test$subset[1 <= test$n.overlaps & test$n.overlaps < 10] <- "1 to 10"
+test$subset[10 <= test$n.overlaps & test$n.overlaps < 20] <- "10 to 20"
+test$subset[20 <= test$n.overlaps & test$n.overlaps < 30] <- "20 to 30"
+test$subset[30 <= test$n.overlaps & test$n.overlaps < 40] <- "30 to 40"
+test$subset[40 <= test$n.overlaps & test$n.overlaps < 50] <- "40 to 50"
+test$subset[50 <= test$n.overlaps & test$n.overlaps < 100] <- "50 to 100"
+test$subset[100 <= test$n.overlaps & test$n.overlaps < 500] <- "100 to 500"
+test$subset[500 < test$n.overlaps] <- "> 500"
 
-ridgeplot <- function(x, xlim=NA, labels=NA, yaxt='s', xlab=NA, ylab=NA, step=0.2,
-                      col=NA, fill=NA, lwd=1, density.args=list(),
-                      add.grid=F, grid.args=list(), extend.lines=TRUE, add=FALSE, ...) {
-  
-  # check inputs
-  if (is.list(x)) {
-    # check that list contains numeric vectors
-    if (!all(sapply(x, is.numeric))) {
-      stop("List 'x' must contain only numeric vectors")
-    }
-  } else {
-    stop("Unsupported class of argument x (must be list)")
-  }
-  
-  n <- length(x)  # number of groups
-  
-  if (any(is.na(labels))) {
-    # extract labels from list 'x'
-    labels <- names(x)
-  }
-  
-  # parse optional colour vector arguments
-  if (all(is.na(col))) {
-    pal <- rep('black', n)  # default
-  } else {
-    # reuse values in <col> if less than n
-    pal <- rep(col, length.out=n)
-  }
-  if (all(is.na(fill))) {
-    bg <- rep(NA, n)
-  } else {
-    bg <- rep(fill, length.out=n)
-  }
-  
-  # generate kernel densities
-  kdens <- list()
-  for (i in 1:length(x)) {
-    xi <- x[[i]]
-    if (length(xi) == 0 && is.numeric(xi)) {
-      # is numeric(0)
-      kdens[[names(x)[i]]] <- NA
-    } else {
-      kdens[[names(x)[i]]] <- do.call('density', c(list(x=xi), density.args))
-    }
-  }
-  
-  if (!add) {
-    # determine plot ranges from densities
-    all.x <- c(sapply(kdens, function(k) k$x))
-    all.y <- c(sapply(1:n, function(i) kdens[[i]]$y + i*step))
-    
-    # generate plot region
-    if (any(is.na(xlim))) {
-      xlim <- range(all.x)
-    }
-    plot(NA, xlim=xlim, ylim=range(all.y), xlab=xlab, ylab=ylab, yaxt='n', ...)
-    
-    # override y-axis labels
-    if (yaxt != 'n') axis(side=2, at=seq(step, n*step, step), labels=labels, las=2)
-    
-    # optional grid
-    if (add.grid) {
-      do.call("add.grid", grid.args)
-    }
-  }
-  
-  # arrangement of densities
-  ordering <- seq(n, 1, -1)
-  if (step < 0) {
-    ordering <- 1:n
-  }
-  for (i in ordering) {
-    kd <- kdens[[i]]
-    if (length(kd) == 1 && is.na(kd)) next  # skip missing entry
-    y <- kd$y + i*step
-    
-    polygon(kd$x, y, col=bg[i], border=NA)
-    lines(kd$x, y, col=pal[i], lwd=lwd)
-    
-    # extend density curve to full horizontal range
-    if (extend.lines) {
-      segments(x0=min(all.x), x1=min(kd$x), y0=min(y), y1=min(y), col=pal[i], lwd=lwd)
-      segments(x0=max(kd$x), x1=max(all.x), y0=min(y), y1=min(y), col=pal[i], lwd=lwd)
-    }
-  }
-}
+test <- subset(test, !is.na(n.overlaps))
+
+ggplot(test, aes(x = n.overlaps, y = subset, group = subset)) + 
+  geom_density_ridges(
+    jittered_points = TRUE, quantile_lines = TRUE, scale = 0.9, alpha = 0.7,
+    vline_size = 1, vline_color = "red", vline_alpha = 1,
+    point_size = 0.4, point_alpha = 1,
+    position = position_raincloud(adjust_vlines = TRUE)
+  )
 
 
-ridgeplot(subset2$n.overlaps)
+ggplot(test, aes(x = n.overlaps, y = subset, group = subset)) + 
+  geom_density_ridges(
+    aes(point_color = subset, point_fill = subset, point_shape = subset),
+    alpha = .2, point_alpha = 1, jittered_points = TRUE
+  ) +
+  scale_point_color_hue(l = 40) +
+  scale_discrete_manual(aesthetics = "point_shape", values = c(18,17,19, 20, 21, 22, 23, 25, 25))
+
+#Small overlaps
+test1 <- subset(test, n.overlaps < 100)
+
+splitted<-split(test$n.overlaps, test$subset)
+
+ggplot(test1, aes(x = n.overlaps, y = subset, group = subset)) + 
+  geom_density_ridges(scale = 3)
+
+
+# Large overlaps
+test2 <- subset(test, n.overlaps > 500)
+
+
+ggplot(test2, aes(x = n.overlaps, y = subset, group = subset)) + 
+  geom_density_ridges(scale = 9)
+
+
+########################################
+# Ridgeplot for Medium overlap length
+########################################
+more_than_zero$ov.len.class[more_than_zero$len.overlaps < 1] <- "Zero overlaps"
+more_than_zero$ov.len.class[1 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 10] <- "1 to 10"
+more_than_zero$ov.len.class[10 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 20] <- "10 to 20"
+more_than_zero$ov.len.class[20 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 30] <- "20 to 30"
+more_than_zero$ov.len.class[30 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 40] <- "30 to 40"
+more_than_zero$ov.len.class[40 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 50] <- "40 to 50"
+more_than_zero$ov.len.class[50 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 100] <- "50 to 100"
+more_than_zero$ov.len.class[100 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 200] <- "100 to 200"
+more_than_zero$ov.len.class[200 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 300] <- "200 to 300"
+more_than_zero$ov.len.class[300 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 400] <- "300 to 400"
+more_than_zero$ov.len.class[400 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 500] <- "400 to 500"
+more_than_zero$ov.len.class[500 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 600] <- "500 to 600"
+more_than_zero$ov.len.class[600 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 700] <- "600 to 700"
+more_than_zero$ov.len.class[700 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 800] <- "700 to 800"
+more_than_zero$ov.len.class[800 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 900] <- "800 to 900"
+more_than_zero$ov.len.class[900 <= more_than_zero$len.overlaps & more_than_zero$len.overlaps < 1000] <- "900 to 1000"
+more_than_zero$ov.len.class[1000 < more_than_zero$len.overlaps] <- "> 1000"
+
+
+
+ggplot(more_than_zero, aes(x = len.overlaps, y = ov.len.class, group = ov.len.class)) + 
+  geom_density_ridges()
+
+
+ggplot(more_than_zero, aes(x = len.overlaps, y = ov.len.class, group = ov.len.class)) + 
+  geom_density_ridges(
+    aes(point_color = ov.len.class, point_fill = ov.len.class, point_shape = ov.len.class),
+    alpha = .2, point_alpha = 1, jittered_points = TRUE
+  ) +
+  scale_point_color_hue(l = 40) +
+  scale_discrete_manual(aesthetics = "point_shape", values = c(18,17,19, 20, 21, 22, 23, 25, 25))
+
+small <- subset(more_than_zero, len.overlaps < 100 & len.overlaps != 0)
+
+ggplot(small, aes(x = len.overlaps, y = ov.len.class, group = ov.len.class)) + 
+  geom_density_ridges(
+    aes(point_color = ov.len.class, point_fill = ov.len.class, point_shape = ov.len.class),
+    alpha = .2, point_alpha = 1, jittered_points = TRUE
+  ) +
+  scale_point_color_hue(l = 40) +
+  scale_discrete_manual(aesthetics = "point_shape", values = c(18,17,19, 20, 21, 22, 23, 25, 25))
+
+large <- subset(more_than_zero, len.overlaps > 100 & len.overlaps <1000)
+ggplot(large, aes(x = len.overlaps, y = ov.len.class, group = ov.len.class)) + 
+  geom_density_ridges(
+    aes(point_color = ov.len.class, point_fill = ov.len.class, point_shape = ov.len.class),
+    alpha = .2, point_alpha = 1, jittered_points = TRUE
+  ) +
+  scale_point_color_hue(l = 40) +
+  scale_discrete_manual(aesthetics = "point_shape", values = c(18,17,19, 20, 21, 22, 23, 25, 25, 16))
+
