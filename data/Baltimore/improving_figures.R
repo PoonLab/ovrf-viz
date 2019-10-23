@@ -1,5 +1,5 @@
 # File with Baltimore info
-setwd('~/Projects/ovrf-review/data/Baltimore')
+setwd('../data/Baltimore')
 virus <- read.csv('species_file_baltimore2.csv')
 
 
@@ -9,6 +9,7 @@ more_than_zero <- subset(no_na, len.overlaps > 0)
 pal <- c("#f1d4d4", "#ddb6c6", "#ac8daf", "#484c7f")
 counts <- table(more_than_zero$family, more_than_zero$baltimore.class)
 matrix <- as.matrix(counts)
+#TODO legend with most abundant families
 barplot(matrix, col = pal, legend = rownames(matrix))
 
 #Stores the Column names in l, so we can iterate column by column
