@@ -1,7 +1,55 @@
 # File with Baltimore info
 setwd('../data/Baltimore')
 virus <- read.csv('species_file_baltimore2.csv')
+#stacked bar plot
+no_na <- na.omit(virus)
+more_than_zero <- subset(no_na, len.overlaps > 0)
+pal <- rainbow(22, v=0.8)
+counts <- table(virus2$family, virus2$baltimore.class)
+matrix <- as.matrix(counts)
+#TODO legend with most abundant families
+barplot(matrix, col = pal, offset = 0)
+legend("right",inset=c(-0.2,0), legend=rownames(matrix), fill= pal)
 
+
+hist(log10(virus$len.overlaps))
+sum(virus$len.overlaps==0, na.rm=TRUE)
+
+x <- log10(virus$len.overlaps)
+plot(density(x, na.rm=T), type='n', main='', ylim=c(0,1.5))
+pal <- rainbow(7, v=0.8)
+count <- 1
+for (bc in unique(virus$baltimore.class)) {
+  if (bc == 'circular_ss_RNA') next;
+  lines(density(x[virus$baltimore.class==bc], na.rm=T, bw=0.2), 
+        col=pal[count], lwd=2)
+  count <- count + 1
+}
+
+
+## collect mean overlap length by family
+tab <- table(virus$family) 
+family <- names(tab)[tab > 100]
+family <- family[!grepl("unclassified|Unknown", family)]
+
+virus2 <- virus[is.element(virus$family, family), ]
+virus2$baltimore.class <- factor(virus2$baltimore.class)
+virus2$family <- factor(virus2$family)
+# TODO: get equiprobable cut points
+library(Hmisc)
+cut.pts <- cut2(log10(virus2$len.overlaps), g=20, onlycuts=T)
+
+m <- sapply(split(virus2, virus2$family), function(fam) {
+  h <- hist(log10(fam$len.overlaps), breaks=cut.pts, plot=F)
+  y <- c(sum(is.na(fam$len.overlaps)), h$counts)
+  y/sum(y)
+})
+stars(t(m))
+
+
+
+# NOTE: exclude viroids (circular ssRNA)
+#lines(density(x[virus$baltimore.class=='circular_ss_RNA'], na.rm=T))
 
 #stacked bar plot
 no_na <- na.omit(virus)
@@ -31,9 +79,6 @@ specific_fam <- blah[[2]][3]
 counts[specific_fam,]
 
 # TODO: How do I relate the names of the most abundant families with the actual barplot?
-
-
-
 
 ########################################
 # Ridgeplot for number of overlaps
