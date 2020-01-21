@@ -1,4 +1,4 @@
-setwd('~/git/ovrf-review/data')
+setwd('~/Projects/ovrf-review/data/')
 virus <- read.csv('viruses.csv')
 
 # TODO: exclude the following accession numbers:
@@ -45,7 +45,7 @@ temp <- sapply(split(overlaps$overlap, overlaps$accn), length)
 noverlaps <- data.frame(accn=names(temp), count=temp)
 
 noverlaps$mean.olen <- sapply(split(overlaps$overlap, overlaps$accn), mean)
-
+noverlaps$total.olen <- sapply(split(overlaps$overlap, overlaps$accn), sum)
 
 # sum total number of overlaps per genome
 virus$first.acc <- sapply(virus$Accession, function(x) {
@@ -59,6 +59,8 @@ virus$first.acc <- sapply(virus$Accession, function(x) {
 
 index <- match(virus$first.acc, noverlaps$accn)
 virus$n.overlaps <- noverlaps$count[index]
+virus$total.overlaps<-noverlaps$total.olen[index]
+
 
 # carry over Genome to <noverlaps>
 all.acc <- sapply(1:nrow(virus), function(i) {
@@ -91,7 +93,7 @@ y[y==0] <- 0.5
 y <- jitter(y)
 
 
-pdf(file='viruses.pdf', width=6, height=6)
+pdf(file='viruses_wit_total.pdf', width=6, height=6)
 par(mfrow=c(1,1), mar=c(5,5,1,1))
 plot(x, y, log='xy', 
      cex=ifelse(is.na(virus$len.overlaps), 0.1, sqrt(virus$len.overlaps)/10),
