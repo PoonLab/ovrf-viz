@@ -152,7 +152,15 @@ total <- merge(x=overlaps, y=virus[,c("Accession", "baltimore.class")], by="Acce
 table <- table(total$baltimore.class, total$shift)
 plot <- ggplot(table, aes(x=, y=baltimore.class, group = baltimore.class, fill = baltimore.class))
 
+barplot(table, col = col, beside = T)
 
 #result <- within(total, {count<-ave(baltimore.class, shift, FUN=function(x) length(x))})
 library(dplyr)
+
+
+library(plotly)
+cnt <- with(total, table(baltimore.class, shift))
+head(cnt)
+p <- plot_ly(total, x= ~baltimore.class, y=~shift, z=~cnt) %>% add_histogram2d()
+install.packages("httpuv")
 

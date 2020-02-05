@@ -35,7 +35,7 @@ rna_hist <- hist(log(rna$len.overlaps))
 
 # ANOVA of overlap length between baltimore classes
 sum <- aggregate(virus$len.overlaps, by=virus["baltimore.class"], FUN=summary, na.rm = T)
-res.aov <- aov(len.overlaps ~ baltimore.class, data = virus) 
+res.aov <- aov(log(len.overlaps) ~ baltimore.class, data = virus) 
 summary(res.aov) # Is significant
 TukeyHSD(res.aov)
 plot(res.aov, 1) # Outliers possibly affecting normality and homogenity if variance
