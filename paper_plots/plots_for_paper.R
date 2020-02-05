@@ -16,7 +16,22 @@ balt.cat <- c("ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "ds_DNA", "ss_DNA
 col<- c("#1d6996", "#38a6a5", "#57a1b4", "#87bfdb", "#edad08", "#e17c05", "#cc503e", "#808080", "#73af48")
 pal <- as.data.frame(cbind(balt.cat, col))
 
+#######################################################
+# Barplot
+#######################################################
+table <- as.data.frame(table(virus$baltimore.class))
+table$Var1 <- factor(table$Var1, levels=c("ds_DNA", "ss_DNA", "unknown_DNA", "ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "RT_viruses" ))
+p <- ggplot(table, aes(x=Var1, y=Freq, fill=Var1)) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = c("circular_ss_RNA" = "#73af48", "ds_RNA" = "#1d6996", "ss_RNA_+" = "#38a6a5", "ss_RNA_-" = "#57a1b4", "unknown_RNA" = "#87bfdb",
+                               "ds_DNA" = "#edad08",  "ss_DNA" = "#e17c05", "unknown_DNA" = "#cc503e", "RT_viruses" = "#808080", "circular_ss_RNA" = "#73af48" ))+
+  
+  geom_text(aes(label=Freq), position=position_dodge(width=0.9), vjust=-0.25)+
+  labs(fill = "Baltimore class")+ 
+  theme_bw()+
+  ggtitle("Database distribution")
 
+p
 #######################################################
 # Plotting overlapping summary
 #######################################################
@@ -78,7 +93,7 @@ virus <- virus[which(virus$baltimore.class!= "circular_ss_RNA"),]
 level_order <- factor(virus$baltimore.class, level = c("ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "ds_DNA", "ss_DNA", "unknown_DNA", "RT_viruses", "circular_ss_RNA"))
 level_order <- factor(virus$baltimore.class, level = c("circular_ss_RNA","RT_viruses", "ds_DNA", "ss_DNA", "unknown_DNA", "ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA" ))
 
-
+pdf(file='ridge_plot.pdf', width=8, height=11)
 # By length
 ov.len<- ggplot(virus, aes(x = log10(len.overlaps), y = level_order, group = baltimore.class, fill = baltimore.class)) + 
   geom_density_ridges(alpha = 1)+
@@ -91,7 +106,7 @@ ov.len<- ggplot(virus, aes(x = log10(len.overlaps), y = level_order, group = bal
   theme_bw()
 
 ov.len
-
+dev.off()
 
 # organizing colors
 for (i in 1:nrow(pal)){
@@ -103,11 +118,41 @@ for (i in 1:nrow(pal)){
 
 
 #######################################################
-# Frame shift analysis
+# Frame shift ridgeplot
 #######################################################
-setwd("/home/lmunoz/Projects/ovrf-review/scripts")
-orfs <- read.csv("orfs_with_nucleotide.csv")
-colnames(orfs)[1]<- "Accession"
-total <- merge(x = orfs[,c("Accession", "strand", "coords")], y = virus[,c("Accession", "baltimore.class")], by="Accession")
+setwd('~/Projects/ovrf-review/data/')
+overlaps <- read.csv('ovrfs-reduced.csv')
+orfs <- read.csv('orfs-fixed.csv')
 
-strand <- ggplot(orfs, aes())
+# add levels without overlaps
+overlaps$accn <- factor(
+  overlaps$accn, levels=c(
+    levels(overlaps$accn),
+    setdiff(levels(orfs$accno), levels(overlaps$accn))
+  ))
+temp <- sapply(split(overlaps$overlap, overlaps$accn), length)
+noverlaps <- data.frame(accn=names(temp), count=temp)
+noverlaps$mean.olen <- sapply(split(overlaps$overlap, overlaps$accn), mean)
+
+# Ridgeplot
+plot <- ggplot(overlaps, aes(x = log10(overlap), y = shift, group = shift, fill = as.factor(shift))) +
+  geom_density_ridges()+
+  ggtitle("Overlap length per frame shift")+
+  scale_fill_manual(values = c("#eccb77", "#c6e377", "#729d39", "#36622b", "#1e3f2b")) +
+  theme_bw()
+plot
+ 
+
+#######################################################
+# Frameshift barplot with Baltimore class
+#######################################################
+colnames(overlaps)[1] <- "Accession"
+
+total <- merge(x=overlaps, y=virus[,c("Accession", "baltimore.class")], by="Accession", all.x =T)
+table <- table(total$baltimore.class, total$shift)
+plot <- ggplot(table, aes(x=, y=baltimore.class, group = baltimore.class, fill = baltimore.class))
+
+
+#result <- within(total, {count<-ave(baltimore.class, shift, FUN=function(x) length(x))})
+library(dplyr)
+
