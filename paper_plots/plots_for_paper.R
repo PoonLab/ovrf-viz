@@ -1,5 +1,7 @@
 library(RColorBrewer)
 options(scipen=999)
+library(extrafont)
+font_import()
 
 ######################################################
 # Preparing information and color palette 
@@ -12,74 +14,101 @@ virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("RNA", vi
 virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("DNA", virus$Molecule.type))] <- "unknown_DNA"
 
 # Setting color palette
-balt.cat <- c("ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "ds_DNA", "ss_DNA", "unknown_DNA", "RT_viruses", "circular_ss_RNA")
+bal.class <- c("ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "ds_DNA", "ss_DNA", "unknown_DNA", "RT_viruses", "circular_ss_RNA")
 col<- c("#1d6996", "#38a6a5", "#57a1b4", "#87bfdb", "#edad08", "#e17c05", "#cc503e", "#808080", "#73af48")
-pal <- as.data.frame(cbind(balt.cat, col))
+pal <- as.data.frame(cbind(bal.class, col))
 
 #######################################################
-# Barplot
+# Barplot database distribution
 #######################################################
-table <- as.data.frame(table(virus$baltimore.class))
-table$Var1 <- factor(table$Var1, levels=c("ds_DNA", "ss_DNA", "unknown_DNA", "ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "RT_viruses" ))
-p <- ggplot(table, aes(x=Var1, y=Freq, fill=Var1)) +
-  geom_bar(stat="identity")+
-  scale_fill_manual(values = c("circular_ss_RNA" = "#73af48", "ds_RNA" = "#1d6996", "ss_RNA_+" = "#38a6a5", "ss_RNA_-" = "#57a1b4", "unknown_RNA" = "#87bfdb",
-                               "ds_DNA" = "#edad08",  "ss_DNA" = "#e17c05", "unknown_DNA" = "#cc503e", "RT_viruses" = "#808080", "circular_ss_RNA" = "#73af48" ))+
-  
-  geom_text(aes(label=Freq), position=position_dodge(width=0.9), vjust=-0.25)+
-  labs(fill = "Baltimore class")+ 
-  theme_bw()+
-  ggtitle("Database distribution")
+# tbl <- as.data.frame(table(virus$baltimore.class))
+# tbl$bal.class <- factor(tbl$Var1, levels=c("ds_DNA", "ss_DNA", "unknown_DNA", "ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "RT_viruses" ))
+# p <- ggplot(data=tbl, aes(x=Var1, y=Freq, fill=Var1)) +
+#   geom_bar(stat="identity", width = 0.5)+
+#   scale_fill_manual(values = c("circular_ss_RNA" = "#73af48", "ds_RNA" = "#1d6996", "ss_RNA_+" = "#38a6a5", "ss_RNA_-" = "#57a1b4", "unknown_RNA" = "#87bfdb",
+#                                "ds_DNA" = "#edad08",  "ss_DNA" = "#e17c05", "unknown_DNA" = "#cc503e", "RT_viruses" = "#808080", "circular_ss_RNA" = "#73af48" ))+
+#   
+#   geom_text(aes(label=Freq), position=position_dodge(width=0.9), vjust=-0.3)+
+#   labs(fill = "Baltimore class")+ 
+#   theme_bw()+
+#   ggtitle("Database distribution")
+# p
 
-p
+# Try to create my own
+#vector of colors based on baltimore class
+bal.col <- merge(tbl[,c("bal.class", "Freq")], pal, by="bal.class") # freq of baltimore classification with assigned colors 
+my_order <- rev(c("ds_DNA", "ss_DNA", "unknown_DNA", "ds_RNA", "ss_RNA_+", "ss_RNA_-", "unknown_RNA", "RT_viruses" ))
+bal.col <- bal.col[match(my_order,bal.col$bal.class),]
+
+pdf(file="/home/lmunoz/Projects/ovrf-review/paper_plots/database_distribution.jpg")
+par(mar = c(6, 10, 4, 4))
+barplot(height=bal.col$Freq, main = "Database distribution", xlab = "Number of entries",
+        names = bal.col$bal.class, 
+        col = as.character(bal.col$col),
+        horiz = T,
+        las=1, 
+        xlim=c(0,4000), 
+        border = F
+        )
+text(y = bp, x =bal.col$Freq, pos=4, labels = bal.col$Freq)
+box(lwd=2, col="gray80")
+dev.off()
+
 #######################################################
 # Plotting overlapping summary
 #######################################################
+loadfonts()
+pdf(file="general_trends.pdf", family="Amiri", width=14, height=6.5)
 # a. Number of ORFS vs Number of overlaps
 x <- virus$Number.of.proteins
 y <- virus$n.overlaps
 y[y==0] <- 0.5
 y <- jitter(y)
 x <- jitter(x)
+
 #layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
 par(mfrow=c(1,2))
+par(mar = c(6, 6, 4, 2))
 plot(x,y, log='xy', type='n', col=as.numeric(virus$Molecule.type), cex=1, pch=as.numeric(virus$Topology), 
-     xlab = '[log10] Number of ORFs', ylab = '[log10] Number of overlaps', main = "Virus data Base")
+     xlab = '[log10] Number of ORFs', ylab = '[log10] Number of overlaps', main = "Virus data Base", cex.lab = 1.5)
+lwd <- 3
+cex <- 1
+points( x[virus$baltimore.class%in%'ds_DNA'], y[virus$baltimore.class%in%'ds_DNA'], col=as.character(pal$col[pal$bal.class=="ds_DNA"]), pch=17, cex = cex)
+points( x[virus$baltimore.class%in%'ss_RNA_+'], y[virus$baltimore.class%in%'ss_RNA_+'], col=as.character(pal$col[pal$bal.class=="ss_RNA_+"]), pch=4, cex = cex, lwd = lwd)
+points( x[virus$baltimore.class%in%'ss_DNA'], y[virus$baltimore.class%in%'ss_DNA'], col=as.character(pal$col[pal$bal.class=="ss_DNA"]), pch=18, cex = cex)
+points( x[virus$baltimore.class%in%'unknown_RNA'], y[virus$baltimore.class%in%'unknown_RNA'], col=as.character(pal$col[pal$bal.class=="unknown_RNA"]), pch=5, cex = cex, lwd = lwd)
+points( x[virus$baltimore.class%in%'ds_RNA'], y[virus$baltimore.class%in%'ds_RNA'], col=as.character(pal$col[pal$bal.class=="ds_RNA"]), pch=8, cex = cex, lwd = 2)
+points( x[virus$baltimore.class%in%'ss_RNA_-'], y[virus$baltimore.class%in%'ss_RNA_-'], col=as.character(pal$col[pal$bal.class=="ss_RNA_-"]), pch=6, cex = cex)
+points( x[virus$baltimore.class%in%'unknown_DNA'], y[virus$baltimore.class%in%'unknown_DNA'], col=as.character(pal$col[pal$bal.class=="unknown_DNA"]), pch=20, cex = cex)
+points( x[virus$baltimore.class%in%'RT_viruses'], y[virus$baltimore.class%in%'RT_viruses'], col=as.character(pal$col[pal$bal.class=="RT_viruses"]), pch=1, cex = cex, lwd = lwd)
+points( x[virus$baltimore.class%in%'circular_ss_RNA'], y[virus$baltimore.class%in%'circular_ss_RNA'], col=as.character(pal$col[pal$bal.class=='circular_ss_RNA']), pch=4, cex = cex)
 
-cex <- 0.8
-points( x[virus$baltimore.class%in%'ds_DNA'], y[virus$baltimore.class%in%'ds_DNA'], col=as.character(pal$col[pal$balt.cat=="ds_DNA"]), pch=17, cex = cex)
-points( x[virus$baltimore.class%in%'ss_RNA_+'], y[virus$baltimore.class%in%'ss_RNA_+'], col=as.character(pal$col[pal$balt.cat=="ss_RNA_+"]), pch=4, cex = cex)
-points( x[virus$baltimore.class%in%'ss_DNA'], y[virus$baltimore.class%in%'ss_DNA'], col=as.character(pal$col[pal$balt.cat=="ss_DNA"]), pch=18, cex = cex)
-points( x[virus$baltimore.class%in%'unknown_RNA'], y[virus$baltimore.class%in%'unknown_RNA'], col=as.character(pal$col[pal$balt.cat=="unknown_RNA"]), pch=5, cex = cex)
-points( x[virus$baltimore.class%in%'ds_RNA'], y[virus$baltimore.class%in%'ds_RNA'], col=as.character(pal$col[pal$balt.cat=="ds_RNA"]), pch=8, cex = cex)
-points( x[virus$baltimore.class%in%'ss_RNA_-'], y[virus$baltimore.class%in%'ss_RNA_-'], col=as.character(pal$col[pal$balt.cat=="ss_RNA_-"]), pch=6, cex = cex)
-points( x[virus$baltimore.class%in%'unknown_DNA'], y[virus$baltimore.class%in%'unknown_DNA'], col=as.character(pal$col[pal$balt.cat=="unknown_DNA"]), pch=20, cex = cex)
-points( x[virus$baltimore.class%in%'RT_viruses'], y[virus$baltimore.class%in%'RT_viruses'], col=as.character(pal$col[pal$balt.cat=="RT_viruses"]), pch=1, cex = cex)
-points( x[virus$baltimore.class%in%'circular_ss_RNA'], y[virus$baltimore.class%in%'circular_ss_RNA'], col=as.character(pal$col[pal$balt.cat=='circular_ss_RNA']), pch=4, cex = cex)
-
-
-legend("topleft", legend = pal$balt.cat, fill = as.character(pal$col), ncol = 2, cex = 0.7)
 
 # b. Genome length vs mean nucleotides involved in an overlap
 x <- virus$Genome.length
 y <- virus$len.overlaps
+y[y==0] <- 0.5
 y <- jitter(y)
 x <- jitter(x)
-plot(x,y, type='n', log = 'xy', col=as.numeric(more_than_one$Molecule.type), cex=2, pch=as.numeric(more_than_one$Topology), 
+par(xpd = T, mar = c(6, 5, 4, 11))
+plot(x,y, type='n', log = 'xy', col=as.numeric(virus$Molecule.type), cex=1, pch=as.numeric(virus$Topology), cex.lab = 1.5,
      xlab = '[log10] Genome Length (nt)', ylab = '[log10] Mean overlap lenght (nt)', main = "Overlap lenght")
 
-cex <- 0.8
-points( x[virus$baltimore.class%in%'ds_DNA'], y[virus$baltimore.class%in%'ds_DNA'], col=as.character(pal$col[pal$balt.cat=="ds_DNA"]), pch=17, cex = cex)
-points( x[virus$baltimore.class%in%'ss_RNA_+'], y[virus$baltimore.class%in%'ss_RNA_+'], col=as.character(pal$col[pal$balt.cat=="ss_RNA_+"]), pch=4, cex = cex)
-points( x[virus$baltimore.class%in%'ss_DNA'], y[virus$baltimore.class%in%'ss_DNA'], col=as.character(pal$col[pal$balt.cat=="ss_DNA"]), pch=18, cex = cex)
-points( x[virus$baltimore.class%in%'unknown_RNA'], y[virus$baltimore.class%in%'unknown_RNA'], col=as.character(pal$col[pal$balt.cat=="unknown_RNA"]), pch=5, cex = cex)
-points( x[virus$baltimore.class%in%'ds_RNA'], y[virus$baltimore.class%in%'ds_RNA'], col=as.character(pal$col[pal$balt.cat=="ds_RNA"]), pch=8, cex = cex)
-points( x[virus$baltimore.class%in%'ss_RNA_-'], y[virus$baltimore.class%in%'ss_RNA_-'], col=as.character(pal$col[pal$balt.cat=="ss_RNA_-"]), pch=6, cex = cex)
-points( x[virus$baltimore.class%in%'unknown_DNA'], y[virus$baltimore.class%in%'unknown_DNA'], col=as.character(pal$col[pal$balt.cat=="unknown_DNA"]), pch=20, cex = cex)
-points( x[virus$baltimore.class%in%'RT_viruses'], y[virus$baltimore.class%in%'RT_viruses'], col=as.character(pal$col[pal$balt.cat=="RT_viruses"]), pch=1, cex = cex)
-points( x[virus$baltimore.class%in%'circular_ss_RNA'], y[virus$baltimore.class%in%'circular_ss_RNA'], col=as.character(pal$col[pal$balt.cat=='circular_ss_RNA']), pch=4, cex = cex)
+cex <- 1
 
+points( x[virus$baltimore.class%in%'ds_DNA'], y[virus$baltimore.class%in%'ds_DNA'], col=as.character(pal$col[pal$bal.class=="ds_DNA"]), pch=17, cex = cex)
+points( x[virus$baltimore.class%in%'ss_RNA_+'], y[virus$baltimore.class%in%'ss_RNA_+'], col=as.character(pal$col[pal$bal.class=="ss_RNA_+"]), pch=4, cex = cex, lwd = lwd)
+points( x[virus$baltimore.class%in%'ss_DNA'], y[virus$baltimore.class%in%'ss_DNA'], col=as.character(pal$col[pal$bal.class=="ss_DNA"]), pch=18, cex = cex)
+points( x[virus$baltimore.class%in%'unknown_RNA'], y[virus$baltimore.class%in%'unknown_RNA'], col=as.character(pal$col[pal$bal.class=="unknown_RNA"]), pch=5, cex = cex, lwd = lwd)
+points( x[virus$baltimore.class%in%'ds_RNA'], y[virus$baltimore.class%in%'ds_RNA'], col=as.character(pal$col[pal$bal.class=="ds_RNA"]), pch=8, cex = cex, lwd = 2)
+points( x[virus$baltimore.class%in%'ss_RNA_-'], y[virus$baltimore.class%in%'ss_RNA_-'], col=as.character(pal$col[pal$bal.class=="ss_RNA_-"]), pch=6, cex = cex)
+points( x[virus$baltimore.class%in%'unknown_DNA'], y[virus$baltimore.class%in%'unknown_DNA'], col=as.character(pal$col[pal$bal.class=="unknown_DNA"]), pch=20, cex = cex)
+points( x[virus$baltimore.class%in%'RT_viruses'], y[virus$baltimore.class%in%'RT_viruses'], col=as.character(pal$col[pal$bal.class=="RT_viruses"]), pch=1, cex = cex, lwd = lwd)
+points( x[virus$baltimore.class%in%'circular_ss_RNA'], y[virus$baltimore.class%in%'circular_ss_RNA'], col=as.character(pal$col[pal$bal.class=='circular_ss_RNA']), pch=4, cex = cex)
 
+#source("http://www.math.mcmaster.ca/bolker/R/misc/legendx.R") # To adjust the size of boxes in the legend
+legend(5000000, 1000, legend = pal$bal.class[1:8], fill = as.character(pal$col), box.cex=c(1,1), ncol = 1, cex = 1.2, border= F, bty="n", y.intersp = 1.5)
+dev.off()
 
 #######################################################
 # Ridgeplot average overlap length
@@ -152,12 +181,12 @@ total <- merge(x=overlaps, y=virus[,c("Accession", "baltimore.class")], by="Acce
 table <- table(total$baltimore.class, total$shift)
 plot <- ggplot(table, aes(x=, y=baltimore.class, group = baltimore.class, fill = baltimore.class))
 
-barplot(table, col = col, beside = T)
+barplot(table, col = col, beside = T, horiz = T)
 
 #result <- within(total, {count<-ave(baltimore.class, shift, FUN=function(x) length(x))})
 library(dplyr)
 
-
+write.csv(total, file="frame_shift_baltimore.csv")
 library(plotly)
 cnt <- with(total, table(baltimore.class, shift))
 head(cnt)
