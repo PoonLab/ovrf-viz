@@ -1,7 +1,8 @@
 # analyze k-mer distance matrix
-km <- read.csv('~/git/ovrf-review/data/adeno.3mer-matrix.csv', header=F)
-rnames <- km[,1]
-km <- km[,-1]  # drop row names column - repeated entries
+km <- read.csv('~/git/ovrf-review/data/adeno.inter-matrix.csv', header=F, row.names=1)
+#rnames <- km[,1]
+rnames <- row.names(km)
+#km <- km[,-1]  # drop row names column - repeated entries
 
 
 require(kernlab)
@@ -37,6 +38,12 @@ for (i in 1:12) {
 
 require(Rtsne)
 res <- Rtsne(1-km, is_distance=T, verbose=T, dims=3)
+
+plot(res$Y, pch=16, col='grey')
+for (i in 1:12) {
+  points(res$Y[grepl(proteins[i], rnames), ], pch=21, bg=pal[i])
+}
+
 plot3d(res$Y, pch=16, col='grey')
 for (i in 1:12) {
   #points(res$Y[grepl(proteins[i], rnames), ], pch=21, bg=pal[i])
