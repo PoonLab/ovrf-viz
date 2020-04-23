@@ -52,3 +52,38 @@ for (i in 1:12) {
   spheres3d(res$Y[grepl(proteins[i], rnames), 1:3], col=pal[i], radius=0.7)
 }
 spheres3d(res$Y[grepl('hypothetical', rnames), ], col='black', radius=0.3)
+
+
+
+# try agglomerative clustering
+hc <- hclust(as.dist(1-as.matrix(km)), method='ward.D2')
+
+pdf(file='temp.pdf', width=100, height=16)
+plot(hc, cex=0.5)
+dev.off()
+
+# 72 accessions
+acc <- sapply(rnames, function(x) strsplit(x, "\\.")[[1]][1])
+hist(table(acc), col='grey', border='white', main=NA, breaks=20)  
+summary(as.integer(table(acc)))  # median 32 proteins per genome
+
+
+# we want to get the peak as close to 72 as possible
+#clusters <- cutree(hc, h=2.5)
+clusters <- cutree(hc, k=32)
+hist(table(clusters), col='grey', border='white', breaks=20, main=NA)
+abline(v=72, lty=2)
+
+
+temp <- split(as.character(
+  sapply(rnames, function(x) strsplit(x, "\\.")[[1]][2])
+  ), clusters)
+
+
+
+res <- Rtsne(1-km, is_distance=T, verbose=T, dims=2)
+pal <- sample(gg2.cols(32), 32)
+plot(res$Y, type='n')
+for (i in 1:32) {
+  text(res$Y[clusters==i, ], label=i, col=pal[i], cex=0.75)
+}
