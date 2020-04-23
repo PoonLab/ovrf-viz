@@ -1,5 +1,6 @@
 # analyze k-mer distance matrix
-km <- read.csv('~/git/ovrf-review/data/adeno.inter-matrix.csv', header=F, row.names=1)
+km <- read.csv('~/git/ovrf-review/data/adeno.i2-matrix.csv', 
+               header=F, row.names=1)
 #rnames <- km[,1]
 rnames <- row.names(km)
 #km <- km[,-1]  # drop row names column - repeated entries
@@ -29,7 +30,7 @@ for (i in 1:12) {
 
 # try visualizing in 3D
 require(rgl)
-plot3d(rotated(kp))
+plot3d(rotated(kp)[,10:12])
 for (i in 1:12) {
   spheres3d(rotated(kp)[grepl(proteins[i], rnames), 1:3], col=pal[i], radius=0.5)
 }
@@ -37,13 +38,14 @@ for (i in 1:12) {
 
 
 require(Rtsne)
-res <- Rtsne(1-km, is_distance=T, verbose=T, dims=3)
+res <- Rtsne(1-km, is_distance=T, verbose=T, dims=2)
 
 plot(res$Y, pch=16, col='grey')
 for (i in 1:12) {
   points(res$Y[grepl(proteins[i], rnames), ], pch=21, bg=pal[i])
 }
 
+res <- Rtsne(1-km, is_distance=T, verbose=T, dims=3)
 plot3d(res$Y, pch=16, col='grey')
 for (i in 1:12) {
   #points(res$Y[grepl(proteins[i], rnames), ], pch=21, bg=pal[i])
