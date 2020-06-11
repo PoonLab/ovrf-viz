@@ -105,6 +105,10 @@ class Cluster:
         return edges_count
 
     def get_all_edges(self, clusters):
+        """
+        Get edges between current cluster and every other cluster on the data set
+        :return: dictionary keyed by cluster name with the count of edges between them
+        """
         total_edges = {}
         for other_cluster in clusters:
             if other_cluster.cluster != self.cluster:
@@ -139,7 +143,7 @@ def get_info(handle):
             name = info[1]
             location = info[-1]
 
-            # Find start and end positions
+            # Find start and end position for each protein
             loc = location.strip().split(';')
             # Create as many proteins as splicing fragments and store them on the protein list
             for splice in loc:
@@ -150,6 +154,7 @@ def get_info(handle):
             # Store genomes
             if genome not in genomes_names:
                 genomes_names.append(genome)
+            # Store clusters
             if cluster not in clusters:
                 clusters.append(cluster)
 
@@ -168,12 +173,17 @@ for cluster in cluster_list:
 # Create plot
 dot = Digraph("New_Dot")
 for cluster in cluster_list:
+    #print(cluster, len(cluster.proteins))
+    dot.node(cluster.cluster, label=None, fixedsize="true", width=str(len(cluster.proteins)/100), height=str(len(cluster.proteins)/100))
     for other_cluster, count in cluster.cluster_edges.items():
         edges = []
         pair = (cluster, other_cluster)
         if (pair not in edges and count != 0):
             edges.append(pair)
+            #Create edge
             dot.edge(cluster.cluster, other_cluster.cluster, label=None, penwidth=str(count/10))
 
-print(dot.source)
-dot.view()
+#print(dot.source)
+#dot.view()
+
+dot.render(filename="cluster_plot.dot")
