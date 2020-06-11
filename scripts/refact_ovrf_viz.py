@@ -1,5 +1,6 @@
 # Visualize overlapping reading frames
 from graphviz import Digraph
+import argparse
 
 class Protein:
     """
@@ -155,25 +156,42 @@ def get_info(handle):
 
     return protein_list, genomes_names, clusters
 
-handle2 = "../data/clusters_hc_k32.csv"
-protein_list, genomes_names, clusters_names = get_info(handle2)
-genome_list = [Genome(name, protein_list) for name in genomes_names]
-cluster_list = [Cluster(name, protein_list) for name in clusters_names]
+def get_args(parser):
+    parser.add_argument(
+        'file',
+        help='Path to file containing cluster output in csv format'
+    )
+    return parser.parse_args()
+
+def main():
+    parser = argparse.ArgumentParser(
+        description = "Create DOT file for cluster analysis"
+    )
+
+    args = get_args(parser)
+    print(args)
+    file = args.file
+    protein_list, genomes_names, clusters_names = get_info(file)
+    genome_list = [Genome(name, protein_list) for name in genomes_names]
+    cluster_list = [Cluster(name, protein_list) for name in clusters_names]
 
 
-# Get edges of cluster  for all clusters
-for cluster in cluster_list:
-    cluster.get_all_edges(cluster_list)
+    # Get edges of cluster  for all clusters
+    for cluster in cluster_list:
+        cluster.get_all_edges(cluster_list)
 
-# Create plot
-dot = Digraph("New_Dot")
-for cluster in cluster_list:
-    for other_cluster, count in cluster.cluster_edges.items():
-        edges = []
-        pair = (cluster, other_cluster)
-        if (pair not in edges and count != 0):
-            edges.append(pair)
-            dot.edge(cluster.cluster, other_cluster.cluster, label=None, penwidth=str(count/10))
+    # Create plot
+    dot = Digraph("New_Dot")
+    for cluster in cluster_list:
+        for other_cluster, count in cluster.cluster_edges.items():
+            edges = []
+            pair = (cluster, other_cluster)
+            if (pair not in edges and count != 0):
+                edges.append(pair)
+                dot.edge(cluster.cluster, other_cluster.cluster, label=None, penwidth=str(count/10))
 
-print(dot.source)
-dot.view()
+    print(dot.source)
+    dot.view()
+
+if __name__ =='__main__':
+    main()
