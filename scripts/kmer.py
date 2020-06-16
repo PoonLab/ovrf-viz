@@ -5,25 +5,22 @@ import math
 import re
 import sys
 
-pat = re.compile('^"([^,]+),([^,]+),(.+),(1|-1),([:;0-9]+)"$')
-
-parser = argparse.ArgumentParser(
-    description="Calculate k-mer distance matrix for all protein sequences "
-                "in a FASTA file."
-)
-parser.add_argument('-infile', type=argparse.FileType('r'),
-                    help='input, FASTA file with protein sequences')
-parser.add_argument('-outfile', type=argparse.FileType('w'), default=None,
-                    help='output, distance matrix as CSV with accession and '
-                         'gene name as column names.')
-parser.add_argument('-header', type=argparse.FileType('w'),
-                    help='output, protein header info as CSV')
-#parser.add_argument('-k', type=int, default=3, help='k-mer length (default 3)')
-parser.add_argument('-i', '--intersect', action='store_true',
-                    help='optional, use intersection distance instead of '
-                         'string kernel (d2s).')
-
-args = parser.parse_args()
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Calculate k-mer distance matrix for all protein sequences "
+                    "in a FASTA file."
+    )
+    parser.add_argument('infile', type=argparse.FileType('r'),
+                        help='input, FASTA file with protein sequences')
+    parser.add_argument('outfile', type=argparse.FileType('w'), 
+                        help='output, distance matrix as CSV with accession and '
+                             'gene name as column names.')
+    parser.add_argument('-header', type=argparse.FileType('w'), default=None,
+                        help='output (optional), protein header info as CSV')
+    parser.add_argument('--kernel', action='store_true',
+                        help='optional, use string kernel (d2s) instead of '
+                        'default intersection distance.')
+    return parser.parse_args()
 
 
 def kmer(seq):
@@ -75,53 +72,72 @@ def intersection(k1, k2):
     return res / (sum(k1.values()) + sum(k2.values()))
 
 
-#print('k={}'.format(args.k))
+def kmer_dist(infile, outfile, header, kernel):
+    """
+    :param infile:  open file stream to read FASTA
+    :param outfile:  open file stream to write distances as CSV
+    :param header:  open file stream to write header info as CSV
+    :param kernel:  if True, calculate kernel distance instead of 
+                    intersection distance
+    """
+    
+    # regular expression to parse sequence headers
+    pat = re.compile('^"([^,]+),([^,]+),(.+),(1|-1),([:;0-9]+)"$')
+    
+    # prepare output file
+    writer = None
+    if header:
+        writer = csv.writer(header)
+        writer.writerow(['desc', 'accession', 'gene.name', 'is.forward', 'coords'])
 
-writer = None
-if args.header:
-    writer = csv.writer(args.header)
-    writer.writerow(['desc', 'accession', 'gene.name', 'is.forward', 'coords'])
-
-# parse FASTA input
-labels = []
-seqs = []
-for h, s in iter_fasta(args.infile):
-    m = pat.findall(h)
-    desc, accno, gene_name, directn, coords = m[0]
-    if writer:
-        writer.writerow([
-            desc, accno, gene_name,
-            'TRUE' if directn == '1' else 'FALSE', coords
-        ])
-    labels.append('{}.{}.{}'.format(accno, gene_name, coords))
-    seqs.append(s)
+    # parse FASTA input
+    labels = []
+    seqs = []
+    for h, s in iter_fasta(infile):
+        m = pat.findall(h)
+        desc, accno, gene_name, directn, coords = m[0]
+        if writer:
+            writer.writerow([
+                desc, accno, gene_name,
+                'TRUE' if directn == '1' else 'FALSE', coords
+            ])
+        labels.append('{}.{}.{}'.format(accno, gene_name, coords))
+        seqs.append(s)
 
 
-# pre-calculate k-mer counts
-kmers = {}
-for i, seq in enumerate(seqs):
-    kmers.update({labels[i]: kmer(seq)})
+    # pre-calculate k-mer counts
+    kmers = {}
+    for i, seq in enumerate(seqs):
+        kmers.update({labels[i]: kmer(seq)})
+
+    # calculate and write distance matrix
+    outstr = None
+    for i, l1 in enumerate(labels):
+        if i > 0:
+            sys.stdout.write('\b' * len(outstr))
+
+        outstr = '{} / {}'.format(i, len(labels))
+        sys.stdout.write(outstr)
+        sys.stdout.flush()
+
+        outfile.write('"{}"'.format(l1))
+        for l2 in labels:
+            if kernel:
+                d = 1. if l1 == l2 else kdist(kmers[l1], kmers[l2])
+            else:
+                # default
+                d = intersection(kmers[l1], kmers[l2])
+                
+
+            outfile.write(',{:1.9f}'.format(d))
+
+        outfile.write('\n')
+
+    sys.stdout.write('\n')
 
 
-# calculate and write distance matrix
-outstr = None
-for i, l1 in enumerate(labels):
-    if i > 0:
-        sys.stdout.write('\b' * len(outstr))
+if __name__ == '__main__':
+    args = parse_args()
+    kmerdist(infile=args.infile, outfile=args.outfile, header=args.header, 
+             kernel=args.kernel)
 
-    outstr = '{} / {}'.format(i, len(labels))
-    sys.stdout.write(outstr)
-    sys.stdout.flush()
-
-    args.outfile.write('"{}"'.format(l1))
-    for l2 in labels:
-        if args.intersect:
-            d = intersection(kmers[l1], kmers[l2])
-        else:
-            d = 1. if l1 == l2 else kdist(kmers[l1], kmers[l2])
-
-        args.outfile.write(',{:1.9f}'.format(d))
-
-    args.outfile.write('\n')
-
-sys.stdout.write('\n')
