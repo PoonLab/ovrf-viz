@@ -4,14 +4,6 @@ import argparse
 import math
 import csv
 
-# import numpy as np
-# from matplotlib.path import Path
-# from matplotlib.patches import PathPatch
-# import matplotlib.pyplot as plt
-# import matplotlib.cm as cm
-
-
-
 import numpy as np
 from matplotlib.path import Path
 from matplotlib.patches import PathPatch
@@ -107,7 +99,8 @@ class Cluster:
     def __init__(self, cluster, all_proteins):
         self.cluster = cluster
         self.proteins = self.get_my_proteins(all_proteins)
-        self.edges = self.get_edge_list()
+        self.adjacent_clust, self.overlapping_clust = self.get_cluster_count()
+
 
     def __repr__(self):
         return self.cluster
@@ -118,39 +111,39 @@ class Cluster:
         """
         return [protein for protein in all_proteins if protein.cluster == self.cluster]
 
-    def get_edge_list(self):
+    def get_connected_clusters(self):
         """
-        Get all edges for proteins in the cluster
+        Get proteins from other clusters associated with proteins in my cluster
         """
-        edges = []
+        adjacent = []
+        overlapping = []
         for prot in self.proteins:
-            edges.extend(prot.adjacent_proteins)
-        return edges
+            overlapping.extend(prot.overlaps)
+            adjacent.extend(set(prot.adjacent_proteins) -  set(prot.overlaps))
 
-    def compare_clusters(self, other_cluster):
+        adjacent_clust = [protein.cluster for protein in adjacent]
+        overlapping_clust = [protein.cluster for protein in overlapping]
+
+        return adjacent_clust, overlapping_clust
+
+
+    def get_cluster_count(self):
         """
-        Count the number of times that a edge is created between a protein in current cluster and protein in other cluster
+        Creates dictionaries counting the ammount of times a cluster has an edge with current cluster for adjacent and overlapping cases
         """
-        edges_count = 0
-        for protein in other_cluster.proteins:  # Loop trough proteins in the other cluster
-            if protein in self.edges:
-                edges_count += self.edges.count(protein)
+        adjacent_clust, overlapping_clust = self.get_connected_clusters()
 
-        return edges_count
+        # Create dictionary for adjacent clusters
+        adj_freq = {}
+        for cluster in adjacent_clust:
+            adj_freq[cluster] = adjacent_clust.count(cluster)
 
-    def get_all_edges(self, clusters):
-        """
-        Get edges between current cluster and every other cluster on the data set
-        :return: dictionary keyed by cluster name with the count of edges between them
-        """
-        total_edges = {}
-        for other_cluster in clusters:
-            if other_cluster.cluster != self.cluster:
-                total_edges[other_cluster] = self.compare_clusters(other_cluster)
+        overlap_freq = {}
+        for cluster in overlapping_clust:
+            overlap_freq[cluster] = overlapping_clust.count(cluster)
 
-        self.cluster_edges = total_edges
-        return total_edges
 
+        return adj_freq, overlap_freq
 
 
 def get_info(handle):
@@ -234,6 +227,8 @@ def main():
     args = get_args(parser)
     print(args)
     file = args.file
+
+    # Set the minimim ammount of connections requiered to draw an edge
     if args.edge_count != None:
         min_edge = int(args.edge_count)
     else:
@@ -252,32 +247,34 @@ def main():
        "#00AAFE", "#30A2FF", "#7299FF", "#988FFF", "#B584FF", "#CC7AFF", "#DE70F9",
         "#EC68EE", "#F663E1", "#FD61D2", "#FF61C1", "#FF64AF", "#FF699B", "#FD6F85"]
 
-    # Get edges of cluster  for all clusters
-    for cluster in cluster_list:
-        cluster.get_all_edges(cluster_list)
 
     # Create plot
     dot = Digraph(comment='Cluster plot')
     dot.graph_attr['outputorder'] = 'endgesfirst'
 
     for cluster in cluster_list:
-        #print(cluster, len(cluster.proteins))
-        size = len(cluster.proteins)
-        dot.node(cluster.cluster, label=None, fixedsize="true", width=str(math.sqrt(size)/3), height=str(math.sqrt(size)/3),
-                 fontsize=str(85), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Courier-Bold')
-        for other_cluster, count in cluster.cluster_edges.items():
-            edges = []
-            pair = (cluster, other_cluster)
-            if (pair not in edges and count > min_edge):
+        cluster_size = len(cluster.proteins)
+        node_size = math.sqrt(cluster_size)/3
 
-                edges.append(pair)
-                #Create edge
-                if count >= 10:  # Color the most frequent edges
-                    dot.edge(cluster.cluster, other_cluster.cluster, label=None, penwidth=str(count),
-                     color='grey60', arrowsize = str(0.01), len = str(10))
-                else:  # Light color for the least frequent edges
-                    dot.edge(cluster.cluster, other_cluster.cluster, label=None, penwidth=str(count),
-                     color='grey83', arrowsize = str(0.01))
+        # Create a node
+        dot.node(cluster.cluster, label=None, fixedsize="true", width=str(node_size), height=str(node_size),
+                 fontsize=str(85), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Courier-Bold')
+
+
+        #print("CLUSTER", cluster, cluster_size)
+        #print("Adjacent", cluster.adjacent_clust)
+        # Create adges for adjacent proteins
+        for adj_cluster, count in cluster.adjacent_clust.items():
+            if count >= min_edge:
+                dot.edge(cluster.cluster, adj_cluster, label = None, penwidth = str(count),
+                color = "grey76", arrowsize = str(0.01), len = str(10))
+
+        #print("Overlapping", cluster.overlapping_clust)
+        # Create edges for overlapping proteins
+        for overlap_cluster, count in cluster.overlapping_clust.items():
+            if count >= min_edge:
+                dot.edge(cluster.cluster, overlap_cluster, label = None, penwidth=str(count),
+                color="#143D59", arrowsize = str(0.01), len = str(10))
 
     dot.render(filename="{}.dot".format(args.outfile))
 
