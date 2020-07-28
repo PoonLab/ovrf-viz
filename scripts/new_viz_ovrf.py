@@ -11,6 +11,9 @@ from matplotlib.patches import Rectangle
 from matplotlib.collections import PatchCollection
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+from wordcloud import WordCloud
+
+from collections import Counter
 
 def get_args(parser):
     parser.add_argument(
@@ -74,7 +77,6 @@ class Genome:
         """
         For every protein in the genome, store adjacent proteins
         """
-
         for i in range(len(self.proteins)):
             current_prot = self.proteins[i]
             for j in range(i+1, len(self.proteins)):
@@ -84,6 +86,7 @@ class Genome:
                 # Check if the start site is between the range of the other protein
                 if other_prot.start <= current_prot.start <= other_prot.end:
                     current_prot.overlaps.append(other_prot)
+
                 # Check if the end site is between the range of the other protein
                 elif other_prot.start <= current_prot.end <= other_prot.end:
                     current_prot.overlaps.append(other_prot)
@@ -115,8 +118,8 @@ class Cluster:
         """
         Get proteins from other clusters associated with proteins in my cluster
         """
-        adjacent = []
-        overlapping = []
+        adjacent = []  # Adjacent edge formation
+        overlapping = []  # Overlapping edge formation
         for prot in self.proteins:
             overlapping.extend(prot.overlaps)
             adjacent.extend(set(prot.adjacent_proteins) -  set(prot.overlaps))
@@ -125,6 +128,20 @@ class Cluster:
         overlapping_clust = [protein.cluster for protein in overlapping]
 
         return adjacent_clust, overlapping_clust
+
+
+    def find_self_edges(self):
+        print("Running the function")
+        adjacent = []  # Adjacent edge formation
+        overlapping = []  # Overlapping edge formation
+        for prot in self.proteins:
+            overlapping.extend(prot.overlaps)
+            adjacent.extend(set(prot.adjacent_proteins) -  set(prot.overlaps))
+        genomes = []
+        for protein in overlapping:
+
+            if protein.genome not in genomes:
+                genomes.append(protein.genome)
 
 
     def get_cluster_count(self):
@@ -141,7 +158,6 @@ class Cluster:
         overlap_freq = {}
         for cluster in overlapping_clust:
             overlap_freq[cluster] = overlapping_clust.count(cluster)
-
 
         return adj_freq, overlap_freq
 
@@ -213,10 +229,30 @@ def genome_plot(colors, genome_list):
         collection = PatchCollection(patches, match_original=True)
         ax.add_collection(collection)
         # TO DO: Find a better way to plot the name of the genome to have them aligned
-        ax.text(-3500, 1, gen, fontsize=6, ha='center', va='center')
+        ax.text(-700, 1, gen, fontsize=6, ha='center', va='center')
         plt.axis('auto')  # Automatically adjust the size of the ax to the size of the actual plot
         plt.axis('off')  # Don't show the axis label
 
+    plt.show()
+
+def wordcloud_plot(cluster_list):
+    """
+    Create a wordcloud plot for all proteins in each cluster
+    """
+    number_of_subplots = len(cluster_list)
+    # TO DO: nrows and ncols have to be manually edited in order to properly distribute the plots across the Figure
+    nrows = int(number_of_subplots/2) if number_of_subplots%2==0 else (number_of_subplots//2)+1
+    fig, axes = plt.subplots(nrows, 2)
+
+    for i in range(number_of_subplots):
+        cluster = cluster_list[i]
+        s = i+1
+        plt.subplot(nrows, 2, s).set_title("Cluster #" + str(cluster))  # Create a subplot
+        protein_list = [str(protein) for protein in cluster.proteins]
+        wordcloud_dict = Counter(protein_list)
+        wordcloud = WordCloud(background_color = "white").generate_from_frequencies(wordcloud_dict)
+        plt.imshow(wordcloud)
+        plt.axis("off")  # No axis
     plt.show()
 
 
@@ -239,47 +275,55 @@ def main():
     genome_list = [Genome(name, protein_list) for name in genomes_names]
     cluster_list = [Cluster(name, protein_list) for name in clusters_names]
 
+
     # Color pallette used in the Adenoviridae clustering method in R
-    colors = ["#F8766D", "#F17D51", "#E98429", "#DF8B00", "#D49200",
-     "#C89800", "#BA9E00", "#AAA300", "#97A800", "#82AD00", "#67B100",
-     "#3FB500", "#00B929", "#00BC4F", "#00BE6B", "#00BF82", "#00C097",
-      "#00C1AA", "#00C0BC", "#00BECD", "#00BBDC", "#00B7E9", "#00B1F4",
-       "#00AAFE", "#30A2FF", "#7299FF", "#988FFF", "#B584FF", "#CC7AFF", "#DE70F9",
-        "#EC68EE", "#F663E1", "#FD61D2", "#FF61C1", "#FF64AF", "#FF699B", "#FD6F85"]
+    # colors = ["#F8766D", "#F17D51", "#E98429", "#DF8B00", "#D49200",
+    #  "#C89800", "#BA9E00", "#AAA300", "#97A800", "#82AD00", "#67B100",
+    #  "#3FB500", "#00B929", "#00BC4F", "#00BE6B", "#00BF82", "#00C097",
+    #   "#00C1AA", "#00C0BC", "#00BECD", "#00BBDC", "#00B7E9", "#00B1F4",
+    #    "#00AAFE", "#30A2FF", "#7299FF", "#988FFF", "#B584FF", "#CC7AFF", "#DE70F9",
+    #     "#EC68EE", "#F663E1", "#FD61D2", "#FF61C1", "#FF64AF", "#FF699B", "#FD6F85"]
+
+    # colors = ["#F8766D" ,"#B79F00" ,"#00BA38", "#00BFC4" ,"#619CFF" ,"#F564E3"]
+    #
+    #
+    # # Create plot
+    # dot = Digraph(comment='Cluster plot')
+    # dot.graph_attr['outputorder'] = 'endgesfirst'
+    #
+    # for cluster in cluster_list:
+    #     cluster_size = len(cluster.proteins)
+    #     node_size = math.sqrt(cluster_size)/3
+    #
+    #     # Create a node
+    #     dot.node(cluster.cluster, label=None, fixedsize="true", width=str(node_size), height=str(node_size),
+    #              fontsize=str(85), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Courier-Bold')
+    #
+    #
+    #     #print("CLUSTER", cluster, cluster_size)
+    #     #print("Adjacent", cluster.adjacent_clust)
+    #     # Create adges for adjacent proteins
+    #     for adj_cluster, count in cluster.adjacent_clust.items():
+    #         if count >= min_edge:
+    #             dot.edge(cluster.cluster, adj_cluster, label = None, penwidth = str(count),
+    #             color = "grey76", arrowsize = str(0.01), len = str(10))
+    #
+    #     #print("Overlapping", cluster.overlapping_clust)
+    #     # Create edges for overlapping proteins
+    #     for overlap_cluster, count in cluster.overlapping_clust.items():
+    #         if count >= min_edge:
+    #             dot.edge(cluster.cluster, overlap_cluster, label = None, penwidth=str(count),
+    #             color="#143D59", arrowsize = str(0.01), len = str(10))
+    #             if cluster.cluster == overlap_cluster:
+    #                 print(f"Cluster: {cluster.cluster}, Numer of self edges: {count}")
+    #
 
 
-    # Create plot
-    dot = Digraph(comment='Cluster plot')
-    dot.graph_attr['outputorder'] = 'endgesfirst'
+    # dot.render(filename="{}.dot".format(args.outfile))
 
-    for cluster in cluster_list:
-        cluster_size = len(cluster.proteins)
-        node_size = math.sqrt(cluster_size)/3
-
-        # Create a node
-        dot.node(cluster.cluster, label=None, fixedsize="true", width=str(node_size), height=str(node_size),
-                 fontsize=str(85), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Courier-Bold')
-
-
-        #print("CLUSTER", cluster, cluster_size)
-        #print("Adjacent", cluster.adjacent_clust)
-        # Create adges for adjacent proteins
-        for adj_cluster, count in cluster.adjacent_clust.items():
-            if count >= min_edge:
-                dot.edge(cluster.cluster, adj_cluster, label = None, penwidth = str(count),
-                color = "grey76", arrowsize = str(0.01), len = str(10))
-
-        #print("Overlapping", cluster.overlapping_clust)
-        # Create edges for overlapping proteins
-        for overlap_cluster, count in cluster.overlapping_clust.items():
-            if count >= min_edge:
-                dot.edge(cluster.cluster, overlap_cluster, label = None, penwidth=str(count),
-                color="#143D59", arrowsize = str(0.01), len = str(10))
-
-    dot.render(filename="{}.dot".format(args.outfile))
-
+    wordcloud_plot(cluster_list)
     # Create genome plot
-    genome_plot(colors, genome_list)
+    #genome_plot(colors, genome_list)
 
 if __name__ =='__main__':
     main()
