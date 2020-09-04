@@ -1,4 +1,4 @@
-setwd('~/Projects/ovrf-review/data/adenoviridae/')
+setwd('/home/laura/Projects/ovrf-review/data/retroviridae')
 set.seed(5)
 # to generate color palettes
 gg2.cols <- function(n) {
@@ -7,14 +7,9 @@ gg2.cols <- function(n) {
 }
 
 # analyze k-mer intersection distance matrix
-km <- read.csv('distance_matrix_kmer_adeno.csv', header=F, row.names=1)
+km <- read.csv('retroviridae_kmer.csv', header=F, row.names=1)
 km <- 1-as.matrix(km)
-headers <- read.csv('header_adeno_kmer.csv', header=T)
-
-# annotate plot with some gene names
-proteins <- c('E1A', 'E1B 19K', 'E1B 55K', 'IX', 'IVa2', 'polymerase', 
-              'pTP', '52K', 'pIIIa', 'III', 'pVII', '^V$')
-pal <- gg2.cols(length(proteins))
+headers <- read.csv('retroviridae_kmer.csv', header=T)
 
 # t-stochastic neighbour embedding results in more consistent cluster
 # sizes
@@ -22,7 +17,7 @@ require(Rtsne)
 res <- Rtsne(km, is_distance=T, verbose=T, dims=2)
 hc2 <- hclust(dist(res$Y), method='ward.D2')
 
-diagnostics.hclust(hc2, x=seq(30, 100, length.out=20))
+#diagnostics.hclust(hc2, x=seq(30, 100, length.out=20))
 
 ## Trying a different, optimization-based approach:
 
@@ -54,13 +49,11 @@ par(mfrow=c(1,1))
 plot(res$Y, type='n')
 text(res$Y, label=clusters, col=pal[clusters], cex=0.8)
 info <- cbind(headers, clusters)
-write.csv(info, 'opt_kpca_adeno_cluster.csv')
+write.csv(info, 'opt_picornaviridae_cluster.csv')
 
 foo <- lapply(split(headers$gene.name, clusters), function(x) {
   tab <- table(as.character(x))
   sort(tab, decreasing=TRUE)
 })
 
-# Drawing all genomes
-plot(rect(1, 1, 10, 2))
 

@@ -5,14 +5,15 @@ import math
 import csv
 
 import numpy as np
-from matplotlib.path import Path
-from matplotlib.patches import PathPatch
-from matplotlib.patches import Rectangle
-from matplotlib.collections import PatchCollection
+import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from wordcloud import WordCloud
 
+from matplotlib.path import Path
+from matplotlib.patches import Rectangle
+from matplotlib.collections import PatchCollection
+
+from wordcloud import WordCloud
 from collections import Counter
 
 def get_args(parser):
@@ -241,11 +242,22 @@ def wordcloud_plot(cluster_list):
     """
     number_of_subplots = len(cluster_list)
     # TO DO: nrows and ncols have to be manually edited in order to properly distribute the plots across the Figure
-    nrows = int(number_of_subplots/2) if number_of_subplots%2==0 else (number_of_subplots//2)+1
-    nrows = 3
-    ncols = 3
-    fig= plt.figure()
+    number = math.sqrt(number_of_subplots)
 
+    # Calculate number of rows and cols
+    if number % 1 == 0:
+        nrows = number
+        ncols = nrows
+    else:
+        r = round(number)
+        nrows = math.trunc(number)
+        ncols = nrows +1
+        if r != nrows:
+            nrows = r
+            ncols = nrows
+
+    # Make plot
+    fig= plt.figure()
     for i in range(number_of_subplots):
         cluster = cluster_list[i]
         s = i+1
@@ -280,17 +292,9 @@ def main():
     genome_list = [Genome(name, protein_list) for name in genomes_names]
     cluster_list = [Cluster(name, protein_list) for name in clusters_names]
 
-    # TODO: Color codes have to be imported from the color pallette used to generate clusters in R
-    # Color pallette used in the Adenoviridae clustering method in R
-    # colors = ["#F8766D", "#F17D51", "#E98429", "#DF8B00", "#D49200",
-    #  "#C89800", "#BA9E00", "#AAA300", "#97A800", "#82AD00", "#67B100",
-    #  "#3FB500", "#00B929", "#00BC4F", "#00BE6B", "#00BF82", "#00C097",
-    #   "#00C1AA", "#00C0BC", "#00BECD", "#00BBDC", "#00B7E9", "#00B1F4",
-    #    "#00AAFE", "#30A2FF", "#7299FF", "#988FFF", "#B584FF", "#CC7AFF", "#DE70F9",
-    #     "#EC68EE", "#F663E1", "#FD61D2", "#FF61C1", "#FF64AF", "#FF699B", "#FD6F85"]
-
-    colors = ["#F8766D" ,"#CD9600" ,"#7CAE00" ,"#00BE67" ,"#00BFC4" ,"#00A9FF" ,"#C77CFF" ,"#FF61CC"]
-
+    # Define colors for plots
+    pal = sns.color_palette(palette="husl", n_colors=len(cluster_list))
+    colors = pal.as_hex()
 
     # Create plot
     dot = Digraph(comment='Cluster plot')
@@ -311,7 +315,8 @@ def main():
                 dot.edge(cluster.cluster, adj_cluster, label = None, penwidth = str(count),
                 color = "grey76", arrowsize = str(0.01), len = str(10))
 
-        #print("Overlapping", cluster.overlapping_clust)
+        # print("Overlapping", cluster.overlapping_clust)
+        # overlap_count = 0
         # Create edges for overlapping proteins
         for overlap_cluster, count in cluster.overlapping_clust.items():
             if count >= min_edge:
