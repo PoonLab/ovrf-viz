@@ -132,15 +132,14 @@ class Cluster:
 
 
     def find_self_edges(self):
-        print("Running the function")
         adjacent = []  # Adjacent edge formation
         overlapping = []  # Overlapping edge formation
         for prot in self.proteins:
             overlapping.extend(prot.overlaps)
             adjacent.extend(set(prot.adjacent_proteins) -  set(prot.overlaps))
         genomes = []
-        for protein in overlapping:
 
+        for protein in overlapping:
             if protein.genome not in genomes:
                 genomes.append(protein.genome)
 
@@ -234,7 +233,8 @@ def genome_plot(colors, genome_list):
         plt.axis('auto')  # Automatically adjust the size of the ax to the size of the actual plot
         plt.axis('off')  # Don't show the axis label
 
-    plt.show()
+    #plt.show()
+    return(fig)
 
 def wordcloud_plot(cluster_list):
     """
@@ -258,11 +258,12 @@ def wordcloud_plot(cluster_list):
 
     # Make plot
     fig= plt.figure()
+
     for i in range(number_of_subplots):
         cluster = cluster_list[i]
         s = i+1
         ax = fig.add_subplot(nrows, ncols, i+1)
-        ax.set_title("Cluster #" + str(cluster))
+        ax.set_title(label = "Cluster #" + str(cluster), fontsize= 8)
         protein_list = [str(protein) for protein in cluster.proteins]
         wordcloud_dict = Counter(protein_list)
         wordcloud = WordCloud(background_color = "white").generate_from_frequencies(wordcloud_dict)
@@ -270,8 +271,8 @@ def wordcloud_plot(cluster_list):
         plt.axis("off")  # No axis
 
     fig.tight_layout(pad=1) # Increase spacing between figures
-    plt.show()
-
+    #plt.show()
+    return(fig)
 
 def main():
     parser = argparse.ArgumentParser(
@@ -325,14 +326,15 @@ def main():
                 if cluster.cluster == overlap_cluster:
                     print(f"Cluster: {cluster.cluster}, Numer of self edges: {count}")
 
-
-
-    dot.render(filename="{}.dot".format(args.outfile))
+    dot.render(filename=f"{args.outfile}.dot")
 
     # Create wordcloud plot
-    wordcloud_plot(cluster_list)
+    wordcloud = wordcloud_plot(cluster_list)
+    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
     # Create genome plot
-    genome_plot(colors, genome_list)
+    gen_plot = genome_plot(colors, genome_list)
+    gen_plot.savefig(f'genome_{args.outfile}.pdf')
+
 
 if __name__ =='__main__':
     main()
