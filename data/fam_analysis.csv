@@ -1,4 +1,4 @@
-family,baltimore_class,genomes,host,dot_plot,viral_zone_info,mean_kmer_dist,total_nodes,total_edges,density,triadic_closure,larger_nodes,smaller_nodes
+family,baltimore_class,genomes,host,dot_plot,viral_zone_info,mean_kmer_dist,total_nodes,total_edges,density,triadic_closure,larger_node,smaller_node
 Coronaviridae,ss_RNA_+,65,"Human, Non-human vertebrate",Interesting,27-32kb,0.2101119,11,59,1.072727273,0.943438914,12,8
 Luteoviridae,ss_RNA_+,51,Plants,Interesting,5.3-5.7kb ,0.2460012,10,38,0.8444444444,0.6976744186,11,4
 Tombusviridae,ss_RNA_+,71,Plants,Interesting,4-4.5kb,0.2373199,9,30,0.8333333333,0.7340425532,9,3
