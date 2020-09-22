@@ -304,6 +304,7 @@ def main():
     for cluster in cluster_list:
         cluster_size = len(cluster.proteins)
         node_size = math.sqrt(cluster_size)/3
+        edge_length = str(8)
 
         # Create a node
         dot.node(cluster.cluster, label=None, fixedsize="true", width=str(node_size), height=str(node_size),
@@ -314,7 +315,7 @@ def main():
         for adj_cluster, count in cluster.adjacent_clust.items():
             if count >= min_edge:
                 dot.edge(cluster.cluster, adj_cluster, label = None, penwidth = str(count),
-                color = "grey76", arrowsize = str(0.01), len = str(10))
+                color = "grey76", arrowsize = str(1/count), len = edge_length)
 
         # print("Overlapping", cluster.overlapping_clust)
         # overlap_count = 0
@@ -322,18 +323,18 @@ def main():
         for overlap_cluster, count in cluster.overlapping_clust.items():
             if count >= min_edge:
                 dot.edge(cluster.cluster, overlap_cluster, label = None, penwidth=str(count),
-                color="#143D59", arrowsize = str(0.01), len = str(10))
+                color="#143D59", arrowsize = str(1/count), len = edge_length)
                 if cluster.cluster == overlap_cluster:
                     print(f"Cluster: {cluster.cluster}, Numer of self edges: {count}")
 
     dot.render(filename=f"{args.outfile}.dot")
 
-    # Create wordcloud plot
-    wordcloud = wordcloud_plot(cluster_list)
-    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
-    # Create genome plot
-    gen_plot = genome_plot(colors, genome_list)
-    gen_plot.savefig(f'genome_{args.outfile}.pdf')
+    # # Create wordcloud plot
+    # wordcloud = wordcloud_plot(cluster_list)
+    # wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
+    # # Create genome plot
+    # gen_plot = genome_plot(colors, genome_list)
+    # gen_plot.savefig(f'genome_{args.outfile}.pdf')
 
 
 if __name__ =='__main__':
