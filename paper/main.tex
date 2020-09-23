@@ -55,27 +55,33 @@ A second script (find$_$ovrfs.py) was used to group rows of the CDSs table by ac
 We also created a script to classify each viral family according to the Baltimore classification displayed on ViralZone \url{https://viralzone.expasy.org/}.
 The final result is a data base with a total of 11,891 viral entries, from which 9,928 are classified in any Baltimore groups. 
 From remaining 1,963 entries, we can say, according to the information obtained from NCBI, that 400 are DNA viruses and 1,552 are RNA. 
-
-\subsection{Overview of overlapping reading frames in virus genomes}
-
+R programming language was used to generate the plots displaying the distribution of the database.
 
 \subsection{Clustering protein data}
 To analyze the organization and distribution of overlapping reading frames in different virus families, we downloaded for each family all CDSs of the reference genomes from \url{https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&SourceDB_s=RefSeq}.
 The information for all CDSs was stored in a multi-fasta file where each entry consisted in a header with the name of the virus, the accession number of the genome, the product name of the CDS, the strand in which it is encoded, the coordinates in the genome and the aminoacid sequence.
 Because aligned-based methods are computationally expensive, specially for highly divergent sequences, we used a k-mer frequency method to compare the aminoacid sequences of virus families from different Baltimore groups.
-The distance matrix generated from the k-mer distance measure, is used as an input for an R script that uses a clustering method to clasify proteins in clusters according to their similarities. 
-% Describe clustering method
+The k-mer distance  matrix was used as input for a t-SNE (t-distributed stochastic neighbor embedding) algorithm using the Rtsne package on R. 
+With the t-SNE algorithm we grouped similar proteins that have a high likelihood of being together in a high dimensional space and then used a then used hclust to get the hierarchical clustering of the proteins under the method "ward.D2".
+We finally used cutree to divided our dendogram into the optimum number of clusters.
 
 \subsection{Creation of adjacency graphs}
 A Python script was created to automatically generate adjacency plots to represent the organization of viral genomes across the family. 
-The script use as an input a csv file in which each line is a protein with information regarding the genome it belongs to, the coordinates where it is located and the cluster it belongs to. 
-We use the information to find the order of the proteins for each genome and labeled them depending on if they overlap or not. 
+The script use as an input a csv file in which each line is a protein with information regarding the genome it belongs to, the coordinates where it is located and the cluster where it was assigned
+We use the information to find the order of the proteins for each genome and labeled them depending on whether they overlap or not. 
 Using Graphviz (Graph Visualization Software) \url{https://graphviz.org/theory/} to create a dot file of a network graph where each node represents a cluster, and each edge represent adjacent proteins between two clusters.
-Overlapping proteins are colored in blue, weather adjacent proteins are colored in gray. 
+Edges between Overlapping proteins are colored in blue and adjacent proteins are colored in gray. 
 As complementary information, the script uses Matplotlib\cite{Hunter:2007} to generate maps of each viral genome (where each protein is colored according to their cluster classification), and a wordcloud to visualize the names of the proteins in each cluster.
 
+\section{Results}
+\subsection{Overview of Overlapping Reading Frames in virus genomes}
+\begin{itemize}
+    \item Number of OvRFs vs Genome length
+    \item Overlap length vs Genome length
+    \item Frame shifts vs Baltimore classification
+\end{itemize}
 
-
+\subsection{Visualization of Overlapping Reading Frames across virus families}
 \newpage
 \bibliography{main}
 \bibliographystyle{vancouver}

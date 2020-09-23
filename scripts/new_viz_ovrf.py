@@ -329,12 +329,12 @@ def main():
 
     dot.render(filename=f"{args.outfile}.dot")
 
-    # # Create wordcloud plot
-    # wordcloud = wordcloud_plot(cluster_list)
-    # wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
-    # # Create genome plot
-    # gen_plot = genome_plot(colors, genome_list)
-    # gen_plot.savefig(f'genome_{args.outfile}.pdf')
+    # Create wordcloud plot
+    wordcloud = wordcloud_plot(cluster_list)
+    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
+    # Create genome plot
+    gen_plot = genome_plot(colors, genome_list)
+    gen_plot.savefig(f'genome_{args.outfile}.pdf')
 
 
 if __name__ =='__main__':
