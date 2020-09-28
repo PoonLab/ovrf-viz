@@ -1,0 +1,12 @@
+family,baltimore_class,genomes,host,dot_plot,viral_zone_info,mean_kmer_dist,total_nodes,total_edges,density,triadic_closure,larger_node,smaller_node
+Coronaviridae,ss_RNA_+,65,"Human, Non-human vertebrate",Interesting,27-32kb,0.2101119,11,59,1.072727273,0.943438914,12,8
+Luteoviridae,ss_RNA_+,51,Plants,Interesting,5.3-5.7kb ,0.2460012,10,38,0.8444444444,0.6976744186,11,4
+Tombusviridae,ss_RNA_+,71,Plants,Interesting,4-4.5kb,0.2373199,9,30,0.8333333333,0.7340425532,9,3
+Paramyxoviridae,ss_RNA_-,68,"Human, Non-human vertebrate, plants, invertebrates",Interesting (all overlaps are self-edges),15kb,0.2918008,8,17,0.6071428571,0.5581395349,8,1
+Rhabdoviridae,ss_RNA_-,82,"Human, Non-human vertebrate, plants, invertebrates",Medium (not many overlaps),11-15kb,0.2489143,13,79,1.012820513,0.9013254786,14,7
+Geminiviridae,ssDNA,687,Plants,Interesting but crowded,4.8-5.6kb,0.2528901,24,134,0.4855072464,0.5458515284,18,4
+Anelloviridae,ssDNA,108,"Human, Non-human vertebrate","Medium (tons of overlaps, few clusters)",3.8kb,0.2363337,5,14,1.4,0.875,6,5
+Retroviridae,Retrovirus,93,"Human, Non-human vertebrate",Interesting,7-11kb,0.26761,6,21,1.4,1,7,7
+Adenoviridae,dsDNA,72,"Human, Non-human vertebrate",Interesting,35-36kb,0.2317234,37,349,0.524024024,0.6262463815,33,4
+Papillomaviridae,dsDNA,207,"Human, Non-human vertebrate",Super interesting (lots of overlaps),8kb,0.2482848,10,43,0.9555555556,0.8360655738,11,5
+Poxviridae,dsDNA,50,"Humans, Non-human vertebrate, invertebrate",,130-375kb,,,,,,,

@@ -1,0 +1,89 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{times}
+
+\usepackage{lineno}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\title{OvRF review}
+\author{Laura Mu\~noz Baena and Art Poon}
+\date{2020}
+
+\begin{document}
+
+\maketitle
+
+\pagewiselinenumbers
+
+\section {Introduction}
+Overlapping genes are nucleotide sequences that encode more than one protein. 
+There is a general consensus on the reasons to explain overlapping genes in viruses. 
+The compression idea states that this type of gene arrangement allow viruses to maximize the amount of information contained in their genomes\cite{lamb1991diversity, pavesi1997informational}. 
+This hypothesis is consistent with the idea that viral genomes tend to be small in order to prevent deleterious mutations and carry less replication times\cite{belshaw2008pacing}, improving their infectivity. However, the discovery of overlapping genes in longer genomes including both prokaryotic\cite{normark1983overlapping, johnson2004properties, palleja2008large} and eukaryotic organisms\cite{spencer1986overlapping, williams1986mouse, makalowska2005overlapping} challenges the compression theory.
+A second theory suggests that overlapping genes could have potential regulatory roles\cite{normark1983overlapping, kapranov2007genome}.
+This was first suggested by Normak and collaborators\cite{normark1983overlapping}, which examined overlapping genes in \textit{Escherichia coli}, and described the possible implications in regulation of gene expression. 
+In viruses, the effects of overlapping genes in transcription and translation, have been studied for example in the Autographa californica nuclear polyhedrosis virus (AcNPV)\cite{friesen1985temporal}, the Bacteriohage MS2\cite{scherbakov2000overlapping} and Simian virus 40(SV40)\cite{buchman1984complex}.
+The idea that overlapping regions could be used by viruses to create \textit{de novo} genes by a process known as "overprinting" was first suggested by Grasse\cite{grasse2013evolution} in 1973.
+Even though several papers on this topic have been written since then, the core ideas regarding overprinting process remain the same: 
+1. In eukaryotes, genes product of overprinting are duplicated and separated in different sections of the genome, but in viruses genes tend to remain overlapped due to size constrains. 
+2. Genes that comes from overprinting have an unusual codon usage and encode proteins that have diverse functions specialized to the current life-style of the organism in which they are found. 
+More recent studies have shown that overlapping regions tend to have higher levels of intrinsic structural disorder, likely because one of the members was recently born \textit{de novo}\cite{willis2018gene}.
+The way overlapping genes arrange vary according to every organism. However, there are five frame shift possibilities for each overlap in reference with the parental gene (which we refer as +0 reading frame).
+If the genes are in the positive strand, there can be genes with a frame shift of +1 or +2.
+If the genes are in the negative strand, there can be genes in -0 (opposite strand without shifting), -1 or -2 reading frames.
+
+\section{Materials and Methods}
+\subsection{Data collection and processing}
+The initial part of the analysis consisted on the creation of the database.
+A list of all virus genomes was downloaded from NCBI \url{https://www.ncbi.nlm.nih.gov/genome/viruses/}.
+The table had information regarding: representative, neighbor, host, taxonomy and segment name for every reference genome on the database. 
+The neighbor information is a new approach from NCBI designed to include more diversity for every species, so every reference genome have some other genomes associated to it that are also complete or near complete. 
+However, for the purpose of this study, we considered that the reference genome of each species is sufficient information. 
+Information of only the reference genomes was recorded and complemented by pulling data from the GeneBank database including: genome length, number of proteins, topology and molecule type using a Python script called scraper-2020.py.
+The same script was used to create a different table in which we stored all the CDSs of every genome with accession number (of the genome they belong to), product, strand, coordinates and start codon position. 
+A second script (find$_$ovrfs.py) was used to group rows of the CDSs table by accession number and compare the coordinates of each protein. The output is a table with accession number of the reference genome, product, location and length of the overlapping proteins, number of nucleotides involved in the overlap and frame shift.
+%Update this information with new downloads
+We also created a script to classify each viral family according to the Baltimore classification displayed on ViralZone \url{https://viralzone.expasy.org/}.
+The final result is a data base with a total of 11,891 viral entries, from which 9,928 are classified in any Baltimore groups. 
+From remaining 1,963 entries, we can say, according to the information obtained from NCBI, that 400 are DNA viruses and 1,552 are RNA. 
+R programming language was used to generate the plots displaying the distribution of the database.
+
+\subsection{Clustering protein data}
+To analyze the organization and distribution of overlapping reading frames in different virus families, we downloaded for each family all CDSs of the reference genomes from \url{https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&SourceDB_s=RefSeq}.
+The information for all CDSs was stored in a multi-fasta file where each entry consisted in a header with the name of the virus, the accession number of the genome, the product name of the CDS, the strand in which it is encoded, the coordinates in the genome and the aminoacid sequence.
+Because aligned-based methods are computationally expensive, specially for highly divergent sequences, we used a k-mer frequency method to compare the aminoacid sequences of virus families from different Baltimore groups.
+The k-mer distance  matrix was used as input for a t-SNE (t-distributed stochastic neighbor embedding) algorithm using the Rtsne package on R. 
+With the t-SNE algorithm we grouped similar proteins that have a high likelihood of being together in a high dimensional space and then used a then used hclust to get the hierarchical clustering of the proteins under the method "ward.D2".
+We finally used cutree to divided our dendogram into the optimum number of clusters.
+
+\subsection{Creation of adjacency graphs}
+A Python script was created to automatically generate adjacency plots to represent the organization of viral genomes across the family. 
+The script use as an input a csv file in which each line is a protein with information regarding the genome it belongs to, the coordinates where it is located and the cluster where it was assigned
+We use the information to find the order of the proteins for each genome and labeled them depending on whether they overlap or not. 
+Using Graphviz (Graph Visualization Software) \url{https://graphviz.org/theory/} to create a dot file of a network graph where each node represents a cluster, and each edge represent adjacent proteins between two clusters.
+Edges between Overlapping proteins are colored in blue and adjacent proteins are colored in gray. 
+As complementary information, the script uses Matplotlib\cite{Hunter:2007} to generate maps of each viral genome (where each protein is colored according to their cluster classification), and a wordcloud to visualize the names of the proteins in each cluster.
+
+\section{Results}
+\subsection{Overview of Overlapping Reading Frames in virus genomes}
+\begin{itemize}
+    \item Number of OvRFs vs Genome length
+    \item Overlap length vs Genome length
+    \item Frame shifts vs Baltimore classification
+\end{itemize}
+
+\subsection{Visualization of Overlapping Reading Frames across virus families}
+\newpage
+\bibliography{main}
+\bibliographystyle{vancouver}
+
+\end{document}
