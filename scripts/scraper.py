@@ -97,18 +97,18 @@ def retrieve_CDS(record):
 
 
 def main():
-    handle = open('../data/viruses.csv', 'w')
-    outfile = DictWriter(handle,
-                        delimiter=',',
-                        extrasaction='ignore',
-                        fieldnames=[
-                            'Family', 'Genome', 'Source information',
-                            'Accession', 'Date completed', 'Date updated',
-                            'Genome length', 'Number of proteins', 'Host'
-                        ])
-    outfile.writeheader()
+    # handle = open('../data/viruses.csv', 'w')
+    # outfile = DictWriter(handle,
+    #                     delimiter=',',
+    #                     extrasaction='ignore',
+    #                     fieldnames=[
+    #                         'Family', 'Genome', 'Source information',
+    #                         'Accession', 'Date completed', 'Date updated',
+    #                         'Genome length', 'Number of proteins', 'Host'
+    #                     ])
+    # outfile.writeheader()
 
-    orffile = open('orfs.csv', 'w')
+    orffile = open('orfs_with_nt.csv', 'w')
     orffile.write('accno,product,strand,coords,aaseq\n')
 
     for row in parse_table(tbl):
@@ -118,8 +118,8 @@ def main():
         else:
             accnos = row['Accession']
 
-        outfile.writerow(row)
-        handle.flush()
+        # outfile.writerow(row)
+        # handle.flush()
 
         for accn in accnos:
             gid = retrieve_gid(accn)

@@ -2,7 +2,7 @@ from Bio import Entrez, SeqIO, SeqFeature
 from csv import DictWriter
 from time import sleep
 
-Entrez.email = 'bioinfo@uwo.ca'
+Entrez.email = 'lmuoz@uwo.ca'
 #'bioinfo@uwo.ca'
 #accn = 'NC_015932'
 tbl = '../data/taxid10239.tbl'
@@ -103,9 +103,6 @@ def retrieve_annotations(record):
 
 def main():
 
-    #orffile = open('orfs.csv', 'w')
-    #orffile.write('accno,product,strand,coords,aaseq\n')
-
     handle2 = open('../data/virus_with_info.csv', 'w')
     virus_info_file = DictWriter(handle2,
                                      delimiter = ',',
@@ -125,15 +122,21 @@ def main():
         else:
             accnos = row['Accession']
 
-        gid = retrieve_gid(accnos)
-        record = retrieve_record(gid)
-        annotation = retrieve_annotations(record)
-        final_row = {**row, **annotation}
-        virus_info_file.writerow(final_row)
         handle2.flush()
 
-        print(row['Genome'], gid)  # track progress
-        sleep(1)
+        for accn in accnos:
+            gid = retrieve_gid(accn)
+            if gid is None:
+                print('Warning, failed to retrieve gid for {}'.format(accn))
+                continue
+
+            print(row['Genome'], gid)  # track progress
+            record = retrieve_record(gid)
+            annotation = retrieve_annotations(record)
+            final_row = {**row, **annotation}
+            virus_info_file.writerow(final_row)
+
+            sleep(1)
 
 if __name__ == "__main__":
     main()

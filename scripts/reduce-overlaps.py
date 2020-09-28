@@ -4,14 +4,14 @@ occur in multiple segments because of "introns".
 """
 
 from csv import DictReader, DictWriter
-handle = open('../data/find_ovrfs.csv')
+handle = open('../data/find_ovrfs2.csv')
 reader = DictReader(handle)
 
 last_state = None
 last_overlap = 0
 last_shift = None
 
-outfile = open('../data/ovrfs-reduced.csv', 'w')
+outfile = open('../data/ovrfs-reduced2.csv', 'w')
 writer = DictWriter(outfile, fieldnames=[
     'accn', 'prod1', 'loc1', 'dir1', 'prod2', 'loc2', 'dir2', 'seqlen1', 'seqlen2', 'overlap', 'shift'
 ])

@@ -59,7 +59,7 @@ def find_ovrfs(accn, records, outfile):
                 for l2, r2 in c2:
                     left = max(l1, l2)
                     right = min(r1, r2)
-                    overlap = right - left
+                    overlap = (right - left) +1
 
                     shift = abs(xl1-xl2) % 3
                     if dir1 != dir2:
@@ -74,11 +74,10 @@ def find_ovrfs(accn, records, outfile):
                         ))
 
 
-outfile = open('../data/find_ovrfs.csv', 'w')
+outfile = open('../data/find_ovrfs2.csv', 'w')
 outfile.write('accn,prod1,loc1,dir1,prod2,loc2,dir2,seqlen1,seqlen2,overlap,shift\n')
 
 for accn, records in get_records('../data/orfs-fixed.csv'):
     #print(accn)
     find_ovrfs(accn, records, outfile)
-
 
