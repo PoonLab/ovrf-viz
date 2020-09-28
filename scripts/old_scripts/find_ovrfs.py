@@ -30,6 +30,7 @@ def get_records(file):
 def parse_coords(coords):
     res = []
     for interval in coords.split(';'):
+        print(interval)
         left, right = interval.split(':')
         res.append((int(left), int(right)))
     return(res)
@@ -40,9 +41,11 @@ def find_ovrfs(accn, records, outfile):
     :param records:
     :return: list of overlapping regions, if any
     """
+    print(accn)
     n = len(records)
     for i in range(n):
         rec1 = records[i]
+        print(rec1['coords'], type(rec1['coords']), len(rec1))         
         c1 = parse_coords(rec1['coords'])
         xl1 = min([l for l, r in c1])  # extreme left
         len1 = sum([r-l for l, r in c1])  # total CDS length
@@ -66,7 +69,7 @@ def find_ovrfs(accn, records, outfile):
                         shift = '-'+str(shift)
                     else:
                         shift = '+'+str(shift)
- 
+
                     if overlap > 0:
                         outfile.write('{},"{}",{},{},"{}",{},{},{},{},{},{}\n'.format(
                             accn, rec1['product'], xl1, dir1, rec2['product'], xl2, dir2,
@@ -74,10 +77,9 @@ def find_ovrfs(accn, records, outfile):
                         ))
 
 
-outfile = open('../data/find_ovrfs2.csv', 'w')
+outfile = open('find_ovrfs_out.csv', 'w')
 outfile.write('accn,prod1,loc1,dir1,prod2,loc2,dir2,seqlen1,seqlen2,overlap,shift\n')
 
-for accn, records in get_records('../data/orfs-fixed.csv'):
+for accn, records in get_records('/home/lmunoz/Projects/ovrf-review/dataset_2020/total_orfs.csv'):
     #print(accn)
     find_ovrfs(accn, records, outfile)
-
