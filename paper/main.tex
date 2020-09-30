@@ -45,24 +45,29 @@ If the genes are in the negative strand, there can be genes in -0 (opposite stra
 \subsection{Data collection and processing}
 The initial part of the analysis consisted on the creation of the database.
 A list of all virus genomes was downloaded from NCBI \url{https://www.ncbi.nlm.nih.gov/genome/viruses/}.
-The table had information regarding: representative, neighbor, host, taxonomy and segment name for every reference genome on the database. 
+The table of 247,941 lines, had information regarding: representative, neighbor, host, taxonomy and segment name for every reference genome on the database. 
 The neighbor information is a new approach from NCBI designed to include more diversity for every species, so every reference genome have some other genomes associated to it that are also complete or near complete. 
-However, for the purpose of this study, we considered that the reference genome of each species is sufficient information. 
-Information of only the reference genomes was recorded and complemented by pulling data from the GeneBank database including: genome length, number of proteins, topology and molecule type using a Python script called scraper-2020.py.
-The same script was used to create a different table in which we stored all the CDSs of every genome with accession number (of the genome they belong to), product, strand, coordinates and start codon position. 
-A second script (find$_$ovrfs.py) was used to group rows of the CDSs table by accession number and compare the coordinates of each protein. The output is a table with accession number of the reference genome, product, location and length of the overlapping proteins, number of nucleotides involved in the overlap and frame shift.
+However, for the purpose of this study, we considered the reference genome of each species as sufficient information. 
+We used a Python script to retrieve relevant information about each reference genome by pulling data from the GeneBank database. 
+The new table included the following complementary information: genome length, number of proteins, topology and molecule type.
+The same script was used to create a different table in which we stored information for all the CDSs of every genome with accession number (of the genome they belong to), product, strand, coordinates and start codon position. 
+A second script (find$_$ovrfs.py) was used to group rows of the CDSs information table by accession number and compare the coordinates of each protein in order to obtain the possible overlaps. 
+The output is a table with accession number of the reference genome, product, location and direction of each protein, number of nucleotides involved in the overlap and frame shift.
 %Update this information with new downloads
 We also created a script to classify each viral family according to the Baltimore classification displayed on ViralZone \url{https://viralzone.expasy.org/}.
-The final result is a data base with a total of 11,891 viral entries, from which 9,928 are classified in any Baltimore groups. 
-From remaining 1,963 entries, we can say, according to the information obtained from NCBI, that 400 are DNA viruses and 1,552 are RNA. 
+The result of the processing steps, is a table of 12,609 reference genomes from which 9,982 are classified in any Baltimore groups. 
+From the remaining 2,627, 1,001 are DNA viruses and 1,626 are RNA. according to the information obtained from NCBI.
+The second table contains the information of 160,222 overlaps from all the reference genomes.
 R programming language was used to generate the plots displaying the distribution of the database.
 
 \subsection{Clustering protein data}
-To analyze the organization and distribution of overlapping reading frames in different virus families, we downloaded for each family all CDSs of the reference genomes from \url{https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&SourceDB_s=RefSeq}.
-The information for all CDSs was stored in a multi-fasta file where each entry consisted in a header with the name of the virus, the accession number of the genome, the product name of the CDS, the strand in which it is encoded, the coordinates in the genome and the aminoacid sequence.
-Because aligned-based methods are computationally expensive, specially for highly divergent sequences, we used a k-mer frequency method to compare the aminoacid sequences of virus families from different Baltimore groups.
-The k-mer distance  matrix was used as input for a t-SNE (t-distributed stochastic neighbor embedding) algorithm using the Rtsne package on R. 
-With the t-SNE algorithm we grouped similar proteins that have a high likelihood of being together in a high dimensional space and then used a then used hclust to get the hierarchical clustering of the proteins under the method "ward.D2".
+To analyze the organization and distribution of overlapping reading frames in different virus families, we downloaded for each family the amino acid sequences for all CDSs of the reference genomes from the NCBI virus database.
+The header of each entry in the multi-fasta file has the the accession number of the genome, the product name of the CDS, the strand in which it is encoded and the coordinates in the genome.
+Since our analysis is between highly divergent sequences (entire virus families), we use \textit{k-}mer counts to compare the sequences. 
+The method projects each of the inpit seqences into a feature space of \textit{k-}mer counts where sequence information is transformed into numerical values that ae latter used to calculate distances between all possible sequence pairs in the dataset. 
+The k-mer distance  matrix was used as input for a t-distributed Stochastic Neighbor Embedding algorithm (t-SNE)using the Rtsne package on R. 
+The purpose of t-SNE was to exaggerate the distance between proteins to  extract functioning clusters to work with by grouping similar proteins that have a high likelihood of being together in a high dimensional space.
+We then used hclust to get the hierarchical clustering of the proteins under the method "ward.D2".
 We finally used cutree to divided our dendogram into the optimum number of clusters.
 
 \subsection{Creation of adjacency graphs}
