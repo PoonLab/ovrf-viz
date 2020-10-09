@@ -51,21 +51,20 @@ However, for the purpose of this study, we considered the reference genome of ea
 We used a Python script to retrieve relevant information about each reference genome by pulling data from the GeneBank database. 
 The new table included the following complementary information: genome length, number of proteins, topology and molecule type.
 The same script was used to create a different table in which we stored information for all the CDSs of every genome with accession number (of the genome they belong to), product, strand, coordinates and start codon position. 
-A second script (find$_$ovrfs.py) was used to group rows of the CDSs information table by accession number and compare the coordinates of each protein in order to obtain the possible overlaps. 
+A second script (find$\_$ovrfs.py) was used to group rows of the CDSs information table by accession number and compare the coordinates of each protein in order to obtain the possible overlaps. 
 The output is a table with accession number of the reference genome, product, location and direction of each protein, number of nucleotides involved in the overlap and frame shift.
-%Update this information with new downloads
-We also created a script to classify each viral family according to the Baltimore classification displayed on ViralZone \url{https://viralzone.expasy.org/}.
-The result of the processing steps, is a table of 12,609 reference genomes from which 9,982 are classified in any Baltimore groups. 
-From the remaining 2,627, 1,001 are DNA viruses and 1,626 are RNA. according to the information obtained from NCBI.
-The second table contains the information of 160,222 overlaps from all the reference genomes.
+We also created a script to classify each viral family according to the Baltimore classes displayed on ViralZone \url{https://viralzone.expasy.org/}.
+The result of the processing steps, is a table of 12,609 reference genomes from which 9,982 are classified in any Baltimore groups and 6,614 have overlapping proteins. 
+From the remaining 2,627, 1,001 are DNA viruses and 1,626 are RNA according to the information obtained from NCBI.
+The second table contains information of 160,222 overlapping proteins from all the reference genomes.
 R programming language was used to generate the plots displaying the distribution of the database.
 
-\subsection{Clustering protein data}
-To analyze the organization and distribution of overlapping reading frames in different virus families, we downloaded for each family the amino acid sequences for all CDSs of the reference genomes from the NCBI virus database.
+\subsection{Clustering protein data by family}
+To analyze the organization and distribution of overlapping reading frames in different virus families, we downloaded for each family protein sequences for all CDSs of the reference genomes from the NCBI virus database.
 The header of each entry in the multi-fasta file has the the accession number of the genome, the product name of the CDS, the strand in which it is encoded and the coordinates in the genome.
-Since our analysis is between highly divergent sequences (entire virus families), we use \textit{k-}mer counts to compare the sequences. 
-The method projects each of the inpit seqences into a feature space of \textit{k-}mer counts where sequence information is transformed into numerical values that ae latter used to calculate distances between all possible sequence pairs in the dataset. 
-The k-mer distance  matrix was used as input for a t-distributed Stochastic Neighbor Embedding algorithm (t-SNE)using the Rtsne package on R. 
+Since our analysis is between highly divergent sequences (entire virus families), we use \textit{k-}mer counts to compare the amino acid sequences. 
+The method projects each of the input sequences into a feature space of \textit{k-}mer counts where sequence information is transformed into numerical values that are latter used to calculate distances between all possible sequence pairs in the dataset\cite{zielezinski2019benchmarking}. 
+The k-mer distance  matrix was used as input for a t-distributed Stochastic Neighbor Embedding algorithm (t-SNE) using the Rtsne package on R. 
 The purpose of t-SNE was to exaggerate the distance between proteins to  extract functioning clusters to work with by grouping similar proteins that have a high likelihood of being together in a high dimensional space.
 We then used hclust to get the hierarchical clustering of the proteins under the method "ward.D2".
 We finally used cutree to divided our dendogram into the optimum number of clusters.
@@ -74,17 +73,30 @@ We finally used cutree to divided our dendogram into the optimum number of clust
 A Python script was created to automatically generate adjacency plots to represent the organization of viral genomes across the family. 
 The script use as an input a csv file in which each line is a protein with information regarding the genome it belongs to, the coordinates where it is located and the cluster where it was assigned
 We use the information to find the order of the proteins for each genome and labeled them depending on whether they overlap or not. 
-Using Graphviz (Graph Visualization Software) \url{https://graphviz.org/theory/} to create a dot file of a network graph where each node represents a cluster, and each edge represent adjacent proteins between two clusters.
+With Graphviz (Graph Visualization Software) \url{https://graphviz.org/theory/}, we produced a dot file of a network graph where each node represents a cluster, and each edge represent adjacent proteins between two clusters.
 Edges between Overlapping proteins are colored in blue and adjacent proteins are colored in gray. 
-As complementary information, the script uses Matplotlib\cite{Hunter:2007} to generate maps of each viral genome (where each protein is colored according to their cluster classification), and a wordcloud to visualize the names of the proteins in each cluster.
+As complementary information, the script uses Matplotlib\cite{Hunter:2007} to generate maps of each viral genome (where each protein is colored according to their cluster classification), and WordClouds to visualize the names of the proteins in each cluster.
 
 \section{Results}
-\subsection{Overview of Overlapping Reading Frames in virus genomes}
-\begin{itemize}
-    \item Number of OvRFs vs Genome length
-    \item Overlap length vs Genome length
-    \item Frame shifts vs Baltimore classification
-\end{itemize}
+\subsection{Number of ORFs is correlated with number of OvRFs}
+As expected, there is a positive correlation between the number of ORFs and the number of proteins overlapping (Person's product-moment correlation, $P<10^{-12}$).
+However, there appear to be different tendencies for different Baltimore groups. 
+The biggest group of viruses, double stranded DNA viruses, encode on average 202 proteins and 37 overlaps. 
+Some extreme cases of this group are  Paramecium bursaria Chlorella viruses (which host is eykaryotic algae)from the Phycodnaviridae family, have around 1650 ORFS and  more than 600 overlaps.
+37\% of its proteins have an overlap. 
+%The \textit{Siphoviridae} family, that represents 42\% of that baltimore group. 
+In contrast, positive single stranded RNA, encode on average 10.5 from which around 3 are involved in an overlap. 
+Negative single stranded RNA encode around 7 proteins and have 2 overlaps, that has some extreme examples like Simian hemorrhagic fever virus (NC$\_003092$), that encodes 33 proteins from which 51\% are involved in an overlap. 
+
+\subsection{Genome length is not correlated with overlap length}
+We face a completely different scenario when we evaluate the correlation between genome length and mean overlap length.
+There are no clear trends in this case, and viruses are divided across the entire spectrum between 1 and 10,000 nucleotides involved in overlaps for viruses lengths varying from 1 thousand to 1 million nucleotides long.
+As we pointed out before, the longest genomes are those of DNA viruses, but the longer overlaps, are from RNA viruses like 
+    
+\subsection{Frame Shifts distribution}
+Different Baltimore groups also tend to have different kinds of overlaps. 
+The +2 and +1 frame shifts are common for all Baltimore groups, being more common in double stranded and single stranded viruses respectively. 
+The only gruops with negative sense frame shifts are negative ssRNA and DNA viruses (both single and double stranded).
 
 \subsection{Visualization of Overlapping Reading Frames across virus families}
 \newpage
