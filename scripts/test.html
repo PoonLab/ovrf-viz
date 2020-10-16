@@ -39,15 +39,17 @@
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(width / 2, height / 2));
 
-    d3.json("test.json", function(error, graph) {
+    d3.json("corona.json", function(error, graph) {
       if (error) throw error;
 
       /* Define the data for the edges */  
-      var link = svg.append("g")
+      var linksEnter = svg.append("g")
           .attr("class", "links")
         .selectAll("line")
         .data(graph.links)
-        .enter().append("line")
+        .enter();
+        
+      var links = linksEnter.append("line")
           .attr("stroke-width", function(d) { return 2*Math.sqrt(d.count); })
           .attr("stroke", function(d) {
             if (d.className=='self') {
@@ -58,6 +60,12 @@
             // }
             return "#9999";
           });
+
+      var proteins = linksEnter.append("svg:text")
+          .attr("class", "protein")
+          .text(function(d) {
+            return d.source.name;
+          })
 
       /* Define the data for the nodes */    
       var nodeEnter = svg.append("g")
@@ -72,7 +80,7 @@
               .on("drag", dragged)
               .on("end", dragended));
 
-      var node = nodeEnter.append("circle")
+      var nodes = nodeEnter.append("circle")
           .attr("r", function(d) { return(Math.sqrt(d.size)); })
           .attr("fill", function(d) { return color(d.group); });
 
@@ -88,20 +96,28 @@
           .links(graph.links);
 
       function ticked() {
-        link
+        links
             .attr("x1", function(d) { return d.source.x; })
             .attr("y1", function(d) { return d.source.y; })
             .attr("x2", function(d) { return d.target.x; })
             .attr("y2", function(d) { return d.target.y; });
 
-        node
+        proteins
+            .attr("x", function(d) { return d.source.x; })
+            .attr("y", function(d) {
+              console.log(d.source)
+              return d.source.y;
+            });
+
+        nodes
             .attr("cx", function(d) { return d.x; })
             .attr("cy", function(d) { return d.y; });
 
         labels
             .attr("x", function(d) { return d.x; })
-            .attr("y", function(d) { return d.y; });
+            .attr("y", function(d) { return d.y; }); 
       }
+      
     });
 
     function dragstarted(d) {
