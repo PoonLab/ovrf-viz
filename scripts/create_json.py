@@ -201,12 +201,12 @@ def main():
     pal = sns.color_palette(palette="husl", n_colors=len(cluster_list))
     colors = pal.as_hex()
 
-    json_dict = {"nodes":[], "links":[]}
+    json_dict = {"nodes":[], "links":[], "ovrfs":[]}
     for cluster_obj in cluster_list:
         # Find most common protein name
-        prot_names = Counter([str(protein) for protein in cluster_obj.proteins]).most_common(1)
-        # common_name = max(prot_names.iteritems(), key=operator.otemgetter(1))[0]
-        # print(common_name)
+        comp_name = Counter([str(protein) for protein in cluster_obj.proteins]).most_common(1)[0][0]
+        prot_name = comp_name.replace(' protein', '')
+        #print(prot_name)
 
         cluster = str(cluster_obj)
         start = f"start{str(cluster)}"
@@ -216,34 +216,44 @@ def main():
                                     "id": start, 
                                     "group": int(cluster), 
                                     "size": cluster_size, 
-                                    "color": colors[int(cluster)-1], 
-                                    "name":prot_names[0][0]
+                                    "color": colors[int(cluster)-1]
                                 })
 
         json_dict["nodes"].append({
                                     "id": end, 
                                     "group": int(cluster), 
                                     "size": cluster_size, 
-                                    "color": colors[int(cluster)-1], 
-                                    "name":prot_names[0][0]
+                                    "color": colors[int(cluster)-1]
                                 })
         
-        json_dict["links"].append({"source": start, "target": end, "count": cluster_size, "className": "self"})                         
+        # Self edges (between start and end nodes from the same cluster)
+        json_dict["links"].append({
+                                    "source": start, 
+                                    "target": end, 
+                                    "count": cluster_size,
+                                    "className": "self",
+                                    "protName":prot_name
+                                    })                         
 
         # Create edges for adjacent proteins
         for adj_cluster_obj, count in cluster_obj.adjacent_clust.items():
             adj_cluster = str(adj_cluster_obj)
-            if adj_cluster == cluster:
-                pass           
-            else:
-                json_dict["links"].append({"source": end, "target": f"start{str(adj_cluster)}", "count": count, "className": "adj"})
+            json_dict["links"].append({
+                                        "source": end, 
+                                        "target": f"start{str(adj_cluster)}", 
+                                        "count": count, 
+                                        "className": "adj"
+                                    })
 
+        # Create edged for overlapping proteins
         for overlap_cluster_obj, count in cluster_obj.overlapping_clust.items():
-            overlap_cluster = str(overlap_cluster_obj)
-            if overlap_cluster == cluster:
-                pass           
-            else:
-                json_dict["links"].append({"source": end, "target": f"start{str(overlap_cluster)}", "count": count, "className": "overlap"})
+            overlap_cluster = str(overlap_cluster_obj)     
+            json_dict["ovrfs"].append({
+                                        "source": end, 
+                                        "target": f"start{str(overlap_cluster)}", 
+                                        "count": count, 
+                                        "className": "overlap"
+                                    })
 
     with open(f"{args.outfile}.json", "w") as outfile:
         json.dump(json_dict, outfile, indent=4)
