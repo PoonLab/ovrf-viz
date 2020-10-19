@@ -1,139 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Overlapping Reading Frames</title>
+  <title>Genome arrangement</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+  <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+  <script src="https://d3js.org/d3-drag.v1.min.js"></script>
   <link rel="stylesheet" href="style.css">
-</head> 
+</head>
 
 
 <body>
   <header id="header" class="wrapper">
-    <h1>Overlapping Reading Frames Visualization</h1>
-    <p>By Art Ponn and Laura Munoz</p>
+    <h1>Visualization of genome arrangement</h1>
+    <p>Poonlab</p>
   </header>
 
-  <main class="wrapper">
-    <svg width="960" height="600">
-
-
-    </svg>
-  </main>
+  <div id="graphs" class="wrapper">
+    <div id="genome"></div>
+    <div id="histogram"></div>
+  </div>
 
 
   <script type="text/javascript">
-    var svg = d3.select("svg"),
-        width = +svg.attr("width"),
-        height = +svg.attr("height");
+
+    var width = 960;
+    var height = 600;
+    
+    var genome = d3.select("div#genome")
+      .append("svg:svg")
+      .attr("width", width)
+      .attr("height", height);
+
+    var histogram = d3.select("div#histogram")
+      .append("svg:svg")
+      .attr("width", 200)
+      .attr("height", 200);
 
     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
     var simulation = d3.forceSimulation()
       .force("link", d3.forceLink()
-        .id(function(d) { return d.id; })
-        .strength(function(d) {
+        .id(function (d) { return d.id; })
+        .strength(function (d) {
           if (d.className == 'self') return 1.0;
           return 0.01;
         }))
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(width / 2, height / 2));
 
-    d3.json("corona.json", function(error, graph) {
-      if (error) throw error;
 
-      /* Define the data for the edges */  
-      var linksEnter = svg.append("g")
-          .attr("class", "links")
+    function draw(data) { 
+      /* Define the data for the edges */
+      var linksGroup = genome.append("g")
+        .attr("class", "links")
         .selectAll("line")
-        .data(graph.links)
-        .enter();
-        
+        .data(data.links, function(d) {
+          return `${d.source.id}-${d.target.id}`;
+        });
+
+      linksGroup.exit().remove();
+
+      var linksEnter = linksGroup.enter();
+
       var links = linksEnter.append("line")
-          .attr("stroke-width", function(d) { return 2*Math.sqrt(d.count); })
-          .attr("stroke", function(d) {
-            if (d.className=='self') {
-              return color(d.source.group);
-            } 
-            return "#9999";
-          });
+        .attr("stroke-width", function (d) { return 2 * Math.sqrt(d.count); })
+        .attr("stroke", function (d) {
+          if (d.className == 'self') {
+            return color(d.source.group);
+          }
+          return "#9999";
+        });  
 
       var proteins = linksEnter.append("svg:text")
-          .attr("class", "textClass")
-          .text(function(d) { return d.protName; });
+        .attr("class", "textClass")
+        .text(function (d) { return d.protName; });
 
-      /* Define the data for the nodes */    
-      var nodeEnter = svg.append("g")
+      /* Define the data for the nodes */
+      var nodeGroup = genome.append("g")
         .attr("class", "nodes")
         .selectAll("circle")
-        .data(graph.nodes)
+        .data(data.nodes, function(d) {
+          return d.id;
+        });
+      
+      nodeGroup.exit().remove();
+
+      var nodeEnter = nodeGroup
         .enter()
-          .append("g")
-          .attr("class", "node")
-          .call(d3.drag()
-              .on("start", dragstarted)
-              .on("drag", dragged)
-              .on("end", dragended));
+        .append("g")
+        .attr("class", "node")
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
 
       var nodes = nodeEnter.append("circle")
-          .attr("r", function(d) { return(Math.sqrt(d.size)); })
-          .attr("fill", function(d) { return color(d.group); });
+        .attr("r", function (d) { return (Math.sqrt(d.size)); })
+        .attr("fill", function (d) { return color(d.group); });
 
       var labels = nodeEnter.append("svg:text")
         .attr("class", "textClass")
-        .text(function(d) { return d.id; }); 
+        .text(function (d) { return d.id; });
 
       simulation
-          .nodes(graph.nodes)
-          .on("tick", ticked);
+        .nodes(data.nodes)
+        .on("tick", ticked);
 
       simulation.force("link")
-          .links(graph.links);
+        .links(data.links);
 
       function ticked() {
         links
-            .attr("x1", function(d) { return d.source.x; })
-            .attr("y1", function(d) { return d.source.y; })
-            .attr("x2", function(d) { return d.target.x; })
-            .attr("y2", function(d) { return d.target.y; });
+          .attr("x1", function (d) { return d.source.x; })
+          .attr("y1", function (d) { return d.source.y; })
+          .attr("x2", function (d) { return d.target.x; })
+          .attr("y2", function (d) { return d.target.y; });
 
         proteins
-            .attr("x", function(d) {
-              return ((d.source.x+d.target.x)/2); 
-              })
-            .attr("y", function(d) { 
-              return ((d.source.y+d.target.y))/2; 
-              });
-        
+          .attr("x", function (d) {
+            return ((d.source.x + d.target.x) / 2);
+          })
+          .attr("y", function (d) {
+            return ((d.source.y + d.target.y)) / 2;
+          });
+
         nodes
-            .attr("cx", function(d) { return d.x; })
-            .attr("cy", function(d) { return d.y; });
+          .attr("cx", function (d) { return d.x; })
+          .attr("cy", function (d) { return d.y; });
 
         labels
-            .attr("x", function(d) { return d.x; })
-            .attr("y", function(d) { return d.y; }); 
+          .attr("x", function (d) { return d.x; })
+          .attr("y", function (d) { return d.y; });
       }
-      
-    });
+    }  
 
     function dragstarted(d) {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
+      if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
     }
 
     function dragged(d) {
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
+      d.fx = d3.event.x;
+      d.fy = d3.event.y;
     }
 
     function dragended(d) {
-    if (!d3.event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
+      if (!d3.event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
     }
+
+    var temp;
+    /* ----- Load data ------ */
+    d3.json("corona.json", function (error, data) {
+      if (error) throw error;
+      temp = data;
+      draw(data);
+
+      /* ----- Create slider ------ */
+      var histMargins = {
+        left: 0,
+        top: 0,
+      };
+
+      var histHeight = +histogram.attr("height");
+      var histWidth = +histogram.attr("width");
+
+      var scale = d3.scaleLinear()
+        .domain([1, 10])
+        .range([1, histWidth]);
+
+      var slider = histogram.append("g")
+        .attr("class", "slider")
+        .attr("transform", "translate(" + histMargins.left + "," + (histMargins.top + histHeight - 10) + ")");
+
+      slider.append("line")
+        .attr("class", "track")  //style
+        .attr("x1", scale.range()[0])
+        .attr("x2", scale.range()[1])
+        .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-inset")
+        .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-overlay");
+
+      //console.log(drag);    
+      // slider.call(d3.drag().on("grad", null));
+
+      // label ticks
+      slider.insert("g", ".track-overlay")
+        .attr("class", "ticks")
+        .attr("transform", "translate(0," + 18 + ")")
+        .selectAll("text")
+        .data(scale.ticks(10))
+        .enter()
+        .append("text")
+        .attr("x", scale)
+        .attr("y", 10)
+        .attr("text-anchor", "middle")
+        .text(function (d) { return d; });
+
+      var handle = slider.insert("circle", ".track-overlay")
+        .attr("class", "handle")
+        .attr("r", 9)
+        .attr("cx", scale(5));
+    
+    });
 
   </script>
 
 </body>
+
 </html>
