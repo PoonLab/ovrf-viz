@@ -26,7 +26,7 @@
 
   <script type="text/javascript">
 
-    var width = 960;
+    var width = 600;
     var height = 600;
     
     var genome = d3.select("div#genome")
@@ -37,7 +37,7 @@
     var histogram = d3.select("div#histogram")
       .append("svg:svg")
       .attr("width", 200)
-      .attr("height", 200);
+      .attr("height", 100);
 
     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -51,17 +51,41 @@
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(width / 2, height / 2));
 
+    /* Define the data for the edges */
+    genome.append("g")
+      .attr("class", "links");
+
+    /* Define the data for the nodes */
+    genome.append("g")
+      .attr("class", "nodes");
+
+    var dragNodes = d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended);
+
+    function dragstarted(d) {
+      if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(d) {
+      d.fx = d3.event.x;
+      d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+      if (!d3.event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
 
     function draw(data) { 
-      /* Define the data for the edges */
-      var linksGroup = genome.append("g")
-        .attr("class", "links")
-        .selectAll("line")
+      var linksGroup = genome.select("g.links").selectAll("line")
         .data(data.links, function(d) {
           return `${d.source.id}-${d.target.id}`;
         });
-
-      linksGroup.exit().remove();
 
       var linksEnter = linksGroup.enter();
 
@@ -74,28 +98,23 @@
           return "#9999";
         });  
 
+      /* Define labels for "self" links */  
       var proteins = linksEnter.append("svg:text")
         .attr("class", "textClass")
         .text(function (d) { return d.protName; });
 
-      /* Define the data for the nodes */
-      var nodeGroup = genome.append("g")
-        .attr("class", "nodes")
-        .selectAll("circle")
+      linksGroup.exit().remove();
+
+      var nodeGroup = genome.select("g.nodes").selectAll(".node")
         .data(data.nodes, function(d) {
           return d.id;
         });
-      
-      nodeGroup.exit().remove();
 
       var nodeEnter = nodeGroup
         .enter()
         .append("g")
         .attr("class", "node")
-        .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+        .call(dragNodes);
 
       var nodes = nodeEnter.append("circle")
         .attr("r", function (d) { return (Math.sqrt(d.size)); })
@@ -105,6 +124,8 @@
         .attr("class", "textClass")
         .text(function (d) { return d.id; });
 
+      nodeGroup.exit().remove();
+      
       simulation
         .nodes(data.nodes)
         .on("tick", ticked);
@@ -137,22 +158,6 @@
       }
     }  
 
-    function dragstarted(d) {
-      if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-      d.fx = d.x;
-      d.fy = d.y;
-    }
-
-    function dragged(d) {
-      d.fx = d3.event.x;
-      d.fy = d3.event.y;
-    }
-
-    function dragended(d) {
-      if (!d3.event.active) simulation.alphaTarget(0);
-      d.fx = null;
-      d.fy = null;
-    }
 
     var temp;
     /* ----- Load data ------ */
@@ -187,8 +192,13 @@
         .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
         .attr("class", "track-overlay");
 
+      /* ----- Move handle to new value and retrieve value on domain ------ */
       //console.log(drag);    
-      // slider.call(d3.drag().on("grad", null));
+      // slider.call(d3.drag().on("drag", function (d) {
+      //   currentValue = d3.event.x;
+      //   var ex = x.invert(currentValue);  // range value to corresponding value from the domain 
+      //   handle.attr("cx", currentValue);
+      // }));
 
       // label ticks
       slider.insert("g", ".track-overlay")
