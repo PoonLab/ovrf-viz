@@ -232,7 +232,8 @@ def main():
                                     "target": end, 
                                     "count": cluster_size,
                                     "className": "self",
-                                    "protName":prot_name
+                                    "protName":prot_name,
+                                    "color": colors[int(cluster)-1]
                                     })                         
 
         # Create edges for adjacent proteins

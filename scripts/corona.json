@@ -139,7 +139,8 @@
             "target": "end1",
             "count": 153,
             "className": "self",
-            "protName": "ORF1ab polyprotein"
+            "protName": "ORF1ab polyprotein",
+            "color": "#f77189"
         },
         {
             "source": "end1",
@@ -206,7 +207,8 @@
             "target": "end2",
             "count": 66,
             "className": "self",
-            "protName": "spike glycoprotein"
+            "protName": "spike glycoprotein",
+            "color": "#e18632"
         },
         {
             "source": "end2",
@@ -267,7 +269,8 @@
             "target": "end3",
             "count": 55,
             "className": "self",
-            "protName": "envelope"
+            "protName": "envelope",
+            "color": "#b59a32"
         },
         {
             "source": "end3",
@@ -316,7 +319,8 @@
             "target": "end4",
             "count": 65,
             "className": "self",
-            "protName": "membrane"
+            "protName": "membrane",
+            "color": "#8ba731"
         },
         {
             "source": "end4",
@@ -353,7 +357,8 @@
             "target": "end5",
             "count": 66,
             "className": "self",
-            "protName": "nucleocapsid"
+            "protName": "nucleocapsid",
+            "color": "#32b258"
         },
         {
             "source": "end5",
@@ -402,7 +407,8 @@
             "target": "end6",
             "count": 37,
             "className": "self",
-            "protName": "hypothetical"
+            "protName": "hypothetical",
+            "color": "#35ae95"
         },
         {
             "source": "end6",
@@ -439,7 +445,8 @@
             "target": "end7",
             "count": 36,
             "className": "self",
-            "protName": "membrane"
+            "protName": "membrane",
+            "color": "#37abb2"
         },
         {
             "source": "end7",
@@ -482,7 +489,8 @@
             "target": "end8",
             "count": 59,
             "className": "self",
-            "protName": "envelope"
+            "protName": "envelope",
+            "color": "#39a7d6"
         },
         {
             "source": "end8",
@@ -537,7 +545,8 @@
             "target": "end9",
             "count": 32,
             "className": "self",
-            "protName": "3c"
+            "protName": "3c",
+            "color": "#8f93f4"
         },
         {
             "source": "end9",
@@ -586,7 +595,8 @@
             "target": "end10",
             "count": 34,
             "className": "self",
-            "protName": "envelope"
+            "protName": "envelope",
+            "color": "#db70f4"
         },
         {
             "source": "end10",
@@ -623,7 +633,8 @@
             "target": "end11",
             "count": 20,
             "className": "self",
-            "protName": "hypothetical"
+            "protName": "hypothetical",
+            "color": "#f667c6"
         },
         {
             "source": "end11",
