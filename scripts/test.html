@@ -24,7 +24,7 @@
 
   <div id="graphs" class="wrapper">
     <div id="genome"></div>
-    <div id="histogram"></div>
+    <div id="slider"></div>
   </div>
 
 
@@ -32,18 +32,24 @@
 
     var genWidth = 600; 
     var genHeight = 600;
-    var histWidth = 600;
-    var histHeight = 50;
+    var histWidth = 500;
+    var histHeight = 200;
     
+    /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
       .append("svg:svg")
       .attr("width", genWidth)
       .attr("height", genHeight);
 
-    var histogram = d3.select("div#histogram")
+    // var histogram = d3.select("div#histogram")
+    //   .append("svg:svg")
+    //   .attr("width", histWidth)
+    //   .attr("height", histHeight);
+
+    var slider = d3.select("div#slider")
       .append("svg:svg")
       .attr("width", histWidth)
-      .attr("height", histHeight);
+      .attr("height", histHeight);     
 
     // var edgeColor = d3.scaleSequential().domain([1,50])
     //   .interpolator(d3.interpolateGreys)
@@ -61,11 +67,9 @@
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(genWidth / 2, genHeight / 2));
 
-    /* Define the data for the edges */
     genome.append("g")
       .attr("class", "links");
 
-    /* Define the data for the nodes */
     genome.append("g")
       .attr("class", "nodes");
 
@@ -73,13 +77,10 @@
 
     function dragstarted(d) {
       if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-      // d.fx = d.x;
-      // d.fy = d.y;
       simulation.restart();
     }
 
     function dragged(d) {
-      // console.log(d.id)
       d.fx = d3.event.x;
       d.fy = d3.event.y;
     }
@@ -91,8 +92,10 @@
       simulation.alphaTarget(0.1);
     }
 
+    /* ------ Draw simulation ------ */
     function draw(data) { 
       
+      /* Create links */
       var linksGroup = genome.select("g.links").selectAll("line")
         .data(data.links, function(d) {
           return `${d.source.id}-${d.target.id}`;
@@ -124,6 +127,7 @@
 
       linksGroup.exit().remove();
 
+      /* Create nodes */
       var nodeGroup = genome.select("g.nodes").selectAll(".node")
         .data(data.nodes, function(d) {
           return d.id;
@@ -152,6 +156,7 @@
 
       nodeGroup.exit().remove();
       
+      /* Create simulation */
       simulation
         .nodes(data.nodes)
         .on("tick", function () {
@@ -179,15 +184,13 @@
         .links(data.links);
     }  
 
-
-    var temp;
-    /* ----- Load data ------ */
+    /* ------ Load data ------ */
     d3.json("corona.json", function (error, data) {
       if (error) throw error;
       temp = data;
       draw(data);
 
-      /* ----- Create slider ------ */
+      // /* Slider */
       var histMargins = {
         left: 0,
         top: 0,
@@ -197,18 +200,26 @@
         .domain([1, 10])
         .range([1, histWidth]);
 
-      var slider = histogram.append("g")
+      slider
+        .append("g")
         .attr("class", "slider")
-        .attr("transform", "translate(" + histMargins.left + "," + (histMargins.top + histHeight - 10) + ")");
+        .attr("transform", "translate(" + histMargins.left + "," + (histMargins.top + histHeight) + ")");
 
       slider.append("line")
-        .attr("class", "track")  //style
-        .attr("x1", scale.range()[0])
-        .attr("x2", scale.range()[1])
+          .attr("class", "track")  //style
+          .attr("x1", scale.range()[0])
+          .attr("x2", scale.range()[1])
         .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
-        .attr("class", "track-inset")
+          .attr("class", "track-inset")
         .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
-        .attr("class", "track-overlay");
+          .attr("class", "track-overlay")
+          .call(d3.drag()
+            // .on("start.interrupt", function() { slider.interrupt(); })
+            .on("start drag", function() {
+              currentValue = d3.event.x;
+              // update(x.invert(currentValue)); 
+        })
+    );
 
       /* ----- Move handle to new value and retrieve value on domain ------ */
       //console.log(drag);    
@@ -220,20 +231,20 @@
 
       // label ticks
       slider.insert("g", ".track-overlay")
-        .attr("class", "ticks")
-        .attr("transform", "translate(0," + 18 + ")")
+          .attr("class", "ticks")
+          .attr("transform", "translate(0," + 18 + ")")
         .selectAll("text")
-        .data(scale.ticks(10))
-        .enter()
-        .append("text")
-        .attr("x", scale)
-        .attr("y", 10)
-        .attr("text-anchor", "middle")
-        .text(function (d) { return d; });
+          .data(scale.ticks(10))
+          .enter()
+          .append("text")
+          .attr("x", scale)
+          .attr("y", 10)
+          .attr("text-anchor", "middle")
+          .text(function (d) { return d; });
 
       var handle = slider.insert("circle", ".track-overlay")
         .attr("class", "handle")
-        .attr("r", 9)
+        .attr("r", 11)
         .attr("cx", scale(5));
     
     });
