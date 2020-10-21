@@ -49,7 +49,7 @@
     //   .interpolator(d3.interpolateGreys)
     
     var edgeColor = d3.scaleLinear().domain([1,20])
-      .range(["white", "grey"]);
+      .range(["white", "lightgrey"]);
 
     var simulation = d3.forceSimulation()
       .force("link", d3.forceLink()
@@ -69,18 +69,17 @@
     genome.append("g")
       .attr("class", "nodes");
 
-    var dragNodes = d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended);
+    var dragNodes = d3.drag();
 
     function dragstarted(d) {
       if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-      d.fx = d.x;
-      d.fy = d.y;
+      // d.fx = d.x;
+      // d.fy = d.y;
+      simulation.restart();
     }
 
     function dragged(d) {
+      // console.log(d.id)
       d.fx = d3.event.x;
       d.fy = d3.event.y;
     }
@@ -89,6 +88,7 @@
       if (!d3.event.active) simulation.alphaTarget(0);
       d.fx = null;
       d.fy = null;
+      simulation.alphaTarget(0.1);
     }
 
     function draw(data) { 
@@ -98,21 +98,29 @@
           return `${d.source.id}-${d.target.id}`;
         });
 
-      var linksEnter = linksGroup.enter();
+      var linksEnter = linksGroup
+        .enter();
 
-      var links = linksEnter.append("line")
-        .attr("stroke-width", function (d) { return 2 * Math.sqrt(d.count); })
-        .attr("stroke", function (d) {
-          if (d.className == 'self') {
-            return d3.color(d.color).brighter();  
-          }
-          return edgeColor(d.count);
-        });  
+      linksEnter
+        .append("line")
+          .attr("stroke-width", function (d) { return 2 * Math.sqrt(d.count); })
+          .attr("stroke", function (d) {
+            if (d.className == 'self') {
+              return d3.color(d.color).brighter();  
+            }
+            return edgeColor(d.count);
+          })
 
-      /* Define labels for "self" links */  
-      var proteins = linksEnter.append("svg:text")
-        .attr("class", "textClass")
-        .text(function (d) { return d.protName; });
+      var proteins = linksEnter
+        .filter(function(d) {
+          return d.className == 'self';
+        })
+        .append("svg:text")
+          .attr("class", "textClass")
+          .text(function (d) { return d.protName; });
+
+      var links = genome.select("g.links").selectAll('line');
+      var proteins = genome.select("g.links").selectAll('text');
 
       linksGroup.exit().remove();
 
@@ -124,49 +132,51 @@
       var nodeEnter = nodeGroup
         .enter()
         .append("g")
-        .attr("class", "node")
-        .call(dragNodes);
+          .attr("class", "node")
+          .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended))
+        
+      nodeEnter
+        .append("circle")
+          .attr("r", function (d) { return (Math.sqrt(d.size)); })
+          .attr("fill", function (d) { return d.color; });
 
-      var nodes = nodeEnter.append("circle")
-        .attr("r", function (d) { return (Math.sqrt(d.size)); })
-        .attr("fill", function (d) { return d.color; });
+      nodeEnter
+        .append("svg:text")
+          .attr("class", "textClass")
+          .text(function (d) { return d.id; });
 
-      var labels = nodeEnter.append("svg:text")
-        .attr("class", "textClass")
-        .text(function (d) { return d.id; });
+      nodeGroup = nodeEnter.merge(nodeGroup);
 
       nodeGroup.exit().remove();
       
       simulation
         .nodes(data.nodes)
-        .on("tick", ticked);
+        .on("tick", function () {
+          links
+            .attr("x1", function (d) { return d.source.x; })
+            .attr("y1", function (d) { return d.source.y; })
+            .attr("x2", function (d) { return d.target.x; })
+            .attr("y2", function (d) { return d.target.y; });
+
+          proteins
+            .attr("x", function (d) {
+              return ((d.source.x + d.target.x) / 2);
+            })
+            .attr("y", function (d) {
+              return ((d.source.y + d.target.y)) / 2;
+            });
+
+          nodeGroup
+            .attr("transform", function(d) {
+              return "translate(" + d.x + "," + d.y + ")";
+            })
+        });
 
       simulation.force("link")
         .links(data.links);
-
-      function ticked() {
-        links
-          .attr("x1", function (d) { return d.source.x; })
-          .attr("y1", function (d) { return d.source.y; })
-          .attr("x2", function (d) { return d.target.x; })
-          .attr("y2", function (d) { return d.target.y; });
-
-        proteins
-          .attr("x", function (d) {
-            return ((d.source.x + d.target.x) / 2);
-          })
-          .attr("y", function (d) {
-            return ((d.source.y + d.target.y)) / 2;
-          });
-
-        nodes
-          .attr("cx", function (d) { return d.x; })
-          .attr("cy", function (d) { return d.y; });
-
-        labels
-          .attr("x", function (d) { return d.x; })
-          .attr("y", function (d) { return d.y; });
-      }
     }  
 
 
