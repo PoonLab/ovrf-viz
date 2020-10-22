@@ -80,6 +80,6 @@ def find_ovrfs(accn, records, outfile):
 outfile = open('find_ovrfs_out.csv', 'w')
 outfile.write('accn,prod1,loc1,dir1,prod2,loc2,dir2,seqlen1,seqlen2,overlap,shift\n')
 
-for accn, records in get_records('/home/lmunoz/Projects/ovrf-review/dataset_2020/total_orfs.csv'):
+for accn, records in get_records('test_orfs.csv'):
     #print(accn)
     find_ovrfs(accn, records, outfile)

@@ -32,24 +32,12 @@
 
     var genWidth = 600; 
     var genHeight = 600;
-    var histWidth = 500;
-    var histHeight = 200;
     
     /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
       .append("svg:svg")
       .attr("width", genWidth)
-      .attr("height", genHeight);
-
-    // var histogram = d3.select("div#histogram")
-    //   .append("svg:svg")
-    //   .attr("width", histWidth)
-    //   .attr("height", histHeight);
-
-    var slider = d3.select("div#slider")
-      .append("svg:svg")
-      .attr("width", histWidth)
-      .attr("height", histHeight);     
+      .attr("height", genHeight);  
 
     // var edgeColor = d3.scaleSequential().domain([1,50])
     //   .interpolator(d3.interpolateGreys)
@@ -188,66 +176,56 @@
     d3.json("corona.json", function (error, data) {
       if (error) throw error;
       temp = data;
-      draw(data);
-
-      // /* Slider */
-      var histMargins = {
-        left: 0,
-        top: 0,
-      };
-
-      var scale = d3.scaleLinear()
-        .domain([1, 10])
-        .range([1, histWidth]);
-
-      slider
-        .append("g")
-        .attr("class", "slider")
-        .attr("transform", "translate(" + histMargins.left + "," + (histMargins.top + histHeight) + ")");
-
-      slider.append("line")
-          .attr("class", "track")  //style
-          .attr("x1", scale.range()[0])
-          .attr("x2", scale.range()[1])
-        .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
-          .attr("class", "track-inset")
-        .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
-          .attr("class", "track-overlay")
-          .call(d3.drag()
-            // .on("start.interrupt", function() { slider.interrupt(); })
-            .on("start drag", function() {
-              currentValue = d3.event.x;
-              // update(x.invert(currentValue)); 
-        })
-    );
-
-      /* ----- Move handle to new value and retrieve value on domain ------ */
-      //console.log(drag);    
-      // slider.call(d3.drag().on("drag", function (d) {
-      //   currentValue = d3.event.x;
-      //   var ex = x.invert(currentValue);  // range value to corresponding value from the domain 
-      //   handle.attr("cx", currentValue);
-      // }));
-
-      // label ticks
-      slider.insert("g", ".track-overlay")
-          .attr("class", "ticks")
-          .attr("transform", "translate(0," + 18 + ")")
-        .selectAll("text")
-          .data(scale.ticks(10))
-          .enter()
-          .append("text")
-          .attr("x", scale)
-          .attr("y", 10)
-          .attr("text-anchor", "middle")
-          .text(function (d) { return d; });
-
-      var handle = slider.insert("circle", ".track-overlay")
-        .attr("class", "handle")
-        .attr("r", 11)
-        .attr("cx", scale(5));
-    
+      draw(data);  
     });
+
+    /* ------ Slider ------ */
+    var scale = d3.scaleLinear()
+      .domain([1, 10])
+      .range([1, 400])
+      .clamp(true);
+
+    var svg2 = d3.select("div#slider").append("svg:svg"),
+      margin = {right: 50, left: 50},
+      width2 = +svg2.attr("width", 600) - margin.left - margin.right,
+      height2 = +svg2.attr("height", 50);  
+
+    var slider = svg2.append("g")
+      .attr("class", "slider")
+      .attr("transform", "translate(" + margin.left + "," + height2 / 2 + ")");
+
+    slider.append("line")
+        .attr("class", "track")
+        .attr("x1", scale.range()[0])
+        .attr("x2", scale.range()[1])
+      .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-inset")
+      .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-overlay")
+        .call(d3.drag()
+          .on("start.interrupt", function() { slider.interrupt(); })
+          .on("start drag", function() {
+            move(x.invert(d3.event.x));
+            // update(x.invert(currentValue)); 
+      })
+  );
+    // label ticks
+    slider.insert("g", ".track-overlay")
+        .attr("class", "ticks")
+        .attr("transform", "translate(0," + 18 + ")")
+      .selectAll("text")
+        .data(scale.ticks(10))
+        .enter()
+        .append("text")
+        .attr("x", scale)
+        .attr("y", 10)
+        .attr("text-anchor", "middle")
+        .text(function (d) { return d; });
+
+    var handle = slider.insert("circle", ".track-overlay")
+      .attr("class", "handle")
+      .attr("r", 11)
+      .attr("cx", scale(5));
 
   </script>
 

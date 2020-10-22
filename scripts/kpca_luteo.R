@@ -7,9 +7,9 @@ gg2.cols <- function(n) {
 }
 
 # analyze k-mer intersection distance matrix
-km <- read.csv('matrix.adeno2.csv', header=F, row.names=1)
+km <- read.csv('luteo_matrix.csv', header=F, row.names=1)
 km <- 1-as.matrix(km)
-headers <- read.csv('headers.adeno.csv', header=T)
+headers <- read.csv('luteo_header.csv', header=T)
 
 
 # look at PCA of distance matrix

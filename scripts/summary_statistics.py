@@ -35,17 +35,32 @@ def generate_statistics(name, dot_file):
     # Number of edges ot total og all edge weights
     total_edges = G.size()
 
-    return name, total_nodes, total_edges, density, triadic_closure, most_connected, less_connected
+    # return name, total_nodes, total_edges, density, triadic_closure, most_connected, less_connected
+    return G
 
+def connected_component_subgraphs(G):
+    for c in nx.connected_components(G):
+        yield G.subgraph(c)
 
 files = glob.glob('/home/laura/Projects/ovrf-review/data/dot_plots_all/*.dot')
 
-with open('summary_stats.csv', 'w') as out_f:
-    w = csv.writer(out_f)
-    w.writerow(['family', 'total_nodes', 'total_edges', 'density', 'triadic_closure', 'most_connected', 'less_connected'])
+# with open('summary_stats.csv', 'w') as out_f:
+#     w = csv.writer(out_f)
+#     w.writerow(['family', 'total_nodes', 'total_edges', 'density', 'triadic_closure', 'most_connected', 'less_connected'])
+#
+#     for file in files:
+#         base=os.path.basename(file)
+#         name = os.path.splitext(base)[0]
+#         row = generate_statistics(name, file)
+#         w.writerow(row)
 
-    for file in files:
-        base=os.path.basename(file)
-        name = os.path.splitext(base)[0]
-        row = generate_statistics(name, file)
-        w.writerow(row)
+
+# file = '/home/laura/Projects/ovrf-review/data/adenoviridae/plot_opt_adeno_2.dot'
+# G = nx.Graph(nx.drawing.nx_pydot.read_dot(file))
+
+for file in files:
+    base=os.path.basename(file)
+    name = os.path.splitext(base)[0]
+    G = generate_statistics(name, file)
+    H = nx.connected_components(G)
+    nx.draw(G)

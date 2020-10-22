@@ -12,7 +12,7 @@ def parse_args():
     )
     parser.add_argument('infile', type=argparse.FileType('r'),
                         help='input, FASTA file with protein sequences')
-    parser.add_argument('outfile', type=argparse.FileType('w'), 
+    parser.add_argument('outfile', type=argparse.FileType('w'),
                         help='output, distance matrix as CSV with accession and '
                              'gene name as column names.')
     parser.add_argument('-header', type=argparse.FileType('w'), default=None,
@@ -77,13 +77,13 @@ def kmer_dist(infile, outfile, header, kernel):
     :param infile:  open file stream to read FASTA
     :param outfile:  open file stream to write distances as CSV
     :param header:  open file stream to write header info as CSV
-    :param kernel:  if True, calculate kernel distance instead of 
+    :param kernel:  if True, calculate kernel distance instead of
                     intersection distance
     """
-    
+
     # regular expression to parse sequence headers
     pat = re.compile('^"([^,]+),([^,]+),(.+),(1|-1),([:;0-9]+)"$')
-    
+
     # prepare output file
     writer = None
     if header:
@@ -127,7 +127,7 @@ def kmer_dist(infile, outfile, header, kernel):
             else:
                 # default
                 d = intersection(kmers[l1], kmers[l2])
-                
+
 
             outfile.write(',{:1.9f}'.format(d))
 
@@ -138,6 +138,5 @@ def kmer_dist(infile, outfile, header, kernel):
 
 if __name__ == '__main__':
     args = parse_args()
-    kmerdist(infile=args.infile, outfile=args.outfile, header=args.header, 
+    kmer_dist(infile=args.infile, outfile=args.outfile, header=args.header,
              kernel=args.kernel)
-
