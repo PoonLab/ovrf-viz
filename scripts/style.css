@@ -42,7 +42,7 @@ body {
 }
 
 .track {
-    stroke: #dcdcdc;
+    stroke: rgb(128, 127, 127);
     stroke-width: 10px;
 }
 
@@ -55,11 +55,18 @@ body {
     pointer-events: stroke;
     stroke-width: 50px;
     stroke: transparent;
+    cursor: grab;
 }
 
 .handle {
-    fill: #fff;
-    stroke: #000;
+    fill: rgb(183, 183, 183);
+    stroke: rgb(128, 127, 127);
     stroke-opacity: 0.5;
     stroke-width: 1.25px;
+}
+
+div{
+    display: inline-block;
+    position: relative;
+    float: center;
 }

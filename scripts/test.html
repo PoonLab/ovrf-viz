@@ -6,12 +6,11 @@
   <title>Genome arrangement</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
-  <script src="https://d3js.org/d3-selection.v1.min.js"></script>
   <script src="https://d3js.org/d3-drag.v1.min.js"></script>
   <script src= "https://d3js.org/d3-color.v1.min.js"></script> 
   <script src="https://d3js.org/d3-interpolate.v1.min.js"> </script> 
   <script src= "https://d3js.org/d3-scale-chromatic.v1.min.js"></script> 
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -180,12 +179,15 @@
     });
 
     /* ------ Slider ------ */
-    var scale = d3.scaleLinear()
+    var x = d3.scaleLinear()
       .domain([1, 10])
       .range([1, 400])
       .clamp(true);
 
-    var svg2 = d3.select("div#slider").append("svg:svg"),
+    var svg2 = d3.select("div#slider")
+    .append("svg:svg");
+      
+    svg2
       margin = {right: 50, left: 50},
       width2 = +svg2.attr("width", 600) - margin.left - margin.right,
       height2 = +svg2.attr("height", 50);  
@@ -196,8 +198,8 @@
 
     slider.append("line")
         .attr("class", "track")
-        .attr("x1", scale.range()[0])
-        .attr("x2", scale.range()[1])
+        .attr("x1", x.range()[0])
+        .attr("x2", x.range()[1])
       .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
         .attr("class", "track-inset")
       .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
@@ -214,10 +216,10 @@
         .attr("class", "ticks")
         .attr("transform", "translate(0," + 18 + ")")
       .selectAll("text")
-        .data(scale.ticks(10))
+        .data(x.ticks(10))
         .enter()
         .append("text")
-        .attr("x", scale)
+        .attr("x", x)
         .attr("y", 10)
         .attr("text-anchor", "middle")
         .text(function (d) { return d; });
@@ -225,7 +227,19 @@
     var handle = slider.insert("circle", ".track-overlay")
       .attr("class", "handle")
       .attr("r", 11)
-      .attr("cx", scale(5));
+      .attr("cx", x(5));
+
+    var cutoff = 0.0;  
+
+    function move(h) {
+      console.log("new position", h)
+      cutoff = h; 
+      handle.attr("cx", x(cutoff));
+      // filter();
+      // update();
+      draw({ ...temp, links: temp.links.filter((link)=>link.count>h)});
+    } 
+
 
   </script>
 
