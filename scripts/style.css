@@ -1,3 +1,6 @@
+/* load fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 header {
     text-align: center;
 }
@@ -18,7 +21,8 @@ header {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font: .9em/1.2 Lato, sans-serif;
 }
 
 .nodes circle {
@@ -28,14 +32,15 @@ body {
 
 .textClass {
     stroke: #323232;
-    font-family: "Lucida Grande", "Droid Sans", Arial, Helvetica, sans-serif;
+    /* font-family: "Lucida Grande", "Droid Sans", Arial, Helvetica, sans-serif; */
+    font: .9em/1.2 Lato, sans-serif;
     font-weight: normal;
     stroke-width: .5;
-    font-size: 14px;
+    font-size: 13px;
   }
 
 .ticks {
-    font: 14px sans-serif;
+    font: .9em/1.2 Lato, sans-serif;
 }
 
 .track,

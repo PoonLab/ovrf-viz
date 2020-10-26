@@ -7,10 +7,11 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
   <script src="https://d3js.org/d3-drag.v1.min.js"></script>
-  <script src= "https://d3js.org/d3-color.v1.min.js"></script> 
+  <script src="https://d3js.org/d3-color.v1.min.js"></script> 
   <script src="https://d3js.org/d3-interpolate.v1.min.js"> </script> 
-  <script src= "https://d3js.org/d3-scale-chromatic.v1.min.js"></script> 
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script> 
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://unpkg.com/d3-force-limit"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,7 +24,7 @@
 
   <div id="graphs" class="wrapper">
     <div id="dropdown">
-      <button class="dropbtn">Dropdown</button>
+      <button class="dropbtn">Virus Families</button>
       <div class="dropdown-content">
       </div>
     </div> 
@@ -46,7 +47,6 @@
       });
     };
 
-
     var genomeFiles = [
       "adenoviridae.json",
       "allenoviridae.json",
@@ -56,24 +56,24 @@
       "papillomaviridae.json",
       "paramyxoviridae.json",
       "retroviridae.json",
-      "rhabdo.json",
+      "rhabdoviridae.json",
       "tombusviridae.json",
     ];
 
-    // Prepare dropdown menu
+    /* Prepare dropdown menu */
     var filesPath = "../json_files/";
     var dropDownContent = document.getElementById('dropdown').querySelector(".dropdown-content");
     genomeFiles.forEach((file) => {
       var link = document.createElement('a');
       link.setAttribute('href', '#');
-      link.innerHTML = file;
+      link.innerHTML = file.charAt(0).toUpperCase() + file.slice(1).replace('.json','');
       var url = filesPath + file;
       link.addEventListener("click", () => loadData(url));
       dropDownContent.appendChild(link);
     });
 
-    var genWidth = 800; 
-    var genHeight = 800;
+    var genWidth = 700; 
+    var genHeight = 700;
     
     /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
@@ -100,6 +100,11 @@
           if (d.className == 'self') return 1.0;
           return 0.01;
         }))
+      .force('limit', d3.forceLimit()
+        .x0(50)
+        .x1(genWidth-50)
+        .y0(50)
+        .y1(genHeight-50))
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(genWidth / 2, genHeight / 2));
 
@@ -227,15 +232,15 @@
     function createSlider(data) {
       var x = d3.scaleLinear()
         .domain([1, 10])
-        .range([1, 400])
+        .range([1, 600])
         .clamp(true);
         
       d3.select("#slider").select("svg").remove();
 
       var svg2 = d3.select("div#slider")
         .append("svg:svg")
-          .attr("width", 600)
-          .attr("height", 50);
+          .attr("width", genWidth)
+          .attr("height", 80);
         
       var margin = {right: 50, left: 50};
       var width2 = +svg2.attr("width") - margin.left - margin.right;
