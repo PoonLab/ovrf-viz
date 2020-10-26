@@ -1,0 +1,318 @@
+{
+    "nodes": [
+        {
+            "id": "start1",
+            "group": 1,
+            "size": 89,
+            "color": "#f77189"
+        },
+        {
+            "id": "end1",
+            "group": 1,
+            "size": 89,
+            "color": "#f77189"
+        },
+        {
+            "id": "start2",
+            "group": 2,
+            "size": 108,
+            "color": "#ae9d31"
+        },
+        {
+            "id": "end2",
+            "group": 2,
+            "size": 108,
+            "color": "#ae9d31"
+        },
+        {
+            "id": "start3",
+            "group": 3,
+            "size": 51,
+            "color": "#33b07a"
+        },
+        {
+            "id": "end3",
+            "group": 3,
+            "size": 51,
+            "color": "#33b07a"
+        },
+        {
+            "id": "start4",
+            "group": 4,
+            "size": 53,
+            "color": "#38a9c5"
+        },
+        {
+            "id": "end4",
+            "group": 4,
+            "size": 53,
+            "color": "#38a9c5"
+        },
+        {
+            "id": "start5",
+            "group": 5,
+            "size": 75,
+            "color": "#cc7af4"
+        },
+        {
+            "id": "end5",
+            "group": 5,
+            "size": 75,
+            "color": "#cc7af4"
+        }
+    ],
+    "links": [
+        {
+            "source": "start1",
+            "target": "end1",
+            "count": 89,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#f77189"
+        },
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 36,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start3",
+            "count": 12,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start4",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start2",
+            "target": "end2",
+            "count": 108,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#ae9d31"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 27,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start5",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "start3",
+            "target": "end3",
+            "count": 51,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#33b07a"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start5",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start4",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start4",
+            "target": "end4",
+            "count": 53,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#38a9c5"
+        },
+        {
+            "source": "end4",
+            "target": "start3",
+            "count": 26,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start2",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start5",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "start5",
+            "target": "end5",
+            "count": 75,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#cc7af4"
+        },
+        {
+            "source": "end5",
+            "target": "start5",
+            "count": 40,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start3",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        }
+    ],
+    "ovrfs": [
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 43,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 57,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 10,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 12,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start5",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 4,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start1",
+            "count": 5,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start5",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start2",
+            "count": 40,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 8,
+            "className": "overlap"
+        },
+        {
+            "source": "end5",
+            "target": "start2",
+            "count": 43,
+            "className": "overlap"
+        },
+        {
+            "source": "end5",
+            "target": "start5",
+            "count": 53,
+            "className": "overlap"
+        }
+    ]
+}

@@ -1,0 +1,1084 @@
+{
+    "nodes": [
+        {
+            "id": "start1",
+            "group": 1,
+            "size": 67,
+            "color": "#f77189"
+        },
+        {
+            "id": "end1",
+            "group": 1,
+            "size": 67,
+            "color": "#f77189"
+        },
+        {
+            "id": "start2",
+            "group": 2,
+            "size": 113,
+            "color": "#eb8032"
+        },
+        {
+            "id": "end2",
+            "group": 2,
+            "size": 113,
+            "color": "#eb8032"
+        },
+        {
+            "id": "start3",
+            "group": 3,
+            "size": 66,
+            "color": "#c19632"
+        },
+        {
+            "id": "end3",
+            "group": 3,
+            "size": 66,
+            "color": "#c19632"
+        },
+        {
+            "id": "start4",
+            "group": 4,
+            "size": 128,
+            "color": "#a0a131"
+        },
+        {
+            "id": "end4",
+            "group": 4,
+            "size": 128,
+            "color": "#a0a131"
+        },
+        {
+            "id": "start5",
+            "group": 5,
+            "size": 54,
+            "color": "#71ac31"
+        },
+        {
+            "id": "end5",
+            "group": 5,
+            "size": 54,
+            "color": "#71ac31"
+        },
+        {
+            "id": "start6",
+            "group": 6,
+            "size": 146,
+            "color": "#33b16f"
+        },
+        {
+            "id": "end6",
+            "group": 6,
+            "size": 146,
+            "color": "#33b16f"
+        },
+        {
+            "id": "start7",
+            "group": 7,
+            "size": 64,
+            "color": "#35ae97"
+        },
+        {
+            "id": "end7",
+            "group": 7,
+            "size": 64,
+            "color": "#35ae97"
+        },
+        {
+            "id": "start8",
+            "group": 8,
+            "size": 79,
+            "color": "#36abb0"
+        },
+        {
+            "id": "end8",
+            "group": 8,
+            "size": 79,
+            "color": "#36abb0"
+        },
+        {
+            "id": "start9",
+            "group": 9,
+            "size": 39,
+            "color": "#39a8cc"
+        },
+        {
+            "id": "end9",
+            "group": 9,
+            "size": 39,
+            "color": "#39a8cc"
+        },
+        {
+            "id": "start10",
+            "group": 10,
+            "size": 87,
+            "color": "#639df4"
+        },
+        {
+            "id": "end10",
+            "group": 10,
+            "size": 87,
+            "color": "#639df4"
+        },
+        {
+            "id": "start11",
+            "group": 11,
+            "size": 123,
+            "color": "#b486f4"
+        },
+        {
+            "id": "end11",
+            "group": 11,
+            "size": 123,
+            "color": "#b486f4"
+        },
+        {
+            "id": "start12",
+            "group": 12,
+            "size": 59,
+            "color": "#f35cf4"
+        },
+        {
+            "id": "end12",
+            "group": 12,
+            "size": 59,
+            "color": "#f35cf4"
+        },
+        {
+            "id": "start13",
+            "group": 13,
+            "size": 104,
+            "color": "#f668be"
+        },
+        {
+            "id": "end13",
+            "group": 13,
+            "size": 104,
+            "color": "#f668be"
+        }
+    ],
+    "links": [
+        {
+            "source": "start1",
+            "target": "end1",
+            "count": 67,
+            "className": "self",
+            "protName": "nucleocapsid",
+            "color": "#f77189"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 22,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start3",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start12",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start10",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start6",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start8",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start5",
+            "count": 12,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start4",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start11",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start7",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start13",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start2",
+            "target": "end2",
+            "count": 113,
+            "className": "self",
+            "protName": "phosphoprotein",
+            "color": "#eb8032"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 13,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start7",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 12,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start8",
+            "count": 13,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start10",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start12",
+            "count": 28,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start13",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start11",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start9",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start6",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start3",
+            "target": "end3",
+            "count": 66,
+            "className": "self",
+            "protName": "matrix",
+            "color": "#c19632"
+        },
+        {
+            "source": "end3",
+            "target": "start4",
+            "count": 18,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start10",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start11",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start12",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start9",
+            "count": 20,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start8",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start13",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start1",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "start4",
+            "target": "end4",
+            "count": 128,
+            "className": "self",
+            "protName": "glycoprotein",
+            "color": "#a0a131"
+        },
+        {
+            "source": "end4",
+            "target": "start5",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start10",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start13",
+            "count": 31,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start11",
+            "count": 70,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start7",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start3",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 9,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start8",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start9",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start5",
+            "target": "end5",
+            "count": 54,
+            "className": "self",
+            "protName": "RNA-dependent RNA polymerase",
+            "color": "#71ac31"
+        },
+        {
+            "source": "end5",
+            "target": "start8",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start6",
+            "target": "end6",
+            "count": 146,
+            "className": "self",
+            "protName": "nucleoprotein",
+            "color": "#33b16f"
+        },
+        {
+            "source": "end6",
+            "target": "start2",
+            "count": 62,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start10",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start7",
+            "count": 38,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start3",
+            "count": 13,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start1",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start4",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start12",
+            "count": 9,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start8",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start6",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start13",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "start7",
+            "target": "end7",
+            "count": 64,
+            "className": "self",
+            "protName": "phosphoprotein",
+            "color": "#35ae97"
+        },
+        {
+            "source": "end7",
+            "target": "start8",
+            "count": 14,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start3",
+            "count": 18,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start12",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start10",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start13",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start11",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start4",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start1",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start6",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start7",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start8",
+            "target": "end8",
+            "count": 79,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#36abb0"
+        },
+        {
+            "source": "end8",
+            "target": "start9",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start2",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start4",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start13",
+            "count": 12,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start10",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start8",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start7",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start12",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start1",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start6",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start11",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start3",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start5",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "start9",
+            "target": "end9",
+            "count": 39,
+            "className": "self",
+            "protName": "glycoprotein",
+            "color": "#39a8cc"
+        },
+        {
+            "source": "end9",
+            "target": "start5",
+            "count": 24,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start11",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start1",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start13",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start8",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start10",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start10",
+            "target": "end10",
+            "count": 87,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#639df4"
+        },
+        {
+            "source": "end10",
+            "target": "start11",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start10",
+            "count": 16,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start4",
+            "count": 39,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start12",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start8",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start7",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start13",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start2",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start5",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start11",
+            "target": "end11",
+            "count": 123,
+            "className": "self",
+            "protName": "polymerase",
+            "color": "#b486f4"
+        },
+        {
+            "source": "end11",
+            "target": "start4",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end11",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end11",
+            "target": "start11",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start12",
+            "target": "end12",
+            "count": 59,
+            "className": "self",
+            "protName": "matrix",
+            "color": "#f35cf4"
+        },
+        {
+            "source": "end12",
+            "target": "start9",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end12",
+            "target": "start4",
+            "count": 30,
+            "className": "adj"
+        },
+        {
+            "source": "end12",
+            "target": "start10",
+            "count": 13,
+            "className": "adj"
+        },
+        {
+            "source": "end12",
+            "target": "start8",
+            "count": 7,
+            "className": "adj"
+        },
+        {
+            "source": "end12",
+            "target": "start7",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end12",
+            "target": "start13",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end12",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start13",
+            "target": "end13",
+            "count": 104,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#f668be"
+        },
+        {
+            "source": "end13",
+            "target": "start11",
+            "count": 40,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start5",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start13",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start4",
+            "count": 13,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start3",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start7",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start8",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start10",
+            "count": 13,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start12",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start2",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end13",
+            "target": "start1",
+            "count": 1,
+            "className": "adj"
+        }
+    ],
+    "ovrfs": [
+        {
+            "source": "end1",
+            "target": "start7",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start10",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start10",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start7",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start13",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start9",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start13",
+            "count": 12,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start11",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start10",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start13",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start8",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start8",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start13",
+            "count": 4,
+            "className": "overlap"
+        },
+        {
+            "source": "end13",
+            "target": "start13",
+            "count": 4,
+            "className": "overlap"
+        },
+        {
+            "source": "end13",
+            "target": "start8",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end13",
+            "target": "start2",
+            "count": 1,
+            "className": "overlap"
+        }
+    ]
+}

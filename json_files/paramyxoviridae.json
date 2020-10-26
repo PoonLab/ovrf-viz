@@ -1,0 +1,300 @@
+{
+    "nodes": [
+        {
+            "id": "start1",
+            "group": 1,
+            "size": 68,
+            "color": "#f77189"
+        },
+        {
+            "id": "end1",
+            "group": 1,
+            "size": 68,
+            "color": "#f77189"
+        },
+        {
+            "id": "start2",
+            "group": 2,
+            "size": 81,
+            "color": "#ce9032"
+        },
+        {
+            "id": "end2",
+            "group": 2,
+            "size": 81,
+            "color": "#ce9032"
+        },
+        {
+            "id": "start3",
+            "group": 3,
+            "size": 42,
+            "color": "#97a431"
+        },
+        {
+            "id": "end3",
+            "group": 3,
+            "size": 42,
+            "color": "#97a431"
+        },
+        {
+            "id": "start4",
+            "group": 4,
+            "size": 73,
+            "color": "#32b166"
+        },
+        {
+            "id": "end4",
+            "group": 4,
+            "size": 73,
+            "color": "#32b166"
+        },
+        {
+            "id": "start5",
+            "group": 5,
+            "size": 67,
+            "color": "#36ada4"
+        },
+        {
+            "id": "end5",
+            "group": 5,
+            "size": 67,
+            "color": "#36ada4"
+        },
+        {
+            "id": "start6",
+            "group": 6,
+            "size": 68,
+            "color": "#39a7d0"
+        },
+        {
+            "id": "end6",
+            "group": 6,
+            "size": 68,
+            "color": "#39a7d0"
+        },
+        {
+            "id": "start7",
+            "group": 7,
+            "size": 68,
+            "color": "#a48cf4"
+        },
+        {
+            "id": "end7",
+            "group": 7,
+            "size": 68,
+            "color": "#a48cf4"
+        },
+        {
+            "id": "start8",
+            "group": 8,
+            "size": 50,
+            "color": "#f561dd"
+        },
+        {
+            "id": "end8",
+            "group": 8,
+            "size": 50,
+            "color": "#f561dd"
+        }
+    ],
+    "links": [
+        {
+            "source": "start1",
+            "target": "end1",
+            "count": 68,
+            "className": "self",
+            "protName": "nucleocapsid",
+            "color": "#f77189"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 43,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start8",
+            "count": 21,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start3",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "start2",
+            "target": "end2",
+            "count": 81,
+            "className": "self",
+            "protName": "phosphoprotein",
+            "color": "#ce9032"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 48,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 32,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start3",
+            "target": "end3",
+            "count": 42,
+            "className": "self",
+            "protName": "C",
+            "color": "#97a431"
+        },
+        {
+            "source": "end3",
+            "target": "start4",
+            "count": 32,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start6",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "start4",
+            "target": "end4",
+            "count": 73,
+            "className": "self",
+            "protName": "matrix",
+            "color": "#32b166"
+        },
+        {
+            "source": "end4",
+            "target": "start5",
+            "count": 67,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start6",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start3",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start5",
+            "target": "end5",
+            "count": 67,
+            "className": "self",
+            "protName": "fusion",
+            "color": "#36ada4"
+        },
+        {
+            "source": "end5",
+            "target": "start4",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start6",
+            "count": 59,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start3",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "start6",
+            "target": "end6",
+            "count": 68,
+            "className": "self",
+            "protName": "hemagglutinin-neuraminidase",
+            "color": "#39a7d0"
+        },
+        {
+            "source": "end6",
+            "target": "start7",
+            "count": 68,
+            "className": "adj"
+        },
+        {
+            "source": "start7",
+            "target": "end7",
+            "count": 68,
+            "className": "self",
+            "protName": "large polymerase",
+            "color": "#a48cf4"
+        },
+        {
+            "source": "start8",
+            "target": "end8",
+            "count": 50,
+            "className": "self",
+            "protName": "phosphoprotein",
+            "color": "#f561dd"
+        },
+        {
+            "source": "end8",
+            "target": "start4",
+            "count": 44,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start3",
+            "count": 6,
+            "className": "adj"
+        }
+    ],
+    "ovrfs": [
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 36,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 5,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 9,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start8",
+            "count": 39,
+            "className": "overlap"
+        }
+    ]
+}

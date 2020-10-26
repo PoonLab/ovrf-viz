@@ -16,21 +16,64 @@
 
 
 <body>
-  <header id="header" class="wrapper">
+  <header id="header">
     <h1>Visualization of genome arrangement</h1>
     <p>Poonlab</p>
   </header>
 
   <div id="graphs" class="wrapper">
+    <div id="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+      </div>
+    </div> 
     <div id="genome"></div>
     <div id="slider"></div>
   </div>
 
 
+
   <script type="text/javascript">
 
-    var genWidth = 600; 
-    var genHeight = 600;
+    /* ------ Load data ------ */
+    function loadData (url) {
+      d3.json(url, function (error, data) {
+        if (error) throw error;
+        remove();
+        draw(data);
+        createSlider(data);
+
+      });
+    };
+
+
+    var genomeFiles = [
+      "adenoviridae.json",
+      "allenoviridae.json",
+      "coronaviridae.json",
+      "geminiviridae.json",
+      "luteoviridae.json",
+      "papillomaviridae.json",
+      "paramyxoviridae.json",
+      "retroviridae.json",
+      "rhabdo.json",
+      "tombusviridae.json",
+    ];
+
+    // Prepare dropdown menu
+    var filesPath = "../json_files/";
+    var dropDownContent = document.getElementById('dropdown').querySelector(".dropdown-content");
+    genomeFiles.forEach((file) => {
+      var link = document.createElement('a');
+      link.setAttribute('href', '#');
+      link.innerHTML = file;
+      var url = filesPath + file;
+      link.addEventListener("click", () => loadData(url));
+      dropDownContent.appendChild(link);
+    });
+
+    var genWidth = 800; 
+    var genHeight = 800;
     
     /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
@@ -38,11 +81,17 @@
       .attr("width", genWidth)
       .attr("height", genHeight);  
 
+    // var genome = d3.select("div#genome")
+    //   .append("svg:svg")
+    //   .attr("preserveAspectRatio", "xMinYmin meet")
+    //   .attr("viewBox", "0 0 600 600")
+    //   .classed("svg-content", true);
+
     // var edgeColor = d3.scaleSequential().domain([1,50])
     //   .interpolator(d3.interpolateGreys)
     
     var edgeColor = d3.scaleLinear().domain([1,20])
-      .range(["white", "lightgrey"]);
+      .range(["whitesmoke", "silver"]);
 
     var simulation = d3.forceSimulation()
       .force("link", d3.forceLink()
@@ -79,9 +128,12 @@
       simulation.alphaTarget(0.1);
     }
 
+    function remove() {
+      genome.selectAll("g").selectAll('*').remove();
+    }
+
     /* ------ Draw simulation ------ */
     function draw(data) { 
-      
       /* Create links */
       var linksGroup = genome.select("g.links").selectAll("line")
         .data(data.links, function(d) {
@@ -171,75 +223,67 @@
         .links(data.links);
     }  
 
-    /* ------ Load data ------ */
-    d3.json("corona.json", function (error, data) {
-      if (error) throw error;
-      temp = data;
-      draw(data);  
-    });
-
     /* ------ Slider ------ */
-    var x = d3.scaleLinear()
-      .domain([1, 10])
-      .range([1, 400])
-      .clamp(true);
+    function createSlider(data) {
+      var x = d3.scaleLinear()
+        .domain([1, 10])
+        .range([1, 400])
+        .clamp(true);
+        
+      d3.select("#slider").select("svg").remove();
 
-    var svg2 = d3.select("div#slider")
-    .append("svg:svg");
-      
-    svg2
-      margin = {right: 50, left: 50},
-      width2 = +svg2.attr("width", 600) - margin.left - margin.right,
-      height2 = +svg2.attr("height", 50);  
+      var svg2 = d3.select("div#slider")
+        .append("svg:svg")
+          .attr("width", 600)
+          .attr("height", 50);
+        
+      var margin = {right: 50, left: 50};
+      var width2 = +svg2.attr("width") - margin.left - margin.right;
+      var height2 = +svg2.attr("height");
 
-    var slider = svg2.append("g")
-      .attr("class", "slider")
-      .attr("transform", "translate(" + margin.left + "," + height2 / 2 + ")");
+      var slider = svg2.append("g")
+        .attr("class", "slider")
+        .attr("transform", "translate(" + margin.left + "," + height2 / 2 + ")");
 
-    slider.append("line")
-        .attr("class", "track")
-        .attr("x1", x.range()[0])
-        .attr("x2", x.range()[1])
-      .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
-        .attr("class", "track-inset")
-      .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
-        .attr("class", "track-overlay")
-        .call(d3.drag()
-          .on("start.interrupt", function() { slider.interrupt(); })
-          .on("start drag", function() {
-            move(x.invert(d3.event.x));
-            // update(x.invert(currentValue)); 
-      })
-  );
-    // label ticks
-    slider.insert("g", ".track-overlay")
-        .attr("class", "ticks")
-        .attr("transform", "translate(0," + 18 + ")")
-      .selectAll("text")
-        .data(x.ticks(10))
-        .enter()
-        .append("text")
-        .attr("x", x)
-        .attr("y", 10)
-        .attr("text-anchor", "middle")
-        .text(function (d) { return d; });
+      slider.append("line")
+          .attr("class", "track")
+          .attr("x1", x.range()[0])
+          .attr("x2", x.range()[1])
+        .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+          .attr("class", "track-inset")
+        .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+          .attr("class", "track-overlay")
+          .call(d3.drag()
+            .on("start.interrupt", function() { slider.interrupt(); })
+            .on("start drag", function() {
+              move(x.invert(d3.event.x));
+            })
+          );
+      // label ticks
+      slider.insert("g", ".track-overlay")
+          .attr("class", "ticks")
+          .attr("transform", "translate(0," + 18 + ")")
+        .selectAll("text")
+          .data(x.ticks(10))
+          .enter()
+          .append("text")
+          .attr("x", x)
+          .attr("y", 10)
+          .attr("text-anchor", "middle")
+          .text(function (d) { return d; });
 
-    var handle = slider.insert("circle", ".track-overlay")
-      .attr("class", "handle")
-      .attr("r", 11)
-      .attr("cx", x(5));
+      var handle = slider.insert("circle", ".track-overlay")
+        .attr("class", "handle")
+        .attr("r", 11);
 
-    var cutoff = 0.0;  
+      var cutoff = 0.0;  
 
-    function move(h) {
-      console.log("new position", h)
-      cutoff = h; 
-      handle.attr("cx", x(cutoff));
-      // filter();
-      // update();
-      draw({ ...temp, links: temp.links.filter((link)=>link.count>h)});
-    } 
-
+      function move(h) {
+        cutoff = h; 
+        handle.attr("cx", x(cutoff));
+        draw({ ...data, links: data.links.filter((link)=>link.count>h)});
+      } 
+    }
 
   </script>
 

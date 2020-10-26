@@ -1,0 +1,506 @@
+{
+    "nodes": [
+        {
+            "id": "start1",
+            "group": 1,
+            "size": 29,
+            "color": "#f77189"
+        },
+        {
+            "id": "end1",
+            "group": 1,
+            "size": 29,
+            "color": "#f77189"
+        },
+        {
+            "id": "start2",
+            "group": 2,
+            "size": 56,
+            "color": "#d58c32"
+        },
+        {
+            "id": "end2",
+            "group": 2,
+            "size": 56,
+            "color": "#d58c32"
+        },
+        {
+            "id": "start3",
+            "group": 3,
+            "size": 65,
+            "color": "#a4a031"
+        },
+        {
+            "id": "end3",
+            "group": 3,
+            "size": 65,
+            "color": "#a4a031"
+        },
+        {
+            "id": "start4",
+            "group": 4,
+            "size": 25,
+            "color": "#50b131"
+        },
+        {
+            "id": "end4",
+            "group": 4,
+            "size": 25,
+            "color": "#50b131"
+        },
+        {
+            "id": "start5",
+            "group": 5,
+            "size": 35,
+            "color": "#34ae91"
+        },
+        {
+            "id": "end5",
+            "group": 5,
+            "size": 35,
+            "color": "#34ae91"
+        },
+        {
+            "id": "start6",
+            "group": 6,
+            "size": 28,
+            "color": "#37abb5"
+        },
+        {
+            "id": "end6",
+            "group": 6,
+            "size": 28,
+            "color": "#37abb5"
+        },
+        {
+            "id": "start7",
+            "group": 7,
+            "size": 31,
+            "color": "#3ba3ec"
+        },
+        {
+            "id": "end7",
+            "group": 7,
+            "size": 31,
+            "color": "#3ba3ec"
+        },
+        {
+            "id": "start8",
+            "group": 8,
+            "size": 39,
+            "color": "#bb83f4"
+        },
+        {
+            "id": "end8",
+            "group": 8,
+            "size": 39,
+            "color": "#bb83f4"
+        },
+        {
+            "id": "start9",
+            "group": 9,
+            "size": 45,
+            "color": "#f564d4"
+        },
+        {
+            "id": "end9",
+            "group": 9,
+            "size": 45,
+            "color": "#f564d4"
+        }
+    ],
+    "links": [
+        {
+            "source": "start1",
+            "target": "end1",
+            "count": 29,
+            "className": "self",
+            "protName": "RNA-dependent RNA polymerase",
+            "color": "#f77189"
+        },
+        {
+            "source": "end1",
+            "target": "start4",
+            "count": 9,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start9",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start8",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start2",
+            "target": "end2",
+            "count": 56,
+            "className": "self",
+            "protName": "RNA-dependent RNA polymerase",
+            "color": "#d58c32"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 9,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start9",
+            "count": 17,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start8",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "start3",
+            "target": "end3",
+            "count": 65,
+            "className": "self",
+            "protName": "coat",
+            "color": "#a4a031"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start6",
+            "count": 17,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start4",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start9",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start8",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start4",
+            "target": "end4",
+            "count": 25,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#50b131"
+        },
+        {
+            "source": "end4",
+            "target": "start2",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start8",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start5",
+            "target": "end5",
+            "count": 35,
+            "className": "self",
+            "protName": "replicase",
+            "color": "#34ae91"
+        },
+        {
+            "source": "end5",
+            "target": "start3",
+            "count": 34,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start5",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start6",
+            "target": "end6",
+            "count": 28,
+            "className": "self",
+            "protName": "movement",
+            "color": "#37abb5"
+        },
+        {
+            "source": "end6",
+            "target": "start6",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start9",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start7",
+            "target": "end7",
+            "count": 31,
+            "className": "self",
+            "protName": "replicase",
+            "color": "#3ba3ec"
+        },
+        {
+            "source": "end7",
+            "target": "start9",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start8",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start4",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start8",
+            "target": "end8",
+            "count": 39,
+            "className": "self",
+            "protName": "putative movement 1",
+            "color": "#bb83f4"
+        },
+        {
+            "source": "end8",
+            "target": "start3",
+            "count": 26,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start9",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end8",
+            "target": "start8",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start9",
+            "target": "end9",
+            "count": 45,
+            "className": "self",
+            "protName": "putative movement 2",
+            "color": "#f564d4"
+        },
+        {
+            "source": "end9",
+            "target": "start3",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start4",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start8",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end9",
+            "target": "start9",
+            "count": 4,
+            "className": "adj"
+        }
+    ],
+    "ovrfs": [
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 17,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start8",
+            "count": 6,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 36,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start8",
+            "count": 15,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start9",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start6",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 7,
+            "className": "overlap"
+        },
+        {
+            "source": "end5",
+            "target": "start5",
+            "count": 18,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start7",
+            "count": 19,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start8",
+            "count": 9,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start2",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start4",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start9",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start9",
+            "count": 25,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start8",
+            "count": 4,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start3",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end9",
+            "target": "start3",
+            "count": 26,
+            "className": "overlap"
+        },
+        {
+            "source": "end9",
+            "target": "start4",
+            "count": 4,
+            "className": "overlap"
+        },
+        {
+            "source": "end9",
+            "target": "start8",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end9",
+            "target": "start9",
+            "count": 3,
+            "className": "overlap"
+        }
+    ]
+}
