@@ -24,15 +24,16 @@
 
   <div id="graphs" class="wrapper">
     <div id="dropdown">
-      <button class="dropbtn">Virus Families</button>
+      <button class="dropbtn">Select a virus Family</button>
       <div class="dropdown-content">
       </div>
     </div> 
+    <div id="family"></div>
     <div id="genome"></div>
-    <div id="slider"></div>
+    <div id="slider">
+      <label style="display:block">Minimum number of connections required to create a link</label>
+    </div>
   </div>
-
-
 
   <script type="text/javascript">
 
@@ -65,15 +66,20 @@
     var dropDownContent = document.getElementById('dropdown').querySelector(".dropdown-content");
     genomeFiles.forEach((file) => {
       var link = document.createElement('a');
+      var familyName = file.charAt(0).toUpperCase() + file.slice(1).replace('.json','');
       link.setAttribute('href', '#');
-      link.innerHTML = file.charAt(0).toUpperCase() + file.slice(1).replace('.json','');
+      link.innerHTML = familyName;
       var url = filesPath + file;
-      link.addEventListener("click", () => loadData(url));
       dropDownContent.appendChild(link);
+      link.addEventListener("click", () => {
+        var family = document.querySelector("#family");
+        family.textContent = familyName;
+        loadData(url);
+        });
     });
 
-    var genWidth = 700; 
-    var genHeight = 700;
+    var genWidth = 650; 
+    var genHeight = 650;
     
     /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
@@ -232,7 +238,7 @@
     function createSlider(data) {
       var x = d3.scaleLinear()
         .domain([1, 10])
-        .range([1, 600])
+        .range([1, genWidth-100])
         .clamp(true);
         
       d3.select("#slider").select("svg").remove();
@@ -264,6 +270,7 @@
               move(x.invert(d3.event.x));
             })
           );
+      
       // label ticks
       slider.insert("g", ".track-overlay")
           .attr("class", "ticks")
