@@ -331,7 +331,7 @@ def main():
 
     # Create wordcloud plot
     wordcloud = wordcloud_plot(cluster_list)
-    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
+    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf', dpi=600)
     # Create genome plot
     gen_plot = genome_plot(colors, genome_list)
     gen_plot.savefig(f'genome_{args.outfile}.pdf')
