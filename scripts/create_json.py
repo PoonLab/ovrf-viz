@@ -256,8 +256,9 @@ def main():
                                         "className": "overlap"
                                     })
 
-    with open(f"{args.outfile}.json", "w") as outfile:
-        json.dump(json_dict, outfile, indent=4)
+    print(json_dict)
+    # with open(f"{args.outfile}.json", "w") as outfile:
+    #     json.dump(json_dict, outfile, indent=4)
         
 
 
