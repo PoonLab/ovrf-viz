@@ -7,8 +7,8 @@ header {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 
-        150px
+    grid-template-columns:
+        200px
         100%;
 }
 
@@ -78,39 +78,59 @@ body {
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
-  }
-  
-  #dropdown {
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+}
 
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  #dropdown:hover .dropdown-content {display: block;}
-  
-  #dropdown:hover .dropbtn {background-color: #8f8f8f;}
+.savebtn {
+  background-color: #747474;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 6px;
+  width: 150px;
+}
 
-  /* Family label */
-  #family{
-    color: rgb(82, 82, 82);
-    padding: 16px;
-    font-size: 25px;
-    border: none;
-  }
+button:hover {
+  background: #8f8f8f;
+}
+
+#dropdown {
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+#dropdown:hover .dropdown-content {display: block;}
+
+#dropdown:hover .dropbtn {background-color: #8f8f8f;}
+
+/* Family label */
+#family{
+  color: rgb(82, 82, 82);
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+}

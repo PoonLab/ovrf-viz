@@ -7,9 +7,9 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
   <script src="https://d3js.org/d3-drag.v1.min.js"></script>
-  <script src="https://d3js.org/d3-color.v1.min.js"></script> 
-  <script src="https://d3js.org/d3-interpolate.v1.min.js"> </script> 
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script> 
+  <script src="https://d3js.org/d3-color.v1.min.js"></script>
+  <script src="https://d3js.org/d3-interpolate.v1.min.js"> </script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://unpkg.com/d3-force-limit"></script>
   <link rel="stylesheet" href="style.css">
@@ -27,7 +27,8 @@
       <button class="dropbtn">Select a virus Family</button>
       <div class="dropdown-content">
       </div>
-    </div> 
+    </div>
+    <button class="savebtn" onclick="saveSVG();">Export SVG</button>
     <div id="family"></div>
     <div id="genome"></div>
     <div id="slider">
@@ -78,14 +79,14 @@
         });
     });
 
-    var genWidth = 650; 
+    var genWidth = 650;
     var genHeight = 650;
-    
+
     /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
       .append("svg:svg")
       .attr("width", genWidth)
-      .attr("height", genHeight);  
+      .attr("height", genHeight);
 
     // var genome = d3.select("div#genome")
     //   .append("svg:svg")
@@ -95,7 +96,7 @@
 
     // var edgeColor = d3.scaleSequential().domain([1,50])
     //   .interpolator(d3.interpolateGreys)
-    
+
     var edgeColor = d3.scaleLinear().domain([1,20])
       .range(["whitesmoke", "silver"]);
 
@@ -107,10 +108,10 @@
           return 0.01;
         }))
       .force('limit', d3.forceLimit()
-        .x0(50)
-        .x1(genWidth-50)
-        .y0(50)
-        .y1(genHeight-50))
+        .x0(10)
+        .x1(genWidth-10)
+        .y0(10)
+        .y1(genHeight-10))
       .force("charge", d3.forceManyBody())
       .force("center", d3.forceCenter(genWidth / 2, genHeight / 2));
 
@@ -144,7 +145,7 @@
     }
 
     /* ------ Draw simulation ------ */
-    function draw(data) { 
+    function draw(data) {
       /* Create links */
       var linksGroup = genome.select("g.links").selectAll("line")
         .data(data.links, function(d) {
@@ -159,7 +160,7 @@
           .attr("stroke-width", function (d) { return 2 * Math.sqrt(d.count); })
           .attr("stroke", function (d) {
             if (d.className == 'self') {
-              return d3.color(d.color).brighter();  
+              return d3.color(d.color).brighter();
             }
             return edgeColor(d.count);
           })
@@ -191,7 +192,7 @@
             .on("start", dragstarted)
             .on("drag", dragged)
             .on("end", dragended))
-        
+
       nodeEnter
         .append("circle")
           .attr("r", function (d) { return (Math.sqrt(d.size)); })
@@ -205,7 +206,7 @@
       nodeGroup = nodeEnter.merge(nodeGroup);
 
       nodeGroup.exit().remove();
-      
+
       /* Create simulation */
       simulation
         .nodes(data.nodes)
@@ -232,7 +233,7 @@
 
       simulation.force("link")
         .links(data.links);
-    }  
+    }
 
     /* ------ Slider ------ */
     function createSlider(data) {
@@ -240,14 +241,14 @@
         .domain([1, 10])
         .range([1, genWidth-100])
         .clamp(true);
-        
+
       d3.select("#slider").select("svg").remove();
 
       var svg2 = d3.select("div#slider")
         .append("svg:svg")
           .attr("width", genWidth)
           .attr("height", 80);
-        
+
       var margin = {right: 50, left: 50};
       var width2 = +svg2.attr("width") - margin.left - margin.right;
       var height2 = +svg2.attr("height");
@@ -270,7 +271,7 @@
               move(x.invert(d3.event.x));
             })
           );
-      
+
       // label ticks
       slider.insert("g", ".track-overlay")
           .attr("class", "ticks")
@@ -288,15 +289,18 @@
         .attr("class", "handle")
         .attr("r", 11);
 
-      var cutoff = 0.0;  
+      var cutoff = 0.0;
 
       function move(h) {
-        cutoff = h; 
+        cutoff = h;
         handle.attr("cx", x(cutoff));
         draw({ ...data, links: data.links.filter((link)=>link.count>h)});
-      } 
+      }
     }
 
+    function saveSVG() {
+
+    }
   </script>
 
 </body>
