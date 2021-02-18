@@ -104,8 +104,8 @@
       .force("link", d3.forceLink()
         .id(function (d) { return d.id; })
         .strength(function (d) {
-          if (d.className == 'self') return 1.0;
-          return 0.01;
+          if (d.className == 'self') return 0.5;
+          return 0.001;
         }))
       .force('limit', d3.forceLimit()
         .x0(10)
