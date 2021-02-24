@@ -308,7 +308,7 @@ def main():
 
         # Create a node
         dot.node(cluster.cluster, label=None, fixedsize="true", width=str(node_size), height=str(node_size),
-                 fontsize=str(85), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Courier-Bold')
+                 fontsize=str(95), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Helvetica')
 
 
         # Create adges for adjacent proteins
