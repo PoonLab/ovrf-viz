@@ -31,10 +31,11 @@ body {
 }
 
 .textClass {
-    stroke: #323232;    font: .9em/1.2 Lato, sans-serif;
+    stroke: #323232;
+    font-family: "Lato", "sans-serif";
     font-weight: normal;
     stroke-width: .5;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* Slider */

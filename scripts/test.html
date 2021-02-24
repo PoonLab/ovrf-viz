@@ -12,6 +12,7 @@
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://unpkg.com/d3-force-limit"></script>
+  <script src="d3-save-svg.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -87,15 +88,6 @@
       .append("svg:svg")
       .attr("width", genWidth)
       .attr("height", genHeight);
-
-    // var genome = d3.select("div#genome")
-    //   .append("svg:svg")
-    //   .attr("preserveAspectRatio", "xMinYmin meet")
-    //   .attr("viewBox", "0 0 600 600")
-    //   .classed("svg-content", true);
-
-    // var edgeColor = d3.scaleSequential().domain([1,50])
-    //   .interpolator(d3.interpolateGreys)
 
     var edgeColor = d3.scaleLinear().domain([1,20])
       .range(["whitesmoke", "silver"]);
@@ -194,14 +186,26 @@
             .on("end", dragended))
 
       nodeEnter
-        .append("circle")
-          .attr("r", function (d) { return (Math.sqrt(d.size)); })
+        .append(function(d) {
+          const r = Math.sqrt(d.size);
+          if (d.id.indexOf("start") >= 0){
+            const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+            circle.setAttribute("r", r);
+            return circle;
+          } else {
+            const hex = document.createElementNS("http://www.w3.org/2000/svg", "path"); 
+            const a = r/2*Math.sqrt(3);
+            hex.setAttribute("d", `M 0,${-r} L ${a},${-r/2} L ${a},${r/2} L 0,${r} L ${-a},${r/2} L ${-a},${-r/2} L 0,${-r} Z`);
+            hex.setAttribute("stroke", "#000");
+            return hex;
+          } 
+        })
           .attr("fill", function (d) { return d.color; });
 
       nodeEnter
         .append("svg:text")
-          .attr("class", "textClass")
-          .text(function (d) { return d.id; });
+          // .attr("class", "textClass")
+          // .text(function (d) { return d.id; });
 
       nodeGroup = nodeEnter.merge(nodeGroup);
 
@@ -299,7 +303,10 @@
     }
 
     function saveSVG() {
-
+      var config = {
+        filename: 'customFileName',
+      }
+      d3_save_svg.save(d3.select('svg').node(), config);
     }
   </script>
 
