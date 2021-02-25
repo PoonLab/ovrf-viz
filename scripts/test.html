@@ -80,8 +80,8 @@
         });
     });
 
-    var genWidth = 650;
-    var genHeight = 650;
+    var genWidth = 800;
+    var genHeight = 500;
 
     /* ------ Visualization set up ------ */
     var genome = d3.select("div#genome")
@@ -96,8 +96,8 @@
       .force("link", d3.forceLink()
         .id(function (d) { return d.id; })
         .strength(function (d) {
-          if (d.className == 'self') return 0.5;
-          return 0.001;
+          if (d.className == 'self') return 0.09;
+          return 0.02;
         }))
       .force('limit', d3.forceLimit()
         .x0(10)
@@ -187,7 +187,7 @@
 
       nodeEnter
         .append(function(d) {
-          const r = Math.sqrt(d.size);
+          const r = 1.2*(Math.sqrt(d.size));
           if (d.id.indexOf("start") >= 0){
             const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
             circle.setAttribute("r", r);
@@ -196,7 +196,8 @@
             const hex = document.createElementNS("http://www.w3.org/2000/svg", "path"); 
             const a = r/2*Math.sqrt(3);
             hex.setAttribute("d", `M 0,${-r} L ${a},${-r/2} L ${a},${r/2} L 0,${r} L ${-a},${r/2} L ${-a},${-r/2} L 0,${-r} Z`);
-            hex.setAttribute("stroke", "#000");
+            hex.setAttribute("stroke", "#fff");
+            hex.setAttribute("stroke-width","1.5")
             return hex;
           } 
         })

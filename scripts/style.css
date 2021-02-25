@@ -36,6 +36,8 @@ body {
     font-weight: normal;
     stroke-width: .5;
     font-size: 16px;
+    position: absolute;
+    z-index: -1;
   }
 
   /* Slider */
