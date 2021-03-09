@@ -5,6 +5,7 @@ import json
 import seaborn as sns
 
 from collections import Counter
+from new_viz_ovrf import Protein, Genome, Cluster
 
 def get_args(parser):
     parser.add_argument(
@@ -20,138 +21,6 @@ def get_args(parser):
     )
 
     return parser.parse_args()
-
-
-class Protein:
-    """
-    Creates protein objects with information
-    """
-
-    def __init__(self, name, genome, location, start, end, cluster):
-        """
-        Stores relevant information about the protein and its location on the genome
-        """
-        self.name = name
-        self.genome = genome
-        self.location = location
-        self.cluster = cluster
-        self.adjacent_proteins = []
-        self.start = start
-        self.end = end
-        self.overlaps = []
-
-    def __repr__(self):
-        return self.name
-
-
-class Genome:
-    """
-    Creates list of proteins in the genome, sorted by position
-    """
-
-    def __init__(self, accno, all_proteins):
-        self.accno = accno
-        self.proteins = self.get_my_proteins(all_proteins)
-        self.get_adjacent_proteins()  # Get adjacent proteins for every protein in the genome
-
-    def __repr__(self):
-        return self.accno
-
-    def get_my_proteins(self, all_proteins):
-        """
-        Create a list with all proteins in the genome
-        """
-
-        proteins = [protein for protein in all_proteins if protein.genome == self.accno]
-        return sorted(proteins, key=lambda x: x.start)
-
-    def get_adjacent_proteins(self):
-        """
-        For every protein in the genome, store adjacent proteins
-        """
-        for i in range(len(self.proteins)):
-            current_prot = self.proteins[i]
-            for j in range(i+1, len(self.proteins)):
-                other_prot = self.proteins[j]
-                current_prot.adjacent_proteins.append(other_prot)  # Store following protein
-                # Check if proteins overlap
-                # Check if the start site is between the range of the other protein
-                if other_prot.start <= current_prot.start <= other_prot.end:
-                    current_prot.overlaps.append(other_prot)
-
-                # Check if the end site is between the range of the other protein
-                elif other_prot.start <= current_prot.end <= other_prot.end:
-                    current_prot.overlaps.append(other_prot)
-                else:  # If proteins don't overlap
-                    break
-
-
-class Cluster:
-    """
-    Creates a list of proteins in the cluster
-    """
-
-    def __init__(self, cluster, all_proteins):
-        self.cluster = cluster
-        self.proteins = self.get_my_proteins(all_proteins)
-        self.adjacent_clust, self.overlapping_clust = self.get_cluster_count()
-
-
-    def __repr__(self):
-        return self.cluster
-
-    def get_my_proteins(self, all_proteins):
-        """
-        Create a list with all proteins in the cluster
-        """
-        return [protein for protein in all_proteins if protein.cluster == self.cluster]
-
-    def get_connected_clusters(self):
-        """
-        Get proteins from other clusters associated with proteins in my cluster
-        """
-        adjacent = []  # Adjacent edge formation
-        overlapping = []  # Overlapping edge formation
-        for prot in self.proteins:
-            overlapping.extend(prot.overlaps)
-            adjacent.extend(set(prot.adjacent_proteins) -  set(prot.overlaps))
-
-        adjacent_clust = [protein.cluster for protein in adjacent]
-        overlapping_clust = [protein.cluster for protein in overlapping]
-
-        return adjacent_clust, overlapping_clust
-
-
-    def find_self_edges(self):
-        adjacent = []  # Adjacent edge formation
-        overlapping = []  # Overlapping edge formation
-        for prot in self.proteins:
-            overlapping.extend(prot.overlaps)
-            adjacent.extend(set(prot.adjacent_proteins) -  set(prot.overlaps))
-        genomes = []
-
-        for protein in overlapping:
-            if protein.genome not in genomes:
-                genomes.append(protein.genome)
-
-
-    def get_cluster_count(self):
-        """
-        Creates dictionaries counting the ammount of times a cluster has an edge with current cluster for adjacent and overlapping cases
-        """
-        adjacent_clust, overlapping_clust = self.get_connected_clusters()
-
-        # Create dictionary for adjacent clusters
-        adj_freq = {}
-        for cluster in adjacent_clust:
-            adj_freq[cluster] = adjacent_clust.count(cluster)
-
-        overlap_freq = {}
-        for cluster in overlapping_clust:
-            overlap_freq[cluster] = overlapping_clust.count(cluster)
-
-        return adj_freq, overlap_freq
-
 
 def get_info(handle):
     """
@@ -256,11 +125,23 @@ def main():
                                         "className": "overlap"
                                     })
 
-    print(json_dict)
+    #print(json_dict)
     # with open(f"{args.outfile}.json", "w") as outfile:
     #     json.dump(json_dict, outfile, indent=4)
-        
 
+    def encode_genome_list(z):
+        if isinstance(z, list):
+            return z
+        elif isinstance(z, Genome):
+            return { "accno": z.accno, "proteins": z.proteins }
+        elif isinstance(z, Protein):
+            return { "name": z.name, "start": z.start, "end": z.end, "color": colors[int(z.cluster)-1] }
+        else:
+            type_name = z.__class__.__name__
+            raise TypeError(f"Object of type '{type_name}' is not JSON serializable") 
+
+    with open(f"genome_{args.outfile}.json", "w") as outfile:
+        json.dump(genome_list, outfile, default=encode_genome_list, indent=4)
 
 if __name__ =='__main__':
     main()
