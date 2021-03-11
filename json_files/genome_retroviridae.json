@@ -1,0 +1,2869 @@
+[
+    {
+        "accno": "NC_043193",
+        "proteins": [
+            {
+                "name": "gp70",
+                "start": 0,
+                "end": 266,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043194",
+        "proteins": [
+            {
+                "name": "pol polyprotein",
+                "start": 0,
+                "end": 3603,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043195",
+        "proteins": [
+            {
+                "name": "pol polyprotein",
+                "start": 0,
+                "end": 3741,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043196",
+        "proteins": [
+            {
+                "name": "polymerase",
+                "start": 0,
+                "end": 1248,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043404",
+        "proteins": [
+            {
+                "name": "RNA-dependent DNA polymerase",
+                "start": 0,
+                "end": 164,
+                "color": "#f77189"
+            },
+            {
+                "name": "transforming protein",
+                "start": 515,
+                "end": 1313,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043426",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 291,
+                "end": 605,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043445",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1810,
+                "end": 3739,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol protein",
+                "start": 3686,
+                "end": 7118,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env protein",
+                "start": 7065,
+                "end": 10005,
+                "color": "#bb9832"
+            },
+            {
+                "name": "bet protein",
+                "start": 9974,
+                "end": 10245,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tas protein",
+                "start": 9974,
+                "end": 10871,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bet protein",
+                "start": 10540,
+                "end": 11772,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040461",
+        "proteins": [
+            {
+                "name": "glycoprotein",
+                "start": 73,
+                "end": 5434,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040462",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 293,
+                "end": 6890,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040463",
+        "proteins": [
+            {
+                "name": "coat protein",
+                "start": 282,
+                "end": 1275,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038668",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 184,
+                "end": 910,
+                "color": "#e866f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 340,
+                "end": 910,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038669",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 615,
+                "end": 2055,
+                "color": "#bb9832"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 2198,
+                "end": 5459,
+                "color": "#bb9832"
+            },
+            {
+                "name": "presumed viral infectivity factor",
+                "start": 5418,
+                "end": 6249,
+                "color": "#36ada4"
+            },
+            {
+                "name": "envelope precursor",
+                "start": 6249,
+                "end": 8772,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038858",
+        "proteins": [
+            {
+                "name": "gag-fos fusion protein",
+                "start": 1079,
+                "end": 2744,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038922",
+        "proteins": [
+            {
+                "name": "p47(gag-crk)",
+                "start": 378,
+                "end": 1701,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038923",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 0,
+                "end": 2373,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039022",
+        "proteins": [
+            {
+                "name": "Gag",
+                "start": 1408,
+                "end": 2953,
+                "color": "#50b131"
+            },
+            {
+                "name": "Pol",
+                "start": 2903,
+                "end": 6374,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Env",
+                "start": 6285,
+                "end": 9234,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Bel1",
+                "start": 9200,
+                "end": 9830,
+                "color": "#f77189"
+            },
+            {
+                "name": "Bel2",
+                "start": 9705,
+                "end": 10647,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039023",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1362,
+                "end": 3294,
+                "color": "#50b131"
+            },
+            {
+                "name": "env protein",
+                "start": 6602,
+                "end": 9602,
+                "color": "#bb9832"
+            },
+            {
+                "name": "bel1 protein",
+                "start": 9568,
+                "end": 10402,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bel2 protein",
+                "start": 10025,
+                "end": 11414,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039024",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1864,
+                "end": 3811,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol protein",
+                "start": 3758,
+                "end": 7190,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env protein",
+                "start": 7137,
+                "end": 10095,
+                "color": "#bb9832"
+            },
+            {
+                "name": "bet protein",
+                "start": 10064,
+                "end": 10329,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tas protein",
+                "start": 10064,
+                "end": 10967,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bet protein",
+                "start": 10630,
+                "end": 11811,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039025",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1224,
+                "end": 3171,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol protein",
+                "start": 3118,
+                "end": 6550,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 6497,
+                "end": 9464,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tas protein",
+                "start": 9433,
+                "end": 10336,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bel2 protein",
+                "start": 10112,
+                "end": 11183,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039026",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1742,
+                "end": 3677,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol protein",
+                "start": 3633,
+                "end": 7083,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env protein",
+                "start": 7012,
+                "end": 9958,
+                "color": "#bb9832"
+            },
+            {
+                "name": "bet protein",
+                "start": 9927,
+                "end": 10237,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tas protein",
+                "start": 9927,
+                "end": 10854,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bet protein",
+                "start": 10502,
+                "end": 11686,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039027",
+        "proteins": [
+            {
+                "name": "gag",
+                "start": 1340,
+                "end": 3212,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol",
+                "start": 3180,
+                "end": 6627,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env",
+                "start": 6556,
+                "end": 9517,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tas",
+                "start": 9486,
+                "end": 10461,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bel2",
+                "start": 10489,
+                "end": 11296,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039028",
+        "proteins": [
+            {
+                "name": "gag",
+                "start": 1143,
+                "end": 2862,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol",
+                "start": 2821,
+                "end": 6226,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env",
+                "start": 6200,
+                "end": 9143,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tas",
+                "start": 9112,
+                "end": 10117,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bel2",
+                "start": 9821,
+                "end": 10961,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039029",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1379,
+                "end": 3314,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol protein",
+                "start": 3261,
+                "end": 6687,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 6643,
+                "end": 9607,
+                "color": "#bb9832"
+            },
+            {
+                "name": "bet protein",
+                "start": 9576,
+                "end": 9838,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tas protein",
+                "start": 9576,
+                "end": 10476,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bet protein",
+                "start": 10139,
+                "end": 11320,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bel2 protein",
+                "start": 10252,
+                "end": 11320,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039030",
+        "proteins": [
+            {
+                "name": "gag",
+                "start": 1162,
+                "end": 3004,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol",
+                "start": 2948,
+                "end": 6398,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env",
+                "start": 6324,
+                "end": 9276,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tas",
+                "start": 9245,
+                "end": 10163,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bel2",
+                "start": 9867,
+                "end": 10998,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039031",
+        "proteins": [
+            {
+                "name": "gag polyprotein",
+                "start": 1168,
+                "end": 3019,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol protein",
+                "start": 2963,
+                "end": 6413,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env protein",
+                "start": 6339,
+                "end": 9291,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tas protein",
+                "start": 9260,
+                "end": 10178,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Bel2 protein",
+                "start": 9882,
+                "end": 11013,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039085",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 1715,
+                "end": 3590,
+                "color": "#50b131"
+            },
+            {
+                "name": "polymerase",
+                "start": 3546,
+                "end": 6984,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope glycoprotein",
+                "start": 6922,
+                "end": 9892,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Tas protein",
+                "start": 9861,
+                "end": 10698,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Bel-2 protein",
+                "start": 10588,
+                "end": 11554,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039228",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 960,
+                "end": 2526,
+                "color": "#e866f4"
+            },
+            {
+                "name": "pol protein",
+                "start": 2640,
+                "end": 6024,
+                "color": "#50b131"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5905,
+                "end": 7885,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039238",
+        "proteins": [
+            {
+                "name": "gag",
+                "start": 1742,
+                "end": 3686,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol",
+                "start": 3633,
+                "end": 7083,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env",
+                "start": 7012,
+                "end": 9982,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tas",
+                "start": 9951,
+                "end": 10878,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bet",
+                "start": 10498,
+                "end": 11710,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039242",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 1441,
+                "end": 2986,
+                "color": "#50b131"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2936,
+                "end": 6407,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 6318,
+                "end": 9267,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9233,
+                "end": 9863,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9738,
+                "end": 10680,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_031326",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 487,
+                "end": 2467,
+                "color": "#bb9832"
+            },
+            {
+                "name": "protease",
+                "start": 2283,
+                "end": 3228,
+                "color": "#f77189"
+            },
+            {
+                "name": "pol protein",
+                "start": 3206,
+                "end": 5807,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5851,
+                "end": 7582,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029852",
+        "proteins": [
+            {
+                "name": "putative group-specific antigen",
+                "start": 154,
+                "end": 1885,
+                "color": "#bb9832"
+            },
+            {
+                "name": "putative protease",
+                "start": 1989,
+                "end": 2547,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative viral DNA polymerase",
+                "start": 2546,
+                "end": 5108,
+                "color": "#bb9832"
+            },
+            {
+                "name": "putative envelope protein",
+                "start": 4998,
+                "end": 7062,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029853",
+        "proteins": [
+            {
+                "name": "truncated gag-pol polyprotein",
+                "start": 617,
+                "end": 1232,
+                "color": "#e866f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5669,
+                "end": 7595,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_027117",
+        "proteins": [
+            {
+                "name": "gag",
+                "start": 1544,
+                "end": 3731,
+                "color": "#50b131"
+            },
+            {
+                "name": "protease",
+                "start": 3667,
+                "end": 4504,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_022517",
+        "proteins": [
+            {
+                "name": "gag-pol precursor polyprotein",
+                "start": 984,
+                "end": 6168,
+                "color": "#bb9832"
+            },
+            {
+                "name": "polyprotein",
+                "start": 984,
+                "end": 2598,
+                "color": "#e866f4"
+            },
+            {
+                "name": "polyprotein",
+                "start": 6234,
+                "end": 7926,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_023153",
+        "proteins": [
+            {
+                "name": "polyprotein",
+                "start": 130,
+                "end": 5569,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 6040,
+                "end": 6457,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_022518",
+        "proteins": [
+            {
+                "name": "putative env",
+                "start": 6450,
+                "end": 8550,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_015116",
+        "proteins": [
+            {
+                "name": "envelope protein",
+                "start": 592,
+                "end": 610,
+                "color": "#e866f4"
+            },
+            {
+                "name": "gag polyprotein",
+                "start": 592,
+                "end": 2698,
+                "color": "#bb9832"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 2715,
+                "end": 5337,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5290,
+                "end": 6988,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014474",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 487,
+                "end": 2467,
+                "color": "#bb9832"
+            },
+            {
+                "name": "protease",
+                "start": 2283,
+                "end": 3228,
+                "color": "#f77189"
+            },
+            {
+                "name": "pol protein",
+                "start": 3206,
+                "end": 5819,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5845,
+                "end": 7594,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011800",
+        "proteins": [
+            {
+                "name": "group specific antigen",
+                "start": 749,
+                "end": 2024,
+                "color": "#e866f4"
+            },
+            {
+                "name": "protease",
+                "start": 1891,
+                "end": 2533,
+                "color": "#36ada4"
+            },
+            {
+                "name": "polymerase",
+                "start": 2382,
+                "end": 5109,
+                "color": "#bb9832"
+            },
+            {
+                "name": "rex protein",
+                "start": 5042,
+                "end": 5105,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tax protein",
+                "start": 5101,
+                "end": 5105,
+                "color": "#36ada4"
+            },
+            {
+                "name": "envelope glycoprotein",
+                "start": 5101,
+                "end": 6559,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "rex protein",
+                "start": 7119,
+                "end": 7569,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tax protein",
+                "start": 7119,
+                "end": 8153,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011546",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 746,
+                "end": 2009,
+                "color": "#e866f4"
+            },
+            {
+                "name": "pro protein",
+                "start": 1960,
+                "end": 2494,
+                "color": "#36ada4"
+            },
+            {
+                "name": "pol protein",
+                "start": 2415,
+                "end": 5061,
+                "color": "#bb9832"
+            },
+            {
+                "name": "rex protein",
+                "start": 4994,
+                "end": 5057,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tax protein",
+                "start": 5053,
+                "end": 5057,
+                "color": "#36ada4"
+            },
+            {
+                "name": "envelope glycoprotein",
+                "start": 5053,
+                "end": 6535,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "rex protein",
+                "start": 7231,
+                "end": 7717,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tax protein",
+                "start": 7231,
+                "end": 8280,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010955",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 1327,
+                "end": 1657,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1689,
+                "end": 2088,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010820",
+        "proteins": [
+            {
+                "name": "Gag",
+                "start": 1824,
+                "end": 3756,
+                "color": "#50b131"
+            },
+            {
+                "name": "Pol precursor",
+                "start": 3703,
+                "end": 7135,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Env",
+                "start": 7082,
+                "end": 10031,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Bet",
+                "start": 10000,
+                "end": 10271,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Tas",
+                "start": 10000,
+                "end": 10897,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Bet",
+                "start": 10566,
+                "end": 11705,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009889",
+        "proteins": [
+            {
+                "name": "gag-pol precursor polyprotein",
+                "start": 946,
+                "end": 6166,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope glycoprotein",
+                "start": 6200,
+                "end": 7898,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009424",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 1130,
+                "end": 2936,
+                "color": "#e866f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2890,
+                "end": 3775,
+                "color": "#50b131"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 3656,
+                "end": 4472,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 4816,
+                "end": 5050,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_008094",
+        "proteins": [
+            {
+                "name": "protein-tyrosine kinase",
+                "start": 706,
+                "end": 2470,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007815",
+        "proteins": [
+            {
+                "name": "truncated gag-pro-pol",
+                "start": 637,
+                "end": 1609,
+                "color": "#e866f4"
+            },
+            {
+                "name": "putative envelope polyprotein",
+                "start": 5766,
+                "end": 7704,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007654",
+        "proteins": [
+            {
+                "name": "leader peptide",
+                "start": 479,
+                "end": 557,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein",
+                "start": 1046,
+                "end": 7487,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 7490,
+                "end": 9554,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007015",
+        "proteins": [
+            {
+                "name": "gag",
+                "start": 255,
+                "end": 2097,
+                "color": "#50b131"
+            },
+            {
+                "name": "gap-pro fusion",
+                "start": 1877,
+                "end": 2858,
+                "color": "#f77189"
+            },
+            {
+                "name": "gap-pro-pol fusion",
+                "start": 2824,
+                "end": 5437,
+                "color": "#bb9832"
+            },
+            {
+                "name": "env",
+                "start": 5345,
+                "end": 7199,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006934",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 940,
+                "end": 2443,
+                "color": "#e866f4"
+            },
+            {
+                "name": "protease/polymerase",
+                "start": 2443,
+                "end": 6025,
+                "color": "#50b131"
+            },
+            {
+                "name": "envelope glycoprotein",
+                "start": 5961,
+                "end": 7716,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005947",
+        "proteins": [
+            {
+                "name": "Gag-env fusion protein",
+                "start": 514,
+                "end": 3892,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004994",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 255,
+                "end": 2094,
+                "color": "#50b131"
+            },
+            {
+                "name": "gag-pro fusion",
+                "start": 1928,
+                "end": 2855,
+                "color": "#f77189"
+            },
+            {
+                "name": "gag-pro-pol fusion",
+                "start": 2821,
+                "end": 5434,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5321,
+                "end": 7190,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004455",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 736,
+                "end": 2290,
+                "color": "#bb9832"
+            },
+            {
+                "name": "pol protein",
+                "start": 2049,
+                "end": 5082,
+                "color": "#bb9832"
+            },
+            {
+                "name": "vif protein",
+                "start": 5041,
+                "end": 5680,
+                "color": "#f77189"
+            },
+            {
+                "name": "vpx protein",
+                "start": 5519,
+                "end": 5819,
+                "color": "#f77189"
+            },
+            {
+                "name": "vpr protein",
+                "start": 5833,
+                "end": 6139,
+                "color": "#f77189"
+            },
+            {
+                "name": "tat protein",
+                "start": 6053,
+                "end": 6270,
+                "color": "#f77189"
+            },
+            {
+                "name": "env protein",
+                "start": 6308,
+                "end": 8909,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tat protein",
+                "start": 8488,
+                "end": 8625,
+                "color": "#f77189"
+            },
+            {
+                "name": "nef protein",
+                "start": 8721,
+                "end": 9279,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003323",
+        "proteins": [
+            {
+                "name": "gag polyprotein",
+                "start": 753,
+                "end": 2022,
+                "color": "#e866f4"
+            },
+            {
+                "name": "protease",
+                "start": 1973,
+                "end": 2507,
+                "color": "#36ada4"
+            },
+            {
+                "name": "polymerase",
+                "start": 2392,
+                "end": 5074,
+                "color": "#bb9832"
+            },
+            {
+                "name": "rex protein",
+                "start": 5007,
+                "end": 5070,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tax protein",
+                "start": 5066,
+                "end": 5070,
+                "color": "#36ada4"
+            },
+            {
+                "name": "rex protein",
+                "start": 7248,
+                "end": 7734,
+                "color": "#36ada4"
+            },
+            {
+                "name": "tax protein",
+                "start": 7248,
+                "end": 8297,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002201",
+        "proteins": [
+            {
+                "name": "Gag",
+                "start": 1526,
+                "end": 3206,
+                "color": "#50b131"
+            },
+            {
+                "name": "Pol",
+                "start": 3156,
+                "end": 6618,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Env",
+                "start": 6535,
+                "end": 9496,
+                "color": "#bb9832"
+            },
+            {
+                "name": "ORF1/Tas/Bel1",
+                "start": 9441,
+                "end": 10191,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Bel2",
+                "start": 10075,
+                "end": 11065,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_000858",
+        "proteins": [
+            {
+                "name": "gag polyprotein",
+                "start": 801,
+                "end": 2088,
+                "color": "#e866f4"
+            },
+            {
+                "name": "protease",
+                "start": 2252,
+                "end": 2753,
+                "color": "#36ada4"
+            },
+            {
+                "name": "reverse transcriptase/envelope protein",
+                "start": 2989,
+                "end": 6643,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tax protein",
+                "start": 7617,
+                "end": 8355,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001940",
+        "proteins": [
+            {
+                "name": "Gag-Pro-Pol precursor polyprotein gPr80",
+                "start": 684,
+                "end": 6045,
+                "color": "#50b131"
+            },
+            {
+                "name": "Env polyprotein",
+                "start": 5987,
+                "end": 7916,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001802",
+        "proteins": [
+            {
+                "name": "Gag-Pol",
+                "start": 335,
+                "end": 1637,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr55(Gag)",
+                "start": 335,
+                "end": 1838,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Gag-Pol",
+                "start": 1636,
+                "end": 4642,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Vif",
+                "start": 4586,
+                "end": 5165,
+                "color": "#f77189"
+            },
+            {
+                "name": "Vpr",
+                "start": 5104,
+                "end": 5319,
+                "color": "#f77189"
+            },
+            {
+                "name": "Vpr",
+                "start": 5320,
+                "end": 5396,
+                "color": "#f77189"
+            },
+            {
+                "name": "Tat",
+                "start": 5376,
+                "end": 5591,
+                "color": "#f77189"
+            },
+            {
+                "name": "Rev",
+                "start": 5515,
+                "end": 5591,
+                "color": "#f77189"
+            },
+            {
+                "name": "Vpu",
+                "start": 5607,
+                "end": 5856,
+                "color": "#f77189"
+            },
+            {
+                "name": "Envelope surface glycoprotein gp160, precursor",
+                "start": 5770,
+                "end": 8341,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Asp",
+                "start": 6918,
+                "end": 7488,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Tat",
+                "start": 7924,
+                "end": 7970,
+                "color": "#f77189"
+            },
+            {
+                "name": "Rev",
+                "start": 7924,
+                "end": 8199,
+                "color": "#f77189"
+            },
+            {
+                "name": "Nef",
+                "start": 8342,
+                "end": 8963,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001403",
+        "proteins": [
+            {
+                "name": "p140 polyprotein",
+                "start": 379,
+                "end": 3928,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001407",
+        "proteins": [
+            {
+                "name": "gPr95 polyprotein precursor",
+                "start": 379,
+                "end": 397,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr180 polyprotein precursor",
+                "start": 379,
+                "end": 2482,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr76 polyprotein precursor",
+                "start": 379,
+                "end": 2485,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr180 polyprotein precursor",
+                "start": 2481,
+                "end": 5190,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gPr95 polyprotein precursor",
+                "start": 5077,
+                "end": 6865,
+                "color": "#e866f4"
+            },
+            {
+                "name": "p60 src",
+                "start": 7128,
+                "end": 8709,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001414",
+        "proteins": [
+            {
+                "name": "RT-IN",
+                "start": 417,
+                "end": 1546,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr66",
+                "start": 417,
+                "end": 1546,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr44",
+                "start": 417,
+                "end": 1599,
+                "color": "#e866f4"
+            },
+            {
+                "name": "RT-IN",
+                "start": 1545,
+                "end": 2132,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr66",
+                "start": 1545,
+                "end": 2135,
+                "color": "#e866f4"
+            },
+            {
+                "name": "RT-IN",
+                "start": 2131,
+                "end": 4669,
+                "color": "#e866f4"
+            },
+            {
+                "name": "p18",
+                "start": 4614,
+                "end": 4665,
+                "color": "#36ada4"
+            },
+            {
+                "name": "gp60 SU",
+                "start": 4614,
+                "end": 6162,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p34",
+                "start": 4661,
+                "end": 4665,
+                "color": "#36ada4"
+            },
+            {
+                "name": "p18",
+                "start": 7041,
+                "end": 7461,
+                "color": "#36ada4"
+            },
+            {
+                "name": "p34",
+                "start": 7041,
+                "end": 7967,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001436",
+        "proteins": [
+            {
+                "name": "Pr gag-pro-pol",
+                "start": 449,
+                "end": 1718,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr gag-pro",
+                "start": 449,
+                "end": 1718,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr55",
+                "start": 449,
+                "end": 1739,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr gag-pro-pol",
+                "start": 1717,
+                "end": 2245,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr gag-pro",
+                "start": 1717,
+                "end": 2404,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr gag-pro-pol",
+                "start": 2244,
+                "end": 4836,
+                "color": "#bb9832"
+            },
+            {
+                "name": "p27",
+                "start": 4772,
+                "end": 4832,
+                "color": "#36ada4"
+            },
+            {
+                "name": "p40",
+                "start": 4828,
+                "end": 4832,
+                "color": "#36ada4"
+            },
+            {
+                "name": "gp46 SU",
+                "start": 4828,
+                "end": 6295,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p27",
+                "start": 6949,
+                "end": 8008,
+                "color": "#36ada4"
+            },
+            {
+                "name": "p40",
+                "start": 6950,
+                "end": 8008,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001450",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 524,
+                "end": 1985,
+                "color": "#bb9832"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 1765,
+                "end": 5182,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope polyprotein",
+                "start": 5371,
+                "end": 7951,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 7294,
+                "end": 7951,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001499",
+        "proteins": [
+            {
+                "name": "p120 Gag-Abl polyprotein",
+                "start": 620,
+                "end": 3566,
+                "color": "#e866f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 3707,
+                "end": 4199,
+                "color": "#36ada4"
+            },
+            {
+                "name": "env p15E protein fragment",
+                "start": 4424,
+                "end": 4580,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001501",
+        "proteins": [
+            {
+                "name": "Pr180",
+                "start": 356,
+                "end": 1970,
+                "color": "#50b131"
+            },
+            {
+                "name": "Pr65",
+                "start": 356,
+                "end": 1973,
+                "color": "#e866f4"
+            },
+            {
+                "name": "Pr180",
+                "start": 1973,
+                "end": 5573,
+                "color": "#50b131"
+            },
+            {
+                "name": "gPr80",
+                "start": 5512,
+                "end": 7510,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001502",
+        "proteins": [
+            {
+                "name": "Pr65",
+                "start": 556,
+                "end": 2173,
+                "color": "#e866f4"
+            },
+            {
+                "name": "pol polyprotein fragment",
+                "start": 2484,
+                "end": 2928,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol polyprotein fragment",
+                "start": 2926,
+                "end": 3388,
+                "color": "#50b131"
+            },
+            {
+                "name": "MOS",
+                "start": 3389,
+                "end": 4514,
+                "color": "#50b131"
+            },
+            {
+                "name": "envelope protein fragment",
+                "start": 4562,
+                "end": 4718,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001503",
+        "proteins": [
+            {
+                "name": "Pr160",
+                "start": 312,
+                "end": 2082,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr110",
+                "start": 312,
+                "end": 2082,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr77",
+                "start": 312,
+                "end": 2088,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr160",
+                "start": 2081,
+                "end": 2891,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr110",
+                "start": 2081,
+                "end": 2894,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr160",
+                "start": 2890,
+                "end": 5578,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gPr73",
+                "start": 5363,
+                "end": 7430,
+                "color": "#50b131"
+            },
+            {
+                "name": "Pr48",
+                "start": 7377,
+                "end": 8340,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001506",
+        "proteins": [
+            {
+                "name": "gag polyprotein",
+                "start": 636,
+                "end": 2301,
+                "color": "#e866f4"
+            },
+            {
+                "name": "ubiquitin-like protein",
+                "start": 2304,
+                "end": 2706,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001550",
+        "proteins": [
+            {
+                "name": "RT-IN",
+                "start": 268,
+                "end": 2092,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr95",
+                "start": 268,
+                "end": 2092,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr78",
+                "start": 268,
+                "end": 2242,
+                "color": "#bb9832"
+            },
+            {
+                "name": "RT-IN",
+                "start": 2091,
+                "end": 3000,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr95",
+                "start": 2091,
+                "end": 3003,
+                "color": "#bb9832"
+            },
+            {
+                "name": "RT-IN",
+                "start": 2999,
+                "end": 5582,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gp70 SU",
+                "start": 5620,
+                "end": 7381,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001866",
+        "proteins": [
+            {
+                "name": "p110",
+                "start": 316,
+                "end": 2944,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001867",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 429,
+                "end": 792,
+                "color": "#f77189"
+            },
+            {
+                "name": "Pr gag-pro-pol",
+                "start": 799,
+                "end": 6058,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Pr gag",
+                "start": 799,
+                "end": 2548,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gPr env",
+                "start": 5973,
+                "end": 9651,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9673,
+                "end": 10567,
+                "color": "#e866f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 10569,
+                "end": 11490,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001831",
+        "proteins": [
+            {
+                "name": "gag polyprotein",
+                "start": 1412,
+                "end": 3047,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 2997,
+                "end": 6660,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 6613,
+                "end": 9586,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Borf-1",
+                "start": 9549,
+                "end": 10299,
+                "color": "#36ada4"
+            },
+            {
+                "name": "Borf-2",
+                "start": 10108,
+                "end": 11116,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001724",
+        "proteins": [
+            {
+                "name": "envelope protein",
+                "start": 179,
+                "end": 220,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 179,
+                "end": 220,
+                "color": "#f77189"
+            },
+            {
+                "name": "gag-pol polyprotein",
+                "start": 336,
+                "end": 6390,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gag polyprotein",
+                "start": 336,
+                "end": 2193,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5340,
+                "end": 5429,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5392,
+                "end": 5429,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope protein",
+                "start": 6183,
+                "end": 9535,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 6183,
+                "end": 6241,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 6183,
+                "end": 6241,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9345,
+                "end": 9535,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9345,
+                "end": 9357,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9345,
+                "end": 9535,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 9494,
+                "end": 10112,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001702",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 637,
+                "end": 2254,
+                "color": "#e866f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5784,
+                "end": 7719,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001654",
+        "proteins": [
+            {
+                "name": "gag-pol precursor",
+                "start": 229,
+                "end": 1444,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gag precursor",
+                "start": 229,
+                "end": 1540,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gag-pol precursor",
+                "start": 1443,
+                "end": 4527,
+                "color": "#bb9832"
+            },
+            {
+                "name": "vif protein",
+                "start": 4385,
+                "end": 4979,
+                "color": "#36ada4"
+            },
+            {
+                "name": "alternative tat protein",
+                "start": 5009,
+                "end": 5299,
+                "color": "#f77189"
+            },
+            {
+                "name": "tat protein",
+                "start": 5009,
+                "end": 5303,
+                "color": "#f77189"
+            },
+            {
+                "name": "env precursor",
+                "start": 5196,
+                "end": 7542,
+                "color": "#e866f4"
+            },
+            {
+                "name": "rev protein",
+                "start": 5196,
+                "end": 5335,
+                "color": "#f77189"
+            },
+            {
+                "name": "alternative rev protein",
+                "start": 5196,
+                "end": 5299,
+                "color": "#f77189"
+            },
+            {
+                "name": "alternative tat protein",
+                "start": 7032,
+                "end": 7087,
+                "color": "#f77189"
+            },
+            {
+                "name": "rev protein",
+                "start": 7032,
+                "end": 7535,
+                "color": "#f77189"
+            },
+            {
+                "name": "alternative rev protein",
+                "start": 7032,
+                "end": 7535,
+                "color": "#f77189"
+            },
+            {
+                "name": "tmx protein",
+                "start": 7047,
+                "end": 7542,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001364",
+        "proteins": [
+            {
+                "name": "bet protein fragment",
+                "start": 2,
+                "end": 377,
+                "color": "#36ada4"
+            },
+            {
+                "name": "gag protein",
+                "start": 1865,
+                "end": 3827,
+                "color": "#50b131"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 3774,
+                "end": 7215,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 7153,
+                "end": 10120,
+                "color": "#bb9832"
+            },
+            {
+                "name": "taf protein",
+                "start": 10089,
+                "end": 10992,
+                "color": "#36ada4"
+            },
+            {
+                "name": "bet protein",
+                "start": 10609,
+                "end": 11863,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001549",
+        "proteins": [
+            {
+                "name": "Gag-Pol",
+                "start": 896,
+                "end": 2197,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gag protein",
+                "start": 896,
+                "end": 2438,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Gag-Pol",
+                "start": 2196,
+                "end": 5314,
+                "color": "#bb9832"
+            },
+            {
+                "name": "vif protein",
+                "start": 5213,
+                "end": 5873,
+                "color": "#f77189"
+            },
+            {
+                "name": "vpx protein",
+                "start": 5682,
+                "end": 6039,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope protein",
+                "start": 6201,
+                "end": 8766,
+                "color": "#bb9832"
+            },
+            {
+                "name": "nef protein",
+                "start": 8599,
+                "end": 9271,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001463",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 511,
+                "end": 1858,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "pol protein",
+                "start": 1728,
+                "end": 5046,
+                "color": "#bb9832"
+            },
+            {
+                "name": "protein Q",
+                "start": 5005,
+                "end": 5695,
+                "color": "#f77189"
+            },
+            {
+                "name": "protein S",
+                "start": 5687,
+                "end": 5951,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope polyprotein",
+                "start": 6011,
+                "end": 8846,
+                "color": "#bb9832"
+            },
+            {
+                "name": "trans-regulatory splicing-like protein",
+                "start": 8413,
+                "end": 8803,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001482",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 627,
+                "end": 1980,
+                "color": "#bb9832"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 2250,
+                "end": 5243,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5235,
+                "end": 5991,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5991,
+                "end": 6228,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope polyprotein",
+                "start": 6265,
+                "end": 8836,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 6711,
+                "end": 6918,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001488",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 806,
+                "end": 2108,
+                "color": "#e866f4"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 2238,
+                "end": 5187,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5120,
+                "end": 5183,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5179,
+                "end": 5183,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5179,
+                "end": 6640,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 7213,
+                "end": 7663,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 7213,
+                "end": 8205,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001494",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 262,
+                "end": 2101,
+                "color": "#50b131"
+            },
+            {
+                "name": "neutral protease large subunit",
+                "start": 1992,
+                "end": 2862,
+                "color": "#f77189"
+            },
+            {
+                "name": "pol protein",
+                "start": 3107,
+                "end": 5441,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 4605,
+                "end": 5106,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5349,
+                "end": 7197,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001500",
+        "proteins": [
+            {
+                "name": "precursor protein PR-gag",
+                "start": 1008,
+                "end": 1572,
+                "color": "#e866f4"
+            },
+            {
+                "name": "gag polyprotein fragment",
+                "start": 2172,
+                "end": 2292,
+                "color": "#f77189"
+            },
+            {
+                "name": "gag polyprotein fragment",
+                "start": 2288,
+                "end": 2543,
+                "color": "#e866f4"
+            },
+            {
+                "name": "precursor protein PR-env",
+                "start": 4411,
+                "end": 5641,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001511",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 519,
+                "end": 1860,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "pol protein",
+                "start": 1790,
+                "end": 5051,
+                "color": "#bb9832"
+            },
+            {
+                "name": "Q protein",
+                "start": 5007,
+                "end": 5694,
+                "color": "#f77189"
+            },
+            {
+                "name": "W protein",
+                "start": 5483,
+                "end": 5744,
+                "color": "#f77189"
+            },
+            {
+                "name": "tat protein",
+                "start": 5697,
+                "end": 5982,
+                "color": "#f77189"
+            },
+            {
+                "name": "env protein precursor",
+                "start": 5995,
+                "end": 8968,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001514",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 644,
+                "end": 2867,
+                "color": "#50b131"
+            },
+            {
+                "name": "protease",
+                "start": 2668,
+                "end": 3640,
+                "color": "#f77189"
+            },
+            {
+                "name": "pol protein",
+                "start": 3887,
+                "end": 6284,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope glycoprotein",
+                "start": 6313,
+                "end": 8041,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001722",
+        "proteins": [
+            {
+                "name": "gag-pol fusion polyprotein",
+                "start": 1102,
+                "end": 2398,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gag polyprotein",
+                "start": 1102,
+                "end": 2668,
+                "color": "#bb9832"
+            },
+            {
+                "name": "gag-pol fusion polyprotein",
+                "start": 2397,
+                "end": 5754,
+                "color": "#bb9832"
+            },
+            {
+                "name": "vif protein",
+                "start": 5422,
+                "end": 6070,
+                "color": "#f77189"
+            },
+            {
+                "name": "vpx protein",
+                "start": 5897,
+                "end": 6239,
+                "color": "#f77189"
+            },
+            {
+                "name": "vpr protein",
+                "start": 6238,
+                "end": 6502,
+                "color": "#f77189"
+            },
+            {
+                "name": "tat protein",
+                "start": 6401,
+                "end": 6697,
+                "color": "#f77189"
+            },
+            {
+                "name": "rev protein",
+                "start": 6627,
+                "end": 6697,
+                "color": "#f77189"
+            },
+            {
+                "name": "env polyprotein",
+                "start": 6703,
+                "end": 9286,
+                "color": "#bb9832"
+            },
+            {
+                "name": "tat protein",
+                "start": 8860,
+                "end": 8957,
+                "color": "#f77189"
+            },
+            {
+                "name": "rev protein",
+                "start": 8860,
+                "end": 9102,
+                "color": "#f77189"
+            },
+            {
+                "name": "nef protein",
+                "start": 9119,
+                "end": 9893,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001885",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 630,
+                "end": 2193,
+                "color": "#e866f4"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 2193,
+                "end": 5691,
+                "color": "#50b131"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5551,
+                "end": 7555,
+                "color": "#3ba3ec"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001452",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 488,
+                "end": 1817,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "pol polyprotein",
+                "start": 1702,
+                "end": 5008,
+                "color": "#bb9832"
+            },
+            {
+                "name": "vif protein",
+                "start": 4964,
+                "end": 5657,
+                "color": "#f77189"
+            },
+            {
+                "name": "tat protein",
+                "start": 5656,
+                "end": 5941,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope polyprotein",
+                "start": 5955,
+                "end": 8907,
+                "color": "#bb9832"
+            },
+            {
+                "name": "rev protein",
+                "start": 5955,
+                "end": 6097,
+                "color": "#f77189"
+            },
+            {
+                "name": "rev protein",
+                "start": 8529,
+                "end": 8891,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001408",
+        "proteins": [
+            {
+                "name": "envelope protein",
+                "start": 371,
+                "end": 388,
+                "color": "#e866f4"
+            },
+            {
+                "name": "trans-acting factor",
+                "start": 371,
+                "end": 387,
+                "color": "#f77189"
+            },
+            {
+                "name": "trans-acting factor",
+                "start": 673,
+                "end": 1029,
+                "color": "#f77189"
+            },
+            {
+                "name": "polymerase",
+                "start": 2494,
+                "end": 5182,
+                "color": "#bb9832"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5068,
+                "end": 6872,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001413",
+        "proteins": [
+            {
+                "name": "gag polyprotein",
+                "start": 315,
+                "end": 1746,
+                "color": "#bb9832"
+            },
+            {
+                "name": "reverse transcriptase",
+                "start": 1571,
+                "end": 4742,
+                "color": "#bb9832"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 4600,
+                "end": 5197,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5227,
+                "end": 5539,
+                "color": "#f77189"
+            },
+            {
+                "name": "envelope polyprotein",
+                "start": 5414,
+                "end": 8129,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001402",
+        "proteins": [
+            {
+                "name": "v-myc (59/61 kDa) protein",
+                "start": 654,
+                "end": 1926,
+                "color": "#bb9832"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001618",
+        "proteins": [
+            {
+                "name": "P68 protein",
+                "start": 379,
+                "end": 2161,
+                "color": "#bb9832"
+            },
+            {
+                "name": "putative env protein gp37",
+                "start": 2105,
+                "end": 2630,
+                "color": "#e866f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001362",
+        "proteins": [
+            {
+                "name": "gag protein",
+                "start": 618,
+                "end": 2235,
+                "color": "#e866f4"
+            },
+            {
+                "name": "RNA-dependent DNA polymerase",
+                "start": 2220,
+                "end": 5835,
+                "color": "#50b131"
+            },
+            {
+                "name": "envelope protein",
+                "start": 5774,
+                "end": 7805,
+                "color": "#3ba3ec"
+            }
+        ]
+    }
+]

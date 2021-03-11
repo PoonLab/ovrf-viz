@@ -1,0 +1,155 @@
+/* load fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px;
+}
+
+#bar {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#plots {
+    display: flex;
+    margin: auto ;
+}
+/* .wrapper > * {
+    grid-column: 1;
+} */
+
+/* .wrapper > #genome {
+    grid-column: 2;
+} */
+
+/* #genome {
+    width: 50%;
+}
+
+#adj {
+    width: 50%;
+} */
+
+body {
+    font: .9em/1.2 Lato, sans-serif;
+}
+
+/* Genome plot */
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.textClass {
+    stroke: #323232;
+    font-family: "Lato", "sans-serif";
+    font-weight: normal;
+    stroke-width: .5;
+    font-size: 16px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  /* Slider */
+.ticks {
+    font: .9em/1.2 Lato, sans-serif;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+    stroke-linecap: round;
+}
+
+.track {
+    stroke: rgb(203, 202, 202);
+    stroke-width: 12px;
+}
+
+.track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+    cursor: grab;
+}
+
+.handle {
+    fill: rgb(183, 183, 183);
+    stroke: rgb(128, 127, 127);
+    stroke-opacity: 0.5;
+    stroke-width: 2px;
+}
+
+/* Dropdown menu */
+.dropbtn {
+    background-color: #747474;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+}
+
+.savebtn {
+  background-color: #747474;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 6px;
+  width: 150px;
+}
+
+button:hover {
+  background: #8f8f8f;
+}
+
+#dropdown {
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+#dropdown:hover .dropdown-content {display: block;}
+
+#dropdown:hover .dropbtn {background-color: #8f8f8f;}
+
+/* Family label */
+#family{
+  color: rgb(82, 82, 82);
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+}

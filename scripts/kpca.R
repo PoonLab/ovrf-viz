@@ -1,4 +1,4 @@
-setwd('~/git/ovrf-review/data/')
+setwd('~/Projects/ovrf-review/data/')
 
 # to generate color palettes
 gg2.cols <- function(n) {
@@ -7,9 +7,9 @@ gg2.cols <- function(n) {
 }
 
 # analyze k-mer intersection distance matrix
-km <- read.csv('adeno.inter-matrix.csv', header=F, row.names=1)
+km <- read.csv('matrix.adeno2.csv', header=F, row.names=1)
 km <- 1-as.matrix(km)
-headers <- read.csv('adeno.headers.csv', header=T)
+headers <- read.csv('headers.adeno.csv', header=T)
 
 
 # look at PCA of distance matrix
@@ -116,5 +116,6 @@ pal <- gg2.cols(n=max(clusters))
 par(mfrow=c(1,1))
 plot(res$Y, type='n')
 text(res$Y, label=clusters, col=pal[clusters], cex=0.8)
-
+info <- cbind(headers, clusters)
+write.csv(info, 'adeno_clusters_hc2_opt.csv')
 

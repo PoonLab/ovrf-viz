@@ -1,0 +1,520 @@
+{
+    "nodes": [
+        {
+            "id": "start1",
+            "group": 1,
+            "size": 38,
+            "color": "#f77189"
+        },
+        {
+            "id": "end1",
+            "group": 1,
+            "size": 38,
+            "color": "#f77189"
+        },
+        {
+            "id": "start2",
+            "group": 2,
+            "size": 37,
+            "color": "#dc8932"
+        },
+        {
+            "id": "end2",
+            "group": 2,
+            "size": 37,
+            "color": "#dc8932"
+        },
+        {
+            "id": "start3",
+            "group": 3,
+            "size": 24,
+            "color": "#ae9d31"
+        },
+        {
+            "id": "end3",
+            "group": 3,
+            "size": 24,
+            "color": "#ae9d31"
+        },
+        {
+            "id": "start4",
+            "group": 4,
+            "size": 39,
+            "color": "#77ab31"
+        },
+        {
+            "id": "end4",
+            "group": 4,
+            "size": 39,
+            "color": "#77ab31"
+        },
+        {
+            "id": "start5",
+            "group": 5,
+            "size": 48,
+            "color": "#33b07a"
+        },
+        {
+            "id": "end5",
+            "group": 5,
+            "size": 48,
+            "color": "#33b07a"
+        },
+        {
+            "id": "start6",
+            "group": 6,
+            "size": 45,
+            "color": "#36ada4"
+        },
+        {
+            "id": "end6",
+            "group": 6,
+            "size": 45,
+            "color": "#36ada4"
+        },
+        {
+            "id": "start7",
+            "group": 7,
+            "size": 72,
+            "color": "#38a9c5"
+        },
+        {
+            "id": "end7",
+            "group": 7,
+            "size": 72,
+            "color": "#38a9c5"
+        },
+        {
+            "id": "start8",
+            "group": 8,
+            "size": 30,
+            "color": "#6e9bf4"
+        },
+        {
+            "id": "end8",
+            "group": 8,
+            "size": 30,
+            "color": "#6e9bf4"
+        },
+        {
+            "id": "start9",
+            "group": 9,
+            "size": 22,
+            "color": "#cc7af4"
+        },
+        {
+            "id": "end9",
+            "group": 9,
+            "size": 22,
+            "color": "#cc7af4"
+        },
+        {
+            "id": "start10",
+            "group": 10,
+            "size": 24,
+            "color": "#f565cc"
+        },
+        {
+            "id": "end10",
+            "group": 10,
+            "size": 24,
+            "color": "#f565cc"
+        }
+    ],
+    "links": [
+        {
+            "source": "start1",
+            "target": "end1",
+            "count": 38,
+            "className": "self",
+            "protName": "P0",
+            "color": "#f77189"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 12,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start3",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start7",
+            "count": 24,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start6",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start2",
+            "target": "end2",
+            "count": 37,
+            "className": "self",
+            "protName": "RNA-dependent RNA polymerase",
+            "color": "#dc8932"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 14,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start6",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start8",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start9",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start3",
+            "target": "end3",
+            "count": 24,
+            "className": "self",
+            "protName": "coat",
+            "color": "#ae9d31"
+        },
+        {
+            "source": "end3",
+            "target": "start5",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start4",
+            "target": "end4",
+            "count": 39,
+            "className": "self",
+            "protName": "RNA-dependent RNA polymerase P1-P2 fusion",
+            "color": "#77ab31"
+        },
+        {
+            "source": "end4",
+            "target": "start5",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start3",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start6",
+            "count": 21,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start8",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start9",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start5",
+            "target": "end5",
+            "count": 48,
+            "className": "self",
+            "protName": "movement",
+            "color": "#33b07a"
+        },
+        {
+            "source": "end5",
+            "target": "start4",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start6",
+            "count": 10,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start5",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start9",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start8",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start6",
+            "target": "end6",
+            "count": 45,
+            "className": "self",
+            "protName": "protein 3a",
+            "color": "#36ada4"
+        },
+        {
+            "source": "end6",
+            "target": "start5",
+            "count": 27,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start6",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start9",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start7",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start7",
+            "target": "end7",
+            "count": 72,
+            "className": "self",
+            "protName": "P1-P2 fusion",
+            "color": "#38a9c5"
+        },
+        {
+            "source": "end7",
+            "target": "start6",
+            "count": 39,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start7",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start10",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start9",
+            "count": 9,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start8",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "end7",
+            "target": "start3",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "start8",
+            "target": "end8",
+            "count": 30,
+            "className": "self",
+            "protName": "aphid transmission P5",
+            "color": "#6e9bf4"
+        },
+        {
+            "source": "end8",
+            "target": "start5",
+            "count": 28,
+            "className": "adj"
+        },
+        {
+            "source": "start9",
+            "target": "end9",
+            "count": 22,
+            "className": "self",
+            "protName": "P3",
+            "color": "#cc7af4"
+        },
+        {
+            "source": "end9",
+            "target": "start5",
+            "count": 21,
+            "className": "adj"
+        },
+        {
+            "source": "start10",
+            "target": "end10",
+            "count": 24,
+            "className": "self",
+            "protName": "coat",
+            "color": "#f565cc"
+        },
+        {
+            "source": "end10",
+            "target": "start5",
+            "count": 14,
+            "className": "adj"
+        },
+        {
+            "source": "end10",
+            "target": "start8",
+            "count": 1,
+            "className": "adj"
+        }
+    ],
+    "ovrfs": [
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 23,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start7",
+            "count": 47,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 34,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 7,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 35,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start6",
+            "count": 8,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start3",
+            "count": 10,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start8",
+            "count": 21,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start9",
+            "count": 9,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start10",
+            "count": 14,
+            "className": "overlap"
+        },
+        {
+            "source": "end7",
+            "target": "start7",
+            "count": 65,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start9",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start3",
+            "count": 6,
+            "className": "overlap"
+        },
+        {
+            "source": "end8",
+            "target": "start10",
+            "count": 20,
+            "className": "overlap"
+        },
+        {
+            "source": "end9",
+            "target": "start9",
+            "count": 9,
+            "className": "overlap"
+        },
+        {
+            "source": "end9",
+            "target": "start10",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end10",
+            "target": "start5",
+            "count": 10,
+            "className": "overlap"
+        }
+    ]
+}

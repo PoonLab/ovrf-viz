@@ -308,7 +308,7 @@ def main():
 
         # Create a node
         dot.node(cluster.cluster, label=None, fixedsize="true", width=str(node_size), height=str(node_size),
-                 fontsize=str(85), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Courier-Bold')
+                 fontsize=str(95), style='filled', color=colors[int(cluster.cluster)-1], fontname = 'Helvetica')
 
 
         # Create adges for adjacent proteins
@@ -331,7 +331,7 @@ def main():
 
     # Create wordcloud plot
     wordcloud = wordcloud_plot(cluster_list)
-    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
+    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf', dpi=600)
     # Create genome plot
     gen_plot = genome_plot(colors, genome_list)
     gen_plot.savefig(f'genome_{args.outfile}.pdf')

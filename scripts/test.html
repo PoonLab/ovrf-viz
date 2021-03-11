@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Genome arrangement</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+  <script src="https://d3js.org/d3-drag.v1.min.js"></script>
+  <script src="https://d3js.org/d3-color.v1.min.js"></script>
+  <script src="https://d3js.org/d3-interpolate.v1.min.js"> </script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://unpkg.com/d3-force-limit"></script>
+  <script src="d3-save-svg.min.js"></script>
+  <script src="adjacency_graph.js"></script>
+  <script src="genome_graph.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header id="header">
+    <h1>Visualization of genome arrangement</h1>
+    <p>Poonlab</p>
+  </header>
+
+  <div id="graphs" class="wrapper">
+    <div id="bar">
+      <div id="dropdown">
+        <button class="dropbtn">Select a virus Family</button>
+        <div class="dropdown-content">
+        </div>
+      </div>
+      <button class="savebtn" onclick="saveSVG();">Export SVG</button>
+      <div id="family"></div>
+    </div>
+    <div id="plots">
+      <div id="adj">
+        <div id="slider">
+          <label style="display:block">Minimum number of connections required to create a link</label>
+        </div>
+      </div>
+      <div id="genome"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    /* ------ Load data ------ */
+    function loadData (url, done) {
+      d3.json(url, function (error, data) {
+        if (error) throw error;
+        done(data);
+      });
+    };
+
+    var virusFamilies = [
+      "adenoviridae",
+      "allenoviridae",
+      "coronaviridae",
+      "geminiviridae",
+      "luteoviridae",
+      "papillomaviridae",
+      "paramyxoviridae",
+      "retroviridae",
+      "rhabdoviridae",
+      "tombusviridae",
+    ];
+
+    const adjacency = adjacencyGraph();
+    const genome = genomeGraph();
+
+    /* Prepare dropdown menu */
+    var filesPath = "../json_files";
+    var dropDownContent = document.getElementById('dropdown').querySelector(".dropdown-content");
+    virusFamilies.forEach((family) => {
+      var link = document.createElement('a');
+      var familyName = family.charAt(0).toUpperCase() + family.slice(1).replace('.json','');
+      link.setAttribute('href', '#');
+      link.innerHTML = familyName;
+      var urlAdjacency = `${filesPath}/${family}.json`;
+      var urlGenome = `${filesPath}/genome_${family}.json`;
+      dropDownContent.appendChild(link);
+      link.addEventListener("click", () => {
+        var familyTitle = document.querySelector("#family");
+        familyTitle.textContent = familyName;
+        loadData(urlAdjacency, (data) => {
+          const { remove, draw, createSlider } = adjacency;
+          remove();
+          draw(data);
+          createSlider(data);
+        });
+        loadData(urlGenome, (data) => {
+          const { remove, draw } = genome;
+          remove();
+          draw(data);
+        });
+      });
+    });
+
+    function saveSVG() {
+      var config = {
+        filename: 'customFileName',
+      }
+      d3_save_svg.save(d3.select('svg').node(), config);
+    }
+  </script>
+
+</body>
+
+</html>

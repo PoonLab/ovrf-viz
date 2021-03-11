@@ -9,7 +9,7 @@ gg2.cols <- function(n) {
 # analyze k-mer intersection distance matrix
 km <- read.csv('retroviridae_kmer.csv', header=F, row.names=1)
 km <- 1-as.matrix(km)
-headers <- read.csv('retroviridae_kmer.csv', header=T)
+headers <- read.csv('retroviridae_header.csv', header=T)
 
 # t-stochastic neighbour embedding results in more consistent cluster
 # sizes

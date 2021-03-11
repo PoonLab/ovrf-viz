@@ -305,10 +305,13 @@ def main():
     # g.graph_attr['outputorder'] = 'endgesfirst'
     g.attr(compound='true')
 
+    json_dict = {"nodes":[], "links":[]}
+    edge_list = []
+    over_edges = []
     for cluster in cluster_list:
         cluster_size = len(cluster.proteins)
-        node_size = math.sqrt(cluster_size)/3
-        edge_length = str(8)
+        json_dict[nodes].append({"id": f"start{str(cluster)}", "group": cluster, "size": cluster_size})
+        json_dict[nodes].append({"id": f"end{str(cluster)}", "group": cluster, "size": cluster_size})
 
         with g.subgraph(name=f'cluster_{cluster}') as c:
             print(cluster)
@@ -321,6 +324,7 @@ def main():
             if count >= min_edge:
                 g.edge(f'start{cluster}', f'end{adj_cluster}', label = None, penwidth = str(count),
                 color = "grey76", arrowsize = str(1/count), len = edge_length)
+                edge_list.append((str(cluster), adj_cluster, count))
 
         # # print("Overlapping", cluster.overlapping_clust)
         # # overlap_count = 0
@@ -329,16 +333,18 @@ def main():
             if count >= min_edge:
                 g.edge(f'start{cluster}', f'end{overlap_cluster}', label = None, penwidth=str(count),
                 color="#143D59", arrowsize = str(1/count), len = edge_length)
+                over_edges.append((str(cluster), overlap_cluster, count))
                 if cluster.cluster == overlap_cluster:
                     print(f"Cluster: {cluster.cluster}, Numer of self edges: {count}")
 
-    g.attr(overlap='false')
-    g.view()
+    print(f'Nodes: {node_list}\nAdjacent edges: {edge_list}\nOverlapping edges:{over_edges}')
+    #g.attr(overlap='false')
+    #g.view()
     #g.render(filename=f"{args.outfile}.dot")
     #
     # # Create wordcloud plot
-    # wordcloud = wordcloud_plot(cluster_list)
-    # wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
+    wordcloud = wordcloud_plot(cluster_list)
+    wordcloud.savefig(f'wordcloud_{args.outfile}.pdf')
     # # Create genome plot
     # gen_plot = genome_plot(colors, genome_list)
     # gen_plot.savefig(f'genome_{args.outfile}.pdf')

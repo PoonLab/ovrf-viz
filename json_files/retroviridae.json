@@ -1,0 +1,440 @@
+{
+    "nodes": [
+        {
+            "id": "start1",
+            "group": 1,
+            "size": 78,
+            "color": "#f77189"
+        },
+        {
+            "id": "end1",
+            "group": 1,
+            "size": 78,
+            "color": "#f77189"
+        },
+        {
+            "id": "start2",
+            "group": 2,
+            "size": 127,
+            "color": "#bb9832"
+        },
+        {
+            "id": "end2",
+            "group": 2,
+            "size": 127,
+            "color": "#bb9832"
+        },
+        {
+            "id": "start3",
+            "group": 3,
+            "size": 43,
+            "color": "#50b131"
+        },
+        {
+            "id": "end3",
+            "group": 3,
+            "size": 43,
+            "color": "#50b131"
+        },
+        {
+            "id": "start4",
+            "group": 4,
+            "size": 77,
+            "color": "#36ada4"
+        },
+        {
+            "id": "end4",
+            "group": 4,
+            "size": 77,
+            "color": "#36ada4"
+        },
+        {
+            "id": "start5",
+            "group": 5,
+            "size": 30,
+            "color": "#3ba3ec"
+        },
+        {
+            "id": "end5",
+            "group": 5,
+            "size": 30,
+            "color": "#3ba3ec"
+        },
+        {
+            "id": "start6",
+            "group": 6,
+            "size": 47,
+            "color": "#e866f4"
+        },
+        {
+            "id": "end6",
+            "group": 6,
+            "size": 47,
+            "color": "#e866f4"
+        }
+    ],
+    "links": [
+        {
+            "source": "start1",
+            "target": "end1",
+            "count": 78,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#f77189"
+        },
+        {
+            "source": "end1",
+            "target": "start4",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start5",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 22,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 25,
+            "className": "adj"
+        },
+        {
+            "source": "end1",
+            "target": "start3",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "start2",
+            "target": "end2",
+            "count": 127,
+            "className": "self",
+            "protName": "pol",
+            "color": "#bb9832"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 43,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 15,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 29,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start5",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end2",
+            "target": "start6",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "start3",
+            "target": "end3",
+            "count": 43,
+            "className": "self",
+            "protName": "gag",
+            "color": "#50b131"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 22,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start1",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "start4",
+            "target": "end4",
+            "count": 77,
+            "className": "self",
+            "protName": "bet",
+            "color": "#36ada4"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 21,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start2",
+            "count": 2,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start1",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end4",
+            "target": "start3",
+            "count": 1,
+            "className": "adj"
+        },
+        {
+            "source": "start5",
+            "target": "end5",
+            "count": 30,
+            "className": "self",
+            "protName": "envelope",
+            "color": "#3ba3ec"
+        },
+        {
+            "source": "end5",
+            "target": "start4",
+            "count": 5,
+            "className": "adj"
+        },
+        {
+            "source": "end5",
+            "target": "start1",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "start6",
+            "target": "end6",
+            "count": 47,
+            "className": "self",
+            "protName": "hypothetical",
+            "color": "#e866f4"
+        },
+        {
+            "source": "end6",
+            "target": "start3",
+            "count": 3,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start5",
+            "count": 11,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start2",
+            "count": 8,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start4",
+            "count": 6,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start6",
+            "count": 4,
+            "className": "adj"
+        },
+        {
+            "source": "end6",
+            "target": "start1",
+            "count": 3,
+            "className": "adj"
+        }
+    ],
+    "ovrfs": [
+        {
+            "source": "end1",
+            "target": "start3",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start2",
+            "count": 6,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start1",
+            "count": 29,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start4",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end1",
+            "target": "start6",
+            "count": 7,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start2",
+            "count": 65,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start4",
+            "count": 25,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start1",
+            "count": 17,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start6",
+            "count": 9,
+            "className": "overlap"
+        },
+        {
+            "source": "end2",
+            "target": "start3",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start2",
+            "count": 17,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start5",
+            "count": 7,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start1",
+            "count": 5,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start6",
+            "count": 2,
+            "className": "overlap"
+        },
+        {
+            "source": "end3",
+            "target": "start3",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start4",
+            "count": 34,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start2",
+            "count": 4,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start5",
+            "count": 9,
+            "className": "overlap"
+        },
+        {
+            "source": "end4",
+            "target": "start1",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end5",
+            "target": "start5",
+            "count": 1,
+            "className": "overlap"
+        },
+        {
+            "source": "end5",
+            "target": "start2",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start6",
+            "count": 16,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start2",
+            "count": 6,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start4",
+            "count": 3,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start3",
+            "count": 5,
+            "className": "overlap"
+        },
+        {
+            "source": "end6",
+            "target": "start1",
+            "count": 3,
+            "className": "overlap"
+        }
+    ]
+}

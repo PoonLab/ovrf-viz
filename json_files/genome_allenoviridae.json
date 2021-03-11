@@ -1,0 +1,2778 @@
+[
+    {
+        "accno": "NC_040531",
+        "proteins": [
+            {
+                "name": "ORF3",
+                "start": 168,
+                "end": 564,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2",
+                "start": 168,
+                "end": 567,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 443,
+                "end": 2186,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1788,
+                "end": 2181,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040546",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 270,
+                "end": 711,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative ORF1",
+                "start": 316,
+                "end": 2074,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1803,
+                "end": 2226,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040547",
+        "proteins": [
+            {
+                "name": "putative ORF1",
+                "start": 52,
+                "end": 1648,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040617",
+        "proteins": [
+            {
+                "name": "putative ORF1",
+                "start": 860,
+                "end": 2600,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040618",
+        "proteins": [
+            {
+                "name": "putative ORF1",
+                "start": 371,
+                "end": 2090,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1635,
+                "end": 2022,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1840,
+                "end": 2224,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040668",
+        "proteins": [
+            {
+                "name": "ORF1",
+                "start": 0,
+                "end": 1908,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1166,
+                "end": 1376,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1429,
+                "end": 1846,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1904,
+                "end": 2138,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040686",
+        "proteins": [
+            {
+                "name": "putative ORF1",
+                "start": 241,
+                "end": 1996,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040687",
+        "proteins": [
+            {
+                "name": "putative ORF1",
+                "start": 298,
+                "end": 2026,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040720",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 199,
+                "end": 508,
+                "color": "#33b07a"
+            },
+            {
+                "name": "VP2",
+                "start": 204,
+                "end": 873,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP1",
+                "start": 608,
+                "end": 1976,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2052,
+                "end": 2325,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040801",
+        "proteins": [
+            {
+                "name": "putative ORF1",
+                "start": 362,
+                "end": 2099,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038336",
+        "proteins": [
+            {
+                "name": "Orf2",
+                "start": 136,
+                "end": 604,
+                "color": "#f77189"
+            },
+            {
+                "name": "Orf1",
+                "start": 1049,
+                "end": 2768,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038337",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 260,
+                "end": 743,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038338",
+        "proteins": [
+            {
+                "name": "Orf2",
+                "start": 135,
+                "end": 600,
+                "color": "#f77189"
+            },
+            {
+                "name": "Orf1",
+                "start": 479,
+                "end": 2708,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038339",
+        "proteins": [
+            {
+                "name": "Orf2",
+                "start": 158,
+                "end": 623,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "Orf1",
+                "start": 766,
+                "end": 2836,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038340",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 243,
+                "end": 629,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 243,
+                "end": 629,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 243,
+                "end": 633,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 503,
+                "end": 2756,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2306,
+                "end": 2805,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2535,
+                "end": 2938,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038341",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 155,
+                "end": 581,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 454,
+                "end": 2677,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038342",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 354,
+                "end": 726,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 596,
+                "end": 3074,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038343",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 244,
+                "end": 630,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 244,
+                "end": 630,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 244,
+                "end": 634,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 507,
+                "end": 2808,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2274,
+                "end": 2737,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2509,
+                "end": 2951,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038344",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 402,
+                "end": 789,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 665,
+                "end": 2867,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2559,
+                "end": 2904,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038345",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 187,
+                "end": 511,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 369,
+                "end": 2322,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1960,
+                "end": 2305,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF4",
+                "start": 2174,
+                "end": 2528,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038346",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 182,
+                "end": 494,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 358,
+                "end": 2347,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1991,
+                "end": 2561,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038347",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 181,
+                "end": 481,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 369,
+                "end": 2355,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1978,
+                "end": 2332,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF4",
+                "start": 2378,
+                "end": 2573,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038348",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 342,
+                "end": 518,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 342,
+                "end": 522,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 431,
+                "end": 1940,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1454,
+                "end": 1923,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038349",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 237,
+                "end": 552,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 446,
+                "end": 1661,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1221,
+                "end": 1773,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038350",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 199,
+                "end": 550,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "ORF1",
+                "start": 396,
+                "end": 1998,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038351",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 199,
+                "end": 550,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "ORF1",
+                "start": 393,
+                "end": 2370,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1852,
+                "end": 2389,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038352",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 594,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 440,
+                "end": 2435,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1952,
+                "end": 2388,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2184,
+                "end": 2587,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038353",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 594,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 431,
+                "end": 2432,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1940,
+                "end": 2367,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2163,
+                "end": 2587,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038354",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 219,
+                "end": 596,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 219,
+                "end": 596,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 219,
+                "end": 600,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 434,
+                "end": 2429,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1943,
+                "end": 2376,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2172,
+                "end": 2584,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038355",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 221,
+                "end": 586,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 221,
+                "end": 586,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 221,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 436,
+                "end": 2446,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1969,
+                "end": 2393,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2201,
+                "end": 2598,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038356",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 217,
+                "end": 585,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 217,
+                "end": 585,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 217,
+                "end": 589,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 429,
+                "end": 2406,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1911,
+                "end": 2380,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2134,
+                "end": 2558,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038357",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 577,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 577,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 581,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 415,
+                "end": 2407,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1924,
+                "end": 2342,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2147,
+                "end": 2559,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038358",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 589,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 589,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 593,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 430,
+                "end": 2425,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1936,
+                "end": 2378,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2159,
+                "end": 2580,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038359",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 568,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 568,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 572,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 412,
+                "end": 2407,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1918,
+                "end": 2351,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2129,
+                "end": 2559,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038360",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 598,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 598,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 602,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 433,
+                "end": 2446,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1960,
+                "end": 2387,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2183,
+                "end": 2601,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038361",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 590,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 594,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 431,
+                "end": 2435,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1946,
+                "end": 2382,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2175,
+                "end": 2596,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038362",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 237,
+                "end": 641,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 237,
+                "end": 641,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 237,
+                "end": 645,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 482,
+                "end": 2459,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2027,
+                "end": 2394,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2199,
+                "end": 2638,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038363",
+        "proteins": [
+            {
+                "name": "ORF3",
+                "start": 398,
+                "end": 637,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2",
+                "start": 398,
+                "end": 641,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 529,
+                "end": 2422,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF1/1",
+                "start": 529,
+                "end": 637,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1963,
+                "end": 2399,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1/1",
+                "start": 1963,
+                "end": 2422,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_035192",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 238,
+                "end": 511,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 390,
+                "end": 1878,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1639,
+                "end": 1918,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_035135",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 176,
+                "end": 398,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF2",
+                "start": 271,
+                "end": 598,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 453,
+                "end": 1929,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1579,
+                "end": 1903,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_035136",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 164,
+                "end": 407,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF2",
+                "start": 301,
+                "end": 583,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 444,
+                "end": 1974,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1678,
+                "end": 1936,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034978",
+        "proteins": [
+            {
+                "name": "ORF3",
+                "start": 473,
+                "end": 746,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF1",
+                "start": 492,
+                "end": 2055,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF2",
+                "start": 1937,
+                "end": 2225,
+                "color": "#38a9c5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030650",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 82,
+                "end": 433,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 279,
+                "end": 2277,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030297",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 169,
+                "end": 436,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 315,
+                "end": 2256,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1978,
+                "end": 2251,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_027430",
+        "proteins": [
+            {
+                "name": "VP2",
+                "start": 333,
+                "end": 1032,
+                "color": "#f77189"
+            },
+            {
+                "name": "Hypothetical protein",
+                "start": 340,
+                "end": 652,
+                "color": "#33b07a"
+            },
+            {
+                "name": "VP1",
+                "start": 779,
+                "end": 2216,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_027059",
+        "proteins": [
+            {
+                "name": "ORF3",
+                "start": 427,
+                "end": 642,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2",
+                "start": 427,
+                "end": 646,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 516,
+                "end": 2430,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2007,
+                "end": 2479,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026764",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 317,
+                "end": 785,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 655,
+                "end": 2980,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2471,
+                "end": 2939,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF4",
+                "start": 2688,
+                "end": 3243,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026765",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 162,
+                "end": 792,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 731,
+                "end": 2882,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2346,
+                "end": 2832,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF4",
+                "start": 2647,
+                "end": 3088,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026663",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 302,
+                "end": 707,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 565,
+                "end": 2761,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2306,
+                "end": 2684,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026664",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 312,
+                "end": 822,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 692,
+                "end": 2981,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2517,
+                "end": 2964,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF4",
+                "start": 2674,
+                "end": 3235,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026662",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 315,
+                "end": 795,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 665,
+                "end": 2987,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2466,
+                "end": 2970,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF4",
+                "start": 2680,
+                "end": 3253,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026138",
+        "proteins": [
+            {
+                "name": "ORF1",
+                "start": 134,
+                "end": 2063,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025966",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 111,
+                "end": 351,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 236,
+                "end": 1961,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1614,
+                "end": 1911,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025726",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 342,
+                "end": 648,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 530,
+                "end": 2555,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2136,
+                "end": 2541,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025727",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 340,
+                "end": 610,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 504,
+                "end": 2475,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025215",
+        "proteins": [
+            {
+                "name": "VP2",
+                "start": 481,
+                "end": 1198,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP3",
+                "start": 614,
+                "end": 1007,
+                "color": "#33b07a"
+            },
+            {
+                "name": "VP1",
+                "start": 1008,
+                "end": 2406,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_024908",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 0,
+                "end": 300,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 167,
+                "end": 1811,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1410,
+                "end": 1806,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_024890",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 176,
+                "end": 428,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 480,
+                "end": 1947,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1420,
+                "end": 1981,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_024891",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 335,
+                "end": 620,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 478,
+                "end": 1873,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1313,
+                "end": 1928,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_022788",
+        "proteins": [
+            {
+                "name": "VP2",
+                "start": 494,
+                "end": 1190,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 583,
+                "end": 853,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "VP1",
+                "start": 949,
+                "end": 2020,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_022789",
+        "proteins": [
+            {
+                "name": "VP2",
+                "start": 433,
+                "end": 1111,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP3",
+                "start": 578,
+                "end": 914,
+                "color": "#33b07a"
+            },
+            {
+                "name": "VP1",
+                "start": 915,
+                "end": 2277,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_020498",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 342,
+                "end": 633,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 521,
+                "end": 2540,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2202,
+                "end": 2505,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_018401",
+        "proteins": [
+            {
+                "name": "VP2",
+                "start": 517,
+                "end": 1171,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP1",
+                "start": 975,
+                "end": 2034,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_017091",
+        "proteins": [
+            {
+                "name": "VP2",
+                "start": 371,
+                "end": 1091,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP3",
+                "start": 522,
+                "end": 900,
+                "color": "#33b07a"
+            },
+            {
+                "name": "VP1",
+                "start": 901,
+                "end": 2293,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_015396",
+        "proteins": [
+            {
+                "name": "putative dual-specificity protein phosphatase",
+                "start": 449,
+                "end": 1145,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP3",
+                "start": 576,
+                "end": 951,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative nucleocapsid",
+                "start": 952,
+                "end": 2335,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_015212",
+        "proteins": [
+            {
+                "name": "Orf2",
+                "start": 76,
+                "end": 412,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "Orf1",
+                "start": 467,
+                "end": 1877,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "Orf3",
+                "start": 1347,
+                "end": 1962,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014480",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 152,
+                "end": 518,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 388,
+                "end": 2572,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014088",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 340,
+                "end": 670,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 531,
+                "end": 2517,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2098,
+                "end": 2494,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014089",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 339,
+                "end": 639,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 527,
+                "end": 2543,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2175,
+                "end": 2514,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014090",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 305,
+                "end": 581,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 469,
+                "end": 2434,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014091",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 259,
+                "end": 730,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 591,
+                "end": 2877,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014092",
+        "proteins": [
+            {
+                "name": "ORF3",
+                "start": 392,
+                "end": 595,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF2",
+                "start": 392,
+                "end": 599,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 475,
+                "end": 2350,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1933,
+                "end": 2330,
+                "color": "#38a9c5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014093",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 589,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 589,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 218,
+                "end": 593,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 433,
+                "end": 2467,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1981,
+                "end": 2402,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2252,
+                "end": 2622,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014094",
+        "proteins": [
+            {
+                "name": "ORF4",
+                "start": 343,
+                "end": 717,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF3",
+                "start": 343,
+                "end": 717,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2",
+                "start": 343,
+                "end": 721,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 597,
+                "end": 2757,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2292,
+                "end": 2713,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF4",
+                "start": 2494,
+                "end": 2942,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014095",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 333,
+                "end": 627,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 515,
+                "end": 2486,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2043,
+                "end": 2466,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014096",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 258,
+                "end": 732,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 590,
+                "end": 2855,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014097",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 355,
+                "end": 631,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 507,
+                "end": 2496,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2077,
+                "end": 2470,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014068",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 340,
+                "end": 640,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 528,
+                "end": 2556,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014069",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 259,
+                "end": 718,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 594,
+                "end": 2802,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014070",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 429,
+                "end": 647,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 429,
+                "end": 651,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 533,
+                "end": 2441,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2030,
+                "end": 2487,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014071",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 661,
+                "end": 963,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 661,
+                "end": 967,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 849,
+                "end": 2580,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2136,
+                "end": 2566,
+                "color": "#38a9c5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014072",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 267,
+                "end": 581,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 267,
+                "end": 585,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 437,
+                "end": 1748,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1460,
+                "end": 1842,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014073",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 298,
+                "end": 600,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 298,
+                "end": 600,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 298,
+                "end": 604,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 486,
+                "end": 2691,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2208,
+                "end": 2740,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2410,
+                "end": 2912,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014074",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 298,
+                "end": 681,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 298,
+                "end": 681,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 298,
+                "end": 685,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 561,
+                "end": 2799,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2304,
+                "end": 2764,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2506,
+                "end": 3017,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014075",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 332,
+                "end": 721,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 332,
+                "end": 721,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 332,
+                "end": 725,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 604,
+                "end": 2839,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2365,
+                "end": 2795,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2612,
+                "end": 3024,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014076",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 339,
+                "end": 728,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 339,
+                "end": 728,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 339,
+                "end": 732,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 611,
+                "end": 2849,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2378,
+                "end": 2805,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2580,
+                "end": 3034,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014077",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 362,
+                "end": 767,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 622,
+                "end": 2920,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014078",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 235,
+                "end": 727,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 594,
+                "end": 2832,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014079",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 390,
+                "end": 816,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 692,
+                "end": 2891,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2577,
+                "end": 2841,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014080",
+        "proteins": [
+            {
+                "name": "pORF2",
+                "start": 269,
+                "end": 734,
+                "color": "#f77189"
+            },
+            {
+                "name": "pORF1",
+                "start": 607,
+                "end": 2908,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "pORF3",
+                "start": 2867,
+                "end": 3032,
+                "color": "#38a9c5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014081",
+        "proteins": [
+            {
+                "name": "ORF2/3",
+                "start": 353,
+                "end": 703,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2/2",
+                "start": 353,
+                "end": 703,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2",
+                "start": 353,
+                "end": 707,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1/2",
+                "start": 580,
+                "end": 703,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 580,
+                "end": 2791,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF1/1",
+                "start": 580,
+                "end": 703,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF2/2",
+                "start": 2314,
+                "end": 2810,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1/1",
+                "start": 2314,
+                "end": 2791,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF2/3",
+                "start": 2504,
+                "end": 2982,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1/2",
+                "start": 2504,
+                "end": 2810,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014082",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 415,
+                "end": 718,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 600,
+                "end": 2598,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014083",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 392,
+                "end": 803,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 676,
+                "end": 2848,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2534,
+                "end": 2795,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014084",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 340,
+                "end": 714,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 340,
+                "end": 714,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 340,
+                "end": 718,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 591,
+                "end": 2829,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2361,
+                "end": 2791,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2560,
+                "end": 3026,
+                "color": "#38a9c5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014085",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 569,
+                "end": 872,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 703,
+                "end": 2842,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2423,
+                "end": 2903,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2919,
+                "end": 3132,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014086",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 354,
+                "end": 624,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 509,
+                "end": 2396,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2004,
+                "end": 2391,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014087",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 461,
+                "end": 854,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 691,
+                "end": 2854,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2408,
+                "end": 2864,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_012126",
+        "proteins": [
+            {
+                "name": "Orf2",
+                "start": 224,
+                "end": 644,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "Orf1",
+                "start": 495,
+                "end": 1905,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "Orf3",
+                "start": 1507,
+                "end": 1996,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009225",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 584,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 584,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 216,
+                "end": 588,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 431,
+                "end": 2453,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1976,
+                "end": 2388,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2196,
+                "end": 2614,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007013",
+        "proteins": [
+            {
+                "name": "ORF1",
+                "start": 153,
+                "end": 525,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "ORF2",
+                "start": 368,
+                "end": 2249,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 1956,
+                "end": 2202,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007014",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 198,
+                "end": 564,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 410,
+                "end": 962,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 937,
+                "end": 2446,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1889,
+                "end": 2387,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2262,
+                "end": 2616,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002195",
+        "proteins": [
+            {
+                "name": "ORF2",
+                "start": 313,
+                "end": 631,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 513,
+                "end": 2565,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2203,
+                "end": 2551,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002076",
+        "proteins": [
+            {
+                "name": "VP3",
+                "start": 352,
+                "end": 711,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP2",
+                "start": 352,
+                "end": 711,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP1",
+                "start": 588,
+                "end": 2901,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "VP2",
+                "start": 2373,
+                "end": 2875,
+                "color": "#f77189"
+            },
+            {
+                "name": "VP3",
+                "start": 2563,
+                "end": 3077,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001427",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 56,
+                "end": 332,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 379,
+                "end": 1030,
+                "color": "#f77189"
+            },
+            {
+                "name": "APOPTIN",
+                "start": 485,
+                "end": 851,
+                "color": "#33b07a"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 852,
+                "end": 2202,
+                "color": "#ae9d31"
+            }
+        ]
+    }
+]
