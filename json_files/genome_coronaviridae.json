@@ -1,0 +1,4065 @@
+[
+    {
+        "accno": "NC_048211",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 211,
+                "end": 11191,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 11190,
+                "end": 19185,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19191,
+                "end": 22596,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 23289,
+                "end": 23517,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23529,
+                "end": 24219,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24222,
+                "end": 25323,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_048212",
+        "proteins": [
+            {
+                "name": "ORF1a",
+                "start": 209,
+                "end": 12827,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1b",
+                "start": 13105,
+                "end": 20842,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20813,
+                "end": 24623,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3",
+                "start": 24619,
+                "end": 25339,
+                "color": "#35ae95"
+            },
+            {
+                "name": "Membrane protein",
+                "start": 25567,
+                "end": 26233,
+                "color": "#8ba731"
+            },
+            {
+                "name": "capsid",
+                "start": 26301,
+                "end": 27714,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein ORFx",
+                "start": 27725,
+                "end": 28277,
+                "color": "#35ae95"
+            },
+            {
+                "name": "hypothetical protein ORFy",
+                "start": 28277,
+                "end": 28718,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_048213",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 528,
+                "end": 12360,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF 1a polyprotein",
+                "start": 528,
+                "end": 12480,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12359,
+                "end": 20423,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20373,
+                "end": 23835,
+                "color": "#e18632"
+            },
+            {
+                "name": "3a protein",
+                "start": 23861,
+                "end": 24035,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "3b protein",
+                "start": 24034,
+                "end": 24229,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "3c protein",
+                "start": 24209,
+                "end": 24539,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 24510,
+                "end": 25188,
+                "color": "#8ba731"
+            },
+            {
+                "name": "5a protein",
+                "start": 25538,
+                "end": 25736,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "5b protein",
+                "start": 25732,
+                "end": 25981,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25923,
+                "end": 27153,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_048214",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 346,
+                "end": 12262,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a",
+                "start": 346,
+                "end": 12292,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12261,
+                "end": 20364,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20317,
+                "end": 23893,
+                "color": "#e18632"
+            },
+            {
+                "name": "3a protein",
+                "start": 23892,
+                "end": 24066,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "3b protein",
+                "start": 24065,
+                "end": 24257,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "3c protein",
+                "start": 24237,
+                "end": 24519,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24515,
+                "end": 25223,
+                "color": "#8ba731"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 25223,
+                "end": 25508,
+                "color": "#b59a32"
+            },
+            {
+                "name": "5a protein",
+                "start": 25586,
+                "end": 25784,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "5b protein",
+                "start": 25780,
+                "end": 26029,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25971,
+                "end": 27216,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27245,
+                "end": 27458,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_048216",
+        "proteins": [
+            {
+                "name": "ORF1ab protein",
+                "start": 245,
+                "end": 12557,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a protein",
+                "start": 245,
+                "end": 12587,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab protein",
+                "start": 12556,
+                "end": 20593,
+                "color": "#f77189"
+            },
+            {
+                "name": "S protein",
+                "start": 20589,
+                "end": 24711,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 24710,
+                "end": 25394,
+                "color": "#35ae95"
+            },
+            {
+                "name": "E protein",
+                "start": 25374,
+                "end": 25608,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "M protein",
+                "start": 25619,
+                "end": 26300,
+                "color": "#8ba731"
+            },
+            {
+                "name": "N protein",
+                "start": 26311,
+                "end": 27613,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORFx protein",
+                "start": 28195,
+                "end": 28486,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_048217",
+        "proteins": [
+            {
+                "name": "replicative polyprotein 1ab",
+                "start": 210,
+                "end": 13602,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicative polyprotein 1a",
+                "start": 210,
+                "end": 13623,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicative polyprotein 1ab",
+                "start": 13601,
+                "end": 21746,
+                "color": "#f77189"
+            },
+            {
+                "name": "nonstructural protein 2a",
+                "start": 21771,
+                "end": 22557,
+                "color": "#37abb2"
+            },
+            {
+                "name": "hemagglutinin-esterase",
+                "start": 22983,
+                "end": 23922,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 23929,
+                "end": 27904,
+                "color": "#e18632"
+            },
+            {
+                "name": "putative ORF4 protein",
+                "start": 28058,
+                "end": 28379,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "ORF5a protein",
+                "start": 28375,
+                "end": 28714,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28706,
+                "end": 28958,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 28968,
+                "end": 29655,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29669,
+                "end": 31034,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_046954",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 210,
+                "end": 13446,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 13445,
+                "end": 21596,
+                "color": "#f77189"
+            },
+            {
+                "name": "hemagglutinin-esterase protein",
+                "start": 22458,
+                "end": 23742,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 23756,
+                "end": 27842,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28767,
+                "end": 29016,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 29031,
+                "end": 29727,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29737,
+                "end": 31093,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_046955",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 339,
+                "end": 11490,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 11489,
+                "end": 19484,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19484,
+                "end": 23150,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 24613,
+                "end": 24850,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24856,
+                "end": 25546,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25564,
+                "end": 26770,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_046964",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 280,
+                "end": 12163,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12162,
+                "end": 20175,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20171,
+                "end": 24371,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 24370,
+                "end": 25024,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25102,
+                "end": 25330,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25342,
+                "end": 26050,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26057,
+                "end": 27356,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_046965",
+        "proteins": [
+            {
+                "name": "polyprotein 1ab",
+                "start": 553,
+                "end": 12001,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein 1a",
+                "start": 553,
+                "end": 12031,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein 1ab",
+                "start": 12000,
+                "end": 20085,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20068,
+                "end": 23623,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3",
+                "start": 23615,
+                "end": 23777,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "ORF4a",
+                "start": 23785,
+                "end": 23953,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "envelope protein",
+                "start": 23912,
+                "end": 24215,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24211,
+                "end": 24892,
+                "color": "#8ba731"
+            },
+            {
+                "name": "ORF5b",
+                "start": 24891,
+                "end": 25158,
+                "color": "#b59a32"
+            },
+            {
+                "name": "ORF6",
+                "start": 25154,
+                "end": 25346,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "ORF7a",
+                "start": 25353,
+                "end": 25632,
+                "color": "#b59a32"
+            },
+            {
+                "name": "ORF7b",
+                "start": 25573,
+                "end": 25783,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "ORF8a",
+                "start": 25766,
+                "end": 25967,
+                "color": "#b59a32"
+            },
+            {
+                "name": "ORF8b",
+                "start": 25963,
+                "end": 26221,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26148,
+                "end": 27393,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORF10",
+                "start": 27397,
+                "end": 27691,
+                "color": "#db70f4"
+            },
+            {
+                "name": "ORF11",
+                "start": 27668,
+                "end": 28211,
+                "color": "#35ae95"
+            }
+        ]
+    },
+    {
+        "accno": "NC_045512",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 265,
+                "end": 13468,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a polyprotein",
+                "start": 265,
+                "end": 13483,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 13467,
+                "end": 21555,
+                "color": "#f77189"
+            },
+            {
+                "name": "surface glycoprotein",
+                "start": 21562,
+                "end": 25384,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3a protein",
+                "start": 25392,
+                "end": 26220,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 26244,
+                "end": 26472,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 26522,
+                "end": 27191,
+                "color": "#8ba731"
+            },
+            {
+                "name": "ORF6 protein",
+                "start": 27201,
+                "end": 27387,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "ORF7a protein",
+                "start": 27393,
+                "end": 27759,
+                "color": "#b59a32"
+            },
+            {
+                "name": "ORF7b",
+                "start": 27755,
+                "end": 27887,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "ORF8 protein",
+                "start": 27893,
+                "end": 28259,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 28273,
+                "end": 29533,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORF10 protein",
+                "start": 29557,
+                "end": 29674,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006213",
+        "proteins": [
+            {
+                "name": "Orf1ab",
+                "start": 209,
+                "end": 13340,
+                "color": "#f77189"
+            },
+            {
+                "name": "Orf1ab",
+                "start": 13339,
+                "end": 21496,
+                "color": "#f77189"
+            },
+            {
+                "name": "ns2",
+                "start": 21505,
+                "end": 22342,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "hemagglutinin-esterase",
+                "start": 22353,
+                "end": 23628,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike surface glycoprotein",
+                "start": 23642,
+                "end": 27704,
+                "color": "#e18632"
+            },
+            {
+                "name": "ns12.9",
+                "start": 27791,
+                "end": 28121,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28107,
+                "end": 28362,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 28376,
+                "end": 29069,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29078,
+                "end": 30425,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011547",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 606,
+                "end": 11352,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 11351,
+                "end": 19400,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19381,
+                "end": 22879,
+                "color": "#e18632"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 22872,
+                "end": 23121,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23117,
+                "end": 23819,
+                "color": "#37abb2"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 23818,
+                "end": 24106,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 24126,
+                "end": 25176,
+                "color": "#32b258"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25354,
+                "end": 25726,
+                "color": "#f667c6"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25731,
+                "end": 25986,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25982,
+                "end": 26267,
+                "color": "#db70f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038294",
+        "proteins": [
+            {
+                "name": "ORF1b protein",
+                "start": 277,
+                "end": 13431,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a protein",
+                "start": 277,
+                "end": 13453,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1b protein",
+                "start": 13430,
+                "end": 21513,
+                "color": "#f77189"
+            },
+            {
+                "name": "S protein",
+                "start": 21454,
+                "end": 25516,
+                "color": "#e18632"
+            },
+            {
+                "name": "NS3A protein",
+                "start": 25530,
+                "end": 25842,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS3B protein",
+                "start": 25850,
+                "end": 26180,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS3C protein",
+                "start": 26091,
+                "end": 26832,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS3D protein",
+                "start": 26838,
+                "end": 27513,
+                "color": "#35ae95"
+            },
+            {
+                "name": "E protein",
+                "start": 27588,
+                "end": 27837,
+                "color": "#db70f4"
+            },
+            {
+                "name": "M protein",
+                "start": 27851,
+                "end": 28511,
+                "color": "#8ba731"
+            },
+            {
+                "name": "N protein",
+                "start": 28564,
+                "end": 29800,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038861",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 314,
+                "end": 20368,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase",
+                "start": 314,
+                "end": 12368,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20364,
+                "end": 24708,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein 3a",
+                "start": 24826,
+                "end": 25042,
+                "color": "#db70f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25856,
+                "end": 26105,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 26115,
+                "end": 26904,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleoprotein",
+                "start": 26916,
+                "end": 28065,
+                "color": "#32b258"
+            },
+            {
+                "name": "non-structural protein 7",
+                "start": 28070,
+                "end": 28307,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039207",
+        "proteins": [
+            {
+                "name": "orf1ab",
+                "start": 240,
+                "end": 13584,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF 1a",
+                "start": 240,
+                "end": 13605,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab",
+                "start": 13583,
+                "end": 21692,
+                "color": "#f77189"
+            },
+            {
+                "name": "S",
+                "start": 21609,
+                "end": 25602,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF 3a",
+                "start": 25619,
+                "end": 25937,
+                "color": "#f667c6"
+            },
+            {
+                "name": "ORF 3b",
+                "start": 25713,
+                "end": 26136,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "orf4a",
+                "start": 25890,
+                "end": 26136,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "orf4b",
+                "start": 26122,
+                "end": 26794,
+                "color": "#37abb2"
+            },
+            {
+                "name": "orf5",
+                "start": 26803,
+                "end": 27505,
+                "color": "#35ae95"
+            },
+            {
+                "name": "E",
+                "start": 27578,
+                "end": 27827,
+                "color": "#db70f4"
+            },
+            {
+                "name": "M",
+                "start": 27841,
+                "end": 28498,
+                "color": "#8ba731"
+            },
+            {
+                "name": "N",
+                "start": 28551,
+                "end": 29826,
+                "color": "#32b258"
+            },
+            {
+                "name": "orf8b",
+                "start": 28597,
+                "end": 29197,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039208",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 532,
+                "end": 11407,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 11406,
+                "end": 19335,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19316,
+                "end": 22796,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 22789,
+                "end": 23041,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23033,
+                "end": 23687,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23686,
+                "end": 23971,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 23991,
+                "end": 25020,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7 protein",
+                "start": 24085,
+                "end": 24688,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_035191",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 227,
+                "end": 11207,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 11206,
+                "end": 19201,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19207,
+                "end": 22612,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 23305,
+                "end": 23533,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23545,
+                "end": 24235,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24238,
+                "end": 25339,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034972",
+        "proteins": [
+            {
+                "name": "orf1a polyprotein",
+                "start": 436,
+                "end": 12361,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1b polyprotein",
+                "start": 12360,
+                "end": 20376,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20375,
+                "end": 23756,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3",
+                "start": 23752,
+                "end": 24397,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 24396,
+                "end": 24633,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24642,
+                "end": 25389,
+                "color": "#8ba731"
+            },
+            {
+                "name": "ORF6",
+                "start": 25400,
+                "end": 25901,
+                "color": "#35ae95"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25902,
+                "end": 27072,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORF8",
+                "start": 27073,
+                "end": 27391,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034440",
+        "proteins": [
+            {
+                "name": "ORF1a protein",
+                "start": 60,
+                "end": 13227,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1b protein",
+                "start": 13415,
+                "end": 21290,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 21231,
+                "end": 25269,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 25283,
+                "end": 25589,
+                "color": "#f667c6"
+            },
+            {
+                "name": "ORF4a protein",
+                "start": 25597,
+                "end": 25927,
+                "color": "#f667c6"
+            },
+            {
+                "name": "ORF4b protein",
+                "start": 25802,
+                "end": 26579,
+                "color": "#37abb2"
+            },
+            {
+                "name": "ORF5 protein",
+                "start": 26585,
+                "end": 27263,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small envelope protein",
+                "start": 27341,
+                "end": 27590,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 27604,
+                "end": 28264,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 28310,
+                "end": 29558,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_032730",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 331,
+                "end": 12538,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 12537,
+                "end": 20580,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 21411,
+                "end": 24816,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25456,
+                "end": 25693,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25702,
+                "end": 26449,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26973,
+                "end": 28149,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_032107",
+        "proteins": [
+            {
+                "name": "ORF1ab protein",
+                "start": 241,
+                "end": 12472,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a protein",
+                "start": 241,
+                "end": 12502,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab protein",
+                "start": 12471,
+                "end": 20517,
+                "color": "#f77189"
+            },
+            {
+                "name": "S protein",
+                "start": 20513,
+                "end": 24632,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 24631,
+                "end": 25315,
+                "color": "#35ae95"
+            },
+            {
+                "name": "E protein",
+                "start": 25295,
+                "end": 25529,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "M protein",
+                "start": 25537,
+                "end": 26230,
+                "color": "#8ba731"
+            },
+            {
+                "name": "N protein",
+                "start": 26240,
+                "end": 27464,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORFx protein",
+                "start": 27926,
+                "end": 28214,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030886",
+        "proteins": [
+            {
+                "name": "ORF1ab protein",
+                "start": 234,
+                "end": 13083,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab protein",
+                "start": 13082,
+                "end": 21155,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 21120,
+                "end": 24993,
+                "color": "#e18632"
+            },
+            {
+                "name": "NS3 protein",
+                "start": 24989,
+                "end": 25676,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small envelope protein",
+                "start": 25675,
+                "end": 25906,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25913,
+                "end": 26579,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26626,
+                "end": 27958,
+                "color": "#32b258"
+            },
+            {
+                "name": "putative p10 protein",
+                "start": 27993,
+                "end": 28269,
+                "color": "#f667c6"
+            },
+            {
+                "name": "putative NS7a protein",
+                "start": 28286,
+                "end": 28850,
+                "color": "#37abb2"
+            },
+            {
+                "name": "putative NS7b protein",
+                "start": 28862,
+                "end": 29444,
+                "color": "#8ba731"
+            },
+            {
+                "name": "putative NS7c protein",
+                "start": 29443,
+                "end": 29893,
+                "color": "#8f93f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030292",
+        "proteins": [
+            {
+                "name": "ORF1ab",
+                "start": 275,
+                "end": 12122,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a",
+                "start": 275,
+                "end": 12152,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab",
+                "start": 12121,
+                "end": 20143,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20135,
+                "end": 24452,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein 3c",
+                "start": 24472,
+                "end": 25216,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25184,
+                "end": 25433,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25447,
+                "end": 26245,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26261,
+                "end": 27389,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27397,
+                "end": 27670,
+                "color": "#db70f4"
+            },
+            {
+                "name": "nsp 7b protein",
+                "start": 27560,
+                "end": 28169,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028752",
+        "proteins": [
+            {
+                "name": "polyprotein ORF1ab",
+                "start": 292,
+                "end": 12534,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein ORF1a",
+                "start": 292,
+                "end": 12565,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein ORF1ab",
+                "start": 12533,
+                "end": 20583,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20584,
+                "end": 24094,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF4",
+                "start": 24093,
+                "end": 24774,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 24751,
+                "end": 24985,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24996,
+                "end": 25677,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25690,
+                "end": 26839,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028806",
+        "proteins": [
+            {
+                "name": "replicase polyprotein 1a",
+                "start": 306,
+                "end": 12354,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein 1b",
+                "start": 12311,
+                "end": 20354,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20354,
+                "end": 24503,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein 3a",
+                "start": 24492,
+                "end": 24585,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "non-structural protein 3b",
+                "start": 24665,
+                "end": 25400,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25386,
+                "end": 25635,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25645,
+                "end": 26434,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleoprotein",
+                "start": 26446,
+                "end": 27595,
+                "color": "#32b258"
+            },
+            {
+                "name": "non-structural protein 7",
+                "start": 27600,
+                "end": 27837,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028811",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 298,
+                "end": 12238,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12237,
+                "end": 20286,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20287,
+                "end": 24451,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein ORF3",
+                "start": 24447,
+                "end": 25107,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small envelope protein",
+                "start": 25108,
+                "end": 25339,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 25348,
+                "end": 26032,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26040,
+                "end": 27330,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028814",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 41,
+                "end": 12203,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12202,
+                "end": 20224,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20225,
+                "end": 24338,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein ORF3",
+                "start": 24337,
+                "end": 25027,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small envelope protein",
+                "start": 25034,
+                "end": 25232,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 25241,
+                "end": 25925,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25936,
+                "end": 27088,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein ORF7",
+                "start": 27110,
+                "end": 27359,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028824",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 134,
+                "end": 12251,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12250,
+                "end": 20284,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20280,
+                "end": 23679,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein ORF3",
+                "start": 23678,
+                "end": 24368,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small envelope protein",
+                "start": 24348,
+                "end": 24576,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 24584,
+                "end": 25271,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25282,
+                "end": 26410,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028833",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 213,
+                "end": 11985,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 11984,
+                "end": 20009,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20082,
+                "end": 24114,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein ORF3",
+                "start": 24113,
+                "end": 24737,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small envelope protein",
+                "start": 24761,
+                "end": 24989,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 24995,
+                "end": 25682,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25690,
+                "end": 26986,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026011",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 212,
+                "end": 13484,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 13483,
+                "end": 21637,
+                "color": "#f77189"
+            },
+            {
+                "name": "non-structural protein NS2a",
+                "start": 21638,
+                "end": 22469,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "hemagglutinin-esterase protein",
+                "start": 22483,
+                "end": 23761,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 23776,
+                "end": 27853,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein NS4",
+                "start": 27945,
+                "end": 28356,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "non-structural protein NS5",
+                "start": 28337,
+                "end": 28652,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28644,
+                "end": 28893,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 28907,
+                "end": 29603,
+                "color": "#8ba731"
+            },
+            {
+                "name": "internal protein",
+                "start": 29595,
+                "end": 30288,
+                "color": "#37abb2"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29612,
+                "end": 30944,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025217",
+        "proteins": [
+            {
+                "name": "non-structural polyprotein",
+                "start": 302,
+                "end": 13931,
+                "color": "#f77189"
+            },
+            {
+                "name": "non-structural polyprotein",
+                "start": 13930,
+                "end": 22045,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 22057,
+                "end": 23413,
+                "color": "#e18632"
+            },
+            {
+                "name": "spike protein",
+                "start": 23562,
+                "end": 27516,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27522,
+                "end": 28260,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28314,
+                "end": 28554,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 28609,
+                "end": 29281,
+                "color": "#8ba731"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 29296,
+                "end": 29515,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 29533,
+                "end": 29857,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29916,
+                "end": 31173,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_023760",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 272,
+                "end": 12287,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1a polyprotein",
+                "start": 272,
+                "end": 12329,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 12286,
+                "end": 20320,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20321,
+                "end": 24638,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein 3c",
+                "start": 24655,
+                "end": 25399,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25367,
+                "end": 25616,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25632,
+                "end": 26439,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26453,
+                "end": 27584,
+                "color": "#32b258"
+            },
+            {
+                "name": "non-structural protein 7a",
+                "start": 27588,
+                "end": 27885,
+                "color": "#b59a32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27869,
+                "end": 28091,
+                "color": "#db70f4"
+            },
+            {
+                "name": "hypothetical protein orf7b",
+                "start": 28032,
+                "end": 28647,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_022103",
+        "proteins": [
+            {
+                "name": "replicase polyprotein 1ab",
+                "start": 79,
+                "end": 12532,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein 1a",
+                "start": 79,
+                "end": 12562,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein 1ab",
+                "start": 12531,
+                "end": 20556,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20552,
+                "end": 24647,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein 3",
+                "start": 24646,
+                "end": 25324,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope small membrane protein",
+                "start": 25307,
+                "end": 25532,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25538,
+                "end": 26219,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleoprotein",
+                "start": 26229,
+                "end": 27507,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_019843",
+        "proteins": [
+            {
+                "name": "1AB polyprotein",
+                "start": 278,
+                "end": 13433,
+                "color": "#f77189"
+            },
+            {
+                "name": "1A polyprotein",
+                "start": 278,
+                "end": 13454,
+                "color": "#f77189"
+            },
+            {
+                "name": "1AB polyprotein",
+                "start": 13432,
+                "end": 21514,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 21455,
+                "end": 25517,
+                "color": "#e18632"
+            },
+            {
+                "name": "NS3 protein",
+                "start": 25531,
+                "end": 25843,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS4A protein",
+                "start": 25851,
+                "end": 26181,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS4B protein",
+                "start": 26092,
+                "end": 26833,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS5 protein",
+                "start": 26839,
+                "end": 27514,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 27589,
+                "end": 27838,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 27852,
+                "end": 28512,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleoprotein",
+                "start": 28565,
+                "end": 29807,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORF8b protein",
+                "start": 28761,
+                "end": 29100,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_018871",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 302,
+                "end": 12617,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 12616,
+                "end": 20644,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20640,
+                "end": 24690,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein NS3",
+                "start": 24689,
+                "end": 25346,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25374,
+                "end": 25602,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25607,
+                "end": 26297,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26307,
+                "end": 27516,
+                "color": "#32b258"
+            },
+            {
+                "name": "non-structural protein NS7a",
+                "start": 27531,
+                "end": 27777,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "non-structural protein NS7b",
+                "start": 27786,
+                "end": 28248,
+                "color": "#f667c6"
+            },
+            {
+                "name": "non-structural protein NS7c",
+                "start": 27985,
+                "end": 28216,
+                "color": "#39a7d6"
+            }
+        ]
+    },
+    {
+        "accno": "NC_017083",
+        "proteins": [
+            {
+                "name": "polyprotein",
+                "start": 208,
+                "end": 13519,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein",
+                "start": 13518,
+                "end": 21663,
+                "color": "#f77189"
+            },
+            {
+                "name": "NS2a1 protein",
+                "start": 21672,
+                "end": 21804,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "NS2a2 protein",
+                "start": 21828,
+                "end": 22020,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "NS2a3 protein",
+                "start": 22125,
+                "end": 22254,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "NS2a4 protein",
+                "start": 22276,
+                "end": 22492,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "hemagglutinin-esterase protein",
+                "start": 22503,
+                "end": 23778,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike protein",
+                "start": 23792,
+                "end": 27881,
+                "color": "#e18632"
+            },
+            {
+                "name": "NS5a protein",
+                "start": 28177,
+                "end": 28507,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28493,
+                "end": 28763,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 28759,
+                "end": 29452,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29461,
+                "end": 30796,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_016991",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 510,
+                "end": 11349,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 11348,
+                "end": 19397,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19378,
+                "end": 22918,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 22911,
+                "end": 23160,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23152,
+                "end": 23809,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23808,
+                "end": 24090,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24114,
+                "end": 25158,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7a protein",
+                "start": 24142,
+                "end": 24811,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS7b protein",
+                "start": 25138,
+                "end": 25270,
+                "color": "#39a7d6"
+            }
+        ]
+    },
+    {
+        "accno": "NC_016992",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 519,
+                "end": 11424,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 11423,
+                "end": 19352,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19333,
+                "end": 22954,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 22947,
+                "end": 23196,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23188,
+                "end": 23842,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23841,
+                "end": 24129,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24149,
+                "end": 25178,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7a protein",
+                "start": 24243,
+                "end": 24846,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS7b protein",
+                "start": 25188,
+                "end": 25623,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS7c protein",
+                "start": 25538,
+                "end": 25751,
+                "color": "#db70f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_016993",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 595,
+                "end": 11434,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 11433,
+                "end": 19356,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19337,
+                "end": 22991,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 22984,
+                "end": 23233,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23225,
+                "end": 23882,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23881,
+                "end": 24172,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24354,
+                "end": 25395,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7a protein",
+                "start": 25406,
+                "end": 25580,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "NS7b protein",
+                "start": 25560,
+                "end": 25932,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS7c protein",
+                "start": 25940,
+                "end": 26195,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_016994",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 481,
+                "end": 11311,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 11310,
+                "end": 19323,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19304,
+                "end": 23069,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 23068,
+                "end": 23317,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23309,
+                "end": 23960,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23959,
+                "end": 24238,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24247,
+                "end": 25276,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7a protein",
+                "start": 25276,
+                "end": 25573,
+                "color": "#f667c6"
+            },
+            {
+                "name": "NS7b protein",
+                "start": 25582,
+                "end": 25876,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_016995",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 218,
+                "end": 10922,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 10921,
+                "end": 18838,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 18816,
+                "end": 22455,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 22454,
+                "end": 22715,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 22707,
+                "end": 23358,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23357,
+                "end": 23630,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 23645,
+                "end": 24698,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7a protein",
+                "start": 24694,
+                "end": 24928,
+                "color": "#b59a32"
+            },
+            {
+                "name": "NS7b protein",
+                "start": 25217,
+                "end": 25466,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "NS7c protein",
+                "start": 25449,
+                "end": 25716,
+                "color": "#b59a32"
+            },
+            {
+                "name": "NS7d protein",
+                "start": 25751,
+                "end": 25952,
+                "color": "#db70f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_016996",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 477,
+                "end": 11061,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 11060,
+                "end": 19103,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19084,
+                "end": 22729,
+                "color": "#e18632"
+            },
+            {
+                "name": "envelope protein",
+                "start": 22722,
+                "end": 22971,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 22972,
+                "end": 23779,
+                "color": "#37abb2"
+            },
+            {
+                "name": "NS6 protein",
+                "start": 23778,
+                "end": 24024,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 24051,
+                "end": 25107,
+                "color": "#32b258"
+            },
+            {
+                "name": "NS7a protein",
+                "start": 25106,
+                "end": 25379,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "NS7b protein",
+                "start": 25390,
+                "end": 25576,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "NS7c protein",
+                "start": 25499,
+                "end": 25916,
+                "color": "#f667c6"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014470",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 190,
+                "end": 13297,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 13296,
+                "end": 21384,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 21390,
+                "end": 25170,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 25178,
+                "end": 25994,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 26017,
+                "end": 26248,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 26298,
+                "end": 26982,
+                "color": "#8ba731"
+            },
+            {
+                "name": "ORF6 protein",
+                "start": 26992,
+                "end": 27181,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "ORF7a protein",
+                "start": 27187,
+                "end": 27544,
+                "color": "#b59a32"
+            },
+            {
+                "name": "ORF7b protein",
+                "start": 27540,
+                "end": 27663,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "nucleocapsid",
+                "start": 27664,
+                "end": 28918,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_012936",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 182,
+                "end": 13556,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1a polyprotein",
+                "start": 182,
+                "end": 13577,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 13555,
+                "end": 21700,
+                "color": "#f77189"
+            },
+            {
+                "name": "32 kD non-structural protein",
+                "start": 21713,
+                "end": 22511,
+                "color": "#37abb2"
+            },
+            {
+                "name": "hemagglutinin-esterase",
+                "start": 22556,
+                "end": 23876,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike protein",
+                "start": 23890,
+                "end": 27973,
+                "color": "#e18632"
+            },
+            {
+                "name": "15 kD non-structural protein",
+                "start": 28063,
+                "end": 28465,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 28638,
+                "end": 28905,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 28901,
+                "end": 29588,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29602,
+                "end": 30967,
+                "color": "#32b258"
+            },
+            {
+                "name": "internal protein",
+                "start": 29666,
+                "end": 30290,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011549",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 591,
+                "end": 11403,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 11402,
+                "end": 19451,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19432,
+                "end": 23011,
+                "color": "#e18632"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 23004,
+                "end": 23253,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23245,
+                "end": 23899,
+                "color": "#37abb2"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 23898,
+                "end": 24174,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 24191,
+                "end": 25223,
+                "color": "#32b258"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25254,
+                "end": 25626,
+                "color": "#f667c6"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25631,
+                "end": 25883,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25939,
+                "end": 26173,
+                "color": "#db70f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011550",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 594,
+                "end": 11592,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 11591,
+                "end": 19517,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 19498,
+                "end": 22969,
+                "color": "#e18632"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 22962,
+                "end": 23211,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 23203,
+                "end": 23860,
+                "color": "#37abb2"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 23859,
+                "end": 24186,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 24325,
+                "end": 25384,
+                "color": "#32b258"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25416,
+                "end": 25788,
+                "color": "#f667c6"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 25793,
+                "end": 26051,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nonstructural protein",
+                "start": 26047,
+                "end": 26329,
+                "color": "#db70f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010800",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 528,
+                "end": 12354,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a",
+                "start": 528,
+                "end": 12384,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12353,
+                "end": 20336,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20359,
+                "end": 24040,
+                "color": "#e18632"
+            },
+            {
+                "name": "3a protein",
+                "start": 23987,
+                "end": 24161,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "3b protein",
+                "start": 24160,
+                "end": 24355,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "envelope protein",
+                "start": 24335,
+                "end": 24635,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24636,
+                "end": 25308,
+                "color": "#8ba731"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 25308,
+                "end": 25593,
+                "color": "#b59a32"
+            },
+            {
+                "name": "5a protein",
+                "start": 25668,
+                "end": 25866,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "5b protein",
+                "start": 25862,
+                "end": 26111,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26053,
+                "end": 27283,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010646",
+        "proteins": [
+            {
+                "name": "ORF 1ab polyprotein",
+                "start": 523,
+                "end": 12388,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF 1a polyprotein",
+                "start": 523,
+                "end": 12418,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF 1ab polyprotein",
+                "start": 12387,
+                "end": 20514,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20449,
+                "end": 24868,
+                "color": "#e18632"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 24873,
+                "end": 25161,
+                "color": "#b59a32"
+            },
+            {
+                "name": "matrix glycoprotein",
+                "start": 25144,
+                "end": 25927,
+                "color": "#8ba731"
+            },
+            {
+                "name": "ORF 5a",
+                "start": 25929,
+                "end": 26346,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "ORF 5b",
+                "start": 26338,
+                "end": 26857,
+                "color": "#37abb2"
+            },
+            {
+                "name": "ORF 5c",
+                "start": 26846,
+                "end": 27374,
+                "color": "#8ba731"
+            },
+            {
+                "name": "ORF 6",
+                "start": 27377,
+                "end": 28064,
+                "color": "#32b258"
+            },
+            {
+                "name": "ORF 7",
+                "start": 28066,
+                "end": 28552,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "ORF 8",
+                "start": 28704,
+                "end": 28884,
+                "color": "#b59a32"
+            },
+            {
+                "name": "ORF 9",
+                "start": 28940,
+                "end": 29399,
+                "color": "#37abb2"
+            },
+            {
+                "name": "ORF 10",
+                "start": 29401,
+                "end": 30034,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 30145,
+                "end": 31285,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010437",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 271,
+                "end": 13048,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a polyprotein",
+                "start": 271,
+                "end": 13078,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 13047,
+                "end": 21069,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 21070,
+                "end": 25198,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 25197,
+                "end": 25857,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25850,
+                "end": 26075,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 26081,
+                "end": 26849,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26869,
+                "end": 28039,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010438",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 269,
+                "end": 12935,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a polyprotein",
+                "start": 269,
+                "end": 12965,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12934,
+                "end": 20959,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20955,
+                "end": 25083,
+                "color": "#e18632"
+            },
+            {
+                "name": "ORF3 protein",
+                "start": 25082,
+                "end": 25751,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25734,
+                "end": 25959,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25965,
+                "end": 26721,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26769,
+                "end": 28038,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27787,
+                "end": 28534,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009988",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 296,
+                "end": 12446,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1a polyprotein",
+                "start": 296,
+                "end": 12476,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 12445,
+                "end": 20479,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20475,
+                "end": 23862,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 23861,
+                "end": 24551,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 24531,
+                "end": 24759,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 24767,
+                "end": 25457,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 25468,
+                "end": 26596,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 26607,
+                "end": 26907,
+                "color": "#b59a32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009657",
+        "proteins": [
+            {
+                "name": "ORF1",
+                "start": 293,
+                "end": 12650,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 12649,
+                "end": 20674,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20670,
+                "end": 24786,
+                "color": "#e18632"
+            },
+            {
+                "name": "putative ORF3",
+                "start": 24785,
+                "end": 25460,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25440,
+                "end": 25671,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "matrix protein",
+                "start": 25677,
+                "end": 26361,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26371,
+                "end": 27556,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009019",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 266,
+                "end": 13550,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 13549,
+                "end": 21625,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 21569,
+                "end": 25628,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 25654,
+                "end": 25930,
+                "color": "#f667c6"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 25947,
+                "end": 26307,
+                "color": "#f667c6"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 26110,
+                "end": 26968,
+                "color": "#37abb2"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 26983,
+                "end": 27667,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 27736,
+                "end": 27985,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 27999,
+                "end": 28659,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 28696,
+                "end": 29968,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009020",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 260,
+                "end": 13685,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 13684,
+                "end": 21808,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 21734,
+                "end": 25793,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 25755,
+                "end": 26121,
+                "color": "#f667c6"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 26133,
+                "end": 26493,
+                "color": "#f667c6"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 26374,
+                "end": 27145,
+                "color": "#37abb2"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27153,
+                "end": 27825,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 27902,
+                "end": 28151,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 28165,
+                "end": 28828,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 28877,
+                "end": 30161,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009021",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 228,
+                "end": 12951,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 12950,
+                "end": 21020,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 20973,
+                "end": 24798,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 24794,
+                "end": 25457,
+                "color": "#35ae95"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 25456,
+                "end": 25696,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 25688,
+                "end": 26357,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 26418,
+                "end": 27825,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 27868,
+                "end": 28426,
+                "color": "#37abb2"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 28432,
+                "end": 28882,
+                "color": "#8f93f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006577",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 205,
+                "end": 13600,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 13599,
+                "end": 21753,
+                "color": "#f77189"
+            },
+            {
+                "name": "hemagglutinin-esterase glycoprotein",
+                "start": 21772,
+                "end": 22933,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 22941,
+                "end": 27012,
+                "color": "#e18632"
+            },
+            {
+                "name": "non-structural protein",
+                "start": 27050,
+                "end": 27380,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 27372,
+                "end": 27621,
+                "color": "#db70f4"
+            },
+            {
+                "name": "membrane glycoprotein",
+                "start": 27632,
+                "end": 28304,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein",
+                "start": 28319,
+                "end": 29645,
+                "color": "#32b258"
+            },
+            {
+                "name": "nucleocapsid phosphoprotein 2",
+                "start": 28341,
+                "end": 28959,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005831",
+        "proteins": [
+            {
+                "name": "replicase polyprotein 1ab",
+                "start": 286,
+                "end": 12439,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein 1ab",
+                "start": 12438,
+                "end": 20475,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20471,
+                "end": 24542,
+                "color": "#e18632"
+            },
+            {
+                "name": "protein 3",
+                "start": 24541,
+                "end": 25219,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25199,
+                "end": 25433,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25441,
+                "end": 26122,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26132,
+                "end": 27266,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004718",
+        "proteins": [
+            {
+                "name": "replicase 1AB",
+                "start": 264,
+                "end": 13392,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase 1AB",
+                "start": 13391,
+                "end": 21485,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike glycoprotein",
+                "start": 21491,
+                "end": 25259,
+                "color": "#e18632"
+            },
+            {
+                "name": "Orf3",
+                "start": 25267,
+                "end": 26092,
+                "color": "#35ae95"
+            },
+            {
+                "name": "Orf4",
+                "start": 25688,
+                "end": 26153,
+                "color": "#b59a32"
+            },
+            {
+                "name": "small envelope E protein",
+                "start": 26116,
+                "end": 26347,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane glycoprotein M",
+                "start": 26397,
+                "end": 27063,
+                "color": "#8ba731"
+            },
+            {
+                "name": "Orf7",
+                "start": 27073,
+                "end": 27265,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "Orf8",
+                "start": 27272,
+                "end": 27641,
+                "color": "#b59a32"
+            },
+            {
+                "name": "Orf9",
+                "start": 27637,
+                "end": 27772,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "Orf10",
+                "start": 27778,
+                "end": 27898,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "Orf11",
+                "start": 27863,
+                "end": 28118,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 28119,
+                "end": 29388,
+                "color": "#32b258"
+            },
+            {
+                "name": "Orf13",
+                "start": 28129,
+                "end": 28426,
+                "color": "#b59a32"
+            },
+            {
+                "name": "Orf14",
+                "start": 28582,
+                "end": 28795,
+                "color": "#39a7d6"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003045",
+        "proteins": [
+            {
+                "name": "orf1ab polyprotein",
+                "start": 210,
+                "end": 13341,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1a polyprotein",
+                "start": 210,
+                "end": 13362,
+                "color": "#f77189"
+            },
+            {
+                "name": "orf1ab polyprotein",
+                "start": 13340,
+                "end": 21494,
+                "color": "#f77189"
+            },
+            {
+                "name": "32 kDa non-structural protein",
+                "start": 21503,
+                "end": 22340,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "hemmaglutinin-esterase",
+                "start": 22351,
+                "end": 23626,
+                "color": "#8ba731"
+            },
+            {
+                "name": "spike structural protein",
+                "start": 23640,
+                "end": 27732,
+                "color": "#e18632"
+            },
+            {
+                "name": "4.9 kDa non-structural protein",
+                "start": 27721,
+                "end": 27811,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "4.8 kDa non-structural protein",
+                "start": 27888,
+                "end": 28026,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "12.7 kDa non-structural protein",
+                "start": 28105,
+                "end": 28435,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "small membrane protein",
+                "start": 28421,
+                "end": 28676,
+                "color": "#db70f4"
+            },
+            {
+                "name": "matrix protein",
+                "start": 28690,
+                "end": 29383,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29392,
+                "end": 30739,
+                "color": "#32b258"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 29453,
+                "end": 30077,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003436",
+        "proteins": [
+            {
+                "name": "Pol1",
+                "start": 296,
+                "end": 12620,
+                "color": "#f77189"
+            },
+            {
+                "name": "Pol1",
+                "start": 12619,
+                "end": 20641,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20637,
+                "end": 24789,
+                "color": "#e18632"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 24788,
+                "end": 25463,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 25443,
+                "end": 25674,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "membrane protein",
+                "start": 25681,
+                "end": 26362,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 26373,
+                "end": 27699,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002645",
+        "proteins": [
+            {
+                "name": "replicase polyprotein 1ab",
+                "start": 292,
+                "end": 12520,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein 1a",
+                "start": 292,
+                "end": 12550,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein 1ab",
+                "start": 12519,
+                "end": 20568,
+                "color": "#f77189"
+            },
+            {
+                "name": "surface glycoprotein",
+                "start": 20569,
+                "end": 24091,
+                "color": "#e18632"
+            },
+            {
+                "name": "4a protein",
+                "start": 24090,
+                "end": 24492,
+                "color": "#35ae95"
+            },
+            {
+                "name": "4b protein",
+                "start": 24481,
+                "end": 24748,
+                "color": "#35ae95"
+            },
+            {
+                "name": "envelope protein",
+                "start": 24749,
+                "end": 24983,
+                "color": "#b59a32"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24994,
+                "end": 25672,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25685,
+                "end": 26855,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002306",
+        "proteins": [
+            {
+                "name": "polyprotein ab",
+                "start": 310,
+                "end": 12409,
+                "color": "#f77189"
+            },
+            {
+                "name": "polyprotein ab",
+                "start": 12408,
+                "end": 20439,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20435,
+                "end": 24794,
+                "color": "#e18632"
+            },
+            {
+                "name": "putative 3a protein",
+                "start": 24860,
+                "end": 25076,
+                "color": "#db70f4"
+            },
+            {
+                "name": "putative 3b protein",
+                "start": 25020,
+                "end": 25236,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "E protein",
+                "start": 25953,
+                "end": 26202,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "matrix protein",
+                "start": 26212,
+                "end": 27001,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 27013,
+                "end": 28147,
+                "color": "#32b258"
+            },
+            {
+                "name": "non-structural protein 7a",
+                "start": 28151,
+                "end": 28457,
+                "color": "#b59a32"
+            },
+            {
+                "name": "non-structural protein 7b",
+                "start": 28461,
+                "end": 29082,
+                "color": "#37abb2"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001846",
+        "proteins": [
+            {
+                "name": "RNA-directed RNA polymerase",
+                "start": 209,
+                "end": 13622,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-directed RNA polymerase",
+                "start": 13543,
+                "end": 21745,
+                "color": "#f77189"
+            },
+            {
+                "name": "E2 glycoprotein precursor",
+                "start": 23928,
+                "end": 27903,
+                "color": "#e18632"
+            },
+            {
+                "name": "E1 glycoprotein",
+                "start": 28967,
+                "end": 29654,
+                "color": "#8ba731"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 29668,
+                "end": 31033,
+                "color": "#32b258"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001451",
+        "proteins": [
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 528,
+                "end": 12354,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1a polyprotein",
+                "start": 528,
+                "end": 12384,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1ab polyprotein",
+                "start": 12353,
+                "end": 20417,
+                "color": "#f77189"
+            },
+            {
+                "name": "spike protein",
+                "start": 20367,
+                "end": 23856,
+                "color": "#e18632"
+            },
+            {
+                "name": "3a protein",
+                "start": 23855,
+                "end": 24029,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "3b protein",
+                "start": 24028,
+                "end": 24223,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "small virion-associated protein",
+                "start": 24206,
+                "end": 24533,
+                "color": "#8f93f4"
+            },
+            {
+                "name": "membrane protein",
+                "start": 24504,
+                "end": 25182,
+                "color": "#8ba731"
+            },
+            {
+                "name": "5a protein",
+                "start": 25487,
+                "end": 25685,
+                "color": "#39a7d6"
+            },
+            {
+                "name": "5b protein",
+                "start": 25681,
+                "end": 25930,
+                "color": "#b59a32"
+            },
+            {
+                "name": "nucleocapsid protein",
+                "start": 25872,
+                "end": 27102,
+                "color": "#32b258"
+            }
+        ]
+    }
+]

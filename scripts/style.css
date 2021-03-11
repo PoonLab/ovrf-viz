@@ -8,6 +8,7 @@ header {
 .wrapper {
     display: flex;
     flex-flow: row wrap;
+    margin: 30px;
 }
 
 #bar {
@@ -17,6 +18,7 @@ header {
 
 #plots {
     display: flex;
+    margin: auto ;
 }
 /* .wrapper > * {
     grid-column: 1;

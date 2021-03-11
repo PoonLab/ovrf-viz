@@ -1,0 +1,2475 @@
+[
+    {
+        "accno": "NC_040575",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 149,
+                "end": 1151,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 796,
+                "end": 2476,
+                "color": "#d58c32"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040713",
+        "proteins": [
+            {
+                "name": "coat protein",
+                "start": 0,
+                "end": 1134,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040725",
+        "proteins": [
+            {
+                "name": "hypothetical protein 1",
+                "start": 121,
+                "end": 1147,
+                "color": "#50b131"
+            },
+            {
+                "name": "hypothetical protein 2",
+                "start": 1183,
+                "end": 2623,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein 3",
+                "start": 2632,
+                "end": 3859,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_035452",
+        "proteins": [
+            {
+                "name": "RNA directed-RNA polymerase",
+                "start": 45,
+                "end": 2451,
+                "color": "#34ae91"
+            },
+            {
+                "name": "p32",
+                "start": 45,
+                "end": 888,
+                "color": "#34ae91"
+            },
+            {
+                "name": "virus coat protein",
+                "start": 2657,
+                "end": 4019,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 4055,
+                "end": 4727,
+                "color": "#a4a031"
+            },
+            {
+                "name": "silencing suppressor protein",
+                "start": 4183,
+                "end": 4558,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034243",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 179,
+                "end": 1135,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 179,
+                "end": 1142,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1134,
+                "end": 2797,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative long-distance movement protein",
+                "start": 3007,
+                "end": 3715,
+                "color": "#50b131"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 3023,
+                "end": 3776,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_033777",
+        "proteins": [
+            {
+                "name": "p86 putative replicase protein",
+                "start": 9,
+                "end": 2280,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p26",
+                "start": 9,
+                "end": 714,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "MP-1",
+                "start": 2246,
+                "end": 2453,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "MP-2",
+                "start": 2364,
+                "end": 2622,
+                "color": "#f564d4"
+            },
+            {
+                "name": "p37",
+                "start": 2611,
+                "end": 3625,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_032405",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 44,
+                "end": 2783,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase protein",
+                "start": 44,
+                "end": 1046,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative movement protein 1",
+                "start": 2611,
+                "end": 2827,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein 2",
+                "start": 2828,
+                "end": 3011,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3007,
+                "end": 3733,
+                "color": "#a4a031"
+            },
+            {
+                "name": "putative accessory movemet protein",
+                "start": 3011,
+                "end": 3428,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030742",
+        "proteins": [
+            {
+                "name": "putative RNA dependent RNA polymerase",
+                "start": 63,
+                "end": 2397,
+                "color": "#d58c32"
+            },
+            {
+                "name": "replication-associated protein",
+                "start": 63,
+                "end": 837,
+                "color": "#d58c32"
+            },
+            {
+                "name": "movement protein 1",
+                "start": 2375,
+                "end": 2576,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "movement protein 2",
+                "start": 2478,
+                "end": 2733,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2733,
+                "end": 3777,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030452",
+        "proteins": [
+            {
+                "name": "P95 replicase",
+                "start": 77,
+                "end": 2636,
+                "color": "#34ae91"
+            },
+            {
+                "name": "P36 replicase",
+                "start": 77,
+                "end": 1070,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2662,
+                "end": 3832,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3868,
+                "end": 4438,
+                "color": "#37abb5"
+            },
+            {
+                "name": "silencing suppressor",
+                "start": 3900,
+                "end": 4419,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030203",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 283,
+                "end": 3205,
+                "color": "#f77189"
+            },
+            {
+                "name": "replication-associated protein",
+                "start": 283,
+                "end": 1546,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029900",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 62,
+                "end": 2237,
+                "color": "#d58c32"
+            },
+            {
+                "name": "pre-readthrough protein",
+                "start": 62,
+                "end": 671,
+                "color": "#f77189"
+            },
+            {
+                "name": "P8",
+                "start": 2220,
+                "end": 2442,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "P6",
+                "start": 2441,
+                "end": 2612,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2631,
+                "end": 3435,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026239",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA-polymerase",
+                "start": 42,
+                "end": 2331,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase protein",
+                "start": 42,
+                "end": 762,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "putative movement protein 1",
+                "start": 2300,
+                "end": 2495,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein 2",
+                "start": 2400,
+                "end": 2649,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2638,
+                "end": 3655,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_026240",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA-polymerase",
+                "start": 14,
+                "end": 2303,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase protein",
+                "start": 14,
+                "end": 725,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "putative movement protein 1",
+                "start": 2272,
+                "end": 2449,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein 2",
+                "start": 2354,
+                "end": 2606,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2592,
+                "end": 3609,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_024808",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 10,
+                "end": 883,
+                "color": "#d58c32"
+            },
+            {
+                "name": "replication-associated protein",
+                "start": 10,
+                "end": 886,
+                "color": "#d58c32"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 882,
+                "end": 2547,
+                "color": "#d58c32"
+            },
+            {
+                "name": "long-distance movement protein",
+                "start": 2729,
+                "end": 3518,
+                "color": "#50b131"
+            },
+            {
+                "name": "cell-to-cell movement protein",
+                "start": 2823,
+                "end": 3600,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_023339",
+        "proteins": [
+            {
+                "name": "RNA polymerase",
+                "start": 167,
+                "end": 2624,
+                "color": "#34ae91"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 167,
+                "end": 1058,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2649,
+                "end": 3816,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3847,
+                "end": 4423,
+                "color": "#37abb5"
+            },
+            {
+                "name": "p19 protein",
+                "start": 3879,
+                "end": 4398,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_022895",
+        "proteins": [
+            {
+                "name": "RNA dependent RNA polymerase",
+                "start": 132,
+                "end": 2349,
+                "color": "#34ae91"
+            },
+            {
+                "name": "replicase associated protein",
+                "start": 132,
+                "end": 801,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2374,
+                "end": 3547,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3638,
+                "end": 4367,
+                "color": "#a4a031"
+            },
+            {
+                "name": "silencing suppressor",
+                "start": 3769,
+                "end": 4252,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_021926",
+        "proteins": [
+            {
+                "name": "P87",
+                "start": 36,
+                "end": 2325,
+                "color": "#d58c32"
+            },
+            {
+                "name": "P28",
+                "start": 36,
+                "end": 777,
+                "color": "#d58c32"
+            },
+            {
+                "name": "P8",
+                "start": 2288,
+                "end": 2498,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "P9",
+                "start": 2412,
+                "end": 2664,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2656,
+                "end": 3685,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_021705",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 28,
+                "end": 2872,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative replicase-associated protein",
+                "start": 28,
+                "end": 1171,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative movement protein 1",
+                "start": 2739,
+                "end": 2961,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein 2",
+                "start": 2961,
+                "end": 3141,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3137,
+                "end": 3869,
+                "color": "#a4a031"
+            },
+            {
+                "name": "putative accessory movement protein",
+                "start": 3150,
+                "end": 3549,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_020469",
+        "proteins": [
+            {
+                "name": "polymerase-associated protein",
+                "start": 41,
+                "end": 2330,
+                "color": "#d58c32"
+            },
+            {
+                "name": "polymerase-associated protein",
+                "start": 41,
+                "end": 767,
+                "color": "#d58c32"
+            },
+            {
+                "name": "movement protein",
+                "start": 2202,
+                "end": 2523,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "movement protein",
+                "start": 2524,
+                "end": 2695,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2694,
+                "end": 3729,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_020415",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 6,
+                "end": 2292,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase protein",
+                "start": 6,
+                "end": 720,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "putative 8 kDa protein",
+                "start": 2068,
+                "end": 2287,
+                "color": "#f564d4"
+            },
+            {
+                "name": "p12",
+                "start": 2261,
+                "end": 2437,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 2261,
+                "end": 2444,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p12",
+                "start": 2438,
+                "end": 2610,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2593,
+                "end": 3613,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_020073",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 166,
+                "end": 1054,
+                "color": "#34ae91"
+            },
+            {
+                "name": "replicase",
+                "start": 166,
+                "end": 1057,
+                "color": "#34ae91"
+            },
+            {
+                "name": "replicase",
+                "start": 1057,
+                "end": 2623,
+                "color": "#34ae91"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2644,
+                "end": 3820,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3853,
+                "end": 4423,
+                "color": "#37abb5"
+            },
+            {
+                "name": "RNA silencing suppressor p19",
+                "start": 3885,
+                "end": 4404,
+                "color": "#37abb5"
+            },
+            {
+                "name": "putative 3.7 kDa protein",
+                "start": 4486,
+                "end": 4663,
+                "color": "#f564d4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_015227",
+        "proteins": [
+            {
+                "name": "putative RNA dependent RNA polymerase",
+                "start": 26,
+                "end": 2339,
+                "color": "#d58c32"
+            },
+            {
+                "name": "putative replication-associated protein",
+                "start": 26,
+                "end": 773,
+                "color": "#d58c32"
+            },
+            {
+                "name": "putative movement protein 1",
+                "start": 2311,
+                "end": 2515,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein 2",
+                "start": 2411,
+                "end": 2651,
+                "color": "#f564d4"
+            },
+            {
+                "name": "putative coat protein",
+                "start": 2647,
+                "end": 3688,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014967",
+        "proteins": [
+            {
+                "name": "p101",
+                "start": 33,
+                "end": 2676,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p87",
+                "start": 33,
+                "end": 2328,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p27",
+                "start": 33,
+                "end": 768,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p7",
+                "start": 2309,
+                "end": 2513,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p13",
+                "start": 2337,
+                "end": 2676,
+                "color": "#f564d4"
+            },
+            {
+                "name": "p37",
+                "start": 2675,
+                "end": 3710,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011643",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 39,
+                "end": 2280,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "P7 protein",
+                "start": 2279,
+                "end": 2486,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "P10 protein",
+                "start": 2382,
+                "end": 2667,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2663,
+                "end": 3728,
+                "color": "#a4a031"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2667,
+                "end": 3339,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011535",
+        "proteins": [
+            {
+                "name": "RNA-depentent RNA polymerase",
+                "start": 166,
+                "end": 2623,
+                "color": "#34ae91"
+            },
+            {
+                "name": "putative RNA-dependent RNA-polymerase",
+                "start": 166,
+                "end": 1057,
+                "color": "#34ae91"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2637,
+                "end": 3768,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3748,
+                "end": 4381,
+                "color": "#37abb5"
+            },
+            {
+                "name": "19K protein",
+                "start": 3843,
+                "end": 4362,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011515",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 22,
+                "end": 988,
+                "color": "#f77189"
+            },
+            {
+                "name": "replication-associated protein",
+                "start": 22,
+                "end": 994,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 987,
+                "end": 2634,
+                "color": "#f77189"
+            },
+            {
+                "name": "long-distance movement protein",
+                "start": 2805,
+                "end": 3603,
+                "color": "#50b131"
+            },
+            {
+                "name": "cell-to-cell movement protein",
+                "start": 2827,
+                "end": 3667,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_011108",
+        "proteins": [
+            {
+                "name": "p106",
+                "start": 99,
+                "end": 2904,
+                "color": "#f77189"
+            },
+            {
+                "name": "p41",
+                "start": 99,
+                "end": 1188,
+                "color": "#f77189"
+            },
+            {
+                "name": "p8",
+                "start": 2732,
+                "end": 2951,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p6.8",
+                "start": 2953,
+                "end": 3136,
+                "color": "#f564d4"
+            },
+            {
+                "name": "p26",
+                "start": 3132,
+                "end": 3870,
+                "color": "#a4a031"
+            },
+            {
+                "name": "p15",
+                "start": 3136,
+                "end": 3535,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009533",
+        "proteins": [
+            {
+                "name": "RNA directed-RNA polymerase",
+                "start": 40,
+                "end": 2434,
+                "color": "#34ae91"
+            },
+            {
+                "name": "p30",
+                "start": 40,
+                "end": 865,
+                "color": "#34ae91"
+            },
+            {
+                "name": "virus coat protein",
+                "start": 2488,
+                "end": 3487,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3523,
+                "end": 4207,
+                "color": "#a4a031"
+            },
+            {
+                "name": "silencing suppressor protein",
+                "start": 3651,
+                "end": 4068,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009017",
+        "proteins": [
+            {
+                "name": "N-terminus replicase",
+                "start": 59,
+                "end": 809,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase/polymerase",
+                "start": 809,
+                "end": 2387,
+                "color": "#d58c32"
+            },
+            {
+                "name": "MP1",
+                "start": 2370,
+                "end": 2574,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "MP2",
+                "start": 2470,
+                "end": 2692,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2728,
+                "end": 3766,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007816",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 131,
+                "end": 2348,
+                "color": "#34ae91"
+            },
+            {
+                "name": "P25 protein",
+                "start": 131,
+                "end": 800,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2373,
+                "end": 3534,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3614,
+                "end": 4346,
+                "color": "#a4a031"
+            },
+            {
+                "name": "silencing suppressor P17",
+                "start": 3745,
+                "end": 4204,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007729",
+        "proteins": [
+            {
+                "name": "p89 protein",
+                "start": 122,
+                "end": 2489,
+                "color": "#34ae91"
+            },
+            {
+                "name": "p30 protein",
+                "start": 122,
+                "end": 926,
+                "color": "#34ae91"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2519,
+                "end": 3293,
+                "color": "#a4a031"
+            },
+            {
+                "name": "p21 protein",
+                "start": 3328,
+                "end": 3898,
+                "color": "#37abb5"
+            },
+            {
+                "name": "p19 protein",
+                "start": 3360,
+                "end": 3873,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007017",
+        "proteins": [
+            {
+                "name": "RNA dependent-RNA polymerase",
+                "start": 6,
+                "end": 2304,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase protein",
+                "start": 6,
+                "end": 729,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p13",
+                "start": 529,
+                "end": 913,
+                "color": "#50b131"
+            },
+            {
+                "name": "movement protein",
+                "start": 2273,
+                "end": 2465,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p9.7",
+                "start": 2370,
+                "end": 2637,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2620,
+                "end": 3637,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006939",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 59,
+                "end": 2234,
+                "color": "#d58c32"
+            },
+            {
+                "name": "p23",
+                "start": 59,
+                "end": 668,
+                "color": "#f77189"
+            },
+            {
+                "name": "p52",
+                "start": 851,
+                "end": 2234,
+                "color": "#d58c32"
+            },
+            {
+                "name": "p8",
+                "start": 2217,
+                "end": 2439,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p6",
+                "start": 2442,
+                "end": 2613,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2635,
+                "end": 3445,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005985",
+        "proteins": [
+            {
+                "name": "87 kDa replicase protein",
+                "start": 16,
+                "end": 2308,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "27 kDa putative replicase protein",
+                "start": 16,
+                "end": 736,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "putative movement protein 1",
+                "start": 2277,
+                "end": 2463,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein 2",
+                "start": 2368,
+                "end": 2611,
+                "color": "#f564d4"
+            },
+            {
+                "name": "putative coat protein",
+                "start": 2607,
+                "end": 3621,
+                "color": "#a4a031"
+            },
+            {
+                "name": "6 kDa hypothetical protein",
+                "start": 3241,
+                "end": 3412,
+                "color": "#f564d4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005286",
+        "proteins": [
+            {
+                "name": "p99 protein",
+                "start": 32,
+                "end": 2648,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p86 protein",
+                "start": 32,
+                "end": 2303,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p27 protein",
+                "start": 32,
+                "end": 764,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p7 protein",
+                "start": 2287,
+                "end": 2494,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p12 protein",
+                "start": 2327,
+                "end": 2648,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2649,
+                "end": 3687,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005287",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 44,
+                "end": 2432,
+                "color": "#34ae91"
+            },
+            {
+                "name": "replicase",
+                "start": 44,
+                "end": 863,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2538,
+                "end": 3633,
+                "color": "#a4a031"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 3671,
+                "end": 4325,
+                "color": "#a4a031"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 3799,
+                "end": 4219,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005285",
+        "proteins": [
+            {
+                "name": "putative replicase",
+                "start": 76,
+                "end": 2635,
+                "color": "#34ae91"
+            },
+            {
+                "name": "putative replicase",
+                "start": 76,
+                "end": 1069,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2649,
+                "end": 3786,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3822,
+                "end": 4392,
+                "color": "#37abb5"
+            },
+            {
+                "name": "p19",
+                "start": 3854,
+                "end": 4373,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004995",
+        "proteins": [
+            {
+                "name": "p84 product",
+                "start": 134,
+                "end": 2387,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p25 product",
+                "start": 134,
+                "end": 806,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "p7 product",
+                "start": 2362,
+                "end": 2554,
+                "color": "#f564d4"
+            },
+            {
+                "name": "p6 product",
+                "start": 2553,
+                "end": 2727,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2729,
+                "end": 3785,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004725",
+        "proteins": [
+            {
+                "name": "RNA polymerase",
+                "start": 134,
+                "end": 2507,
+                "color": "#34ae91"
+            },
+            {
+                "name": "RNA polymerase pre-readthrough protein",
+                "start": 134,
+                "end": 941,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2525,
+                "end": 3668,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3708,
+                "end": 4260,
+                "color": "#37abb5"
+            },
+            {
+                "name": "symptom severity modulator",
+                "start": 3740,
+                "end": 4247,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004452",
+        "proteins": [
+            {
+                "name": "82K protein",
+                "start": 35,
+                "end": 2210,
+                "color": "#d58c32"
+            },
+            {
+                "name": "22K protein",
+                "start": 35,
+                "end": 647,
+                "color": "#d58c32"
+            },
+            {
+                "name": "5K protein",
+                "start": 2106,
+                "end": 2244,
+                "color": "#f564d4"
+            },
+            {
+                "name": "7K protein A",
+                "start": 2227,
+                "end": 2419,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "7K protein B",
+                "start": 2420,
+                "end": 2618,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2646,
+                "end": 3345,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004366",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 10,
+                "end": 952,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 10,
+                "end": 958,
+                "color": "#d58c32"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 951,
+                "end": 2607,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2756,
+                "end": 3470,
+                "color": "#50b131"
+            },
+            {
+                "name": "movement protein",
+                "start": 2772,
+                "end": 3507,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002187",
+        "proteins": [
+            {
+                "name": "readthrough protein (p99)",
+                "start": 31,
+                "end": 2698,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "readthrough protein (p85)",
+                "start": 31,
+                "end": 2320,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase (p26)",
+                "start": 31,
+                "end": 766,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "movement protein (p8)",
+                "start": 2283,
+                "end": 2514,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "movement protein (p12)",
+                "start": 2365,
+                "end": 2698,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein (p38)",
+                "start": 2684,
+                "end": 3743,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003608",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 30,
+                "end": 2238,
+                "color": "#d58c32"
+            },
+            {
+                "name": "P28 protein",
+                "start": 30,
+                "end": 675,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 40,
+                "end": 670,
+                "color": "#50b131"
+            },
+            {
+                "name": "putative movement protein P8",
+                "start": 2204,
+                "end": 2417,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "putative movement protein P9",
+                "start": 2343,
+                "end": 2580,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2589,
+                "end": 3627,
+                "color": "#a4a031"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2602,
+                "end": 3277,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001265",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 69,
+                "end": 2361,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "replicase-associated protein",
+                "start": 69,
+                "end": 807,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "movement protein 1",
+                "start": 2333,
+                "end": 2519,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "movement protein 2",
+                "start": 2424,
+                "end": 2679,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2668,
+                "end": 3715,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_000939",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 140,
+                "end": 2363,
+                "color": "#34ae91"
+            },
+            {
+                "name": "p25 protein",
+                "start": 140,
+                "end": 809,
+                "color": "#34ae91"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2374,
+                "end": 3496,
+                "color": "#a4a031"
+            },
+            {
+                "name": "movement protein",
+                "start": 3590,
+                "end": 4319,
+                "color": "#a4a031"
+            },
+            {
+                "name": "RNA silencing suppressor p14",
+                "start": 3721,
+                "end": 4114,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003487",
+        "proteins": [
+            {
+                "name": "82 kDa protein",
+                "start": 38,
+                "end": 2216,
+                "color": "#d58c32"
+            },
+            {
+                "name": "22 kDa protein",
+                "start": 38,
+                "end": 647,
+                "color": "#d58c32"
+            },
+            {
+                "name": "7 kDa protein",
+                "start": 2212,
+                "end": 2401,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "7 kDa protein",
+                "start": 2250,
+                "end": 2448,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "7 kDa protein",
+                "start": 2447,
+                "end": 2648,
+                "color": "#f564d4"
+            },
+            {
+                "name": "29 kDa coat protein",
+                "start": 2650,
+                "end": 3457,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001818",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 42,
+                "end": 2232,
+                "color": "#d58c32"
+            },
+            {
+                "name": "replicase",
+                "start": 42,
+                "end": 672,
+                "color": "#d58c32"
+            },
+            {
+                "name": "movement protein",
+                "start": 2218,
+                "end": 2428,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "movement protein",
+                "start": 2427,
+                "end": 2604,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2545,
+                "end": 3568,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002598",
+        "proteins": [
+            {
+                "name": "112 kDa replicase protein",
+                "start": 28,
+                "end": 3007,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase-associated protein",
+                "start": 28,
+                "end": 1306,
+                "color": "#f77189"
+            },
+            {
+                "name": "8 kDa protein",
+                "start": 2874,
+                "end": 3096,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "6.6 kDA protein",
+                "start": 3095,
+                "end": 3275,
+                "color": "#f564d4"
+            },
+            {
+                "name": "26 kDa capsid protein",
+                "start": 3271,
+                "end": 4000,
+                "color": "#a4a031"
+            },
+            {
+                "name": "15 kDa protein",
+                "start": 3281,
+                "end": 3680,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001780",
+        "proteins": [
+            {
+                "name": "SCVP86",
+                "start": 39,
+                "end": 2307,
+                "color": "#d58c32"
+            },
+            {
+                "name": "replication-related protein",
+                "start": 39,
+                "end": 753,
+                "color": "#d58c32"
+            },
+            {
+                "name": "SCVP57",
+                "start": 813,
+                "end": 2307,
+                "color": "#d58c32"
+            },
+            {
+                "name": "unknown1",
+                "start": 1459,
+                "end": 1621,
+                "color": "#f564d4"
+            },
+            {
+                "name": "SCVP6",
+                "start": 2291,
+                "end": 2471,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "SCVP9",
+                "start": 2376,
+                "end": 2631,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2620,
+                "end": 3655,
+                "color": "#a4a031"
+            },
+            {
+                "name": "unknown2",
+                "start": 2633,
+                "end": 2861,
+                "color": "#f564d4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001726",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 8,
+                "end": 1028,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase-associated protein",
+                "start": 8,
+                "end": 1037,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1027,
+                "end": 2656,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2789,
+                "end": 3575,
+                "color": "#50b131"
+            },
+            {
+                "name": "movement protein",
+                "start": 2817,
+                "end": 3606,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003603",
+        "proteins": [
+            {
+                "name": "RNA polymerase",
+                "start": 12,
+                "end": 866,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 12,
+                "end": 870,
+                "color": "#d58c32"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 865,
+                "end": 2531,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2640,
+                "end": 3396,
+                "color": "#50b131"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2701,
+                "end": 3484,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001721",
+        "proteins": [
+            {
+                "name": "RNA dependent RNA polymerase",
+                "start": 60,
+                "end": 2232,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 60,
+                "end": 666,
+                "color": "#f77189"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2215,
+                "end": 2440,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2442,
+                "end": 2613,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2634,
+                "end": 3447,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001822",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 37,
+                "end": 2221,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 37,
+                "end": 658,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2180,
+                "end": 2483,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2482,
+                "end": 2653,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2649,
+                "end": 3405,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003633",
+        "proteins": [
+            {
+                "name": "putative RNA-dependent RNA polymerase (p84)",
+                "start": 47,
+                "end": 2306,
+                "color": "#d58c32"
+            },
+            {
+                "name": "putative replicase",
+                "start": 47,
+                "end": 686,
+                "color": "#d58c32"
+            },
+            {
+                "name": "coat protein (p48)",
+                "start": 2482,
+                "end": 3847,
+                "color": "#a4a031"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2888,
+                "end": 3113,
+                "color": "#f564d4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003535",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 34,
+                "end": 2263,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "25 kDa protein",
+                "start": 34,
+                "end": 715,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "movement protein",
+                "start": 2286,
+                "end": 2496,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "movement protein",
+                "start": 2410,
+                "end": 2677,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid",
+                "start": 2673,
+                "end": 3777,
+                "color": "#a4a031"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2677,
+                "end": 3454,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003853",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 20,
+                "end": 923,
+                "color": "#d58c32"
+            },
+            {
+                "name": "33kDa protein",
+                "start": 20,
+                "end": 929,
+                "color": "#d58c32"
+            },
+            {
+                "name": "replicase",
+                "start": 922,
+                "end": 2560,
+                "color": "#d58c32"
+            },
+            {
+                "name": "long-distance movement protein",
+                "start": 2762,
+                "end": 3473,
+                "color": "#50b131"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 2796,
+                "end": 3549,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001600",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 37,
+                "end": 2359,
+                "color": "#d58c32"
+            },
+            {
+                "name": "p8 protein",
+                "start": 2325,
+                "end": 2541,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p9 protein",
+                "start": 2437,
+                "end": 2722,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2711,
+                "end": 3767,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001554",
+        "proteins": [
+            {
+                "name": "p92 protein",
+                "start": 165,
+                "end": 2622,
+                "color": "#34ae91"
+            },
+            {
+                "name": "p33 protein",
+                "start": 165,
+                "end": 1056,
+                "color": "#34ae91"
+            },
+            {
+                "name": "p41 capsid protein",
+                "start": 2651,
+                "end": 3818,
+                "color": "#a4a031"
+            },
+            {
+                "name": "p22 protein",
+                "start": 3855,
+                "end": 4425,
+                "color": "#37abb5"
+            },
+            {
+                "name": "p19 protein",
+                "start": 3887,
+                "end": 4406,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003756",
+        "proteins": [
+            {
+                "name": "88 kDa protein",
+                "start": 123,
+                "end": 831,
+                "color": "#d58c32"
+            },
+            {
+                "name": "27 kDa protein",
+                "start": 123,
+                "end": 834,
+                "color": "#d58c32"
+            },
+            {
+                "name": "88 kDa protein",
+                "start": 830,
+                "end": 2426,
+                "color": "#d58c32"
+            },
+            {
+                "name": "57 kDa protein",
+                "start": 926,
+                "end": 2426,
+                "color": "#d58c32"
+            },
+            {
+                "name": "37 kDa capsid protein",
+                "start": 2427,
+                "end": 3447,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003821",
+        "proteins": [
+            {
+                "name": "p88 replicase",
+                "start": 63,
+                "end": 2391,
+                "color": "#d58c32"
+            },
+            {
+                "name": "p28 auxiliary replication protein",
+                "start": 63,
+                "end": 816,
+                "color": "#d58c32"
+            },
+            {
+                "name": "p8 movement protein",
+                "start": 2357,
+                "end": 2576,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p9 movement protein",
+                "start": 2496,
+                "end": 2754,
+                "color": "#f564d4"
+            },
+            {
+                "name": "p38 capsid protein",
+                "start": 2743,
+                "end": 3799,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001469",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 151,
+                "end": 2608,
+                "color": "#34ae91"
+            },
+            {
+                "name": "replicase",
+                "start": 151,
+                "end": 1042,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2627,
+                "end": 3770,
+                "color": "#a4a031"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 3799,
+                "end": 4372,
+                "color": "#37abb5"
+            },
+            {
+                "name": "p20 protein",
+                "start": 3831,
+                "end": 4353,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001504",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 87,
+                "end": 2463,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "protein 29",
+                "start": 87,
+                "end": 894,
+                "color": "#3ba3ec"
+            },
+            {
+                "name": "protein 14",
+                "start": 2441,
+                "end": 2828,
+                "color": "#f564d4"
+            },
+            {
+                "name": "protein p7A",
+                "start": 2441,
+                "end": 2639,
+                "color": "#f564d4"
+            },
+            {
+                "name": "protein 7B",
+                "start": 2642,
+                "end": 2828,
+                "color": "#f564d4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2814,
+                "end": 3987,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001777",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 59,
+                "end": 2234,
+                "color": "#d58c32"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2217,
+                "end": 2436,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2439,
+                "end": 2610,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2612,
+                "end": 3443,
+                "color": "#a4a031"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 3466,
+                "end": 3646,
+                "color": "#bb83f4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003530",
+        "proteins": [
+            {
+                "name": "RNA dependent RNA polymerase",
+                "start": 57,
+                "end": 765,
+                "color": "#d58c32"
+            },
+            {
+                "name": "replicase-associated protein",
+                "start": 57,
+                "end": 768,
+                "color": "#d58c32"
+            },
+            {
+                "name": "RNA dependent RNA polymerase",
+                "start": 764,
+                "end": 2366,
+                "color": "#d58c32"
+            },
+            {
+                "name": "coat protein",
+                "start": 2366,
+                "end": 3404,
+                "color": "#a4a031"
+            },
+            {
+                "name": "p11K protein",
+                "start": 3494,
+                "end": 3797,
+                "color": "#50b131"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003806",
+        "proteins": [
+            {
+                "name": "RDRP frameshift protein",
+                "start": 120,
+                "end": 828,
+                "color": "#d58c32"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 120,
+                "end": 831,
+                "color": "#d58c32"
+            },
+            {
+                "name": "RDRP frameshift protein",
+                "start": 827,
+                "end": 2423,
+                "color": "#d58c32"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2423,
+                "end": 3440,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003807",
+        "proteins": [
+            {
+                "name": "movement protein",
+                "start": 78,
+                "end": 1059,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001339",
+        "proteins": [
+            {
+                "name": "protein of 92 kDa",
+                "start": 179,
+                "end": 2636,
+                "color": "#34ae91"
+            },
+            {
+                "name": "protein of 33 kDa",
+                "start": 179,
+                "end": 1070,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein of 41 kDa",
+                "start": 2666,
+                "end": 3833,
+                "color": "#a4a031"
+            },
+            {
+                "name": "protein of 22 kDa",
+                "start": 3870,
+                "end": 4440,
+                "color": "#37abb5"
+            },
+            {
+                "name": "protein of 19 kDA",
+                "start": 3902,
+                "end": 4421,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003531",
+        "proteins": [
+            {
+                "name": "CRSV movement protein",
+                "start": 46,
+                "end": 961,
+                "color": "#f77189"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003532",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 160,
+                "end": 2617,
+                "color": "#34ae91"
+            },
+            {
+                "name": "putative RNA-dependent RNA polymerase",
+                "start": 160,
+                "end": 1051,
+                "color": "#34ae91"
+            },
+            {
+                "name": "coat protein",
+                "start": 2628,
+                "end": 3771,
+                "color": "#a4a031"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 3812,
+                "end": 4382,
+                "color": "#37abb5"
+            },
+            {
+                "name": "core protein p19",
+                "start": 3844,
+                "end": 4363,
+                "color": "#37abb5"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003627",
+        "proteins": [
+            {
+                "name": "p32",
+                "start": 117,
+                "end": 987,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase",
+                "start": 136,
+                "end": 3034,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase-associated protein",
+                "start": 136,
+                "end": 1453,
+                "color": "#f77189"
+            },
+            {
+                "name": "p31",
+                "start": 2994,
+                "end": 3834,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p7a",
+                "start": 2994,
+                "end": 3201,
+                "color": "#bb83f4"
+            },
+            {
+                "name": "p7b",
+                "start": 3202,
+                "end": 3397,
+                "color": "#f564d4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3383,
+                "end": 4094,
+                "color": "#a4a031"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003775",
+        "proteins": [
+            {
+                "name": "movement protein",
+                "start": 79,
+                "end": 1033,
+                "color": "#f77189"
+            }
+        ]
+    }
+]

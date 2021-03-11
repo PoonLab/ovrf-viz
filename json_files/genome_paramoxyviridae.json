@@ -1,0 +1,3444 @@
+[
+    {
+        "accno": "NC_043539",
+        "proteins": [
+            {
+                "name": "N protein",
+                "start": 44,
+                "end": 1775,
+                "color": "#f77189"
+            },
+            {
+                "name": "P protein",
+                "start": 1937,
+                "end": 3404,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1974,
+                "end": 2442,
+                "color": "#97a431"
+            },
+            {
+                "name": "M protein",
+                "start": 3482,
+                "end": 4541,
+                "color": "#32b166"
+            },
+            {
+                "name": "F protein",
+                "start": 4810,
+                "end": 6451,
+                "color": "#36ada4"
+            },
+            {
+                "name": "putative TM protein",
+                "start": 6631,
+                "end": 7288,
+                "color": "#32b166"
+            },
+            {
+                "name": "G protein",
+                "start": 7754,
+                "end": 10319,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L protein",
+                "start": 10553,
+                "end": 17078,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_043540",
+        "proteins": [
+            {
+                "name": "N protein",
+                "start": 101,
+                "end": 1718,
+                "color": "#f77189"
+            },
+            {
+                "name": "P protein",
+                "start": 1853,
+                "end": 3347,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1896,
+                "end": 2346,
+                "color": "#97a431"
+            },
+            {
+                "name": "M protein",
+                "start": 3442,
+                "end": 4465,
+                "color": "#32b166"
+            },
+            {
+                "name": "F protein",
+                "start": 4859,
+                "end": 6509,
+                "color": "#36ada4"
+            },
+            {
+                "name": "putative TM protein",
+                "start": 6662,
+                "end": 7490,
+                "color": "#32b166"
+            },
+            {
+                "name": "G protein",
+                "start": 7757,
+                "end": 10190,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L protein",
+                "start": 10553,
+                "end": 17120,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040796",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 140,
+                "end": 1520,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1740,
+                "end": 3036,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1740,
+                "end": 2531,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1740,
+                "end": 2236,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3296,
+                "end": 4427,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4769,
+                "end": 6383,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6656,
+                "end": 8381,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8717,
+                "end": 15446,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038270",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 110,
+                "end": 1658,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1783,
+                "end": 3592,
+                "color": "#ce9032"
+            },
+            {
+                "name": "D protein",
+                "start": 1783,
+                "end": 2905,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1793,
+                "end": 2393,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3752,
+                "end": 4814,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5071,
+                "end": 6691,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6805,
+                "end": 8524,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8645,
+                "end": 15347,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_038271",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 145,
+                "end": 1795,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1978,
+                "end": 3153,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3263,
+                "end": 4391,
+                "color": "#32b166"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6261,
+                "end": 6435,
+                "color": "#97a431"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6607,
+                "end": 8356,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 8431,
+                "end": 15217,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039015",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 122,
+                "end": 1514,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1675,
+                "end": 2902,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1675,
+                "end": 2433,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1675,
+                "end": 2144,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3103,
+                "end": 4195,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4442,
+                "end": 6068,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6253,
+                "end": 7996,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8391,
+                "end": 15123,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039016",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 121,
+                "end": 1597,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1898,
+                "end": 3098,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3325,
+                "end": 4420,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4591,
+                "end": 6247,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6453,
+                "end": 8310,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8410,
+                "end": 15019,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039017",
+        "proteins": [
+            {
+                "name": "NP",
+                "start": 113,
+                "end": 1595,
+                "color": "#f77189"
+            },
+            {
+                "name": "P",
+                "start": 1663,
+                "end": 2872,
+                "color": "#ce9032"
+            },
+            {
+                "name": "M",
+                "start": 3059,
+                "end": 4211,
+                "color": "#32b166"
+            },
+            {
+                "name": "F",
+                "start": 4441,
+                "end": 6067,
+                "color": "#36ada4"
+            },
+            {
+                "name": "HN",
+                "start": 6167,
+                "end": 7967,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L",
+                "start": 8172,
+                "end": 14781,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039018",
+        "proteins": [
+            {
+                "name": "NP",
+                "start": 22,
+                "end": 1594,
+                "color": "#f77189"
+            },
+            {
+                "name": "P",
+                "start": 1704,
+                "end": 2883,
+                "color": "#ce9032"
+            },
+            {
+                "name": "M",
+                "start": 3118,
+                "end": 4216,
+                "color": "#32b166"
+            },
+            {
+                "name": "F",
+                "start": 4403,
+                "end": 6035,
+                "color": "#36ada4"
+            },
+            {
+                "name": "HN",
+                "start": 6157,
+                "end": 7933,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L",
+                "start": 8081,
+                "end": 14705,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039019",
+        "proteins": [
+            {
+                "name": "NP",
+                "start": 53,
+                "end": 1601,
+                "color": "#f77189"
+            },
+            {
+                "name": "P",
+                "start": 1786,
+                "end": 2920,
+                "color": "#ce9032"
+            },
+            {
+                "name": "M",
+                "start": 3029,
+                "end": 4181,
+                "color": "#32b166"
+            },
+            {
+                "name": "F",
+                "start": 4305,
+                "end": 6030,
+                "color": "#36ada4"
+            },
+            {
+                "name": "HN",
+                "start": 6184,
+                "end": 7948,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L",
+                "start": 8109,
+                "end": 14763,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039194",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 127,
+                "end": 1525,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1686,
+                "end": 2979,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3234,
+                "end": 4335,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4597,
+                "end": 6265,
+                "color": "#36ada4"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6541,
+                "end": 6970,
+                "color": "#97a431"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 7121,
+                "end": 8963,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 9277,
+                "end": 16003,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039195",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 140,
+                "end": 1526,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1692,
+                "end": 2910,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3085,
+                "end": 4195,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4498,
+                "end": 6130,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6382,
+                "end": 8116,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8296,
+                "end": 15013,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039196",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1667,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1780,
+                "end": 3256,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1780,
+                "end": 2610,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1811,
+                "end": 2324,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3388,
+                "end": 4402,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4953,
+                "end": 6585,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin protein",
+                "start": 6962,
+                "end": 8750,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8891,
+                "end": 15500,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039197",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 163,
+                "end": 1723,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1985,
+                "end": 3150,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1985,
+                "end": 2669,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3323,
+                "end": 4445,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion glycoprotein",
+                "start": 4817,
+                "end": 6482,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6690,
+                "end": 8478,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8641,
+                "end": 15451,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039198",
+        "proteins": [
+            {
+                "name": "nucleocapsid",
+                "start": 164,
+                "end": 1724,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2032,
+                "end": 3188,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 2032,
+                "end": 2713,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3388,
+                "end": 4516,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion glycoprotein",
+                "start": 4845,
+                "end": 6462,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6643,
+                "end": 8431,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8641,
+                "end": 15457,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039223",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 121,
+                "end": 1591,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1892,
+                "end": 3080,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3295,
+                "end": 4390,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4549,
+                "end": 6211,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6417,
+                "end": 8133,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8386,
+                "end": 15001,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_039230",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 140,
+                "end": 1514,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1680,
+                "end": 2880,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1680,
+                "end": 2378,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3037,
+                "end": 4147,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4352,
+                "end": 5963,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6090,
+                "end": 7833,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 7937,
+                "end": 14666,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034968",
+        "proteins": [
+            {
+                "name": "nucleocapsid",
+                "start": 84,
+                "end": 1452,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1623,
+                "end": 2871,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3132,
+                "end": 4257,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4455,
+                "end": 6084,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6303,
+                "end": 8043,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase protein",
+                "start": 8313,
+                "end": 14964,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030231",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 115,
+                "end": 1597,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1885,
+                "end": 3079,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3337,
+                "end": 4438,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4685,
+                "end": 6323,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6604,
+                "end": 8437,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8620,
+                "end": 15220,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028362",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 110,
+                "end": 1658,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1783,
+                "end": 3664,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3821,
+                "end": 4877,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5216,
+                "end": 6842,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6950,
+                "end": 8675,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase subunit",
+                "start": 8796,
+                "end": 15504,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028249",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1679,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1800,
+                "end": 3324,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1800,
+                "end": 2699,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1822,
+                "end": 2347,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3431,
+                "end": 4439,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5027,
+                "end": 6923,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin protein",
+                "start": 7078,
+                "end": 8902,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 9035,
+                "end": 15590,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025386",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1736,
+                "color": "#f77189"
+            },
+            {
+                "name": "V protein",
+                "start": 1881,
+                "end": 2790,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1888,
+                "end": 2428,
+                "color": "#97a431"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2554,
+                "end": 3625,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 4009,
+                "end": 5020,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5547,
+                "end": 7206,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 7540,
+                "end": 9403,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 9890,
+                "end": 16580,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025390",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 121,
+                "end": 1591,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1915,
+                "end": 3175,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3463,
+                "end": 4558,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4804,
+                "end": 6460,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6646,
+                "end": 8386,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase",
+                "start": 8689,
+                "end": 15322,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025402",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 119,
+                "end": 1700,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1849,
+                "end": 3574,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1849,
+                "end": 2976,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 1849,
+                "end": 2852,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1859,
+                "end": 2474,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3692,
+                "end": 4736,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4892,
+                "end": 6566,
+                "color": "#36ada4"
+            },
+            {
+                "name": "haemagglutinin protein",
+                "start": 6680,
+                "end": 8411,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8573,
+                "end": 15260,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025403",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 164,
+                "end": 1736,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1961,
+                "end": 3165,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1961,
+                "end": 2687,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1961,
+                "end": 2461,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3353,
+                "end": 4484,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4906,
+                "end": 6508,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6733,
+                "end": 8521,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase",
+                "start": 8743,
+                "end": 15559,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025404",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 164,
+                "end": 1706,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1931,
+                "end": 3123,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1931,
+                "end": 2639,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1931,
+                "end": 2431,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3346,
+                "end": 4477,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4868,
+                "end": 6464,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6745,
+                "end": 8497,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase",
+                "start": 8617,
+                "end": 15439,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025407",
+        "proteins": [
+            {
+                "name": "NP protein",
+                "start": 140,
+                "end": 1508,
+                "color": "#f77189"
+            },
+            {
+                "name": "P protein",
+                "start": 1847,
+                "end": 3189,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1847,
+                "end": 2681,
+                "color": "#ce9032"
+            },
+            {
+                "name": "M protein",
+                "start": 3790,
+                "end": 4906,
+                "color": "#32b166"
+            },
+            {
+                "name": "F protein",
+                "start": 5480,
+                "end": 7169,
+                "color": "#36ada4"
+            },
+            {
+                "name": "HN protein",
+                "start": 7505,
+                "end": 9257,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L protein",
+                "start": 9833,
+                "end": 16589,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025410",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 230,
+                "end": 1790,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2057,
+                "end": 3285,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 2057,
+                "end": 2816,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3524,
+                "end": 4661,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5035,
+                "end": 6634,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6915,
+                "end": 8658,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 9001,
+                "end": 15826,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025343",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 164,
+                "end": 1712,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1907,
+                "end": 3105,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1907,
+                "end": 2648,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3317,
+                "end": 4451,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4849,
+                "end": 6454,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6652,
+                "end": 8401,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8599,
+                "end": 15415,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025347",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 140,
+                "end": 1532,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1788,
+                "end": 2973,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3240,
+                "end": 4332,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4562,
+                "end": 6182,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6461,
+                "end": 8171,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8448,
+                "end": 15132,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025348",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 164,
+                "end": 1736,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1937,
+                "end": 3141,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1937,
+                "end": 2663,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3335,
+                "end": 4466,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4856,
+                "end": 6476,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6643,
+                "end": 8410,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8563,
+                "end": 15367,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025349",
+        "proteins": [
+            {
+                "name": "NP",
+                "start": 134,
+                "end": 1508,
+                "color": "#f77189"
+            },
+            {
+                "name": "P",
+                "start": 1692,
+                "end": 2910,
+                "color": "#ce9032"
+            },
+            {
+                "name": "M",
+                "start": 3123,
+                "end": 4233,
+                "color": "#32b166"
+            },
+            {
+                "name": "F",
+                "start": 4509,
+                "end": 6120,
+                "color": "#36ada4"
+            },
+            {
+                "name": "HN",
+                "start": 6403,
+                "end": 8131,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L",
+                "start": 8453,
+                "end": 15164,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025350",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 164,
+                "end": 1706,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1901,
+                "end": 3105,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1901,
+                "end": 2636,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3317,
+                "end": 4451,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4726,
+                "end": 6340,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6515,
+                "end": 8264,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8353,
+                "end": 15169,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025351",
+        "proteins": [
+            {
+                "name": "nucleocapsid",
+                "start": 143,
+                "end": 1676,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 2111,
+                "end": 4325,
+                "color": "#ce9032"
+            },
+            {
+                "name": "nonstructural protein C",
+                "start": 2136,
+                "end": 2670,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix",
+                "start": 4634,
+                "end": 5717,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion glycoprotein",
+                "start": 6404,
+                "end": 8078,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 8267,
+                "end": 10136,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase",
+                "start": 10571,
+                "end": 18077,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025352",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 136,
+                "end": 1756,
+                "color": "#f77189"
+            },
+            {
+                "name": "P phosphoprotein",
+                "start": 2187,
+                "end": 4272,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 2187,
+                "end": 3581,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 2187,
+                "end": 3493,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 2221,
+                "end": 2755,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 4468,
+                "end": 5491,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 6901,
+                "end": 8539,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 8836,
+                "end": 10714,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase",
+                "start": 11482,
+                "end": 18316,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025355",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 101,
+                "end": 1670,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1841,
+                "end": 3332,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 1841,
+                "end": 2772,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1841,
+                "end": 2719,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1884,
+                "end": 2343,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3449,
+                "end": 4472,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4760,
+                "end": 6401,
+                "color": "#36ada4"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6603,
+                "end": 6834,
+                "color": "#97a431"
+            },
+            {
+                "name": "transmembrane protein",
+                "start": 7004,
+                "end": 7769,
+                "color": "#32b166"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 7955,
+                "end": 11114,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 12521,
+                "end": 19040,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025360",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 125,
+                "end": 1718,
+                "color": "#f77189"
+            },
+            {
+                "name": "C protein",
+                "start": 2505,
+                "end": 3186,
+                "color": "#97a431"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2534,
+                "end": 4262,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 2534,
+                "end": 3667,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 2534,
+                "end": 3518,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 4678,
+                "end": 5743,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 6166,
+                "end": 7825,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 8156,
+                "end": 9887,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 10172,
+                "end": 16802,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025361",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 122,
+                "end": 1520,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1823,
+                "end": 3164,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1823,
+                "end": 2657,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1823,
+                "end": 2387,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3787,
+                "end": 4888,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5605,
+                "end": 7240,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin neuraminidase protein",
+                "start": 7611,
+                "end": 9336,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 9785,
+                "end": 16577,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025363",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 121,
+                "end": 1603,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1867,
+                "end": 3085,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3312,
+                "end": 4407,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4621,
+                "end": 6262,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6502,
+                "end": 8347,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8536,
+                "end": 15145,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025373",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 103,
+                "end": 1477,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1751,
+                "end": 2924,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3250,
+                "end": 4378,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4780,
+                "end": 6397,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin",
+                "start": 6661,
+                "end": 8395,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase",
+                "start": 8691,
+                "end": 15288,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025256",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 84,
+                "end": 1629,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2052,
+                "end": 4665,
+                "color": "#ce9032"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 2077,
+                "end": 2566,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 5124,
+                "end": 6156,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 6864,
+                "end": 8853,
+                "color": "#36ada4"
+            },
+            {
+                "name": "glycoprotein",
+                "start": 9116,
+                "end": 11015,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 11662,
+                "end": 18415,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_021928",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 100,
+                "end": 1756,
+                "color": "#f77189"
+            },
+            {
+                "name": "phospho protein",
+                "start": 2040,
+                "end": 3238,
+                "color": "#f561dd"
+            },
+            {
+                "name": "non-structural protein V",
+                "start": 2040,
+                "end": 2730,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3530,
+                "end": 4679,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5173,
+                "end": 6805,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 7521,
+                "end": 9246,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 9985,
+                "end": 16825,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_019531",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 115,
+                "end": 1489,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1661,
+                "end": 2843,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3090,
+                "end": 4200,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4393,
+                "end": 6094,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6310,
+                "end": 8020,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8292,
+                "end": 14928,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_017937",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 101,
+                "end": 1661,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1751,
+                "end": 3302,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1751,
+                "end": 2587,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1782,
+                "end": 2232,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3408,
+                "end": 4431,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4565,
+                "end": 6266,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6374,
+                "end": 8348,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L protein",
+                "start": 8579,
+                "end": 15185,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009640",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 145,
+                "end": 1783,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1926,
+                "end": 3139,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1926,
+                "end": 2676,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1926,
+                "end": 2450,
+                "color": "#f561dd"
+            },
+            {
+                "name": "C protein",
+                "start": 1954,
+                "end": 2335,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3278,
+                "end": 4388,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4676,
+                "end": 6302,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6559,
+                "end": 8290,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8359,
+                "end": 15115,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_009489",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 133,
+                "end": 1747,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1930,
+                "end": 3104,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1930,
+                "end": 2686,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 1930,
+                "end": 2535,
+                "color": "#f561dd"
+            },
+            {
+                "name": "C protein",
+                "start": 1961,
+                "end": 2240,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3253,
+                "end": 4369,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4727,
+                "end": 6341,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6595,
+                "end": 8344,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8527,
+                "end": 15289,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007803",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 101,
+                "end": 1670,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1847,
+                "end": 3338,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 1847,
+                "end": 2789,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1847,
+                "end": 2726,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1866,
+                "end": 2349,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3461,
+                "end": 4484,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4838,
+                "end": 6473,
+                "color": "#36ada4"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6675,
+                "end": 6906,
+                "color": "#97a431"
+            },
+            {
+                "name": "transmembrane protein",
+                "start": 7070,
+                "end": 7835,
+                "color": "#32b166"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 8015,
+                "end": 10220,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 12581,
+                "end": 19100,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_007454",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 101,
+                "end": 1670,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1829,
+                "end": 3329,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 1829,
+                "end": 2760,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1829,
+                "end": 2707,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1872,
+                "end": 2331,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3431,
+                "end": 4454,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4700,
+                "end": 6335,
+                "color": "#36ada4"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6470,
+                "end": 6680,
+                "color": "#97a431"
+            },
+            {
+                "name": "transmembrane protein",
+                "start": 6860,
+                "end": 7637,
+                "color": "#32b166"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 7808,
+                "end": 9938,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 12227,
+                "end": 18842,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006430",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 151,
+                "end": 1681,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1849,
+                "end": 2340,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1849,
+                "end": 2518,
+                "color": "#f561dd"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2338,
+                "end": 3026,
+                "color": "#f561dd"
+            },
+            {
+                "name": "membrane protein",
+                "start": 3140,
+                "end": 4274,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4529,
+                "end": 6119,
+                "color": "#36ada4"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6302,
+                "end": 6437,
+                "color": "#97a431"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6583,
+                "end": 8281,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L protein",
+                "start": 8413,
+                "end": 15181,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006428",
+        "proteins": [
+            {
+                "name": "nucleocapsid",
+                "start": 157,
+                "end": 1789,
+                "color": "#f77189"
+            },
+            {
+                "name": "P protein",
+                "start": 1972,
+                "end": 3158,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1972,
+                "end": 2650,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3392,
+                "end": 4541,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4759,
+                "end": 6445,
+                "color": "#36ada4"
+            },
+            {
+                "name": "heamagglutinin-neuraminidase",
+                "start": 6700,
+                "end": 8407,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "Large protein",
+                "start": 8575,
+                "end": 15385,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006383",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1685,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1806,
+                "end": 3336,
+                "color": "#ce9032"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1806,
+                "end": 2702,
+                "color": "#ce9032"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 1828,
+                "end": 2362,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3437,
+                "end": 4445,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5525,
+                "end": 7166,
+                "color": "#36ada4"
+            },
+            {
+                "name": "haemagglutinin",
+                "start": 7325,
+                "end": 9155,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 9287,
+                "end": 15839,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006296",
+        "proteins": [
+            {
+                "name": "N protein",
+                "start": 107,
+                "end": 1685,
+                "color": "#f77189"
+            },
+            {
+                "name": "P protein",
+                "start": 1806,
+                "end": 3330,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1828,
+                "end": 2362,
+                "color": "#97a431"
+            },
+            {
+                "name": "M protein",
+                "start": 3437,
+                "end": 4445,
+                "color": "#32b166"
+            },
+            {
+                "name": "F protein",
+                "start": 5457,
+                "end": 7098,
+                "color": "#36ada4"
+            },
+            {
+                "name": "H protein",
+                "start": 7258,
+                "end": 9088,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L protein",
+                "start": 9221,
+                "end": 15773,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005339",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1694,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1901,
+                "end": 3530,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1901,
+                "end": 2788,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1932,
+                "end": 2391,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3984,
+                "end": 5007,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5594,
+                "end": 7253,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 7643,
+                "end": 9542,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 9953,
+                "end": 16571,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005283",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1679,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1800,
+                "end": 3321,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1822,
+                "end": 2356,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3431,
+                "end": 4439,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5276,
+                "end": 6935,
+                "color": "#36ada4"
+            },
+            {
+                "name": "haemagglutinin protein",
+                "start": 7090,
+                "end": 8905,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 9041,
+                "end": 15593,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005084",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein N",
+                "start": 110,
+                "end": 1526,
+                "color": "#f77189"
+            },
+            {
+                "name": "predicted protein U",
+                "start": 1622,
+                "end": 2126,
+                "color": "#97a431"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 2245,
+                "end": 2716,
+                "color": "#ce9032"
+            },
+            {
+                "name": "cysteine-rich protein V",
+                "start": 2245,
+                "end": 2929,
+                "color": "#ce9032"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 2714,
+                "end": 3533,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein M",
+                "start": 3677,
+                "end": 4733,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein F",
+                "start": 5027,
+                "end": 6665,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein HN",
+                "start": 6790,
+                "end": 8485,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large putative polymerase L",
+                "start": 8726,
+                "end": 15272,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_005036",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 121,
+                "end": 1591,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1892,
+                "end": 3080,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3295,
+                "end": 4390,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein precursor",
+                "start": 4549,
+                "end": 6211,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6417,
+                "end": 8133,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 8386,
+                "end": 15001,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003461",
+        "proteins": [
+            {
+                "name": "nucleoprotein",
+                "start": 119,
+                "end": 1694,
+                "color": "#f77189"
+            },
+            {
+                "name": "C' protein",
+                "start": 1808,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1843,
+                "end": 3550,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1853,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "Y1 protein",
+                "start": 1922,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "putative Y2 protein",
+                "start": 1940,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3668,
+                "end": 4715,
+                "color": "#32b166"
+            },
+            {
+                "name": "F glycoprotein",
+                "start": 5087,
+                "end": 6755,
+                "color": "#36ada4"
+            },
+            {
+                "name": "HN glycoprotein",
+                "start": 6902,
+                "end": 8630,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "L polymerase protein",
+                "start": 8771,
+                "end": 15443,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004074",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 164,
+                "end": 1724,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 2032,
+                "end": 3188,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 2032,
+                "end": 2719,
+                "color": "#f561dd"
+            },
+            {
+                "name": "W protein",
+                "start": 2032,
+                "end": 2667,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3382,
+                "end": 4504,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4833,
+                "end": 6450,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment protein",
+                "start": 6644,
+                "end": 8426,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 8641,
+                "end": 15457,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002728",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 112,
+                "end": 1711,
+                "color": "#f77189"
+            },
+            {
+                "name": "P phosphoprotein",
+                "start": 2405,
+                "end": 4535,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 2405,
+                "end": 3624,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 2405,
+                "end": 3623,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 2427,
+                "end": 2928,
+                "color": "#97a431"
+            },
+            {
+                "name": "V protein",
+                "start": 3623,
+                "end": 3775,
+                "color": "#ce9032"
+            },
+            {
+                "name": "W protein",
+                "start": 3624,
+                "end": 3757,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 5107,
+                "end": 6166,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 6653,
+                "end": 8294,
+                "color": "#36ada4"
+            },
+            {
+                "name": "attachment glycoprotein",
+                "start": 8942,
+                "end": 10751,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase",
+                "start": 11411,
+                "end": 18146,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002199",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 113,
+                "end": 1772,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 2135,
+                "end": 3719,
+                "color": "#ce9032"
+            },
+            {
+                "name": "nonstructural protein V",
+                "start": 2135,
+                "end": 2983,
+                "color": "#ce9032"
+            },
+            {
+                "name": "nonstructural protein C",
+                "start": 2160,
+                "end": 2622,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 4098,
+                "end": 5157,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5918,
+                "end": 7580,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin",
+                "start": 8117,
+                "end": 10115,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase",
+                "start": 10421,
+                "end": 17234,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002200",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 145,
+                "end": 1795,
+                "color": "#f77189"
+            },
+            {
+                "name": "phoshoprotein",
+                "start": 1978,
+                "end": 3152,
+                "color": "#f561dd"
+            },
+            {
+                "name": "V protein",
+                "start": 1978,
+                "end": 2653,
+                "color": "#f561dd"
+            },
+            {
+                "name": "membrane protein",
+                "start": 3263,
+                "end": 4391,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4545,
+                "end": 6162,
+                "color": "#36ada4"
+            },
+            {
+                "name": "small hydrophobic protein",
+                "start": 6267,
+                "end": 6441,
+                "color": "#97a431"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6613,
+                "end": 8362,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 8437,
+                "end": 15223,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002161",
+        "proteins": [
+            {
+                "name": "nucleoprotein N",
+                "start": 110,
+                "end": 1658,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 1783,
+                "end": 3574,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix M",
+                "start": 3734,
+                "end": 4790,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion F",
+                "start": 5065,
+                "end": 6688,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase HN",
+                "start": 6799,
+                "end": 8518,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase subunit L",
+                "start": 8639,
+                "end": 15341,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001498",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 107,
+                "end": 1685,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1806,
+                "end": 3330,
+                "color": "#ce9032"
+            },
+            {
+                "name": "V protein",
+                "start": 1806,
+                "end": 2499,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1828,
+                "end": 2389,
+                "color": "#97a431"
+            },
+            {
+                "name": "V protein",
+                "start": 2498,
+                "end": 2705,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3437,
+                "end": 4445,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5457,
+                "end": 7110,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin protein",
+                "start": 7270,
+                "end": 9124,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein",
+                "start": 9233,
+                "end": 15785,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001796",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 110,
+                "end": 1658,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein",
+                "start": 1783,
+                "end": 3595,
+                "color": "#ce9032"
+            },
+            {
+                "name": "D protein",
+                "start": 1783,
+                "end": 2509,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1793,
+                "end": 2393,
+                "color": "#97a431"
+            },
+            {
+                "name": "D protein",
+                "start": 2507,
+                "end": 2903,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix potein",
+                "start": 3752,
+                "end": 4814,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 5071,
+                "end": 6691,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6805,
+                "end": 8530,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large protein",
+                "start": 8645,
+                "end": 15347,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001921",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein N",
+                "start": 107,
+                "end": 1679,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 1800,
+                "end": 3324,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1822,
+                "end": 2347,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein M",
+                "start": 3431,
+                "end": 4439,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein F",
+                "start": 4934,
+                "end": 6923,
+                "color": "#36ada4"
+            },
+            {
+                "name": "haemagglutinin protein H",
+                "start": 7078,
+                "end": 8893,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "large polymerase protein L",
+                "start": 9029,
+                "end": 15584,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001906",
+        "proteins": [
+            {
+                "name": "nucleocapsid",
+                "start": 112,
+                "end": 1711,
+                "color": "#f77189"
+            },
+            {
+                "name": "phosphoprotein P",
+                "start": 2387,
+                "end": 4511,
+                "color": "#ce9032"
+            },
+            {
+                "name": "nonstructural protein V",
+                "start": 2387,
+                "end": 3599,
+                "color": "#ce9032"
+            },
+            {
+                "name": "nonstructural protein C",
+                "start": 2409,
+                "end": 2910,
+                "color": "#97a431"
+            },
+            {
+                "name": "nonstructural protein V",
+                "start": 3598,
+                "end": 3760,
+                "color": "#ce9032"
+            },
+            {
+                "name": "matrix",
+                "start": 5083,
+                "end": 6142,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion",
+                "start": 6617,
+                "end": 8258,
+                "color": "#36ada4"
+            },
+            {
+                "name": "glycoprotein",
+                "start": 8912,
+                "end": 10727,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "polymerase",
+                "start": 11399,
+                "end": 18134,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001552",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 119,
+                "end": 1694,
+                "color": "#f77189"
+            },
+            {
+                "name": "C' protein",
+                "start": 1820,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "P protein",
+                "start": 1843,
+                "end": 3550,
+                "color": "#ce9032"
+            },
+            {
+                "name": "C protein",
+                "start": 1853,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "Y1 protein",
+                "start": 1922,
+                "end": 2468,
+                "color": "#97a431"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3668,
+                "end": 4715,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4865,
+                "end": 6563,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase protein",
+                "start": 6692,
+                "end": 8420,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "RNA polymerase protein",
+                "start": 8555,
+                "end": 15242,
+                "color": "#a48cf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003443",
+        "proteins": [
+            {
+                "name": "nucleocapsid protein",
+                "start": 156,
+                "end": 1785,
+                "color": "#f77189"
+            },
+            {
+                "name": "P protein",
+                "start": 1992,
+                "end": 2481,
+                "color": "#f561dd"
+            },
+            {
+                "name": "phospho-protein",
+                "start": 1992,
+                "end": 2670,
+                "color": "#f561dd"
+            },
+            {
+                "name": "P protein",
+                "start": 2479,
+                "end": 3178,
+                "color": "#f561dd"
+            },
+            {
+                "name": "matrix protein",
+                "start": 3478,
+                "end": 4612,
+                "color": "#32b166"
+            },
+            {
+                "name": "fusion protein",
+                "start": 4788,
+                "end": 6444,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hemagglutinin-neuraminidase",
+                "start": 6816,
+                "end": 8532,
+                "color": "#39a7d0"
+            },
+            {
+                "name": "Large protein",
+                "start": 8792,
+                "end": 15581,
+                "color": "#a48cf4"
+            }
+        ]
+    }
+]

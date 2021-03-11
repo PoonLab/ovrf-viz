@@ -1,6 +1,6 @@
 function genomeGraph() {
-  const width = 800;
-  const height = 800;
+  const width = 900;
+  const height = 1000;
 
   const svg = d3.select("div#genome")
     .append("svg:svg")

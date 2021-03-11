@@ -1,0 +1,2531 @@
+[
+    {
+        "accno": "NC_048296",
+        "proteins": [
+            {
+                "name": "hypothetical 34K protein",
+                "start": 172,
+                "end": 1084,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 275,
+                "end": 2045,
+                "color": "#dc8932"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 275,
+                "end": 2561,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 2044,
+                "end": 3826,
+                "color": "#dc8932"
+            },
+            {
+                "name": "aphid transmission protein",
+                "start": 4012,
+                "end": 5533,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 4012,
+                "end": 4585,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040549",
+        "proteins": [
+            {
+                "name": "RNA dependent RNA polymerase P1-P2 fusion",
+                "start": 68,
+                "end": 1337,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA dependent RNA polymerase P1",
+                "start": 68,
+                "end": 1340,
+                "color": "#77ab31"
+            },
+            {
+                "name": "putative P1a protein",
+                "start": 147,
+                "end": 1032,
+                "color": "#33b07a"
+            },
+            {
+                "name": "RNA dependent RNA polymerase P1-P2 fusion",
+                "start": 1336,
+                "end": 2923,
+                "color": "#77ab31"
+            },
+            {
+                "name": "P3a protein",
+                "start": 2919,
+                "end": 3057,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5 polyprotein",
+                "start": 3037,
+                "end": 5056,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 3037,
+                "end": 3634,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "movement protein",
+                "start": 3089,
+                "end": 3614,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative P6 protein",
+                "start": 5487,
+                "end": 5772,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_040680",
+        "proteins": [
+            {
+                "name": "P1-P2 polyprotein",
+                "start": 98,
+                "end": 1370,
+                "color": "#77ab31"
+            },
+            {
+                "name": "P1",
+                "start": 98,
+                "end": 1373,
+                "color": "#77ab31"
+            },
+            {
+                "name": "putative P0 protein",
+                "start": 234,
+                "end": 1029,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P1-P2 polyprotein",
+                "start": 1369,
+                "end": 2959,
+                "color": "#77ab31"
+            },
+            {
+                "name": "P3a protein",
+                "start": 2955,
+                "end": 3093,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5 polyprotein",
+                "start": 3079,
+                "end": 5425,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 3079,
+                "end": 3682,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "movement protein",
+                "start": 3131,
+                "end": 3656,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative P5a protein",
+                "start": 4481,
+                "end": 4772,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative P6 protein",
+                "start": 5412,
+                "end": 5529,
+                "color": "#36ada4"
+            },
+            {
+                "name": "putative P7 protein",
+                "start": 5709,
+                "end": 5859,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_037052",
+        "proteins": [
+            {
+                "name": "ORF0",
+                "start": 159,
+                "end": 1134,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 271,
+                "end": 3823,
+                "color": "#dc8932"
+            },
+            {
+                "name": "coat protein",
+                "start": 3972,
+                "end": 4560,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "ORF5",
+                "start": 4662,
+                "end": 5367,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_036803",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 50,
+                "end": 800,
+                "color": "#f77189"
+            },
+            {
+                "name": "P2",
+                "start": 174,
+                "end": 1620,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 174,
+                "end": 2139,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P2",
+                "start": 1619,
+                "end": 3431,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3a",
+                "start": 3511,
+                "end": 3649,
+                "color": "#36ada4"
+            },
+            {
+                "name": "putative read through protein P5",
+                "start": 3629,
+                "end": 5825,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "P3",
+                "start": 3629,
+                "end": 4250,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P4",
+                "start": 3660,
+                "end": 4131,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_035451",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 58,
+                "end": 877,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 227,
+                "end": 1658,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1 protein",
+                "start": 227,
+                "end": 2099,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1657,
+                "end": 3364,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3a",
+                "start": 3434,
+                "end": 3569,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5 readhtrough protein",
+                "start": 3552,
+                "end": 5577,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "P3 protein",
+                "start": 3552,
+                "end": 4143,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "P4 protein",
+                "start": 3583,
+                "end": 4036,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034970",
+        "proteins": [
+            {
+                "name": "RNA dependent RNA polymerase P1-P2 fusion",
+                "start": 118,
+                "end": 1210,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA dependent RNA polymerase P1",
+                "start": 118,
+                "end": 1213,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA dependent RNA polymerase P1-P2 fusion",
+                "start": 1209,
+                "end": 2790,
+                "color": "#77ab31"
+            },
+            {
+                "name": "P3a protein",
+                "start": 2794,
+                "end": 2944,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5 polyprotein",
+                "start": 2943,
+                "end": 4956,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "coat protein",
+                "start": 2943,
+                "end": 3543,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "movement protein",
+                "start": 2989,
+                "end": 3523,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative P6 protein",
+                "start": 4861,
+                "end": 5032,
+                "color": "#36ada4"
+            },
+            {
+                "name": "putative P7 protein",
+                "start": 5531,
+                "end": 5681,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034836",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 317,
+                "end": 1262,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 453,
+                "end": 2182,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P1 protein",
+                "start": 453,
+                "end": 2895,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 2181,
+                "end": 4148,
+                "color": "#dc8932"
+            },
+            {
+                "name": "aphid transmission protein",
+                "start": 4263,
+                "end": 5898,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 4263,
+                "end": 4854,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034265",
+        "proteins": [
+            {
+                "name": "ORF0",
+                "start": 174,
+                "end": 918,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF1",
+                "start": 307,
+                "end": 2218,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF2",
+                "start": 2535,
+                "end": 3486,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF3",
+                "start": 3684,
+                "end": 4311,
+                "color": "#f565cc"
+            },
+            {
+                "name": "ORF4",
+                "start": 3709,
+                "end": 4180,
+                "color": "#33b07a"
+            },
+            {
+                "name": "ORF5",
+                "start": 4407,
+                "end": 5838,
+                "color": "#cc7af4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034246",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 89,
+                "end": 830,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 219,
+                "end": 1637,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P1 protein",
+                "start": 219,
+                "end": 2091,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1636,
+                "end": 3368,
+                "color": "#dc8932"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3435,
+                "end": 3573,
+                "color": "#36ada4"
+            },
+            {
+                "name": "read-through protein",
+                "start": 3553,
+                "end": 5563,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3553,
+                "end": 4150,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3581,
+                "end": 4154,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034247",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 69,
+                "end": 852,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 214,
+                "end": 1689,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1 protein",
+                "start": 214,
+                "end": 2179,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1688,
+                "end": 3456,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3529,
+                "end": 3670,
+                "color": "#36ada4"
+            },
+            {
+                "name": "read-through protein",
+                "start": 3647,
+                "end": 5747,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3647,
+                "end": 4241,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3675,
+                "end": 4245,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_034207",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 64,
+                "end": 817,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2",
+                "start": 197,
+                "end": 1706,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 197,
+                "end": 2207,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2",
+                "start": 1705,
+                "end": 3502,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3-P5",
+                "start": 3703,
+                "end": 5797,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P3",
+                "start": 3703,
+                "end": 4309,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P4",
+                "start": 3725,
+                "end": 4190,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_031800",
+        "proteins": [
+            {
+                "name": "P1-P2 polyprotein",
+                "start": 121,
+                "end": 1213,
+                "color": "#77ab31"
+            },
+            {
+                "name": "polymerase P1",
+                "start": 121,
+                "end": 1216,
+                "color": "#77ab31"
+            },
+            {
+                "name": "P1-P2 polyprotein",
+                "start": 1212,
+                "end": 2793,
+                "color": "#77ab31"
+            },
+            {
+                "name": "P3a",
+                "start": 2806,
+                "end": 2944,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5 polyprotein",
+                "start": 2947,
+                "end": 4891,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "capsid protein",
+                "start": 2947,
+                "end": 3544,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "movement protein",
+                "start": 2996,
+                "end": 3524,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative P6 protein",
+                "start": 4929,
+                "end": 5169,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative P7 protein",
+                "start": 5343,
+                "end": 5583,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_031747",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 44,
+                "end": 854,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 183,
+                "end": 1992,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1 protein",
+                "start": 183,
+                "end": 2442,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1991,
+                "end": 3719,
+                "color": "#dc8932"
+            },
+            {
+                "name": "phid transmission P5 protein",
+                "start": 3915,
+                "end": 6030,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3915,
+                "end": 4518,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3940,
+                "end": 4522,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_030225",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 55,
+                "end": 847,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 209,
+                "end": 1655,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 209,
+                "end": 2081,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1654,
+                "end": 3343,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3a",
+                "start": 3449,
+                "end": 3587,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5 fusion protein",
+                "start": 3567,
+                "end": 5619,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "P3",
+                "start": 3567,
+                "end": 4167,
+                "color": "#f565cc"
+            },
+            {
+                "name": "P4",
+                "start": 3595,
+                "end": 4171,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029993",
+        "proteins": [
+            {
+                "name": "hypothetical 34K protein",
+                "start": 180,
+                "end": 1092,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 262,
+                "end": 2039,
+                "color": "#dc8932"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 262,
+                "end": 2557,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 2038,
+                "end": 3819,
+                "color": "#dc8932"
+            },
+            {
+                "name": "aphid transmission protein",
+                "start": 4030,
+                "end": 5509,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 4030,
+                "end": 4600,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029990",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 2,
+                "end": 830,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1",
+                "start": 165,
+                "end": 2034,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P2",
+                "start": 2336,
+                "end": 3308,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3",
+                "start": 3501,
+                "end": 4092,
+                "color": "#f565cc"
+            },
+            {
+                "name": "P4",
+                "start": 3520,
+                "end": 4096,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P5",
+                "start": 4293,
+                "end": 5487,
+                "color": "#6e9bf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029906",
+        "proteins": [
+            {
+                "name": "PO protein",
+                "start": 53,
+                "end": 839,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 183,
+                "end": 1599,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 183,
+                "end": 2040,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1598,
+                "end": 3314,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3-P5",
+                "start": 3507,
+                "end": 5481,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "P3",
+                "start": 3507,
+                "end": 4101,
+                "color": "#f565cc"
+            },
+            {
+                "name": "P4",
+                "start": 3526,
+                "end": 4084,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_029691",
+        "proteins": [
+            {
+                "name": "putative protein P0",
+                "start": 72,
+                "end": 831,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative fusion protein P1-P2",
+                "start": 202,
+                "end": 1885,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative protein P1",
+                "start": 202,
+                "end": 2281,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative fusion protein P1-P2",
+                "start": 1884,
+                "end": 3585,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative read-through protein P5",
+                "start": 3827,
+                "end": 5846,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "putative coat protein P3",
+                "start": 3827,
+                "end": 4427,
+                "color": "#f565cc"
+            },
+            {
+                "name": "putative movement protein P4",
+                "start": 3849,
+                "end": 4401,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_028793",
+        "proteins": [
+            {
+                "name": "ORF0",
+                "start": 58,
+                "end": 871,
+                "color": "#f77189"
+            },
+            {
+                "name": "ORF2",
+                "start": 212,
+                "end": 2234,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF1",
+                "start": 212,
+                "end": 2237,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF2",
+                "start": 2233,
+                "end": 3514,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "ORF3",
+                "start": 3710,
+                "end": 4310,
+                "color": "#f565cc"
+            },
+            {
+                "name": "ORF4",
+                "start": 3735,
+                "end": 4314,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_027703",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 85,
+                "end": 841,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2",
+                "start": 224,
+                "end": 1763,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 224,
+                "end": 2189,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2",
+                "start": 1762,
+                "end": 3472,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3-P5",
+                "start": 3676,
+                "end": 5758,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P3",
+                "start": 3676,
+                "end": 4321,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P4",
+                "start": 3704,
+                "end": 4301,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_027211",
+        "proteins": [
+            {
+                "name": "RNA dependent RNA polymerase P1-P2 fusion protein",
+                "start": 131,
+                "end": 1116,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA dependent RNA polymerase P1",
+                "start": 131,
+                "end": 1118,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1115,
+                "end": 2674,
+                "color": "#77ab31"
+            },
+            {
+                "name": "ORF3",
+                "start": 2739,
+                "end": 4320,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025837",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 57,
+                "end": 819,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 202,
+                "end": 1762,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 202,
+                "end": 2206,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1761,
+                "end": 3474,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P3-P5 readthrough protein",
+                "start": 3661,
+                "end": 5644,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P3",
+                "start": 3661,
+                "end": 4279,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P4",
+                "start": 3695,
+                "end": 4181,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_025435",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 80,
+                "end": 845,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 240,
+                "end": 1806,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P1",
+                "start": 240,
+                "end": 2349,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1805,
+                "end": 3659,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P3-P5 fusion protein",
+                "start": 3868,
+                "end": 5875,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P3",
+                "start": 3868,
+                "end": 4492,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "P4",
+                "start": 3920,
+                "end": 4478,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_021564",
+        "proteins": [
+            {
+                "name": "replicase polyprotein",
+                "start": 207,
+                "end": 2202,
+                "color": "#dc8932"
+            },
+            {
+                "name": "100 kDa protein",
+                "start": 207,
+                "end": 2916,
+                "color": "#dc8932"
+            },
+            {
+                "name": "39 kDa protein",
+                "start": 218,
+                "end": 1283,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase polyprotein",
+                "start": 2201,
+                "end": 4178,
+                "color": "#dc8932"
+            },
+            {
+                "name": "CP readthrough protein",
+                "start": 4300,
+                "end": 5785,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 4300,
+                "end": 4876,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_021481",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion",
+                "start": 154,
+                "end": 1171,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 154,
+                "end": 1174,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion",
+                "start": 1170,
+                "end": 2757,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2753,
+                "end": 2891,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission protein P5",
+                "start": 2871,
+                "end": 4875,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 2871,
+                "end": 3462,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "movement protein P4",
+                "start": 2905,
+                "end": 3364,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P6",
+                "start": 5004,
+                "end": 5115,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_021484",
+        "proteins": [
+            {
+                "name": "PO protein",
+                "start": 54,
+                "end": 840,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion",
+                "start": 184,
+                "end": 1603,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 184,
+                "end": 2047,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion",
+                "start": 1602,
+                "end": 3321,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3397,
+                "end": 3535,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P3-P5",
+                "start": 3515,
+                "end": 5456,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "P3",
+                "start": 3515,
+                "end": 4115,
+                "color": "#f565cc"
+            },
+            {
+                "name": "P4",
+                "start": 3537,
+                "end": 4119,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_015050",
+        "proteins": [
+            {
+                "name": "putative P0 protein",
+                "start": 51,
+                "end": 801,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative P1-P2 fusion protein",
+                "start": 175,
+                "end": 1621,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative P1 protein",
+                "start": 175,
+                "end": 2140,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative P1-P2 fusion protein",
+                "start": 1620,
+                "end": 3432,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3513,
+                "end": 3651,
+                "color": "#36ada4"
+            },
+            {
+                "name": "putative read through protein P5",
+                "start": 3631,
+                "end": 5842,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "putative P3 protein",
+                "start": 3631,
+                "end": 4252,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "putative P4 protein",
+                "start": 3662,
+                "end": 4133,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_014545",
+        "proteins": [
+            {
+                "name": "PO protein",
+                "start": 70,
+                "end": 856,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 protein",
+                "start": 224,
+                "end": 1706,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1 protein",
+                "start": 224,
+                "end": 2156,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 protein",
+                "start": 1705,
+                "end": 3442,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3511,
+                "end": 3649,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P5 protein",
+                "start": 3629,
+                "end": 5717,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "P3 coat protein",
+                "start": 3629,
+                "end": 4235,
+                "color": "#f565cc"
+            },
+            {
+                "name": "P4 protein",
+                "start": 3660,
+                "end": 4185,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_012931",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 100,
+                "end": 841,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 227,
+                "end": 1601,
+                "color": "#dc8932"
+            },
+            {
+                "name": "replicase",
+                "start": 227,
+                "end": 2192,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1600,
+                "end": 3463,
+                "color": "#dc8932"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3530,
+                "end": 3668,
+                "color": "#36ada4"
+            },
+            {
+                "name": "coat protein readthrough",
+                "start": 3648,
+                "end": 5580,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3648,
+                "end": 4254,
+                "color": "#f565cc"
+            },
+            {
+                "name": "cell-to-cell movement protein",
+                "start": 3670,
+                "end": 4126,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010806",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 186,
+                "end": 1308,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 186,
+                "end": 1311,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1307,
+                "end": 2891,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2887,
+                "end": 3049,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission protein P5",
+                "start": 3005,
+                "end": 5048,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 3005,
+                "end": 3668,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "movement protein P4",
+                "start": 3054,
+                "end": 3615,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P6 protein",
+                "start": 5050,
+                "end": 5176,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P7 protein",
+                "start": 5238,
+                "end": 5337,
+                "color": "#36ada4"
+            },
+            {
+                "name": "P8 protein",
+                "start": 5653,
+                "end": 5776,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010809",
+        "proteins": [
+            {
+                "name": "P0",
+                "start": 20,
+                "end": 746,
+                "color": "#f77189"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 150,
+                "end": 1482,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1",
+                "start": 150,
+                "end": 2046,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1-P2 fusion protein",
+                "start": 1481,
+                "end": 3320,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3388,
+                "end": 3535,
+                "color": "#36ada4"
+            },
+            {
+                "name": "read-through protein P5",
+                "start": 3515,
+                "end": 5507,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3515,
+                "end": 4115,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3543,
+                "end": 4119,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_010732",
+        "proteins": [
+            {
+                "name": "putative P0 protein",
+                "start": 49,
+                "end": 799,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative protein P2",
+                "start": 173,
+                "end": 1670,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative protein P1",
+                "start": 173,
+                "end": 2150,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative protein P2",
+                "start": 1669,
+                "end": 3442,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3525,
+                "end": 3669,
+                "color": "#36ada4"
+            },
+            {
+                "name": "readthrough protein",
+                "start": 3643,
+                "end": 5815,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "CP protein",
+                "start": 3643,
+                "end": 4261,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "putative MP protein",
+                "start": 3671,
+                "end": 4142,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_008249",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 50,
+                "end": 863,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 189,
+                "end": 1734,
+                "color": "#dc8932"
+            },
+            {
+                "name": "P1 protein",
+                "start": 189,
+                "end": 2193,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1733,
+                "end": 3470,
+                "color": "#dc8932"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3544,
+                "end": 3682,
+                "color": "#36ada4"
+            },
+            {
+                "name": "CP-readthrough protein",
+                "start": 3662,
+                "end": 5723,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3662,
+                "end": 4265,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3687,
+                "end": 4269,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_006265",
+        "proteins": [
+            {
+                "name": "p0 protein",
+                "start": 28,
+                "end": 778,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 158,
+                "end": 1529,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "p1 protein",
+                "start": 158,
+                "end": 2021,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1528,
+                "end": 3295,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3369,
+                "end": 3507,
+                "color": "#36ada4"
+            },
+            {
+                "name": "CP readthrough protein",
+                "start": 3510,
+                "end": 5613,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3510,
+                "end": 4137,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "movement protein",
+                "start": 3520,
+                "end": 4090,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004756",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 28,
+                "end": 745,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 149,
+                "end": 1481,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1 protein",
+                "start": 149,
+                "end": 2057,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1480,
+                "end": 3331,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "aphid transmission P5 protein",
+                "start": 3530,
+                "end": 5543,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3530,
+                "end": 4139,
+                "color": "#f565cc"
+            },
+            {
+                "name": "putative movement protein",
+                "start": 3561,
+                "end": 4089,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004750",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 141,
+                "end": 1155,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 141,
+                "end": 1161,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1154,
+                "end": 2744,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2733,
+                "end": 2877,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission protein P5",
+                "start": 2857,
+                "end": 4813,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 2857,
+                "end": 3460,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "putative movement protein P4",
+                "start": 2900,
+                "end": 3362,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P6 protein",
+                "start": 4919,
+                "end": 5111,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 5308,
+                "end": 5476,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004751",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 172,
+                "end": 943,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 323,
+                "end": 1700,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 323,
+                "end": 2288,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1699,
+                "end": 3559,
+                "color": "#dc8932"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3626,
+                "end": 3764,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission P5",
+                "start": 3744,
+                "end": 5556,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 3744,
+                "end": 4359,
+                "color": "#f565cc"
+            },
+            {
+                "name": "putative movement protein P4",
+                "start": 3769,
+                "end": 4231,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_004666",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 142,
+                "end": 1159,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 142,
+                "end": 1162,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1158,
+                "end": 2745,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2734,
+                "end": 2878,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission protein P5",
+                "start": 2858,
+                "end": 4835,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 2858,
+                "end": 3458,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "movement protein P4",
+                "start": 2895,
+                "end": 3360,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P6 protein",
+                "start": 4941,
+                "end": 5073,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003369",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion",
+                "start": 178,
+                "end": 1278,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 178,
+                "end": 1285,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion",
+                "start": 1277,
+                "end": 2883,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2962,
+                "end": 3103,
+                "color": "#36ada4"
+            },
+            {
+                "name": "coat P3 and systemic movement/aphid transmission P5 fusion protein",
+                "start": 3092,
+                "end": 5261,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 3092,
+                "end": 3683,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein P4",
+                "start": 3237,
+                "end": 3666,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003056",
+        "proteins": [
+            {
+                "name": "replicase",
+                "start": 143,
+                "end": 1223,
+                "color": "#77ab31"
+            },
+            {
+                "name": "replicase",
+                "start": 143,
+                "end": 1229,
+                "color": "#77ab31"
+            },
+            {
+                "name": "replicase",
+                "start": 1222,
+                "end": 2827,
+                "color": "#77ab31"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 3034,
+                "end": 5203,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3034,
+                "end": 3637,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3050,
+                "end": 3620,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002766",
+        "proteins": [
+            {
+                "name": "putative protein P0",
+                "start": 26,
+                "end": 773,
+                "color": "#f77189"
+            },
+            {
+                "name": "putative fusion protein P1-P2",
+                "start": 162,
+                "end": 1587,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative protein P1",
+                "start": 162,
+                "end": 2133,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative fusion protein P1-P2",
+                "start": 1586,
+                "end": 3404,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "putative protein P5",
+                "start": 3606,
+                "end": 5610,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "putative protein P3",
+                "start": 3606,
+                "end": 4215,
+                "color": "#f565cc"
+            },
+            {
+                "name": "putative protein P4",
+                "start": 3637,
+                "end": 4165,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002198",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 94,
+                "end": 835,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 221,
+                "end": 1601,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 221,
+                "end": 2174,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1600,
+                "end": 3445,
+                "color": "#dc8932"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3513,
+                "end": 3651,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission P5",
+                "start": 3631,
+                "end": 5470,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 3631,
+                "end": 4246,
+                "color": "#f565cc"
+            },
+            {
+                "name": "putative movement protein P4",
+                "start": 3656,
+                "end": 4118,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_002160",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 138,
+                "end": 1155,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1",
+                "start": 138,
+                "end": 1161,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion protein",
+                "start": 1154,
+                "end": 2744,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2733,
+                "end": 2877,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission protein P5",
+                "start": 2857,
+                "end": 4810,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein P3",
+                "start": 2857,
+                "end": 3460,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "movement protein P4",
+                "start": 2900,
+                "end": 3362,
+                "color": "#33b07a"
+            },
+            {
+                "name": "P6 protein",
+                "start": 4939,
+                "end": 5059,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_000874",
+        "proteins": [
+            {
+                "name": "ORF 0",
+                "start": 66,
+                "end": 837,
+                "color": "#f77189"
+            },
+            {
+                "name": "multifunctional protein",
+                "start": 241,
+                "end": 2194,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1734,
+                "end": 3453,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "capsid protein",
+                "start": 3647,
+                "end": 4238,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "putative movement protein p17",
+                "start": 3678,
+                "end": 4131,
+                "color": "#33b07a"
+            },
+            {
+                "name": "putative aphid transmission factor",
+                "start": 4238,
+                "end": 5678,
+                "color": "#6e9bf4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003491",
+        "proteins": [
+            {
+                "name": "hypothetical protein P1",
+                "start": 31,
+                "end": 751,
+                "color": "#f77189"
+            },
+            {
+                "name": "Fusion protein",
+                "start": 155,
+                "end": 1556,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein P2",
+                "start": 155,
+                "end": 2126,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "Fusion protein",
+                "start": 1555,
+                "end": 3400,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "CP read-through protein",
+                "start": 3596,
+                "end": 5609,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3596,
+                "end": 4205,
+                "color": "#f565cc"
+            },
+            {
+                "name": "hypothetical protein P5",
+                "start": 3627,
+                "end": 4155,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003688",
+        "proteins": [
+            {
+                "name": "hypothetical protein P1",
+                "start": 20,
+                "end": 737,
+                "color": "#f77189"
+            },
+            {
+                "name": "replicase fusion protein",
+                "start": 141,
+                "end": 1488,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein P2",
+                "start": 141,
+                "end": 2034,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "replicase fusion protein",
+                "start": 1487,
+                "end": 3305,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3386,
+                "end": 3524,
+                "color": "#36ada4"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 3504,
+                "end": 5508,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3504,
+                "end": 4104,
+                "color": "#f565cc"
+            },
+            {
+                "name": "hypothetical protein P5",
+                "start": 3532,
+                "end": 4108,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003629",
+        "proteins": [
+            {
+                "name": "hypothetical 34K protein",
+                "start": 183,
+                "end": 1095,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 265,
+                "end": 2033,
+                "color": "#dc8932"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 265,
+                "end": 2548,
+                "color": "#dc8932"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 2032,
+                "end": 3810,
+                "color": "#dc8932"
+            },
+            {
+                "name": "aphid transmission protein",
+                "start": 3998,
+                "end": 5480,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "coat protein",
+                "start": 3998,
+                "end": 4568,
+                "color": "#ae9d31"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003680",
+        "proteins": [
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion",
+                "start": 105,
+                "end": 1122,
+                "color": "#77ab31"
+            },
+            {
+                "name": "replicase P1",
+                "start": 105,
+                "end": 1125,
+                "color": "#77ab31"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase P1-P2 fusion",
+                "start": 1121,
+                "end": 2708,
+                "color": "#77ab31"
+            },
+            {
+                "name": "protein 3a",
+                "start": 2697,
+                "end": 2841,
+                "color": "#36ada4"
+            },
+            {
+                "name": "aphid transmission protein P5",
+                "start": 2821,
+                "end": 4795,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "viral coat protein",
+                "start": 2821,
+                "end": 3421,
+                "color": "#ae9d31"
+            },
+            {
+                "name": "movement protein",
+                "start": 2858,
+                "end": 3323,
+                "color": "#33b07a"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 4904,
+                "end": 5036,
+                "color": "#36ada4"
+            }
+        ]
+    },
+    {
+        "accno": "NC_001747",
+        "proteins": [
+            {
+                "name": "P0 protein",
+                "start": 174,
+                "end": 918,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 307,
+                "end": 1774,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "P1 protein",
+                "start": 307,
+                "end": 2227,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "Replication-associated protein",
+                "start": 1631,
+                "end": 1757,
+                "color": "#36ada4"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase",
+                "start": 1773,
+                "end": 3495,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3574,
+                "end": 3712,
+                "color": "#36ada4"
+            },
+            {
+                "name": "CP read-through protein",
+                "start": 3692,
+                "end": 5846,
+                "color": "#cc7af4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3692,
+                "end": 4319,
+                "color": "#f565cc"
+            },
+            {
+                "name": "movement protein",
+                "start": 3717,
+                "end": 4188,
+                "color": "#33b07a"
+            }
+        ]
+    },
+    {
+        "accno": "NC_003743",
+        "proteins": [
+            {
+                "name": "hypothetical protein",
+                "start": 31,
+                "end": 781,
+                "color": "#f77189"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase fusion protein",
+                "start": 173,
+                "end": 1559,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "hypothetical protein",
+                "start": 173,
+                "end": 1997,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "RNA-dependent RNA polymerase fusion protein",
+                "start": 1558,
+                "end": 3280,
+                "color": "#38a9c5"
+            },
+            {
+                "name": "protein 3a",
+                "start": 3364,
+                "end": 3502,
+                "color": "#36ada4"
+            },
+            {
+                "name": "CP read-through protein",
+                "start": 3482,
+                "end": 5495,
+                "color": "#6e9bf4"
+            },
+            {
+                "name": "coat protein",
+                "start": 3482,
+                "end": 4091,
+                "color": "#f565cc"
+            },
+            {
+                "name": "genome-linked protein",
+                "start": 3513,
+                "end": 4041,
+                "color": "#33b07a"
+            }
+        ]
+    }
+]
