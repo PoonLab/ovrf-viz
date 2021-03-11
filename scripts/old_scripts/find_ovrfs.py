@@ -30,7 +30,6 @@ def get_records(file):
 def parse_coords(coords):
     res = []
     for interval in coords.split(';'):
-        print(interval)
         left, right = interval.split(':')
         res.append((int(left), int(right)))
     return(res)
@@ -41,19 +40,26 @@ def find_ovrfs(accn, records, outfile):
     :param records:
     :return: list of overlapping regions, if any
     """
-    print(accn)
     n = len(records)
     for i in range(n):
         rec1 = records[i]
-        print(rec1['coords'], type(rec1['coords']), len(rec1))         
-        c1 = parse_coords(rec1['coords'])
+        try:
+            c1 = parse_coords(rec1['coords'])
+        except:
+            print(f'outer {accn}')
+            raise
         xl1 = min([l for l, r in c1])  # extreme left
         len1 = sum([r-l for l, r in c1])  # total CDS length
         dir1 = rec1['strand']
 
         for j in range(i):
             rec2 = records[j]
-            c2 = parse_coords(rec2['coords'])
+            try:
+                c2 = parse_coords(rec2['coords'])
+            except:
+                print(f'inner {accn}')
+                raise
+                
             xl2 = min([l for l, r in c2])
             len2 = sum([r-l for l, r in c2])
             dir2 = rec2['strand']
@@ -81,5 +87,4 @@ outfile = open('find_ovrfs_out.csv', 'w')
 outfile.write('accn,prod1,loc1,dir1,prod2,loc2,dir2,seqlen1,seqlen2,overlap,shift\n')
 
 for accn, records in get_records('/home/lmunoz/Projects/ovrf-review/dataset_2020/total_orfs.csv'):
-    #print(accn)
     find_ovrfs(accn, records, outfile)
