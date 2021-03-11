@@ -26,18 +26,23 @@
   </header>
 
   <div id="graphs" class="wrapper">
-    <div id="dropdown">
-      <button class="dropbtn">Select a virus Family</button>
-      <div class="dropdown-content">
+    <div id="bar">
+      <div id="dropdown">
+        <button class="dropbtn">Select a virus Family</button>
+        <div class="dropdown-content">
+        </div>
       </div>
+      <button class="savebtn" onclick="saveSVG();">Export SVG</button>
+      <div id="family"></div>
     </div>
-    <button class="savebtn" onclick="saveSVG();">Export SVG</button>
-    <div id="family"></div>
-    <div id="adj"></div>
-    <div id="slider">
-      <label style="display:block">Minimum number of connections required to create a link</label>
+    <div id="plots">
+      <div id="adj">
+        <div id="slider">
+          <label style="display:block">Minimum number of connections required to create a link</label>
+        </div>
+      </div>
+      <div id="genome"></div>
     </div>
-    <div id="genome"></div>
   </div>
 
   <script type="text/javascript">

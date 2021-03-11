@@ -6,19 +6,33 @@ header {
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns:
-        50%
-        50%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.wrapper > * {
+#bar {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#plots {
+    display: flex;
+}
+/* .wrapper > * {
     grid-column: 1;
+} */
+
+/* .wrapper > #genome {
+    grid-column: 2;
+} */
+
+/* #genome {
+    width: 50%;
 }
 
-.wrapper > #genome {
-    grid-column: 2;
-}
+#adj {
+    width: 50%;
+} */
 
 body {
     font: .9em/1.2 Lato, sans-serif;

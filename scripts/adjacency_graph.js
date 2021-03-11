@@ -4,7 +4,7 @@ function adjacencyGraph() {
 
   /* ------ Visualization set up ------ */
   var adjacency = d3.select("div#adj")
-    .append("svg:svg")
+    .insert("svg:svg", ":first-child")
     .attr("width", genWidth)
     .attr("height", genHeight);
 
