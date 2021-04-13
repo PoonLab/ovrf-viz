@@ -23,13 +23,6 @@ non_splicing_overlaps <- overlaps %>%
     ((shift == "+2" | shift == "-2") & overlap%%3 == 1)
   )
 
-# Removing small overlaps 
-# non_splicing_overlaps <- overlaps %>%
-#   filter(
-#     ((shift == "+0" | shift == "-0") & overlap%%3 == 0) |
-#       ((shift == "+1" | shift == "-1") & overlap%%3 == 2) |
-#       ((shift == "+2" | shift == "-2") & overlap%%3 == 1),
-#   )
 
 # Ridgeplot
 plot <- ggplot(non_splicing_overlaps, aes(x = log10(overlap), y = shift, group = shift, fill = shift)) +
@@ -147,3 +140,61 @@ index3 <- match(virus$Taxonomy.name, names(temp))
 virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index3] * virus$n.overlaps)
 
 write.csv(virus, "out_virus_df_inspection.csv")
+write.csv(total, "overlap_info.csv")
+
+##################################################
+# Virus stats Dr Poon
+##################################################
+
+virus <- read.csv('/home/lmunoz/Projects/ovrf-review/dataset_2020/out_virus_df_inspection.csv')
+virus$rel.ovrf <- virus$n.overlaps / virus$Proteins
+
+plot(virus$len.overlaps, virus$Length, log='xy', 
+     col=rainbow(8)[as.factor(virus$baltimore.class)])
+
+cor.test(log(virus$len.overlaps), log(virus$Length))
+cor.test(log(virus$n.overlaps), log(virus$Proteins))
+
+for (sub in split(virus, virus$baltimore.class)) {
+  if (all(sub$baltimore.class=='circular_ss_RNA')) {
+    next
+  }
+  res <- cor.test(log(sub$len.overlaps), log(sub$Length))  
+  print(res)
+}
+
+temp <- virus[virus$baltimore.class != 'circular_ss_RNA', ]
+by(temp, temp$baltimore.class, function(x) cor.test(log(x$len.overlaps), log(x$Length)))
+
+
+# significant variation among Baltimore classes
+fit <- glm(rel.ovrf ~ baltimore.class, data=virus[virus$baltimore.class != "circular_ss_RNA",])
+anova(fit, test='F')
+
+summary(virus[grepl("DNA", virus$baltimore.class),])
+summary(virus[grepl("RNA", virus$baltimore.class),])
+
+##################################################
+# Frame shift stats (total)
+##################################################
+virus <- read.csv('out_virus_df_inspection.csv', stringsAsFactors = F)
+
+#Re naming Unknown according to molecule type
+virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("RNA", virus$Molecule))] <- "unknown_RNA"
+virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("DNA", virus$Molecule))] <- "unknown_DNA"
+
+colnames(non_splicing_overlaps)[1] <- "Accession"
+colnames(virus)[3] <- "Accession"
+total <- merge(x=non_splicing_overlaps, y=virus[,c("Accession", "baltimore.class")], by="Accession", all.x =T)
+
+plus_two<-(subset(total, shift =="+2"))
+summary(plus_two)
+
+minus_two<-(subset(total, shift =="-2"))
+summary(minus_two)
+
+plus_one<-subset(total, shift =="+1")
+minus_one<-subset(total, shift=="-1")
+
+plus_cero<-subset(total, shift=="+0")
+minus_cero<-subset(total, shift=="-0")
