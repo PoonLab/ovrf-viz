@@ -23,7 +23,7 @@ non_splicing_overlaps <- overlaps %>%
     ((shift == "+2" | shift == "-2") & overlap%%3 == 1)
   )
 
-
+#non_splicing_overlaps<- subset(non_splicing_overlaps, overlap!=1 & overlap!=4)
 # Ridgeplot
 plot <- ggplot(non_splicing_overlaps, aes(x = log10(overlap), y = shift, group = shift, fill = shift)) +
   geom_density_ridges()+
@@ -34,6 +34,8 @@ plot
 
 #palete<-c("#32621f", "#769845", "#cacfa6", "#f1dba2", "#de8f42", "#c1462b")
 # +2, +1, +0, +1, -1, -2
+
+
 
 library(treemap)
 library(plyr)
@@ -139,15 +141,17 @@ temp <- sapply(split(noverlaps$mean.olen/noverlaps$count, noverlaps$genome), mea
 index3 <- match(virus$Taxonomy.name, names(temp))
 virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index3] * virus$n.overlaps)
 
-write.csv(virus, "out_virus_df_inspection.csv")
-write.csv(total, "overlap_info.csv")
+#write.csv(virus, "out_virus_df_inspection.csv")
+#write.csv(total, "overlap_info.csv")
 
 ##################################################
 # Virus stats Dr Poon
 ##################################################
 
-virus <- read.csv('/home/lmunoz/Projects/ovrf-review/dataset_2020/out_virus_df_inspection.csv')
+virus <- read.csv('/home/lmunoz/Projects/ovrf-review/dataset_2020/out_virus_df_inspection.csv', stringsAsFactors = F)
 virus$rel.ovrf <- virus$n.overlaps / virus$Proteins
+virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("RNA", virus$Molecule))] <- "unknown_RNA"
+virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("DNA", virus$Molecule))] <- "unknown_DNA"
 
 plot(virus$len.overlaps, virus$Length, log='xy', 
      col=rainbow(8)[as.factor(virus$baltimore.class)])
@@ -171,12 +175,16 @@ by(temp, temp$baltimore.class, function(x) cor.test(log(x$len.overlaps), log(x$L
 fit <- glm(rel.ovrf ~ baltimore.class, data=virus[virus$baltimore.class != "circular_ss_RNA",])
 anova(fit, test='F')
 
+summary(virus[grepl("ds_DNA", virus$baltimore.class),])
 summary(virus[grepl("DNA", virus$baltimore.class),])
 summary(virus[grepl("RNA", virus$baltimore.class),])
+summary(virus[grepl("ss_RNA_+", virus$baltimore.class),])
+summary(virus[grepl("ss_RNA_-", virus$baltimore.class),])
 
 ##################################################
 # Frame shift stats (total)
 ##################################################
+setwd('/home/lmunoz/Projects/ovrf-review/dataset_2020/')
 virus <- read.csv('out_virus_df_inspection.csv', stringsAsFactors = F)
 
 #Re naming Unknown according to molecule type
