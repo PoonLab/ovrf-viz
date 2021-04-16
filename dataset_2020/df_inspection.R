@@ -147,25 +147,83 @@ virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index3] * virus$n.ove
 ##################################################
 # Virus stats Dr Poon
 ##################################################
+#setwd('/home/lmunoz/Projects/ovrf-review/dataset_2020')
+setwd('~/git/ovrf-review/dataset_2020')
+virus <- read.csv('out_virus_df_inspection.csv', stringsAsFactors = F)
 
-virus <- read.csv('/home/lmunoz/Projects/ovrf-review/dataset_2020/out_virus_df_inspection.csv', stringsAsFactors = F)
+virus$n.overlaps[which(is.na(virus$n.overlaps))] <- 0
+#virus$len.overlaps[which(is.na(virus$len.overlaps))] <- 0.5
+#virus$total.overlaps[which(is.na(virus$total.overlaps))] <- 0
+
 virus$rel.ovrf <- virus$n.overlaps / virus$Proteins
 virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("RNA", virus$Molecule))] <- "unknown_RNA"
 virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("DNA", virus$Molecule))] <- "unknown_DNA"
 
-plot(virus$len.overlaps, virus$Length, log='xy', 
-     col=rainbow(8)[as.factor(virus$baltimore.class)])
 
-cor.test(log(virus$len.overlaps), log(virus$Length))
-cor.test(log(virus$n.overlaps), log(virus$Proteins))
+cor.test(virus$n.overlaps, virus$Proteins, method='spearman')
+
+plot(virus$len.overlaps, virus$Length, log='xy')
+cor.test(virus$len.overlaps, virus$Length, method='spearman')
 
 for (sub in split(virus, virus$baltimore.class)) {
   if (all(sub$baltimore.class=='circular_ss_RNA')) {
     next
   }
-  res <- cor.test(log(sub$len.overlaps), log(sub$Length))  
+  res <- cor.test(sub$len.overlaps, sub$Length, method='spearman')
+  print(unique(sub$baltimore.class))
   print(res)
 }
+
+
+pdf(file='~/papers/ovrf-viz/sm1.pdf', width=8, height=8)
+par(mfrow=c(3,3), mar=c(5,5,1,1))
+for (sub in split(virus, virus$baltimore.class)) {
+  if (all(sub$baltimore.class=='circular_ss_RNA')) {
+    next
+  }
+  plot(sub$len.overlaps, sub$Length, log='xy', 
+       xlab='Mean overlap length (nt)', ylab='Genome length (nt)',
+       type='n')
+  tab <- table(sub$family)
+  pal <- hcl.colors(length(tab[tab>1]), 'Spectral')
+  set.seed(1)
+  pal <- sample(pal, length(pal))
+  counter <- 1
+  for (ssub in split(sub, sub$family)) {
+    if (nrow(ssub) > 1) {
+      points(ssub$len.overlaps, ssub$Length, bg=pal[counter], pch=21, cex=0.8)
+      counter <- counter + 1
+    } else {
+      points(ssub$len.overlaps, ssub$Length, col='grey', cex=0.5)
+    }
+  }
+  res <- cor.test(sub$len.overlaps, sub$Length, method='spearman')
+  u <- par("usr")
+  text(x=10^(u[1] + 0.05*(u[2]-u[1])), 
+       y=10^(u[3] + 0.1*(u[4]-u[3])), 
+       label=paste("rho", round(res$estimate, 2), "\nP=", round(res$p.value, 2)), 
+       adj=0)
+  #legend(x=min(sub$len.overlaps)+100, y=min(sub$Length)+1, pch=21, 
+  #       legend=names(sort(tab, decreasing = T))[1:3], yjust=0)
+  
+  title(main=unique(sub$baltimore.class), adj=0)
+}
+dev.off()
+
+
+dsDNA <- virus[virus$baltimore.class=='ds_DNA',]
+for (sub in split(dsDNA, dsDNA$family)) {
+  if (nrow(sub) > 100) {
+    print(unique(sub$family))
+    print(cor.test(sub$Length, sub$len.overlaps, method='spearman'))
+  }
+}
+
+
+require(lme4)
+fit <- lmer(log(len.overlaps) ~ log(Length) + (1 | family), 
+            data=virus[virus$baltimore.class != 'circular_ss_RNA', ])
+
 
 temp <- virus[virus$baltimore.class != 'circular_ss_RNA', ]
 by(temp, temp$baltimore.class, function(x) cor.test(log(x$len.overlaps), log(x$Length)))
@@ -180,6 +238,10 @@ summary(virus[grepl("DNA", virus$baltimore.class),])
 summary(virus[grepl("RNA", virus$baltimore.class),])
 summary(virus[grepl("ss_RNA_+", virus$baltimore.class),])
 summary(virus[grepl("ss_RNA_-", virus$baltimore.class),])
+
+wilcox.test(virus$Length[virus$n.overlaps==0], virus$Length[virus$n.overlaps > 0])
+t.test(log(virus$Length[virus$n.overlaps==0]), log(virus$Length[virus$n.overlaps > 0]))
+boxplot(log(virus$Length[virus$n.overlaps==0]), log(virus$Length[virus$n.overlaps > 0]))
 
 ##################################################
 # Frame shift stats (total)
