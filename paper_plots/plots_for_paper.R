@@ -173,23 +173,57 @@ plot
  
 
 #######################################################
-# Frameshift barplot with Baltimore class
+# Maptree for frameshifts
 #######################################################
+library(treemap)
+library(plyr)
+require(grid)
 colnames(overlaps)[1] <- "Accession"
-
 total <- merge(x=overlaps, y=virus[,c("Accession", "baltimore.class")], by="Accession", all.x =T)
-table <- table(total$baltimore.class, total$shift)
-plot <- ggplot(table, aes(x=, y=baltimore.class, group = baltimore.class, fill = baltimore.class))
+tbl <- as.data.frame(table(total$shift, total$baltimore.class))
+colnames(tbl) <- c("shift", "balt", "Freq")
+new_p<-c("#9d2503", "#df8543", "#f6e0a7", "#90a95c","#5a715c")
 
-barplot(table, col = col, beside = T, horiz = T)
+pdf(file="treemap2.pdf")
 
-#result <- within(total, {count<-ave(baltimore.class, shift, FUN=function(x) length(x))})
-library(dplyr)
+vplayout <- function(x, y) viewport(layout.pos.row = x, layout.pos.col = y)
+grid.newpage()
+pushViewport(viewport(layout = grid.layout(3, 2)))
+sub <- subset(tbl, balt == "ds_DNA")
+treemap(sub, index = "shift", vSize = "Freq", type="index", 
+        palette=new_p, title="ds_DNA", fontsize.title=15, fontsize.labels=14,
+        vp = vplayout(1,1))
 
-write.csv(total, file="frame_shift_baltimore.csv")
-library(plotly)
-cnt <- with(total, table(baltimore.class, shift))
-head(cnt)
-p <- plot_ly(total, x= ~baltimore.class, y=~shift, z=~cnt) %>% add_histogram2d()
-install.packages("httpuv")
+sub <- subset(tbl, balt == "ds_RNA")
+treemap(sub, index = "shift", vSize = "Freq", type="index", 
+        palette=new_p, title="ds_RNA", fontsize.title=15, fontsize.labels=14,
+        vp = vplayout(1,2))
+
+sub <- subset(tbl, balt == "ss_DNA")
+treemap(sub, index = "shift", vSize = "Freq", type="index", 
+        palette=new_p, title="ss_DNA", fontsize.title=15, fontsize.labels=14,
+        vp = vplayout(2,1))
+
+sub <- subset(tbl, balt == "ss_RNA_-")
+treemap(sub, index = "shift", vSize = "Freq", type="index", 
+        palette=new_p, title="ss_RNA_-", fontsize.title=15, fontsize.labels=14,
+        vp = vplayout(2,2))
+
+sub <- subset(tbl, balt == "ss_RNA_+")
+treemap(sub, index = "shift", vSize = "Freq", type="index", 
+        palette=new_p, title="ss_RNA_+", fontsize.title=15, fontsize.labels=14,
+        vp = vplayout(3,1))
+
+sub <- subset(tbl, balt == "RT_viruses")
+treemap(sub, index = "shift", vSize = "Freq", type="index", 
+        palette=new_p, title="RT_viruses", fontsize.title=15, fontsize.labels=14,
+        vp = vplayout(3,2))
+
+dev.off()
+
+#################################################
+# Further analysis for long overlaps
+################################################
+long<-subset(overlaps, overlap>=50)
+
 
