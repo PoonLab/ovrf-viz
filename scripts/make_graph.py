@@ -257,9 +257,12 @@ def get_args(parser):
     parser.add_argument('file',
         help='Path to file containing cluster output in csv format'
     )
-    parser.add_argument('--outfile',
-        type=argparse.FileType('w'), default = None,
-        help = 'Path to dot file'
+
+    parser.add_argument('nodes',
+        type=argparse.FileType('w'), help = 'Path to write nodelist'
+    )
+    parser.add_argument('edges',
+        type=argparse.FileType('w'), help = 'Path to write edgelist'
     )
     return parser.parse_args()
 
@@ -275,22 +278,23 @@ def main():
     genome_list = [Genome(name, protein_list) for name in genomes_names]
     cluster_list = [Cluster(name, protein_list) for name in clusters_names]
 
-    args.outfile.write("parent,child,edge.count,edge.type\n")
+    args.nodes.write("node,size\n")
+    args.edges.write("parent,child,edge.count,edge.type\n")
+
     for cluster in cluster_list:
         cluster_size = len(cluster.proteins)
-        node_size = math.sqrt(cluster_size)/3
+        args.nodes.write('{},{}\n'.format(cluster, cluster_size))
 
         # Create edges for adjacent proteins
         for adj_cluster, count in cluster.adjacent_clust.items():
-            args.outfile.write("{},{},{},adjacent\n".format(
+            args.edges.write("{},{},{},adjacent\n".format(
                 cluster.cluster, adj_cluster, count
             ))
 
         for overlap_cluster, count in cluster.overlapping_clust.items():
-            args.outfile.write("{},{},{},overlap\n".format(
+            args.edges.write("{},{},{},overlap\n".format(
                 cluster.cluster, overlap_cluster, count
             ))
-
 
 if __name__ =='__main__':
     main()
