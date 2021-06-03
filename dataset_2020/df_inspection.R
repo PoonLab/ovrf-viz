@@ -1,13 +1,15 @@
+library(dplyr)
 ########################################################
 # Plot frame shift distribution
 ########################################################
 setwd('/home/lmunoz/Projects/ovrf-review/dataset_2020/')
 overlaps <- read.csv('2_overlapping_march2020.csv', colClasses='character')
 
-overlaps$loc1 <- as.integer(overlaps$loc1)
+overlaps$extreme_left1 <- as.integer(overlaps$extreme_left1)
+overlaps$extreme_left2 <- as.integer(overlaps$extreme_left2)
 overlaps$dir1 <- as.factor(overlaps$dir1)
-overlaps$loc2 <- as.integer(overlaps$loc2)
-overlaps$dir2 <- as.factor(overlaps$dir2)
+overlaps$extreme_right1 <- as.integer(overlaps$extreme_right1)
+overlaps$extreme_right2 <- as.integer(overlaps$extreme_right2)
 overlaps$seqlen1 <- as.integer(overlaps$seqlen1)
 overlaps$seqlen2 <- as.integer(overlaps$seqlen2)
 overlaps$overlap <- as.integer(overlaps$overlap)
@@ -23,7 +25,13 @@ non_splicing_overlaps <- overlaps %>%
     ((shift == "+2" | shift == "-2") & overlap%%3 == 1)
   )
 
-#non_splicing_overlaps<- subset(non_splicing_overlaps, overlap!=1 & overlap!=4)
+# Remove 49 entries with circular and alternative splacing genomes
+circular <- which(non_splicing_overlaps$extreme_left1==non_splicing_overlaps$extreme_left2
+                  & non_splicing_overlaps$extreme_right1==non_splicing_overlaps$extreme_right2)
+
+non_splicing_overlaps <- non_splicing_overlaps[-circular,]
+
+
 # Ridgeplot
 plot <- ggplot(non_splicing_overlaps, aes(x = log10(overlap), y = shift, group = shift, fill = shift)) +
   geom_density_ridges()+
@@ -34,8 +42,6 @@ plot
 
 #palete<-c("#32621f", "#769845", "#cacfa6", "#f1dba2", "#de8f42", "#c1462b")
 # +2, +1, +0, +1, -1, -2
-
-
 
 library(treemap)
 library(plyr)
@@ -82,6 +88,32 @@ sub <- subset(tbl, balt == "RT_viruses")
 treemap(sub, index = "shift", vSize = "Freq", type="index", 
         palette=new_p, title="RT_viruses", fontsize.title=15, fontsize.labels=14,
         vp = vplayout(3,2))
+
+########################################################
+# Summary of overlap trends
+########################################################
+nss_RNA <- total[which(total$baltimore.class == "ss_RNA_-"),]
+pss_RNA <- total[which(total$baltimore.class == "ss_RNA_+"),]
+ds_RNA <- total[which(total$baltimore.class == "ds_RNA"),]
+rt <- total[which(total$baltimore.class == "RT_viruses"),]
+
+# Cero frameshift
+pcero <- total[which(total$shift == "+0"),]
+replicases<-cero[which(grepl("replica", cero$prod1)),]
+capsids<-cero[which(grepl("capsid", cero$prod1)),]
+structural <-cero[which(grepl("struct", cero$prod1)),]
+polymerases <-cero[which(grepl("polyme", cero$prod1)),]
+
+# Antisense
+anti<- total[which(grepl("-", total$shift)),]
+none <- anti[which(grepl("1", anti$shift)),]
+ntwo <- anti[which(grepl("2", anti$shift)),]
+ncero <- anti[which(grepl("0", anti$shift)),]
+
+res <- subset(pss_RNA, shift=="+0")
+tsorted<-ntwo[order(ntwo$overlap, decreasing=TRUE),]
+nRNA <- total[which(grepl("RNA", total$baltimore.class) & grepl("-", total$shift)),]
+total[which(grepl("RNA", total$baltimore.class) & total$shift=="-1"),]
 
 ########################################################
 # Import and merge data
@@ -268,3 +300,15 @@ minus_one<-subset(total, shift=="-1")
 
 plus_cero<-subset(total, shift=="+0")
 minus_cero<-subset(total, shift=="-0")
+
+####################################################
+# Checking for Zero entries
+####################################################
+
+zero <- total[which(total$shift == "+0"),]
+table(zero$extreme_left1==zero$extreme_left2, zero$extreme_right1==zero$extreme_right2)
+head(zero[(zero$extreme_left1==zero$extreme_left2 & zero$extreme_right1==zero$extreme_right2),])
+cases<-zero[which((zero$extreme_left1==zero$extreme_left2 & zero$extreme_right1==zero$extreme_right2)),]
+
+
+extreme_left1 == extreme_left2 == 0
