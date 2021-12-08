@@ -39,15 +39,15 @@ For instance, they represent a convenient control group --- the same sequence be
 Therefore, we are providing supplementary material that includes the +0 cases so that this information is available, with the caveats raised by the reviewer.
 
 
-3. Biases on $+0$ frame shift
+3. Biases on +0 frame shift
 
 > A second problem with including +0 frame overlaps is that their presence in a genome is very much subject to the whim of the annotator. As an example, the alphavirus NC\_001449 has both readthrough and frameshift ORFs annotated:
 > 45-5684 and 45-7526 (stop codon readthrough at 5682-5684)
 7562-11329 and join(7562-9970,9970-10047) (ribosomal frameshift at 9970)
-> leading to $+0$ frame overlaps 45-5684 and 7562-9970. On the other hand, the alphavirus NC\_023812 only has two CDSs annotated 43-7467 and 7541..11269. The stop codon read through and frameshift are there, but extra CDSs are not annotated so the authors find zero +0 frame overlaps.
+> leading to +0 frame overlaps 45-5684 and 7562-9970. On the other hand, the alphavirus NC\_023812 only has two CDSs annotated 43-7467 and 7541..11269. The stop codon read through and frameshift are there, but extra CDSs are not annotated so the authors find zero +0 frame overlaps.
 > Such annotation issues will bias the results as these mainly affect RNA viruses.
 
-We agree that this is a significant limitation in the analysis (see above, removed +0 from results)
+We agree that this is a significant limitation in the analysis (see above, removed +0 from results). As kindly suggested by the revieer, when re-plotting our figures, we see a change in the distribution of overlapping lengths, particularly in RNA viruses. 
 
 
 4. Annotation bug causing wrong overlap measurement
@@ -60,20 +60,13 @@ We agree that this is a significant limitation in the analysis (see above, remov
 "NC\_003092","ORF1aTF polyprotein",209,3552,1,"ORF1a polyprotein"MaSc,209,6527,1,3345,6318,2667,+0 \\
 "NC\_003092","ORF1aTF polyprotein",209,3552,1,"ORF1a polyprotein",209,6527,1,3345,6318,678,+0 \\
 
+Thank you for raising this issue. A closer look into it lead us to conclude that such cases appear when we try to calculate overlaps in coding sequences with internal ribosomal frameshifts. 
 
-Thank you for raising this issue.
-As noted in our response to an earlier point, cases that involved splices such as the example provided by the reviewer were excluded from our analysis.
+For example, "ORFS1ab protein" and "ORF1aTF polyprotein" have the following coordinates:  209:6521;6520:10996 and 209:2876;2874:3552 respectively. 
 
-This was the correct file. How did we deal with those cases? Removing overlaps product from splicing events.
-The input for our calculation of overlaps is based on the file total\_orfs.csv that contains for each protein from each genome the accession number (accno), Product, Strand, Coordinates and Start Codon.
-The misscalculation problem seems to be associated with entries that have internal frame shifts.
-For example, for the record NC\_003092, the annotations for ORFS1ab protein and ORF1aTF polyprotein have some internal frame shifts that are not even spliced events: 209:6521;6520:10996 and 209:2876;2874:3552 respectively.
-Similarly, for NC\_001449 the truncated polyprotein has coordinates: 7561:9970;9969:10047 (again, a frame shift of one nucleotide) where ribosome probably jumps back one nucleotide.
-Calculating frame shift on such entries is challenging since there would be two different frame shifts for the same protein.
+When calculating the overlaps of such reading frames, we are storing different overlap lengths for the different parts of the CDS as independent entries. We recognized a total of 1,426 these cases, and merge them to have one single entry per CDS with the length of the total overlap. 
 
-Following step: Detect how many entries we have with similar characteristics.
-
-
+However, as the reviewer pointed out, many of such cases are present on +0 frameshifts. Therefore, they where removed from the subsequent analysis.
 
 ## Reviewer #2
 
@@ -96,7 +89,7 @@ We tried to reproduce the analysis in a small family such as Papillomaviridae bu
 * Discussion - briefly talk about how graphs could be modified to present other information, provide example as supplementary figure (show one)
 
 
-## Minor Issues}
+## Minor Issues
 
 ### Reviewer 1
 
@@ -149,5 +142,4 @@ Double check it
 3. Conserved overlaps
 
 > Although most adjacent nodes don't show overlap, some large nodes have thick edges (e.g., nodes 6 and 7 in the Adenoviridae family) suggesting that in some cases adjacency of specific genes is accompanied by conserved overlap between the two genes - this should be discussed.
-
 
