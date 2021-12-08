@@ -84,3 +84,10 @@ group_by(virus, baltimore.class) %>%
     median = median(n.overlaps, na.rm = T),
     IQR=IQR(n.overlaps, na.rm = T)
   )
+
+
+#Subsetting interesting viruses
+long<-subset(virus, n.overlaps == 0 & Number.of.proteins > 500 )
+
+long<-subset(virus, n.overlaps > 500 & Number.of.proteins > 500 )
+
