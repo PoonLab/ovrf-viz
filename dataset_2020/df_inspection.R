@@ -1,9 +1,15 @@
 library(dplyr)
+library(treemap)
+library(plyr)
+library(ggplot2)
+library(ggridges)
+require(grid)
 ########################################################
 # Plot frame shift distribution
 ########################################################
 setwd('/home/lmunoz/Projects/ovrf-review/dataset_2020/')
-overlaps <- read.csv('2_overlapping_march2020.csv', colClasses='character')
+#overlaps <- read.csv('2_overlapping_march2020.csv', colClasses='character')
+overlaps <- read.csv('overlaps_with_noise.csv', colClasses='character')
 
 overlaps$extreme_left1 <- as.integer(overlaps$extreme_left1)
 overlaps$extreme_left2 <- as.integer(overlaps$extreme_left2)
@@ -15,9 +21,12 @@ overlaps$seqlen2 <- as.integer(overlaps$seqlen2)
 overlaps$overlap <- as.integer(overlaps$overlap)
 overlaps$shift <- factor(overlaps$shift, 
                          levels=c('-2', '-1', '-0', '+0', '+1', '+2'))
+non_filtered_ovps<- overlaps
 
+### Find duplicates with different overlap lengths and merge them (remove 1426 entries)
+overlaps2 <- overlaps %>% group_by(across(c(-overlap))) %>% summarise(overlap = sum(overlap))
 
-# Remove entries where number of nucleotides is not consequent with frame shift
+# Remove 5241 entries where number of nucleotides is not consequent with frame shift
 non_splicing_overlaps <- overlaps %>%
   filter(
     ((shift == "+0" | shift == "-0") & overlap%%3 == 0) |
@@ -31,6 +40,7 @@ circular <- which(non_splicing_overlaps$extreme_left1==non_splicing_overlaps$ext
 
 non_splicing_overlaps <- non_splicing_overlaps[-circular,]
 
+overlaps <- non_splicing_overlaps
 
 # Ridgeplot
 plot <- ggplot(non_splicing_overlaps, aes(x = log10(overlap), y = shift, group = shift, fill = shift)) +
@@ -43,9 +53,11 @@ plot
 #palete<-c("#32621f", "#769845", "#cacfa6", "#f1dba2", "#de8f42", "#c1462b")
 # +2, +1, +0, +1, -1, -2
 
-library(treemap)
-library(plyr)
-require(grid)
+# Introduce Noise: Randomly select rows and change coordinates 
+n<-3
+modified_ov <- overlaps %>% 
+                        slice_sample(n=n)
+
 colnames(non_splicing_overlaps)[1] <- "Accession"
 colnames(virus)[3] <- "Accession"
 total <- merge(x=non_splicing_overlaps, y=virus[,c("Accession", "baltimore.class")], by="Accession", all.x =T)
@@ -132,7 +144,9 @@ summary(virus)
 # the number of ORFs increases linearly with genome size
 plot(virus$Length, virus$Proteins, log='x')
 
-temp <- sapply(split(overlaps$overlap, overlaps$Accession), length)
+temp <- sapply(split(overlaps$overlap, overlaps$accn), length)
+
+
 noverlaps <- data.frame(accn=names(temp), count=temp)
 
 noverlaps$mean.olen <- sapply(split(overlaps$overlap, overlaps$Accession), mean)
@@ -176,6 +190,15 @@ virus$len.overlaps <- ifelse(virus$n.overlaps==0, NA, temp[index3] * virus$n.ove
 #write.csv(virus, "out_virus_df_inspection.csv")
 #write.csv(total, "overlap_info.csv")
 
+# Calculate number of proteins for each virus based on orf data frame
+nprot <- data.frame(count(orfs, "accno"))
+prot_index <- match(nprot$accno, virus$Representative)
+virus_combined <- virus %>% left_join(nprot, by=c("Representative" = "accno"))
+plot(virus$Length, virus$freq, log='x')
+ 
+virus_combined$Proteins<- virus_combined$freq
+
+
 ##################################################
 # Virus stats Dr Poon
 ##################################################
@@ -188,6 +211,7 @@ virus$n.overlaps[which(is.na(virus$n.overlaps))] <- 0
 #virus$total.overlaps[which(is.na(virus$total.overlaps))] <- 0
 
 virus$rel.ovrf <- virus$n.overlaps / virus$Proteins
+virus$rel.ovrf <- virus$n.overlaps / virus_combined$Proteins
 virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("RNA", virus$Molecule))] <- "unknown_RNA"
 virus$baltimore.class[which(virus$baltimore.class == "Unknown" & grepl("DNA", virus$Molecule))] <- "unknown_DNA"
 
@@ -312,3 +336,5 @@ cases<-zero[which((zero$extreme_left1==zero$extreme_left2 & zero$extreme_right1=
 
 
 extreme_left1 == extreme_left2 == 0
+
+
