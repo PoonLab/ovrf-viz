@@ -59,7 +59,7 @@ Thank you for raising this issue.
 As noted in our response to an earlier point, cases that involved splices such as the example provided by the reviewer were excluded from our analysis.
 **IN PROGRESS?**
 
-This was the correct file. How did we deal with those cases? Removing overlaps product from splicing events.
+<!--This was the correct file. How did we deal with those cases? Removing overlaps product from splicing events.
 The input for our calculation of overlaps is based on the file total\_orfs.csv that contains for each protein from each genome the accession number (accno), Product, Strand, Coordinates and Start Codon.
 The misscalculation problem seems to be associated with entries that have internal frame shifts.
 For example, for the record NC\_003092, the annotations for ORFS1ab protein and ORF1aTF polyprotein have some internal frame shifts that are not even spliced events: 209:6521;6520:10996 and 209:2876;2874:3552 respectively.
@@ -67,6 +67,7 @@ Similarly, for NC\_001449 the truncated polyprotein has coordinates: 7561:9970;9
 Calculating frame shift on such entries is challenging since there would be two different frame shifts for the same protein.
 
 Following step: Detect how many entries we have with similar characteristics.
+-->
 
 
 
@@ -88,7 +89,7 @@ In the revised manuscript, we provide a set of clustering results for Papillomav
 
 We concur that our current layout algorithm for drawing adjacency graphs does not visualize information in the frame or length of overlaps.  The key challenge is that there are limited channels for visually communicating information at our disposal, such as node size, edge width, node colour.  We have avoided overloading the graph by, for example, varying both node shape, size and colour.  As suggested by the reviewer, we revised our Python script for generating graph layouts, so that we can now provide examples of scaling edge widths to overlap lengths instead of the number of overlaps as supplementary material.
 
-* Discussion - briefly talk about how graphs could be modified to present other information, provide example as supplementary figure (show one)
+**ADDED TO DISCUSSION - just need supplementary figure**
 
 
 ## Minor Issues
@@ -98,38 +99,45 @@ We concur that our current layout algorithm for drawing adjacency graphs does no
 > While the authors have referenced previous studies such as Brandes & Linial, Chirico et al, and Schlub & Holmes, I feel that they should also reference Rancurel et al PMID 19640978 and Pavesi et al PMID 30339683, who used carefully curated datasets of overlaps rather than relying on NCBI annotation.
 
 Thank you for bringing these articles to our attention.  We have incorporated these references in discussing the trade-off between accuracy and scaleability, with respect to the careful manual curation versus automated computational processing of virus genomes.  
-
+**DONE**
 
 > The authors frequently (e.g. p5 line 24, p5 line 25, etc) use the term "reading frame" when the term "open reading frame" (i.e. "ORF") would, I feel, be clearer. A genome has 6 (potential) reading frames (viz. +0,+1,+2,-0,-1,-2) but (for large genomes) can have 100s of ORFs.
 
-change them
+Thank you for pointing this out.  We agree that making the distinction between an "open reading frame" and a "reading frame" resolves the ambiguity of whether we are referring to a coding sequence or a context.  We have replaced cases of the former with "ORF" (after first usage of "open reading frame"), and retain "reading frame" for the latter.
+**DONE**
 
 
 > On p6 lines 10-11, I feel it would be useful to state explicitly how (-)strand ORFs (where the biological 5' and 3' ends are in the opposite orientation with respect to the genome coordinates) are dealt with.
 
+**IN PROGRESS**
+
 
 > In Fig 4, why are there only 11 clusters in the coronaviridae graph, given that SARS alone has 13 ORFs and there are additional coronavirus accessory genes present in other coronaviruses?
 
-Proteins with high homology to certain clussters can be grouped in that specific cluster and won't form their individual cluster.
-
+Proteins with high homology to certain clusters can be grouped in that specific cluster and won't form their individual cluster.
+**IN PROGRESS**
 
 > The authors say that simian hemorrhagic fever virus genome (NC 003092) "encodes 33 reading frames" (p9 line 12). I don't know where this number came from because NC\_003092 only has ~15 CDSs.
 
-
-Double check it
+We sincerely apologize for this mistake.  The reviewer is absolutely correct - there are only 15 annotated coding sequences in this Genbank record.  Our CSV file of ORFs contains the same number, and we recorded 13 overlaps, of which 5 involved `+0` frameshifts that we now discard from our revised analysis.  The remaining 8 overlaps involved 10 ORFs.  We have corrected this line accordingly.
+**DONE**
 
 
 ### Reviewer 2
 
-
 > There seems to be a discrepancy between figure 1c and figure 2a - in overlap of frame +2 the majority of overlap lengths is 1 and 4, and overlap of +2 is the dominant in both dsDNA and dsRNA, however in Figure 1c there are no peaks for dsDNA with length 1 and 4, this does not make sense because there are more dsDNA than dsRNA in the analysis. This apparent discrepancy needs to be fixed or well explained in the text.
 
+We apologize for causing confusion.  Figure 1 is an analysis performed at the level of virus genomes, whereas Figure 2 is an analysis at the level of individual overlapping open reading frames (OvRFs).  The apparent discrepancy described by the reviewer was the result of overlaps of a single nucleotide being enormously abundant in dsDNA genomes.  For each dsDNA genome, this resulted in a single observed mean length close to 1 (Figure 1C), but many data points in the ridgeplot for frameshift +2 (Figure 2, left).  We have added an explanation to the text, and corrected the x-axis label for Figure 2, which was erroneously labelled "Mean overlap length" instead of "Overlap length".
 
+**FIXED IN TEXT**
+**JUST NEED TO CHANGE FIGURE 2 axis label from "Mean overlap length" to "Overlap length"**
 
 > Long overlaps with -0 frame are not explained - is this unique to a single edge between homology clusters or does this occur in several edges, if the latter is true this might have implications for the evolution of the genetic code.
 
-
+We agree that this is an interesting pattern in the data.  In our revised Discussion section, we refer to a recent observation by Lèbre and Gascuel (2017, J Theor Biol) that any combination of residues can be encoded without necessarily inducing a stop codon in the `-0` reading frame, due to redundancy in the genetic code.
+**DONE**
 
 > Although most adjacent nodes don't show overlap, some large nodes have thick edges (e.g., nodes 6 and 7 in the Adenoviridae family) suggesting that in some cases adjacency of specific genes is accompanied by conserved overlap between the two genes - this should be discussed.
 
-Thank you for raising this point.  We have a discussion of this example in the revised manuscript.
+Thank you for raising this point.  We have added a discussion of this example in the revised manuscript.
+**DONE**
