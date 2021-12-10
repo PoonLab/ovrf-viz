@@ -6,10 +6,16 @@ import csv
 import random
 
 source_path = Path("total_orfs.csv")
-target_path = Path(source_path.stem + "_1").with_suffix('.csv')
+target_path = Path(source_path.stem + "_50").with_suffix('.csv')
 
 def randcoord(coordinate):
-    return str(random.randrange(coordinate+1))
+    ran_value = None
+    if coordinate > 11:
+        ran_value = random.randrange(-10,10)
+    else:
+        ran_value = random.randrange(1,10)
+    
+    return str(ran_value + coordinate)
 
 def to_multi_coords(multi_coords_str):
     return [coords.split(":") for coords in multi_coords_str.split(";")]
@@ -32,7 +38,7 @@ with source_path.open() as source_file:
         writer = csv.DictWriter(target_file, columns)
         writer.writeheader()
         n_rows = 451228
-        percentage = 0.1
+        percentage = 0.5
         candidates = dict.fromkeys(random.sample(range(1, n_rows), int(n_rows*percentage)))
         for i, row in enumerate(reader):
             if i % 10000 == 0:
