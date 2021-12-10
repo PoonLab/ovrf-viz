@@ -60,6 +60,8 @@ parse.edgelist <- function(f) {
 #edgelists <- lapply(files[c(1, 3, 6, 9)], parse.edgelist)
 #ael <- do.call("rbind", edgelists)
 
+require(VGAM)
+
 #res <- do.call("rbind", 
 families <- c('Adenoviridae', 'Coronaviridae', 'Geminiviridae', 'Papillomaviridae', 'Rhabdoviridae')
 res <- list()
