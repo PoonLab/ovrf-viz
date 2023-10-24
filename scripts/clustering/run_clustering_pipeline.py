@@ -3,11 +3,8 @@
 from glob import glob
 from kmer import kmer_dist
 
-import json
 import os
 import sys
-import csv
-import re
 import argparse
 import subprocess
 
