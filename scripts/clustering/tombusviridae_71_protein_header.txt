@@ -1,0 +1,342 @@
+desc,accession,gene.name,is.forward,coords
+Culex-associated Tombus-like virus,NC_040575,hypothetical protein,TRUE,149:1151
+Culex-associated Tombus-like virus,NC_040575,hypothetical protein,TRUE,796:2476
+Elderberry aureusvirus 1,NC_040713,coat protein,TRUE,0:1134
+Yongsan tombus-like virus 1,NC_040725,hypothetical protein 1,TRUE,121:1147
+Yongsan tombus-like virus 1,NC_040725,hypothetical protein 2,TRUE,1183:2623
+Yongsan tombus-like virus 1,NC_040725,hypothetical protein 3,TRUE,2632:3859
+Rice virus A,NC_035452,RNA directed-RNA polymerase,TRUE,45:2451
+Rice virus A,NC_035452,p32,TRUE,45:888
+Rice virus A,NC_035452,virus coat protein,TRUE,2657:4019
+Rice virus A,NC_035452,movement protein,TRUE,4055:4727
+Rice virus A,NC_035452,silencing suppressor protein,TRUE,4183:4558
+Ixeridium yellow mottle virus 2,NC_034243,RNA-dependent RNA polymerase,TRUE,179:1135;1134:2797
+Ixeridium yellow mottle virus 2,NC_034243,hypothetical protein,TRUE,179:1142
+Ixeridium yellow mottle virus 2,NC_034243,putative long-distance movement protein,TRUE,3007:3715
+Ixeridium yellow mottle virus 2,NC_034243,putative movement protein,TRUE,3023:3776
+Clematis chlorotic mottle virus,NC_033777,p86 putative replicase protein,TRUE,9:2280
+Clematis chlorotic mottle virus,NC_033777,p26,TRUE,9:714
+Clematis chlorotic mottle virus,NC_033777,MP-1,TRUE,2246:2453
+Clematis chlorotic mottle virus,NC_033777,MP-2,TRUE,2364:2622
+Clematis chlorotic mottle virus,NC_033777,p37,TRUE,2611:3625
+Bermuda grass latent virus,NC_032405,RNA-dependent RNA polymerase,TRUE,44:2783
+Bermuda grass latent virus,NC_032405,replicase protein,TRUE,44:1046
+Bermuda grass latent virus,NC_032405,putative movement protein 1,TRUE,2611:2827
+Bermuda grass latent virus,NC_032405,putative movement protein 2,TRUE,2828:3011
+Bermuda grass latent virus,NC_032405,coat protein,TRUE,3007:3733
+Bermuda grass latent virus,NC_032405,putative accessory movemet protein,TRUE,3011:3428
+Gompholobium virus A,NC_030742,putative RNA dependent RNA polymerase,TRUE,63:2397
+Gompholobium virus A,NC_030742,replication-associated protein,TRUE,63:837
+Gompholobium virus A,NC_030742,movement protein 1,TRUE,2375:2576
+Gompholobium virus A,NC_030742,movement protein 2,TRUE,2478:2733
+Gompholobium virus A,NC_030742,coat protein,TRUE,2733:3777
+Pelargonium leaf curl virus,NC_030452,P95 replicase,TRUE,77:2636
+Pelargonium leaf curl virus,NC_030452,P36 replicase,TRUE,77:1070
+Pelargonium leaf curl virus,NC_030452,coat protein,TRUE,2662:3832
+Pelargonium leaf curl virus,NC_030452,movement protein,TRUE,3868:4438
+Pelargonium leaf curl virus,NC_030452,silencing suppressor,TRUE,3900:4419
+Sclerotinia sclerotiorum umbra-like virus 1,NC_030203,RNA-dependent RNA polymerase,TRUE,283:3205
+Sclerotinia sclerotiorum umbra-like virus 1,NC_030203,replication-associated protein,TRUE,283:1546
+Potato necrosis virus,NC_029900,RNA-dependent RNA polymerase,TRUE,62:2237
+Potato necrosis virus,NC_029900,pre-readthrough protein,TRUE,62:671
+Potato necrosis virus,NC_029900,P8,TRUE,2220:2442
+Potato necrosis virus,NC_029900,P6,TRUE,2441:2612
+Potato necrosis virus,NC_029900,coat protein,TRUE,2631:3435
+Elderberry latent virus,NC_026239,RNA-dependent RNA-polymerase,TRUE,42:2331
+Elderberry latent virus,NC_026239,replicase protein,TRUE,42:762
+Elderberry latent virus,NC_026239,putative movement protein 1,TRUE,2300:2495
+Elderberry latent virus,NC_026239,putative movement protein 2,TRUE,2400:2649
+Elderberry latent virus,NC_026239,coat protein,TRUE,2638:3655
+Pelargonium ringspot virus,NC_026240,RNA-dependent RNA-polymerase,TRUE,14:2303
+Pelargonium ringspot virus,NC_026240,replicase protein,TRUE,14:725
+Pelargonium ringspot virus,NC_026240,putative movement protein 1,TRUE,2272:2449
+Pelargonium ringspot virus,NC_026240,putative movement protein 2,TRUE,2354:2606
+Pelargonium ringspot virus,NC_026240,coat protein,TRUE,2592:3609
+Ethiopian tobacco bushy top virus,NC_024808,RNA-dependent RNA polymerase,TRUE,10:883;882:2547
+Ethiopian tobacco bushy top virus,NC_024808,replication-associated protein,TRUE,10:886
+Ethiopian tobacco bushy top virus,NC_024808,long-distance movement protein,TRUE,2729:3518
+Ethiopian tobacco bushy top virus,NC_024808,cell-to-cell movement protein,TRUE,2823:3600
+Eggplant mottled crinkle virus,NC_023339,RNA polymerase,TRUE,167:2624
+Eggplant mottled crinkle virus,NC_023339,RNA polymerase,TRUE,167:1058
+Eggplant mottled crinkle virus,NC_023339,coat protein,TRUE,2649:3816
+Eggplant mottled crinkle virus,NC_023339,movement protein,TRUE,3847:4423
+Eggplant mottled crinkle virus,NC_023339,p19 protein,TRUE,3879:4398
+Yam spherical virus,NC_022895,RNA dependent RNA polymerase,TRUE,132:2349
+Yam spherical virus,NC_022895,replicase associated protein,TRUE,132:801
+Yam spherical virus,NC_022895,coat protein,TRUE,2374:3547
+Yam spherical virus,NC_022895,movement protein,TRUE,3638:4367
+Yam spherical virus,NC_022895,silencing suppressor,TRUE,3769:4252
+Calibrachoa mottle virus,NC_021926,P87,TRUE,36:2325
+Calibrachoa mottle virus,NC_021926,P28,TRUE,36:777
+Calibrachoa mottle virus,NC_021926,P8,TRUE,2288:2498
+Calibrachoa mottle virus,NC_021926,P9,TRUE,2412:2664
+Calibrachoa mottle virus,NC_021926,coat protein,TRUE,2656:3685
+Thin paspalum asymptomatic virus,NC_021705,RNA-dependent RNA polymerase,TRUE,28:2872
+Thin paspalum asymptomatic virus,NC_021705,putative replicase-associated protein,TRUE,28:1171
+Thin paspalum asymptomatic virus,NC_021705,putative movement protein 1,TRUE,2739:2961
+Thin paspalum asymptomatic virus,NC_021705,putative movement protein 2,TRUE,2961:3141
+Thin paspalum asymptomatic virus,NC_021705,coat protein,TRUE,3137:3869
+Thin paspalum asymptomatic virus,NC_021705,putative accessory movement protein,TRUE,3150:3549
+Furcraea necrotic streak virus,NC_020469,polymerase-associated protein,TRUE,41:2330
+Furcraea necrotic streak virus,NC_020469,polymerase-associated protein,TRUE,41:767
+Furcraea necrotic streak virus,NC_020469,movement protein,TRUE,2202:2523
+Furcraea necrotic streak virus,NC_020469,movement protein,TRUE,2524:2695
+Furcraea necrotic streak virus,NC_020469,coat protein,TRUE,2694:3729
+Rosa rugosa leaf distortion virus,NC_020415,RNA-dependent RNA polymerase,TRUE,6:2292
+Rosa rugosa leaf distortion virus,NC_020415,replicase protein,TRUE,6:720
+Rosa rugosa leaf distortion virus,NC_020415,putative 8 kDa protein,TRUE,2068:2287
+Rosa rugosa leaf distortion virus,NC_020415,p12,TRUE,2261:2437;2438:2610
+Rosa rugosa leaf distortion virus,NC_020415,putative movement protein,TRUE,2261:2444
+Rosa rugosa leaf distortion virus,NC_020415,coat protein,TRUE,2593:3613
+Moroccan pepper virus,NC_020073,replicase,TRUE,166:1054;1057:2623
+Moroccan pepper virus,NC_020073,replicase,TRUE,166:1057
+Moroccan pepper virus,NC_020073,capsid protein,TRUE,2644:3820
+Moroccan pepper virus,NC_020073,movement protein,TRUE,3853:4423
+Moroccan pepper virus,NC_020073,RNA silencing suppressor p19,TRUE,3885:4404
+Moroccan pepper virus,NC_020073,putative 3.7 kDa protein,TRUE,4486:4663
+Trailing lespedeza virus 1,NC_015227,putative RNA dependent RNA polymerase,TRUE,26:2339
+Trailing lespedeza virus 1,NC_015227,putative replication-associated protein,TRUE,26:773
+Trailing lespedeza virus 1,NC_015227,putative movement protein 1,TRUE,2311:2515
+Trailing lespedeza virus 1,NC_015227,putative movement protein 2,TRUE,2411:2651
+Trailing lespedeza virus 1,NC_015227,putative coat protein,TRUE,2647:3688
+Honeysuckle ringspot virus,NC_014967,p101,TRUE,33:2676
+Honeysuckle ringspot virus,NC_014967,p87,TRUE,33:2328
+Honeysuckle ringspot virus,NC_014967,p27,TRUE,33:768
+Honeysuckle ringspot virus,NC_014967,p7,TRUE,2309:2513
+Honeysuckle ringspot virus,NC_014967,p13,TRUE,2337:2676
+Honeysuckle ringspot virus,NC_014967,p37,TRUE,2675:3710
+Soybean yellow mottle mosaic virus,NC_011643,replicase,TRUE,39:2280
+Soybean yellow mottle mosaic virus,NC_011643,P7 protein,TRUE,2279:2486
+Soybean yellow mottle mosaic virus,NC_011643,P10 protein,TRUE,2382:2667
+Soybean yellow mottle mosaic virus,NC_011643,coat protein,TRUE,2663:3728
+Soybean yellow mottle mosaic virus,NC_011643,hypothetical protein,TRUE,2667:3339
+Grapevine Algerian latent virus,NC_011535,RNA-depentent RNA polymerase,TRUE,166:2623
+Grapevine Algerian latent virus,NC_011535,putative RNA-dependent RNA-polymerase,TRUE,166:1057
+Grapevine Algerian latent virus,NC_011535,capsid protein,TRUE,2637:3768
+Grapevine Algerian latent virus,NC_011535,movement protein,TRUE,3748:4381
+Grapevine Algerian latent virus,NC_011535,19K protein,TRUE,3843:4362
+Carrot mottle virus,NC_011515,RNA-dependent RNA polymerase,TRUE,22:988;987:2634
+Carrot mottle virus,NC_011515,replication-associated protein,TRUE,22:994
+Carrot mottle virus,NC_011515,long-distance movement protein,TRUE,2805:3603
+Carrot mottle virus,NC_011515,cell-to-cell movement protein,TRUE,2827:3667
+Cocksfoot mild mosaic virus,NC_011108,p106,TRUE,99:2904
+Cocksfoot mild mosaic virus,NC_011108,p41,TRUE,99:1188
+Cocksfoot mild mosaic virus,NC_011108,p8,TRUE,2732:2951
+Cocksfoot mild mosaic virus,NC_011108,p6.8,TRUE,2953:3136
+Cocksfoot mild mosaic virus,NC_011108,p26,TRUE,3132:3870
+Cocksfoot mild mosaic virus,NC_011108,p15,TRUE,3136:3535
+Maize white line mosaic virus,NC_009533,RNA directed-RNA polymerase,TRUE,40:2434
+Maize white line mosaic virus,NC_009533,p30,TRUE,40:865
+Maize white line mosaic virus,NC_009533,virus coat protein,TRUE,2488:3487
+Maize white line mosaic virus,NC_009533,movement protein,TRUE,3523:4207
+Maize white line mosaic virus,NC_009533,silencing suppressor protein,TRUE,3651:4068
+Nootka lupine vein clearing virus,NC_009017,N-terminus replicase,TRUE,59:809
+Nootka lupine vein clearing virus,NC_009017,replicase/polymerase,TRUE,809:2387
+Nootka lupine vein clearing virus,NC_009017,MP1,TRUE,2370:2574
+Nootka lupine vein clearing virus,NC_009017,MP2,TRUE,2470:2692
+Nootka lupine vein clearing virus,NC_009017,coat protein,TRUE,2728:3766
+Cucumber leaf spot virus,NC_007816,replicase,TRUE,131:2348
+Cucumber leaf spot virus,NC_007816,P25 protein,TRUE,131:800
+Cucumber leaf spot virus,NC_007816,coat protein,TRUE,2373:3534
+Cucumber leaf spot virus,NC_007816,movement protein,TRUE,3614:4346
+Cucumber leaf spot virus,NC_007816,silencing suppressor P17,TRUE,3745:4204
+Maize necrotic streak virus,NC_007729,p89 protein,TRUE,122:2489
+Maize necrotic streak virus,NC_007729,p30 protein,TRUE,122:926
+Maize necrotic streak virus,NC_007729,capsid protein,TRUE,2519:3293
+Maize necrotic streak virus,NC_007729,p21 protein,TRUE,3328:3898
+Maize necrotic streak virus,NC_007729,p19 protein,TRUE,3360:3873
+Pelargonium line pattern virus,NC_007017,RNA dependent-RNA polymerase,TRUE,6:2304
+Pelargonium line pattern virus,NC_007017,replicase protein,TRUE,6:729
+Pelargonium line pattern virus,NC_007017,p13,TRUE,529:913
+Pelargonium line pattern virus,NC_007017,movement protein,TRUE,2273:2465
+Pelargonium line pattern virus,NC_007017,p9.7,TRUE,2370:2637
+Pelargonium line pattern virus,NC_007017,coat protein,TRUE,2620:3637
+Olive mild mosaic virus,NC_006939,RNA-dependent RNA polymerase,TRUE,59:2234
+Olive mild mosaic virus,NC_006939,p23,TRUE,59:668
+Olive mild mosaic virus,NC_006939,p52,TRUE,851:2234
+Olive mild mosaic virus,NC_006939,p8,TRUE,2217:2439
+Olive mild mosaic virus,NC_006939,p6,TRUE,2442:2613
+Olive mild mosaic virus,NC_006939,coat protein,TRUE,2635:3445
+Pelargonium chlorotic ring pattern virus,NC_005985,87 kDa replicase protein,TRUE,16:2308
+Pelargonium chlorotic ring pattern virus,NC_005985,27 kDa putative replicase protein,TRUE,16:736
+Pelargonium chlorotic ring pattern virus,NC_005985,putative movement protein 1,TRUE,2277:2463
+Pelargonium chlorotic ring pattern virus,NC_005985,putative movement protein 2,TRUE,2368:2611
+Pelargonium chlorotic ring pattern virus,NC_005985,putative coat protein,TRUE,2607:3621
+Pelargonium chlorotic ring pattern virus,NC_005985,6 kDa hypothetical protein,TRUE,3241:3412
+Pelargonium flower break virus,NC_005286,p99 protein,TRUE,32:2648
+Pelargonium flower break virus,NC_005286,p86 protein,TRUE,32:2303
+Pelargonium flower break virus,NC_005286,p27 protein,TRUE,32:764
+Pelargonium flower break virus,NC_005286,p7 protein,TRUE,2287:2494
+Pelargonium flower break virus,NC_005286,p12 protein,TRUE,2327:2648
+Pelargonium flower break virus,NC_005286,coat protein,TRUE,2649:3687
+Johnsongrass chlorotic stripe mosaic virus,NC_005287,replicase,TRUE,44:2432
+Johnsongrass chlorotic stripe mosaic virus,NC_005287,replicase,TRUE,44:863
+Johnsongrass chlorotic stripe mosaic virus,NC_005287,coat protein,TRUE,2538:3633
+Johnsongrass chlorotic stripe mosaic virus,NC_005287,putative movement protein,TRUE,3671:4325
+Johnsongrass chlorotic stripe mosaic virus,NC_005287,hypothetical protein,TRUE,3799:4219
+Pelargonium necrotic spot virus,NC_005285,putative replicase,TRUE,76:2635
+Pelargonium necrotic spot virus,NC_005285,putative replicase,TRUE,76:1069
+Pelargonium necrotic spot virus,NC_005285,coat protein,TRUE,2649:3786
+Pelargonium necrotic spot virus,NC_005285,movement protein,TRUE,3822:4392
+Pelargonium necrotic spot virus,NC_005285,p19,TRUE,3854:4373
+Pea stem necrosis virus,NC_004995,p84 product,TRUE,134:2387
+Pea stem necrosis virus,NC_004995,p25 product,TRUE,134:806
+Pea stem necrosis virus,NC_004995,p7 product,TRUE,2362:2554
+Pea stem necrosis virus,NC_004995,p6 product,TRUE,2553:2727
+Pea stem necrosis virus,NC_004995,coat protein,TRUE,2729:3785
+Cucumber Bulgarian latent virus,NC_004725,RNA polymerase,TRUE,134:2507
+Cucumber Bulgarian latent virus,NC_004725,RNA polymerase pre-readthrough protein,TRUE,134:941
+Cucumber Bulgarian latent virus,NC_004725,coat protein,TRUE,2525:3668
+Cucumber Bulgarian latent virus,NC_004725,movement protein,TRUE,3708:4260
+Cucumber Bulgarian latent virus,NC_004725,symptom severity modulator,TRUE,3740:4247
+Beet black scorch virus,NC_004452,82K protein,TRUE,35:2210
+Beet black scorch virus,NC_004452,22K protein,TRUE,35:647
+Beet black scorch virus,NC_004452,5K protein,TRUE,2106:2244
+Beet black scorch virus,NC_004452,7K protein A,TRUE,2227:2419
+Beet black scorch virus,NC_004452,7K protein B,TRUE,2420:2618
+Beet black scorch virus,NC_004452,coat protein,TRUE,2646:3345
+Tobacco bushy top virus,NC_004366,RNA-dependent RNA polymerase,TRUE,10:952;951:2607
+Tobacco bushy top virus,NC_004366,hypothetical protein,TRUE,10:958
+Tobacco bushy top virus,NC_004366,hypothetical protein,TRUE,2756:3470
+Tobacco bushy top virus,NC_004366,movement protein,TRUE,2772:3507
+Japanese iris necrotic ring virus,NC_002187,readthrough protein (p99),TRUE,31:2698
+Japanese iris necrotic ring virus,NC_002187,readthrough protein (p85),TRUE,31:2320
+Japanese iris necrotic ring virus,NC_002187,replicase (p26),TRUE,31:766
+Japanese iris necrotic ring virus,NC_002187,movement protein (p8),TRUE,2283:2514
+Japanese iris necrotic ring virus,NC_002187,movement protein (p12),TRUE,2365:2698
+Japanese iris necrotic ring virus,NC_002187,capsid protein (p38),TRUE,2684:3743
+Hibiscus chlorotic ringspot virus,NC_003608,RNA-dependent RNA polymerase,TRUE,30:2238
+Hibiscus chlorotic ringspot virus,NC_003608,P28 protein,TRUE,30:675
+Hibiscus chlorotic ringspot virus,NC_003608,hypothetical protein,TRUE,40:670
+Hibiscus chlorotic ringspot virus,NC_003608,putative movement protein P8,TRUE,2204:2417
+Hibiscus chlorotic ringspot virus,NC_003608,putative movement protein P9,TRUE,2343:2580
+Hibiscus chlorotic ringspot virus,NC_003608,coat protein,TRUE,2589:3627
+Hibiscus chlorotic ringspot virus,NC_003608,hypothetical protein,TRUE,2602:3277
+Carnation mottle virus,NC_001265,RNA-dependent RNA polymerase,TRUE,69:2361
+Carnation mottle virus,NC_001265,replicase-associated protein,TRUE,69:807
+Carnation mottle virus,NC_001265,movement protein 1,TRUE,2333:2519
+Carnation mottle virus,NC_001265,movement protein 2,TRUE,2424:2679
+Carnation mottle virus,NC_001265,capsid protein,TRUE,2668:3715
+Pothos latent virus,NC_000939,replicase,TRUE,140:2363
+Pothos latent virus,NC_000939,p25 protein,TRUE,140:809
+Pothos latent virus,NC_000939,capsid protein,TRUE,2374:3496
+Pothos latent virus,NC_000939,movement protein,TRUE,3590:4319
+Pothos latent virus,NC_000939,RNA silencing suppressor p14,TRUE,3721:4114
+Tobacco necrosis virus D,NC_003487,82 kDa protein,TRUE,38:2216
+Tobacco necrosis virus D,NC_003487,22 kDa protein,TRUE,38:647
+Tobacco necrosis virus D,NC_003487,7 kDa protein,TRUE,2212:2401
+Tobacco necrosis virus D,NC_003487,7 kDa protein,TRUE,2250:2448
+Tobacco necrosis virus D,NC_003487,7 kDa protein,TRUE,2447:2648
+Tobacco necrosis virus D,NC_003487,29 kDa coat protein,TRUE,2650:3457
+Galinsoga mosaic virus,NC_001818,replicase,TRUE,42:2232
+Galinsoga mosaic virus,NC_001818,replicase,TRUE,42:672
+Galinsoga mosaic virus,NC_001818,movement protein,TRUE,2218:2428
+Galinsoga mosaic virus,NC_001818,movement protein,TRUE,2427:2604
+Galinsoga mosaic virus,NC_001818,capsid protein,TRUE,2545:3568
+Panicum mosaic virus,NC_002598,112 kDa replicase protein,TRUE,28:3007
+Panicum mosaic virus,NC_002598,replicase-associated protein,TRUE,28:1306
+Panicum mosaic virus,NC_002598,8 kDa protein,TRUE,2874:3096
+Panicum mosaic virus,NC_002598,6.6 kDA protein,TRUE,3095:3275
+Panicum mosaic virus,NC_002598,26 kDa capsid protein,TRUE,3271:4000
+Panicum mosaic virus,NC_002598,15 kDa protein,TRUE,3281:3680
+Saguaro cactus virus,NC_001780,SCVP86,TRUE,39:2307
+Saguaro cactus virus,NC_001780,replication-related protein,TRUE,39:753
+Saguaro cactus virus,NC_001780,SCVP57,TRUE,813:2307
+Saguaro cactus virus,NC_001780,unknown1,TRUE,1459:1621
+Saguaro cactus virus,NC_001780,SCVP6,TRUE,2291:2471
+Saguaro cactus virus,NC_001780,SCVP9,TRUE,2376:2631
+Saguaro cactus virus,NC_001780,capsid protein,TRUE,2620:3655
+Saguaro cactus virus,NC_001780,unknown2,TRUE,2633:2861
+Carrot mottle mimic virus,NC_001726,RNA-dependent RNA polymerase,TRUE,8:1028;1027:2656
+Carrot mottle mimic virus,NC_001726,replicase-associated protein,TRUE,8:1037
+Carrot mottle mimic virus,NC_001726,hypothetical protein,TRUE,2789:3575
+Carrot mottle mimic virus,NC_001726,movement protein,TRUE,2817:3606
+Groundnut rosette virus,NC_003603,RNA polymerase,TRUE,12:866;865:2531
+Groundnut rosette virus,NC_003603,hypothetical protein,TRUE,12:870
+Groundnut rosette virus,NC_003603,hypothetical protein,TRUE,2640:3396
+Groundnut rosette virus,NC_003603,hypothetical protein,TRUE,2701:3484
+Olive latent virus 1,NC_001721,RNA dependent RNA polymerase,TRUE,60:2232
+Olive latent virus 1,NC_001721,hypothetical protein,TRUE,60:666
+Olive latent virus 1,NC_001721,hypothetical protein,TRUE,2215:2440
+Olive latent virus 1,NC_001721,hypothetical protein,TRUE,2442:2613
+Olive latent virus 1,NC_001721,capsid protein,TRUE,2634:3447
+Leek white stripe virus,NC_001822,replicase,TRUE,37:2221
+Leek white stripe virus,NC_001822,hypothetical protein,TRUE,37:658
+Leek white stripe virus,NC_001822,hypothetical protein,TRUE,2180:2483
+Leek white stripe virus,NC_001822,hypothetical protein,TRUE,2482:2653
+Leek white stripe virus,NC_001822,capsid protein,TRUE,2649:3405
+Oat chlorotic stunt virus,NC_003633,putative RNA-dependent RNA polymerase (p84),TRUE,47:2306
+Oat chlorotic stunt virus,NC_003633,putative replicase,TRUE,47:686
+Oat chlorotic stunt virus,NC_003633,coat protein (p48),TRUE,2482:3847
+Oat chlorotic stunt virus,NC_003633,hypothetical protein,TRUE,2888:3113
+Cowpea mottle virus,NC_003535,replicase,TRUE,34:2263
+Cowpea mottle virus,NC_003535,25 kDa protein,TRUE,34:715
+Cowpea mottle virus,NC_003535,movement protein,TRUE,2286:2496
+Cowpea mottle virus,NC_003535,movement protein,TRUE,2410:2677
+Cowpea mottle virus,NC_003535,capsid,TRUE,2673:3777
+Cowpea mottle virus,NC_003535,hypothetical protein,TRUE,2677:3454
+Pea enation mosaic virus 2,NC_003853,replicase,TRUE,20:923;922:2560
+Pea enation mosaic virus 2,NC_003853,33kDa protein,TRUE,20:929
+Pea enation mosaic virus 2,NC_003853,long-distance movement protein,TRUE,2762:3473
+Pea enation mosaic virus 2,NC_003853,putative movement protein,TRUE,2796:3549
+Cardamine chlorotic fleck virus,NC_001600,replicase,TRUE,37:2359
+Cardamine chlorotic fleck virus,NC_001600,p8 protein,TRUE,2325:2541
+Cardamine chlorotic fleck virus,NC_001600,p9 protein,TRUE,2437:2722
+Cardamine chlorotic fleck virus,NC_001600,coat protein,TRUE,2711:3767
+Tomato bushy stunt virus,NC_001554,p92 protein,TRUE,165:2622
+Tomato bushy stunt virus,NC_001554,p33 protein,TRUE,165:1056
+Tomato bushy stunt virus,NC_001554,p41 capsid protein,TRUE,2651:3818
+Tomato bushy stunt virus,NC_001554,p22 protein,TRUE,3855:4425
+Tomato bushy stunt virus,NC_001554,p19 protein,TRUE,3887:4406
+Red clover necrotic mosaic virus,NC_003756,88 kDa protein,TRUE,123:831;830:2426
+Red clover necrotic mosaic virus,NC_003756,27 kDa protein,TRUE,123:834
+Red clover necrotic mosaic virus,NC_003756,57 kDa protein,TRUE,926:2426
+Red clover necrotic mosaic virus,NC_003756,37 kDa capsid protein,TRUE,2427:3447
+Turnip crinkle virus,NC_003821,p88 replicase,TRUE,63:2391
+Turnip crinkle virus,NC_003821,p28 auxiliary replication protein,TRUE,63:816
+Turnip crinkle virus,NC_003821,p8 movement protein,TRUE,2357:2576
+Turnip crinkle virus,NC_003821,p9 movement protein,TRUE,2496:2754
+Turnip crinkle virus,NC_003821,p38 capsid protein,TRUE,2743:3799
+Cucumber necrosis virus,NC_001469,replicase,TRUE,151:2608
+Cucumber necrosis virus,NC_001469,replicase,TRUE,151:1042
+Cucumber necrosis virus,NC_001469,coat protein,TRUE,2627:3770
+Cucumber necrosis virus,NC_001469,putative movement protein,TRUE,3799:4372
+Cucumber necrosis virus,NC_001469,p20 protein,TRUE,3831:4353
+Melon necrotic spot virus,NC_001504,replicase,TRUE,87:2463
+Melon necrotic spot virus,NC_001504,protein 29,TRUE,87:894
+Melon necrotic spot virus,NC_001504,protein 14,TRUE,2441:2828
+Melon necrotic spot virus,NC_001504,protein p7A,TRUE,2441:2639
+Melon necrotic spot virus,NC_001504,protein 7B,TRUE,2642:2828
+Melon necrotic spot virus,NC_001504,capsid protein,TRUE,2814:3987
+Tobacco necrosis virus A,NC_001777,RNA-dependent RNA polymerase,TRUE,59:2234
+Tobacco necrosis virus A,NC_001777,hypothetical protein,TRUE,2217:2436
+Tobacco necrosis virus A,NC_001777,hypothetical protein,TRUE,2439:2610
+Tobacco necrosis virus A,NC_001777,coat protein,TRUE,2612:3443
+Tobacco necrosis virus A,NC_001777,hypothetical protein,TRUE,3466:3646
+Carnation ringspot virus,NC_003530,RNA dependent RNA polymerase,TRUE,57:765;764:2366
+Carnation ringspot virus,NC_003530,replicase-associated protein,TRUE,57:768
+Carnation ringspot virus,NC_003530,coat protein,TRUE,2366:3404
+Carnation ringspot virus,NC_003530,p11K protein,TRUE,3494:3797
+Sweet clover necrotic mosaic virus,NC_003806,RDRP frameshift protein,TRUE,120:828;827:2423
+Sweet clover necrotic mosaic virus,NC_003806,RNA-dependent RNA polymerase,TRUE,120:831
+Sweet clover necrotic mosaic virus,NC_003806,capsid protein,TRUE,2423:3440
+Sweet clover necrotic mosaic virus,NC_003807,movement protein,TRUE,78:1059
+Artichoke mottled crinkle virus,NC_001339,protein of 92 kDa,TRUE,179:2636
+Artichoke mottled crinkle virus,NC_001339,protein of 33 kDa,TRUE,179:1070
+Artichoke mottled crinkle virus,NC_001339,coat protein of 41 kDa,TRUE,2666:3833
+Artichoke mottled crinkle virus,NC_001339,protein of 22 kDa,TRUE,3870:4440
+Artichoke mottled crinkle virus,NC_001339,protein of 19 kDA,TRUE,3902:4421
+Carnation ringspot virus,NC_003531,CRSV movement protein,TRUE,46:961
+Cymbidium ringspot virus,NC_003532,RNA-dependent RNA polymerase,TRUE,160:2617
+Cymbidium ringspot virus,NC_003532,putative RNA-dependent RNA polymerase,TRUE,160:1051
+Cymbidium ringspot virus,NC_003532,coat protein,TRUE,2628:3771
+Cymbidium ringspot virus,NC_003532,putative movement protein,TRUE,3812:4382
+Cymbidium ringspot virus,NC_003532,core protein p19,TRUE,3844:4363
+Maize chlorotic mottle virus,NC_003627,p32,TRUE,117:987
+Maize chlorotic mottle virus,NC_003627,replicase,TRUE,136:3034
+Maize chlorotic mottle virus,NC_003627,replicase-associated protein,TRUE,136:1453
+Maize chlorotic mottle virus,NC_003627,p31,TRUE,2994:3834
+Maize chlorotic mottle virus,NC_003627,p7a,TRUE,2994:3201
+Maize chlorotic mottle virus,NC_003627,p7b,TRUE,3202:3397
+Maize chlorotic mottle virus,NC_003627,coat protein,TRUE,3383:4094
+Red clover necrotic mosaic virus,NC_003775,movement protein,TRUE,79:1033
